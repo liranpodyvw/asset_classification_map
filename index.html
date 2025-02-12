@@ -8,6 +8,52 @@
 
         <link rel="stylesheet" href="styles/main.css">
 
+        <!-- Optional: Add some basic styling for the search bar -->
+        <style>
+            /* Apply a consistent background color for the whole page */
+            body {
+                margin: 0;
+                background-color: #f0f0f0; /* Gray background for the whole page */
+                font-family: Arial, sans-serif; /* Optional: To apply a uniform font */
+            }
+
+            #search-container {
+                position: fixed; /* Keep the search bar fixed at the top */
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for the search bar */
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                z-index: 1000;
+                width: 100%; /* Full width for the search bar */
+                max-width: 380px; /* Optional: prevent it from stretching too wide */
+            }
+
+            #search-input {
+                padding: 5px;
+                font-size: 14px;
+                width: 200px;
+            }
+
+            #search-button, #clear-button {
+                padding: 5px 10px;
+                font-size: 14px;
+                margin-left: 5px;
+            }
+
+            /* Make sure the Cytoscape container takes the full height of the page below the search bar */
+            #cy {
+                position: absolute; /* Position Cytoscape container below the fixed search bar */
+                top: 60px; /* Adjust based on the height of the search bar */
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #f0f0f0; /* Same gray background for the network area */
+                z-index: 1;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -18,15 +64,22 @@
             </p>
         <![endif]-->
 
+        <!-- Search Bar -->
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search asset ..." />
+            <button id="search-button">Search</button>
+            <button id="clear-button">Clear</button> <!-- Clear Button -->
+        </div>
+
         <!-- Actual Cytoscape.js Instance -->
         <div id="cy"></div>
         
+        <!-- Script Files -->
+        <!-- Ensure Cytoscape.js is loaded first -->
+        <script src="https://unpkg.com/cytoscape@3.21.1/dist/cytoscape.min.js"></script>
         <script src="networks.js"></script>
         <script src="styles.js"></script>
-
-        <script src="scripts/vendor.js"></script>
         <script src="scripts/main.js"></script>
         <script src="scripts/custom.js"></script>
-        
-</body>
+    </body>
 </html>
