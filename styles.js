@@ -106,6 +106,8 @@ var styles = [ {
   }, {
     "selector" : "edge",
     "css" : {
+      "curve-style": "taxi",
+      "taxi-direction": "downward",
       "line-color" : "rgb(132,132,132)",
       "color" : "rgb(0,0,0)",
       "target-arrow-shape" : "none",
@@ -128,3 +130,4 @@ var styles = [ {
     }
   } ]
 } ]
+
