@@ -1,85 +1,109 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>Exports from Cytoscape</title>
-        <meta name="description" content="Single network exported from Cytoscape 3.3">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>Asset Classification</title>
+  <meta name="description" content="Single network exported from Cytoscape 3.3">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/png" href="images/YVW Icon.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    /* Additional inline CSS if needed */
+    /* Cytoscape Container */
+    #cy {
+      position: absolute;
+      top: 0;
+      left: 280px; /* Match sidebar width */
+      right: 0;
+      bottom: 0;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <div id="sidebar">
+    <img src="images/PowerBI top panel.png" alt="Top Banner" id="sidebar-top-banner">
+    <h3>Asset Class Hierarchy</h3>
 
-        <!-- Optional: Add some basic styling for the search bar -->
-        <style>
-            /* Apply a consistent background color for the whole page */
-            body {
-                margin: 0;
-                background-color: #f0f0f0; /* Gray background for the whole page */
-                font-family: Arial, sans-serif; /* Optional: To apply a uniform font */
-            }
+    <!-- Sidebar Menu -->
+    <ul id="sidebar-menu">
+      <li class="sidebar-heading" id="general-info-btn">General Information</li>
+      <li class="sidebar-heading" id="search-assets-btn">Search Assets</li>
+      <li class="sidebar-heading" id="legend-btn">Legend</li>
+      <li class="sidebar-heading" id="layout-options-btn">Layout Options</li>
+      <li class="sidebar-heading" id="export-btn">Export</li>
+    </ul>
 
-            #search-container {
-                position: fixed; /* Keep the search bar fixed at the top */
-                top: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for the search bar */
-                padding: 10px;
-                border-radius: 5px;
-                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-                z-index: 1000;
-                width: 100%; /* Full width for the search bar */
-                max-width: 380px; /* Optional: prevent it from stretching too wide */
-            }
+    <!-- Sidebar Content Sections (hidden by default) -->
+    <div id="general-info-content" class="sidebar-content" style="display: none;">
+      <button id="back-btn" class="nav-btn">← Back</button>
+      <h3>General Information</h3>
+      <ul>
+        <li>Unique Assets: </li>
+        <li>Total Assets: </li>
+        <li>Version: 1.2.0</li>
+        <li>Last Updated: 17-02-2025</li>
+      </ul>
+    </div>
 
-            #search-input {
-                padding: 5px;
-                font-size: 14px;
-                width: 200px;
-            }
+    <div id="legend-content" class="sidebar-content" style="display: none;">
+      <button id="back-btn-legend" class="nav-btn">← Back</button>
+      <h3>Legend</h3>
+      <ul>
+        <li><span class="circle green"></span>Correct</li>
+        <li><span class="circle red"></span>Problematic</li>
+        <li><span class="circle yellow"></span>Undergoing Confirmation</li>
+        <li><span class="circle gray"></span>To Be Confirmed</li>
+      </ul>
+    </div>
 
-            #search-button, #clear-button {
-                padding: 5px 10px;
-                font-size: 14px;
-                margin-left: 5px;
-            }
+    <div id="search-assets-content" class="sidebar-content" style="display: none;">
+      <button id="back-btn-search" class="nav-btn">← Back</button>
+      <h3>Search Assets</h3>
+      <input type="text" id="search-input" placeholder="Search asset ..." />
+      <button id="search-button">Search</button>
+      <button id="clear-button">Clear</button>
+    </div>
 
-            /* Make sure the Cytoscape container takes the full height of the page below the search bar */
-            #cy {
-                position: absolute; /* Position Cytoscape container below the fixed search bar */
-                top: 60px; /* Adjust based on the height of the search bar */
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-color: #f0f0f0; /* Same gray background for the network area */
-                z-index: 1;
-            }
-        </style>
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">
-                You are using an <strong>ancient</strong> browser.
-                Please <a href="http://browsehappy.com/">upgrade your browser
-                </a> to improve your experience.
-            </p>
-        <![endif]-->
+    <!-- Not in use yet-->
+    <div id="layout-options-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-layout" class="nav-btn">← Back</button>
+        <h3>Layout Options</h3>
+        <h4>Format</h4>
+        <ul class="option-list">
+          <li class="option-item">A</li>
+          <li class="option-item">B</li>
+        </ul>
+        <h4>Edges</h4>
+        <ul class="option-list">
+          <li class="option-item">A</li>
+          <li class="option-item">B</li>
+        </ul>
+    </div>
 
-        <!-- Search Bar -->
-        <div id="search-container">
-            <input type="text" id="search-input" placeholder="Search asset ..." />
-            <button id="search-button">Search</button>
-            <button id="clear-button">Clear</button> <!-- Clear Button -->
-        </div>
+    <!-- Not in use yet-->
+    <div id="export-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-export" class="nav-btn">← Back</button>
+        <h3>Export</h3>
+        <button id="export-image-btn">Export to Image</button>
+        <button id="export-pdf-btn">Export to PDF</button>
+      </div>      
 
-        <!-- Actual Cytoscape.js Instance -->
-        <div id="cy"></div>
-        
-        <!-- Script Files -->
-        <!-- Ensure Cytoscape.js is loaded first -->
-        <script src="https://unpkg.com/cytoscape@3.21.1/dist/cytoscape.min.js"></script>
-        <script src="networks.js"></script>
-        <script src="styles.js"></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/custom.js"></script>
-    </body>
+
+    <img src="images/YVW_Icon_Full-transparent.png" alt="Company Logo" id="YVW-Icon-Full-Transparent">
+    <img src="images/PowerBI bottom panel.png" alt="Bottom Banner" id="sidebar-bottom-banner">
+  </div>
+
+  <!-- Cytoscape.js Container -->
+  <div id="cy"></div>
+
+  <!-- Script Files -->
+  <script src="https://unpkg.com/cytoscape@3.21.1/dist/cytoscape.min.js"></script>
+  <script src="networks.js"></script>
+  <script src="styles.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/custom.js"></script>
+</body>
 </html>

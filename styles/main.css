@@ -1,35 +1,286 @@
-/* styles/main.css */
-
 /* Ensure the HTML and Body take up the full height and width */
 html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #555;
-    font-weight: 100;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: #fff;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #555;
+font-weight: 100;
 }
 
 /* Style for the browsehappy message */
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+margin: 0.2em 0;
+background: #ccc;
+color: #000;
+padding: 0.2em 0;
 }
 
-/* Make the Cytoscape container fill the entire page */
+/* Cytoscape Container */
 #cy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #eee;
-    display: block; /* Ensures the div behaves as a block-level element */
+position: absolute;
+top: 0;
+left: 280px; /* Match sidebar width */
+right: 0;
+bottom: 0;
+background-color: #eee;
 }
 
+/* Sidebar Styling */
+#sidebar {
+width: 280px;
+position: fixed;
+left: 0;
+top: 0;
+height: 100vh;
+background: #333;
+color: white;
+padding: 20px;
+padding-top: 0;
+padding-bottom: 70px;
+box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
 
+#sidebar-top-banner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+max-height: 60px;
+object-fit: contain;
+}
+
+#sidebar-bottom-banner {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: auto;
+max-height: 60px;
+object-fit: contain;
+}
+
+#sidebar h3 {
+text-align: center;
+margin: 65px 10px 30px;
+font-size: 27px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 85px;
+}
+
+/* Sidebar Headings */
+.sidebar-heading {
+font-size: 42px;
+margin-top: 15px;
+padding-bottom: 15px;
+border-bottom: 2px solid #fff;
+cursor: pointer;
+}
+
+/* Sidebar List */
+#sidebar ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+}
+
+/* Sidebar List Items */
+#sidebar li {
+padding: 5px 0;
+font-size: 20px;
+cursor: pointer;
+margin-bottom: 80px;
+transition: background 0.3s ease, border 0.3s ease;
+}
+
+/* Hover Effect for Sidebar List Items */
+#sidebar li:hover {
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 5px;
+}
+
+/* Company Logo */
+#YVW-Icon-Full-Transparent {
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+width: 80%;
+max-height: 80px;
+object-fit: contain;
+}
+
+/* Navigation Buttons in Sidebar Content */
+.nav-btn {
+width: 100%;
+padding: 8px;
+border: none;
+background: #444;
+color: white;
+cursor: pointer;
+text-align: left;
+}
+
+.nav-btn:hover {
+background: #555;
+}
+
+/* For the 'general information' back button */
+#back-btn {
+background: #444;
+color: white;
+padding: 8px;
+width: 100%;
+border: none;
+cursor: pointer;
+margin-bottom: 20px;
+margin-top: 40px;
+}
+
+#back-btn:hover {
+background: #555;
+}
+
+/* For the 'legend' back button */
+#back-btn-legend {
+    background: #444;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#back-btn-legend:hover {
+background: #555;
+}
+
+/* For the 'search assets' back button */
+#back-btn-search {
+    background: #444;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#back-btn-search:hover {
+background: #555;
+}
+
+/* Target the list items in the General Information section */
+#general-info-content ul li {
+cursor: default;
+background: none;
+border: none;
+margin-top: -20px;
+}
+
+#general-info-content ul li:hover {
+background: none;
+border: none;
+}
+
+/* Target the list items in the Legend section */
+#legend-content ul li {
+font-size: 19.5px;
+cursor: default;
+background: none;
+border: none;
+margin-top: -5px;
+}
+
+#legend-content ul li:hover {
+background: none;
+border: none;
+}
+
+/* Circle Styles */
+.circle {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+display: inline-block;
+margin-right: 10px;
+}
+
+/* Specific colors for each circle */
+.green {
+background-color: green;
+}
+
+.red {
+background-color: red;
+}
+
+.yellow {
+background-color: yellow;
+}
+
+.gray {
+background-color: gray;
+}
+
+/* For the Legend section */
+#legend-content ul {
+padding: 0;
+list-style-type: none;
+text-align: left;
+}
+
+#legend-content li {
+font-size: 20px;
+margin-bottom: 40px;
+}
+
+/* Search Assets Content Styles */
+#search-assets-content {
+    text-align: center;
+    padding-top: 40px;  /* Adjust as needed */
+}
+    
+#search-assets-content input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+    
+#search-assets-content button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+#export-content {
+    text-align: center;
+    padding-top: 7px;
+}
+
+#export-content button {
+    background: #444;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#export-content button:hover {
+    background-color: #555;
+}
 
