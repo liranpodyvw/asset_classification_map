@@ -46,23 +46,25 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 #sidebar-top-banner {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: auto;
-max-height: 60px;
-object-fit: contain;
-}
+    position: absolute;
+    z-index: 1000; /* A high value to bring them to the front */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;      /* Remove any inline spacing */
+    width: 100%;         /* Force the image to take the full container width */
+    max-height: 45px;    /* Constrain the height as needed */
+  }
 
 #sidebar-bottom-banner {
 position: absolute;
+z-index: 1000; /* A high value to bring them to the front */
 bottom: 0;
 left: 0;
-width: 100%;
-height: auto;
-max-height: 60px;
-object-fit: contain;
+right: 0;
+display: block;      /* Remove any inline spacing */
+width: 100%;         /* Force the image to take the full container width */
+max-height: 45px;    /* Constrain the height as needed */
 }
 
 #sidebar h3 {
@@ -114,6 +116,7 @@ left: 50%;
 transform: translateX(-50%);
 width: 80%;
 max-height: 80px;
+filter: brightness(2); /* Adjust the value as needed */
 object-fit: contain;
 }
 
