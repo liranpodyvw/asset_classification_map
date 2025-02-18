@@ -154,3 +154,91 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
 });
+
+document.getElementById('export-image-btn').addEventListener('click', async function () {
+    if (typeof window.cy === 'undefined') {
+        console.error('Cytoscape instance "cy" is not defined.');
+        return;
+    }
+
+    // Generate a PNG image from the current viewport
+    var pngData = window.cy.png({
+        full: false,
+        bg: 'white',
+        scale: 2
+    });
+
+    // Convert Base64 data to a Blob
+    const byteCharacters = atob(pngData.split(',')[1]);
+    const byteNumbers = new Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+        byteNumbers[i] = byteCharacters.charCodeAt(i);
+    }
+    const byteArray = new Uint8Array(byteNumbers);
+    const blob = new Blob([byteArray], { type: 'image/png' });
+
+    try {
+        // Show the file save dialog
+        const handle = await window.showSaveFilePicker({
+            suggestedName: "asset-hierarchy.png",
+            types: [{
+                description: 'PNG Image',
+                accept: { 'image/png': ['.png'] }
+            }]
+        });
+
+        // Write the file
+        const writable = await handle.createWritable();
+        await writable.write(blob);
+        await writable.close();
+        console.log("File saved successfully.");
+    } catch (error) {
+        console.error("File save canceled or failed:", error);
+    }
+});
+
+document.getElementById('export-pdf-btn').addEventListener('click', async function() {
+    // Ensure the Cytoscape instance is available
+    if (typeof window.cy === 'undefined') {
+        console.error('Cytoscape instance "cy" is not defined.');
+        return;
+    }
+
+    // Generate a PNG image from the current viewport of the Cytoscape container.
+    var pngData = window.cy.png({
+        full: false,    // Capture only the current viewport (not the full graph)
+        bg: 'white',    // Set background to white (adjust as needed)
+        scale: 2        // Increase resolution by scaling the output (optional)
+    });
+
+    try {
+        // Show the file save dialog
+        const handle = await window.showSaveFilePicker({
+            suggestedName: "asset-hierarchy.pdf",
+            types: [{
+                description: 'PDF Document',
+                accept: { 'application/pdf': ['.pdf'] }
+            }]
+        });
+
+        // Create a writable stream for the selected file
+        const writable = await handle.createWritable();
+
+        // Use jsPDF to create a new PDF document
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        // Add the Cytoscape image to the PDF
+        doc.addImage(pngData, 'PNG', 10, 10, 180, 160); // Position and size the image
+
+        // Write the PDF to the file
+        const pdfBlob = doc.output('blob');
+        await writable.write(pdfBlob);
+        await writable.close();
+        console.log("PDF saved successfully.");
+    } catch (error) {
+        console.error("File save canceled or failed:", error);
+    }
+});
+
+  
