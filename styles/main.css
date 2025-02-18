@@ -287,6 +287,21 @@ margin-bottom: 40px;
     background-color: #555;
 }
 
+#node-info-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 20px; /* Space before the scrolling starts */
+}
+
+#node-info-content ul {
+    flex-grow: 1; /* Allows content to take up remaining space */
+    overflow-y: auto; /* Enables scrolling */
+    max-height: calc(100vh - 250px); /* Adjust based on logo and other elements */
+    padding-right: 10px; /* Space to prevent scrollbar overlap */
+}
+
 #node-info-content button {
     background: #444;
     color: white;
