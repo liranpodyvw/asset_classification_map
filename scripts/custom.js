@@ -1,5 +1,3 @@
-// scripts/custom.js
-
 document.addEventListener('DOMContentLoaded', function(){
     // Ensure that Cytoscape has been initialized
     if (typeof window.cy === 'undefined') {
@@ -143,6 +141,16 @@ document.addEventListener('DOMContentLoaded', function(){
         });
         console.log('Reset view after clearing.');
     });
-  });
-  
-  
+
+    // --- Handle clicks outside nodes (tap) ---
+    cy.on('tap', function(event) {
+        // Check if the target is not a node (i.e., it's somewhere else in the graph)
+        if (event.target === cy) {
+            // If clicked anywhere other than a node, close node info (back button)
+            var backButtonNodeInfo = document.getElementById('back-btn-node-info');
+            if (backButtonNodeInfo) {
+                backButtonNodeInfo.click();
+            }
+        }
+    });
+});

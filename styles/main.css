@@ -305,6 +305,7 @@ margin-bottom: 40px;
 #node-info-content li {
     margin-bottom: 15px; /* Adjust the space between list items */
     font-size: 16px;
+    pointer-events: none;
 }
 
 #node-description,
