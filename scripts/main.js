@@ -143,20 +143,36 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update Sidebar with Node Information
             document.getElementById('node-description').textContent = node.data('description');
             document.getElementById('node-maximo-classification').textContent = node.data('maximo_classification');
-            document.getElementById('node-hierarchy').textContent = node.data('hierarchy');
+            document.getElementById('node-hierarchy').innerHTML = node.data('hierarchy').replace(/\//g, '<br>'); 
             document.getElementById('node-corrective-work').textContent = node.data('corrective_work_needed');
-            document.getElementById('node-number-of-assets').textContent = node.data('number_of_assets');
+
+            // Check for asset_owner attribute and update if it exists
+            if (node.data('asset_owner')) {
+                document.getElementById('node-asset-owner').textContent = node.data('asset_owner');
+            } else {
+                document.getElementById('node-asset-owner').textContent = 'N/A';
+            }
+
+            // Check for ldtext attribute and update if it exists
+            if (node.data('ldtext')) {
+                document.getElementById('node-ldtext').textContent = node.data('ldtext');
+            } else {
+                document.getElementById('node-ldtext').textContent = 'N/A';
+            }
         });
 
-        // Back Button for Node Information
-        document.getElementById('back-btn-node-info').addEventListener('click', function() {
-            // Show "Asset Class Plan" title again
-            document.querySelector('#sidebar h3').style.display = 'block';
+    // Back Button for Node Information
+    document.getElementById('back-btn-node-info').addEventListener('click', function() {
+        // Show "Asset Class Plan" title again
+        document.querySelector('#sidebar h3').style.display = 'block';
 
-            // Hide Node Info Section and Show Sidebar Menu
-            document.getElementById('node-info-content').style.display = 'none';
-            document.getElementById('sidebar-menu').style.display = 'block';
-        });
+        // Hide Node Info Section and Show Sidebar Menu
+        document.getElementById('node-info-content').style.display = 'none';
+        document.getElementById('sidebar-menu').style.display = 'block';
+
+        // Unselect any selected nodes to remove the yellow highlight
+        cy.nodes().unselect();
+    });
 
     // Change cursor to pointer
     cy.container().style.cursor = 'pointer';

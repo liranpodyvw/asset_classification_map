@@ -294,7 +294,7 @@ margin-bottom: 40px;
     width: 100%;
     border: none;
     cursor: pointer;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     margin-top: 40px;
 }
 
@@ -302,3 +302,22 @@ margin-bottom: 40px;
     background-color: #555;
 }
 
+#node-info-content li {
+    margin-bottom: 15px; /* Adjust the space between list items */
+    font-size: 16px;
+}
+
+#node-description,
+#node-info-content #node-maximo-classification,
+#node-corrective-work,
+#node-asset-owner,
+#node-ldtext {
+  font-size: 14px; /* Adjust to make the font smaller */
+}
+
+#node-hierarchy {
+    word-wrap: break-word; /* Allows wrapping long text */
+    white-space: normal; /* Ensures it wraps instead of staying on one line */
+    word-break: break-all; /* Breaks words when necessary */
+    font-size: 14px; /* Adjust to make the font smaller */
+}
