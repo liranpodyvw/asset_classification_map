@@ -120,9 +120,43 @@ document.addEventListener('DOMContentLoaded', function() {
     // Run layout if necessary
     cy.layout({ name: 'preset' }).run();
 
-    // Add mouseover and mouseout events to change cursor and bold the node border
+    // Add the mouseover event for node to show node info and hide the heading
     cy.nodes().on('mouseover', function(event) {
-    var node = event.target;
+        var node = event.target;
+
+        // Add tap event for nodes to show node info in the sidebar
+        cy.on('tap', 'node', function(event) {
+            var node = event.target;
+
+            // Hide the "Asset Class Plan" and "Node Information" title
+            document.querySelector('#sidebar h3').style.display = 'none';
+
+            // Show Node Information Section
+            document.getElementById('node-info-content').style.display = 'block';
+            document.getElementById('sidebar-menu').style.display = 'none'; // Hide the menu
+            // Hide the currently visible sidebar content (general info, export, etc.)
+            document.getElementById('general-info-content').style.display = 'none';
+            document.getElementById('legend-content').style.display = 'none';
+            document.getElementById('search-assets-content').style.display = 'none';
+            document.getElementById('export-content').style.display = 'none';
+
+            // Update Sidebar with Node Information
+            document.getElementById('node-description').textContent = node.data('description');
+            document.getElementById('node-maximo-classification').textContent = node.data('maximo_classification');
+            document.getElementById('node-hierarchy').textContent = node.data('hierarchy');
+            document.getElementById('node-corrective-work').textContent = node.data('corrective_work_needed');
+            document.getElementById('node-number-of-assets').textContent = node.data('number_of_assets');
+        });
+
+        // Back Button for Node Information
+        document.getElementById('back-btn-node-info').addEventListener('click', function() {
+            // Show "Asset Class Plan" title again
+            document.querySelector('#sidebar h3').style.display = 'block';
+
+            // Hide Node Info Section and Show Sidebar Menu
+            document.getElementById('node-info-content').style.display = 'none';
+            document.getElementById('sidebar-menu').style.display = 'block';
+        });
 
     // Change cursor to pointer
     cy.container().style.cursor = 'pointer';

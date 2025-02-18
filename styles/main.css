@@ -287,3 +287,18 @@ margin-bottom: 40px;
     background-color: #555;
 }
 
+#node-info-content button {
+    background: #444;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+#node-info-content button:hover {
+    background-color: #555;
+}
+

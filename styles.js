@@ -104,24 +104,17 @@ var styles = [ {
       "background-color" : "rgb(255,255,0)"
     }
   }, {
-    "selector" : "edge",
-    "css" : {
-      "curve-style": "taxi",
-      "taxi-direction": "downward",
-      "line-color" : "rgb(132,132,132)",
-      "color" : "rgb(0,0,0)",
-      "target-arrow-shape" : "none",
-      "target-arrow-color" : "rgb(0,0,0)",
-      "opacity" : 1.0,
-      "text-opacity" : 1.0,
-      "font-size" : 10,
-      "line-style" : "solid",
-      "width" : 2.0,
-      "source-arrow-shape" : "none",
-      "content" : "",
-      "source-arrow-color" : "rgb(0,0,0)",
-      "font-family" : "Dialog.plain",
-      "font-weight" : "normal"
+    "selector": "edge",
+    "css": {
+      "curve-style": "bezier", // Set straight bezier curve style
+      "line-color": "rgb(132,132,132)",
+      "opacity": 1.0,
+      "width": 2.0,
+      "source-arrow-shape": "none",
+      "target-arrow-shape": "none",
+      "font-size": 10,
+      "line-style": "solid",
+      "color": "rgb(0,0,0)"
     }
   }, {
     "selector" : "edge:selected",
