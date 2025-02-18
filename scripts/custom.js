@@ -113,8 +113,8 @@ document.addEventListener('DOMContentLoaded', function(){
             });
             console.log('Animated to fit highlighted nodes.');
         } else {
-            alert('No node found with the shared name: ' + searchInput.value);
-            console.log('No matching node found for query:', query);
+            alert('No asset found with the name: ' + searchInput.value);
+            console.log('No matching asset found for query:', query);
         }
     });
   
