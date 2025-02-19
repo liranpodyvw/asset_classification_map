@@ -122,9 +122,6 @@ document.addEventListener('DOMContentLoaded', function(){
                 zoom: 1.2
             });
             console.log('Animated to fit all highlighted nodes.');
-        } else {
-            alert('No asset found with the name or description: ' + searchInput.value);
-            console.log('No matching asset found for query:', query);
         }
 
         if (targetNodes.length == 0 && targetNodesOnDescription.length == 0) {
