@@ -103,36 +103,28 @@ document.addEventListener('DOMContentLoaded', function(){
   
         console.log('Number of matched nodes:', targetNodes.length);
   
-        if (targetNodes.length > 0) {
-            targetNodes.addClass('highlighted');
-            console.log('Highlighted nodes:', targetNodes.map(function(ele){ return ele.data('shared_name'); }));
-  
-            // Center view on the found nodes
-            cy.animate({
-                fit: {
-                    eles: targetNodes,
-                    padding: 400
-                },
-                duration: 1000,
-                zoom: 1.2
-            });
-            console.log('Animated to fit highlighted nodes.');
-        } 
+        // Combine both sets to avoid duplicates
+        var allTargetNodes = targetNodes.union(targetNodesOnDescription);
 
-        if (targetNodesOnDescription.length > 0) {
-            targetNodesOnDescription.addClass('highlighted');
-            console.log('Highlighted nodes:', targetNodesOnDescription.map(function(ele){ return ele.data('description'); }));
-  
-            // Center view on the found nodes
+        console.log('Number of unique matched nodes:', allTargetNodes.length);
+
+        if (allTargetNodes.length > 0) {
+            allTargetNodes.addClass('highlighted');
+            console.log('Highlighted nodes:', allTargetNodes.map(function(ele){ return ele.data('shared_name') || ele.data('description'); }));
+
+            // Center view on all found nodes in one animation
             cy.animate({
                 fit: {
-                    eles: targetNodesOnDescription,
+                    eles: allTargetNodes,
                     padding: 400
                 },
                 duration: 1000,
                 zoom: 1.2
             });
-            console.log('Animated to fit highlighted nodes.');
+            console.log('Animated to fit all highlighted nodes.');
+        } else {
+            alert('No asset found with the name or description: ' + searchInput.value);
+            console.log('No matching asset found for query:', query);
         }
 
         if (targetNodes.length == 0 && targetNodesOnDescription.length == 0) {
