@@ -95,6 +95,11 @@ document.addEventListener('DOMContentLoaded', function(){
             var sharedName = ele.data('shared_name');
             return sharedName && sharedName.toLowerCase() === query;
         });
+
+        var targetNodesOnDescription = cy.nodes().filter(function(ele){
+            var description = ele.data('description');
+            return description && description.toLowerCase() === query;
+        });
   
         console.log('Number of matched nodes:', targetNodes.length);
   
@@ -112,8 +117,26 @@ document.addEventListener('DOMContentLoaded', function(){
                 zoom: 1.2
             });
             console.log('Animated to fit highlighted nodes.');
-        } else {
-            alert('No asset found with the name: ' + searchInput.value);
+        } 
+
+        if (targetNodesOnDescription.length > 0) {
+            targetNodesOnDescription.addClass('highlighted');
+            console.log('Highlighted nodes:', targetNodesOnDescription.map(function(ele){ return ele.data('description'); }));
+  
+            // Center view on the found nodes
+            cy.animate({
+                fit: {
+                    eles: targetNodesOnDescription,
+                    padding: 400
+                },
+                duration: 1000,
+                zoom: 1.2
+            });
+            console.log('Animated to fit highlighted nodes.');
+        }
+
+        if (targetNodes.length == 0 && targetNodesOnDescription.length == 0) {
+            alert('No asset found with the name or description: ' + searchInput.value);
             console.log('No matching asset found for query:', query);
         }
     });
