@@ -253,4 +253,112 @@ document.getElementById('export-pdf-btn').addEventListener('click', async functi
     }
 });
 
-  
+// Collapsible Nodes
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof window.cy === 'undefined') {
+        console.error('Cytoscape instance "cy" is not defined.');
+        return;
+    }
+    var cy = window.cy; // Global Cytoscape instance
+
+    // Track last clicked node to simulate "dblclick"
+    var lastClickTime = 0;
+    var lastClickedNode = null;
+
+    // Extract the last part of the hierarchy (final part after splitting)
+    function getLastPartOfHierarchy(hierarchy) {
+    var parts = hierarchy.split('/');
+    return parts.length > 0 ? parts[parts.length - 1] : null; // Last part of the hierarchy
+    }
+
+    // Function to extract the parent from 'hierarchy'
+    function getParentFromHierarchy(node) {
+        var hierarchy = node.data('hierarchy'); // Example: "x/y/z"
+
+        if (!hierarchy || !hierarchy.includes('/')) {
+            return null; // No valid hierarchy
+        }
+
+        var parts = hierarchy.split('/'); // Split into ["x", "y", "z"]
+
+        if (parts.length < 2) {
+            return null; // No parent exists
+        }
+
+        return parts[parts.length - 2]; // Second-last element (parent)
+    }
+
+    cy.on('tap', 'node', function (event) {
+        var node = event.target;
+        var now = new Date().getTime();
+
+        // Detect double click (within 300ms)
+        if (lastClickedNode === node && now - lastClickTime < 300) {
+            console.log("Double click detected on node:", node.data('id'));
+
+            // Extract parent from hierarchy
+            var parentId = getParentFromHierarchy(node);
+            console.log("Extracted Parent ID:", parentId);
+
+            // Get all siblings (nodes with the same parent in hierarchy)
+            var familyNodes = cy.nodes().filter(n => getParentFromHierarchy(n) === parentId);
+
+            // Also include the selected node in familyNodes
+            familyNodes = familyNodes.union(node);
+
+            console.log("Family nodes found:", familyNodes.length);
+
+            // Ensure the parent node is visible if it exists
+            var parentNode = cy.nodes().filter(n => getLastPartOfHierarchy(n.data('hierarchy')) === parentId);
+
+            // Also include the parent node in familyNodes
+            familyNodes = familyNodes.union(parentNode);
+
+            // Hide all nodes except family
+            cy.nodes().forEach(n => {
+                if (familyNodes.has(n)) {
+                    n.style('display', 'element'); // Show family nodes
+                } else {
+                    n.style('display', 'none'); // Hide all other nodes
+                }
+            });
+
+            // Adjust edge visibility (only show edges where both nodes are visible)
+            cy.edges().forEach(e => {
+                var src = e.source();
+                var tgt = e.target();
+                if (src.style('display') === 'element' && tgt.style('display') === 'element') {
+                    e.style('display', 'element');
+                } else {
+                    e.style('display', 'none');
+                }
+            });
+
+            lastClickedNode = null; // Reset last clicked node
+        } else {
+            lastClickTime = now;
+            lastClickedNode = node;
+        }
+    });
+
+    // Restore full network when clicking on background or pressing the window
+    function restoreFullNetwork() {
+        console.log("Restoring full network.");
+        cy.nodes().style('display', 'element');
+        cy.edges().style('display', 'element');
+    }
+
+    // Click on background restores all nodes & edges
+    cy.on('tap', function (event) {
+        if (event.target === cy) {
+            restoreFullNetwork();
+        }
+    });
+
+    // Pressing anywhere on the window also restores all nodes & edges
+    window.addEventListener('click', function (event) {
+        if (!event.target.closest('#cy')) {
+            restoreFullNetwork();
+        }
+    });
+});
