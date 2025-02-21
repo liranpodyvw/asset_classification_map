@@ -267,8 +267,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Extract the last part of the hierarchy (final part after splitting)
     function getLastPartOfHierarchy(hierarchy) {
-    var parts = hierarchy.split('/');
-    return parts.length > 0 ? parts[parts.length - 1] : null; // Last part of the hierarchy
+        var parts = hierarchy.split('/');
+        return parts.length > 0 ? parts[parts.length - 1] : null; // Last part of the hierarchy
     }
 
     // Function to extract the parent from 'hierarchy'
@@ -288,31 +288,32 @@ document.addEventListener('DOMContentLoaded', function () {
         return parts[parts.length - 2]; // Second-last element (parent)
     }
 
+    // Function to find all descendants (children, children's children, etc.)
+    function getAllDescendants(node) {
+        var descendants = cy.nodes().filter(n => n.data('hierarchy').startsWith(node.data('hierarchy')));
+        return descendants;
+    }
+
     cy.on('tap', 'node', function (event) {
         var node = event.target;
         var now = new Date().getTime();
 
         // Detect double click (within 300ms)
         if (lastClickedNode === node && now - lastClickTime < 300) {
+            event.stopPropagation(); // Prevent single click actions on double-click
+
             console.log("Double click detected on node:", node.data('id'));
 
             // Extract parent from hierarchy
             var parentId = getParentFromHierarchy(node);
             console.log("Extracted Parent ID:", parentId);
 
-            // Get all siblings (nodes with the same parent in hierarchy)
-            var familyNodes = cy.nodes().filter(n => getParentFromHierarchy(n) === parentId);
-
-            // Also include the selected node in familyNodes
-            familyNodes = familyNodes.union(node);
+            // Get all descendants (children and children's children)
+            var familyNodes = getAllDescendants(node);
+            familyNodes = familyNodes.union(node); // Also include the selected node
 
             console.log("Family nodes found:", familyNodes.length);
 
-            // Ensure the parent node is visible if it exists
-            var parentNode = cy.nodes().filter(n => getLastPartOfHierarchy(n.data('hierarchy')) === parentId);
-
-            // Also include the parent node in familyNodes
-            familyNodes = familyNodes.union(parentNode);
 
             // Hide all nodes except family
             cy.nodes().forEach(n => {
