@@ -156,11 +156,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
     // --- Handle clicks outside nodes (tap) ---
     cy.on('tap', function(event) {
-        // Check if the target is not a node (i.e., it's somewhere else in the graph)
         if (event.target === cy) {
-            // If clicked anywhere other than a node, close node info (back button)
+            var nodeInfoContent = document.getElementById('node-info-content');
             var backButtonNodeInfo = document.getElementById('back-btn-node-info');
-            if (backButtonNodeInfo) {
+    
+            // Only trigger the back button if node info is currently visible
+            if (nodeInfoContent.style.display === 'block' && backButtonNodeInfo) {
                 backButtonNodeInfo.click();
             }
         }
