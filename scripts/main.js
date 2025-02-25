@@ -51,6 +51,21 @@ document.getElementById('back-btn-search').addEventListener('click', function() 
 
 
 // Layout Options Section
+document.getElementById('layout-options-btn').addEventListener('click', function() {
+    // Hide the "Asset Class Plan" title
+    document.querySelector('#sidebar h3').style.display = 'none';
+    
+    document.getElementById('sidebar-menu').style.display = 'none'; // Hide the original menu
+    document.getElementById('layout-options-content').style.display = 'block'; // Show the new content
+});
+
+document.getElementById('back-btn-layout').addEventListener('click', function() {
+    // Show the "Asset Class Plan" title again
+    document.querySelector('#sidebar h3').style.display = 'block';
+
+    document.getElementById('sidebar-menu').style.display = 'block'; // Show the original menu
+    document.getElementById('layout-options-content').style.display = 'none'; // Hide the new content
+});
 
 
 // Export Section
