@@ -153,6 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('general-info-content').style.display = 'none';
             document.getElementById('legend-content').style.display = 'none';
             document.getElementById('search-assets-content').style.display = 'none';
+            document.getElementById('layout-options-content').style.display = 'none';
             document.getElementById('export-content').style.display = 'none';
 
             // Update Sidebar with Node Information
