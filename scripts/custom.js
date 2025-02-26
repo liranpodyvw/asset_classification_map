@@ -168,6 +168,119 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 });
 
+document.getElementById('default-layout').addEventListener('click', function () {
+    cy.elements().forEach(ele => ele.style('visibility', 'visible')); // Show all nodes and edges
+});
+
+document.getElementById('m-and-e-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let mAndENodes = cy.nodes().filter(n => n.data('asset_owner') === 'M&E');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (mAndENodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (mAndENodes.has(src) && mAndENodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('tp-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let tpNodes = cy.nodes().filter(n => n.data('asset_owner') === 'TP');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (tpNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (tpNodes.has(src) && tpNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('water-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let waterNodes = cy.nodes().filter(n => n.data('asset_owner') === 'WATER');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (waterNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (waterNodes.has(src) && waterNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('sewer-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let sewerNodes = cy.nodes().filter(n => n.data('asset_owner') === 'SEWER');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (sewerNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (sewerNodes.has(src) && sewerNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+
 document.getElementById('export-image-btn').addEventListener('click', async function () {
     if (typeof window.cy === 'undefined') {
         console.error('Cytoscape instance "cy" is not defined.');
