@@ -280,6 +280,141 @@ document.getElementById('sewer-layout').addEventListener('click', function () {
     });
 });
 
+document.getElementById('chemical-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let chemNodes = cy.nodes().filter(n => n.data('asset_owner') === 'CHEMICAL');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (chemNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (chemNodes.has(src) && chemNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('quality-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let qualityNodes = cy.nodes().filter(n => n.data('asset_owner') === 'QUALITY');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (qualityNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (qualityNodes.has(src) && qualityNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('ot-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let otNodes = cy.nodes().filter(n => n.data('asset_owner') === 'OT');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (otNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (otNodes.has(src) && otNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('fleet-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let fleetNodes = cy.nodes().filter(n => n.data('asset_owner') === 'FLEET');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (fleetNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (fleetNodes.has(src) && fleetNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
+document.getElementById('tbd-layout').addEventListener('click', function () {
+    var cy = window.cy;
+
+    // Filter nodes where asset_owner is "M&E"
+    let tbdNodes = cy.nodes().filter(n => n.data('asset_owner') === 'TBD');
+
+    // Hide all nodes except M&E nodes
+    cy.nodes().forEach(n => {
+        if (tbdNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show M&E nodes
+        } else {
+            n.style('visibility', 'hidden'); // Hide other nodes
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (tbdNodes.has(src) && tbdNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
+});
+
 
 document.getElementById('export-image-btn').addEventListener('click', async function () {
     if (typeof window.cy === 'undefined') {
