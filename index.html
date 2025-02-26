@@ -70,16 +70,19 @@
     <div id="layout-options-content" class="sidebar-content" style="display: none;">
       <button id="back-btn-layout" class="nav-btn">← Back</button>
       <h3>Filter By</h3>
-      <button id="default-layout">Default</button>
-      <button id="m-and-e-layout">M&E</button>
-      <button id="tp-layout">TP</button>
-      <button id="water-layout">Water</button>
-      <button id="sewer-layout">Sewer</button>
-      <button id="chemical-layout">Chemical</button>
-      <button id="quality-layout">Quality</button>
-      <button id="ot-layout">OT</button>
-      <button id="fleet-layout">Fleet</button>
-      <button id="tbd-layout">TBD</button>
+      <label for="asset-owner-dropdown">Asset Owner:</label>
+      <select id="asset-owner-dropdown" onchange="filterNodesByAssetOwner()">
+        <option value="default">Default</option>
+        <option value="m&e">M&E</option>
+        <option value="tp">TP</option>
+        <option value="water">Water</option>
+        <option value="sewer">Sewer</option>
+        <option value="chemical">Chemical</option>
+        <option value="quality">Quality</option>
+        <option value="ot">OT</option>
+        <option value="fleet">Fleet</option>
+        <option value="tbd">TBD</option>
+      </select>
     </div>
 
   

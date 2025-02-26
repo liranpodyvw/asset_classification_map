@@ -335,8 +335,8 @@ margin-bottom: 40px;
     width: 100%;
     border: none;
     cursor: pointer;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 #layout-options-content {
@@ -344,17 +344,33 @@ margin-bottom: 40px;
     padding-top: 7px;
 }
 
-#layout-options-content button {
+#layout-options-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#asset-owner-dropdown {
     background: #444;
     color: white;
     padding: 8px;
     width: 100%;
     border: none;
     cursor: pointer;
-    margin-bottom: 5px;
     margin-top: 10px;
 }
 
-#layout-options-content button:hover {
+#asset-owner-dropdown option {
+    background: #444;
+    color: white;
+}
+
+#asset-owner-dropdown:focus {
+    outline: none;
+}
+
+#layout-options-content button:hover,
+#asset-owner-dropdown:hover {
     background-color: #555;
 }
