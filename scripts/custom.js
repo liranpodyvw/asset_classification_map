@@ -170,45 +170,59 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-function filterNodesByAssetOwner() {
+function filterNodes() {
     var cy = window.cy;
-    var selectedAssetOwner = document.getElementById('asset-owner-dropdown').value.toUpperCase(); // Get the selected asset owner and convert to uppercase
+    
+    // Get selected filters
+    var selectedAssetOwner = document.getElementById('asset-owner-dropdown').value.toUpperCase();
+    var selectedProblematic = document.getElementById('problematic-dropdown').value.toUpperCase();
 
-    if (selectedAssetOwner === 'DEFAULT') {
-        // Show all nodes if 'Default' is selected
-        cy.nodes().forEach(n => {
-            n.style('visibility', 'visible');
-        });
-
-        // Show all edges
-        cy.edges().forEach(e => {
-            e.style('visibility', 'visible');
-        });
-    } else {
-        // Filter nodes based on selected asset owner
-        let filteredNodes = cy.nodes().filter(n => n.data('asset_owner') === selectedAssetOwner);
-
-        // Hide all nodes except the filtered ones
-        cy.nodes().forEach(n => {
-            if (filteredNodes.has(n)) {
-                n.style('visibility', 'visible'); // Show filtered nodes
-            } else {
-                n.style('visibility', 'hidden'); // Hide other nodes
-            }
-        });
-
-        // Adjust edge visibility (only show edges where both nodes are visible)
-        cy.edges().forEach(e => {
-            let src = e.source();
-            let tgt = e.target();
-            if (filteredNodes.has(src) && filteredNodes.has(tgt)) {
-                e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
-            } else {
-                e.style('visibility', 'hidden'); // Hide other edges
-            }
-        });
+    // Map specific values
+    if (selectedProblematic === 'TBA') {
+        selectedProblematic = 'N';
+    } else if (selectedProblematic === 'SPECIALIST-ASSESSMENT') {
+        selectedProblematic = 'A';
     }
+
+    // Show all nodes if both filters are at default
+    if (selectedAssetOwner === 'DEFAULT' && selectedProblematic === 'DEFAULT') {
+        cy.nodes().forEach(n => n.style('visibility', 'visible'));
+        cy.edges().forEach(e => e.style('visibility', 'visible'));
+        return;
+    }
+
+    // Apply filters
+    let filteredNodes = cy.nodes().filter(n => {
+        let matchesAssetOwner = selectedAssetOwner === 'DEFAULT' || n.data('asset_owner') === selectedAssetOwner;
+        let matchesProblematic = selectedProblematic === 'DEFAULT' || 
+                                 (n.data('corrective_work_needed') && n.data('corrective_work_needed').toUpperCase() === selectedProblematic);
+        return matchesAssetOwner && matchesProblematic;
+    });
+
+    // Hide all nodes except the filtered ones
+    cy.nodes().forEach(n => {
+        if (filteredNodes.has(n)) {
+            n.style('visibility', 'visible'); // Show nodes that match both filters
+        } else {
+            n.style('visibility', 'hidden'); // Hide others
+        }
+    });
+
+    // Adjust edge visibility (only show edges where both connected nodes are visible)
+    cy.edges().forEach(e => {
+        let src = e.source();
+        let tgt = e.target();
+        if (filteredNodes.has(src) && filteredNodes.has(tgt)) {
+            e.style('visibility', 'visible'); // Show edges if both connected nodes are visible
+        } else {
+            e.style('visibility', 'hidden'); // Hide other edges
+        }
+    });
 }
+
+// Event listeners for dropdowns
+document.getElementById('asset-owner-dropdown').addEventListener('change', filterNodes);
+document.getElementById('problematic-dropdown').addEventListener('change', filterNodes);
 
 
 

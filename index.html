@@ -42,8 +42,8 @@
       <ul>
         <li>Unique Assets: </li>
         <li>Total Assets: </li>
-        <li>Version: 1.6.1</li>
-        <li>Last Updated: 26-02-2025</li>
+        <li>Version: 1.6.2</li>
+        <li>Last Updated: 27-02-2025</li>
       </ul>
     </div>
 
@@ -71,7 +71,7 @@
       <button id="back-btn-layout" class="nav-btn">← Back</button>
       <h3>Filter By</h3>
       <label for="asset-owner-dropdown">Asset Owner:</label>
-      <select id="asset-owner-dropdown" onchange="filterNodesByAssetOwner()">
+      <select id="asset-owner-dropdown" onchange="filterNodes()">
         <option value="default">Default</option>
         <option value="m&e">M&E</option>
         <option value="tp">TP</option>
@@ -82,6 +82,17 @@
         <option value="ot">OT</option>
         <option value="fleet">Fleet</option>
         <option value="tbd">TBD</option>
+      </select>
+
+      <div style="height: 70px;"></div> <!-- Spacer div -->
+      
+      <label for="problematic-dropdown">Problematic:</label>
+      <select id="problematic-dropdown" onchange="filterNodes()">
+        <option value="default">Default</option>
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+        <option value="tba">To Be Assessed</option>
+        <option value="specialist-assessment">Undergoing Specialist Assessment</option>
       </select>
     </div>
 
