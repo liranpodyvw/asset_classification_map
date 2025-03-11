@@ -226,6 +226,91 @@ document.getElementById('problematic-dropdown').addEventListener('change', filte
 
 
 
+function colourNodes() {
+    let cy = window.cy;  // Assuming Cytoscape instance is globally available
+    let nodes = cy.nodes();
+    let dropdownValue = document.getElementById('asset-owner-colour-dropdown').value;
+
+    // If 'default' is selected, reset node colors to original styling from styles.js
+    if (dropdownValue === 'default-colour') {
+        // Apply the original styles from styles.js
+        nodes.forEach(n => {
+            let correctiveWorkNeeded = n.data('corrective_work_needed');
+            
+            // Reset the background color based on 'corrective_work_needed'
+            if (correctiveWorkNeeded === 'No') {
+                n.style('background-color', 'rgb(116,196,118)');  // Green
+            } else if (correctiveWorkNeeded === 'A') {
+                n.style('background-color', 'rgb(254,217,118)');  // Yellow
+            } else if (correctiveWorkNeeded === 'Yes') {
+                n.style('background-color', 'rgb(239,59,44)');  // Red
+            } else {
+                n.style('background-color', 'rgb(204,204,204)');  // Default gray if no value
+            }
+
+            // Reset the size and shape based on the 'size_factor' data attribute
+            let sizeFactor = n.data('size_factor');
+            if (sizeFactor === 1) {
+                n.style('width', 175);
+                n.style('height', 150);
+                n.style('font-size', 25);
+                n.style('shape', 'octagon');
+            } else if (sizeFactor === 2) {
+                n.style('width', 125);
+                n.style('height', 80);
+                n.style('font-size', 12);
+                n.style('shape', 'ellipse');
+            } else if (sizeFactor === 3) {
+                n.style('width', 100);
+                n.style('height', 25);
+                n.style('font-size', 10);
+                n.style('shape', 'roundrectangle');
+            } else if (sizeFactor === 4) {
+                n.style('width', 250);
+                n.style('height', 250);
+                n.style('font-size', 40);
+                n.style('shape', 'diamond');
+            }
+        });
+        return;  // Exit function early if 'default' is selected
+    }
+
+    // Extract unique asset owners
+    let assetOwners = new Set();
+    nodes.forEach(n => {
+        let owner = n.data('asset_owner');
+        if (owner && owner.trim() !== "") {  // Ignore empty values
+            assetOwners.add(owner);
+        }
+    });
+
+    // Convert set to array and assign colors
+    let uniqueOwners = Array.from(assetOwners);
+    let colorMap = {};
+
+    // Hardcoded color palette for asset owners
+    let colors = [
+        '#6495ED', '#FFDE21', '#CA824E', '#32CD32', '#EC5800', '#CD7F32', '#702963', '#708090'
+    ];
+
+    uniqueOwners.forEach((owner, index) => {
+        colorMap[owner] = colors[index % colors.length];  // Cycle through colors
+    });
+
+    // Apply colors to nodes
+    nodes.forEach(n => {
+        let owner = n.data('asset_owner');
+        if (owner && owner.trim() !== "") {
+            n.style('background-color', colorMap[owner]);  // Assign color from map
+        } else {
+            n.style('background-color', 'rgb(204,204,204)');  // Gray for empty asset_owner
+        }
+    });
+}
+
+// Event listener for dropdown
+document.getElementById('asset-owner-colour-dropdown').addEventListener('change', colourNodes);
+
 
 
 
