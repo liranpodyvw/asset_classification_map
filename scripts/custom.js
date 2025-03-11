@@ -414,11 +414,4 @@ document.addEventListener('DOMContentLoaded', function () {
             restoreFullNetwork();
         }
     });
-
-    // Pressing anywhere on the window also restores all nodes & edges
-    window.addEventListener('click', function (event) {
-        if (!event.target.closest('#cy')) {
-            restoreFullNetwork();
-        }
-    });
 });
