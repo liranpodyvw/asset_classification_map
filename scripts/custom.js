@@ -247,30 +247,6 @@ function colourNodes() {
             } else {
                 n.style('background-color', 'rgb(204,204,204)');  // Default gray if no value
             }
-
-            // Reset the size and shape based on the 'size_factor' data attribute
-            let sizeFactor = n.data('size_factor');
-            if (sizeFactor === 1) {
-                n.style('width', 175);
-                n.style('height', 150);
-                n.style('font-size', 25);
-                n.style('shape', 'octagon');
-            } else if (sizeFactor === 2) {
-                n.style('width', 125);
-                n.style('height', 80);
-                n.style('font-size', 12);
-                n.style('shape', 'ellipse');
-            } else if (sizeFactor === 3) {
-                n.style('width', 100);
-                n.style('height', 25);
-                n.style('font-size', 10);
-                n.style('shape', 'roundrectangle');
-            } else if (sizeFactor === 4) {
-                n.style('width', 250);
-                n.style('height', 250);
-                n.style('font-size', 40);
-                n.style('shape', 'diamond');
-            }
         });
         return;  // Exit function early if 'default' is selected
     }
@@ -290,7 +266,7 @@ function colourNodes() {
 
     // Hardcoded color palette for asset owners
     let colors = [
-        '#6495ED', '#FFDE21', '#CA824E', '#32CD32', '#EC5800', '#CD7F32', '#702963', '#708090'
+        '#6495ED', '#FFDE21', '#954535', '#32CD32', '#EC5800', '#CD7F32', '#C3B1E1', '#708090'
     ];
 
     uniqueOwners.forEach((owner, index) => {
