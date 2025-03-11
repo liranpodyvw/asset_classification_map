@@ -5,48 +5,74 @@ var networks = {"edges%201.csv": {
   "data" : {
     "shared_name" : "edges%201.csv",
     "name" : "edges%201.csv",
-    "SUID" : 78371,
-    "__Annotations" : [ ],
+    "SUID" : 5368,
+    "__Annotations" : [ "" ],
     "selected" : true
   },
   "elements" : {
     "nodes" : [ {
       "data" : {
-        "id" : "80053",
+        "id" : "6225",
         "parent" : "SEWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "S_ACCESS",
-        "SUID" : 80053,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6225,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/S_ACCESS",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "S_ACCESS"
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : -2491.652888713332
+        "x" : -578.7075016265671,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80049",
+        "id" : "6223",
         "parent" : "SEWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "S_ACCESS_POINT",
-        "SUID" : 80049,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6223,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/S_ACCESS_POINT",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "S_ACCESS_POINT"
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : -2066.652888713332
+        "x" : -103.70750162656714,
+        "y" : -1338.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80045",
+        "id" : "6221",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -59,31 +85,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_PMPNG_POINT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80045,
+        "SUID" : 6221,
         "operating" : 587.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/DW_PMPNG_POINT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 595.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "DW_PMPNG_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 430.0
       },
       "position" : {
-        "x" : -2634.063214638416,
-        "y" : -3041.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -963.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80041",
+        "id" : "6219",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Valve pit",
         "planned" : 0.0,
         "shared_name" : "VALVE_PIT",
@@ -93,30 +125,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE/VALVE_PIT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 80041,
+        "SUID" : 6219,
         "operating" : 244.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/VALVE_PIT",
         "ldtext" : " Valve Pit Classification includes the concrete pit and any covers.  It does not include any valves in the pit which should be there own separate asset.  It can be used for either water or sewerage assets. (S Graham, Sept 2017)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 278.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "VALVE_PIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 499.0
       },
       "position" : {
-        "x" : -2634.063214638416,
-        "y" : -3291.652888713332
+        "x" : 1296.2924983734329,
+        "y" : -963.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80037",
+        "id" : "6217",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -129,29 +165,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_SWAB_POINT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80037,
+        "SUID" : 6217,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/DW_SWAB_POINT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DW_SWAB_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 435.0
       },
       "position" : {
-        "x" : -2784.063214638416,
-        "y" : -3041.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -863.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80033",
+        "id" : "6215",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -164,29 +205,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CHLRN_POINT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80033,
+        "SUID" : 6215,
         "operating" : 59.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/NDW_CHLRN_POINT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 178.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_CHLRN_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 456.0
       },
       "position" : {
-        "x" : -2859.063214638416,
-        "y" : -3166.652888713332
+        "x" : 1296.2924983734329,
+        "y" : -863.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80029",
+        "id" : "6213",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -199,29 +245,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CHLRN_POINT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80029,
+        "SUID" : 6213,
         "operating" : 283.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/DW_CHLRN_POINT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 464.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "DW_CHLRN_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 425.0
       },
       "position" : {
-        "x" : -2309.063214638416,
-        "y" : -3041.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80025",
+        "id" : "6211",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -234,29 +285,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_MANHOLE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80025,
+        "SUID" : 6211,
         "operating" : 2770.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/DW_MANHOLE",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 2834.0,
+        "To_be_removed" : "",
         "notoperating" : 41.0,
+        "structural_node" : "",
         "name" : "DW_MANHOLE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 428.0
       },
       "position" : {
-        "x" : -2309.063214638416,
-        "y" : -3291.652888713332
+        "x" : 1296.2924983734329,
+        "y" : -763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80021",
+        "id" : "6209",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -269,29 +325,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_SWAB_POINT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80021,
+        "SUID" : 6209,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/NDW_SWAB_POINT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_SWAB_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 467.0
       },
       "position" : {
-        "x" : -2484.063214638416,
-        "y" : -3041.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80017",
+        "id" : "6207",
         "parent" : "WATER_ACCESS_POINT",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Water Access Points",
@@ -304,29 +365,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_MANHOLE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 80017,
+        "SUID" : 6207,
         "operating" : 71.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT/NDW_MANHOLE",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 73.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_MANHOLE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 460.0
       },
       "position" : {
-        "x" : -2484.063214638416,
-        "y" : -3291.652888713332
+        "x" : 1496.2924983734329,
+        "y" : -613.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80013",
+        "id" : "6205",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -339,29 +405,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/PLANT",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 80013,
+        "SUID" : 6205,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/PLANT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 24.0,
+        "To_be_removed" : "",
         "notoperating" : 22.0,
+        "structural_node" : "",
         "name" : "PLANT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 472.0
       },
       "position" : {
-        "x" : 690.936785361584,
-        "y" : -1041.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80009",
+        "id" : "6203",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -374,29 +445,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/TRUCK",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 80009,
+        "SUID" : 6203,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/TRUCK",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 57.0,
+        "To_be_removed" : "",
         "notoperating" : 46.0,
+        "structural_node" : "",
         "name" : "TRUCK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 497.0
       },
       "position" : {
-        "x" : 840.936785361584,
-        "y" : -1041.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -1213.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80005",
+        "id" : "6201",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -409,58 +485,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/PASSENGER",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 80005,
+        "SUID" : 6201,
         "operating" : 163.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/PASSENGER",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 1170.0,
+        "To_be_removed" : "",
         "notoperating" : 566.0,
+        "structural_node" : "",
         "name" : "PASSENGER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1157.0
       },
       "position" : {
-        "x" : 840.936785361584,
-        "y" : -1291.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -1213.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80001",
+        "id" : "6199",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "BOAT",
         "decommissioned" : 0.0,
         "maximo_classification" : "BOAT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 80001,
+        "SUID" : 6199,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/BOAT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BOAT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 915.936785361584,
-        "y" : -1166.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -1113.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79997",
+        "id" : "6197",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -473,29 +564,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79997,
+        "SUID" : 6197,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/VEHCL",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 13.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VEHCL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 314.0
       },
       "position" : {
-        "x" : 365.93678536158404,
-        "y" : -1041.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -1113.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79993",
+        "id" : "6195",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -508,29 +604,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/GPS",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79993,
+        "SUID" : 6195,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/GPS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 202.0,
+        "To_be_removed" : "",
         "notoperating" : 202.0,
+        "structural_node" : "",
         "name" : "GPS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 444.0
       },
       "position" : {
-        "x" : 365.93678536158404,
-        "y" : -1291.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -1013.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79989",
+        "id" : "6193",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -543,29 +644,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/COMMERCIAL",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79989,
+        "SUID" : 6193,
         "operating" : 49.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/COMMERCIAL",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 451.0,
+        "To_be_removed" : "",
         "notoperating" : 288.0,
+        "structural_node" : "",
         "name" : "COMMERCIAL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 418.0
       },
       "position" : {
-        "x" : 540.936785361584,
-        "y" : -1041.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -1013.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79985",
+        "id" : "6191",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -578,29 +684,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VEHCL/TRAILER",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79985,
+        "SUID" : 6191,
         "operating" : 18.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/TRAILER",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 61.0,
+        "To_be_removed" : "",
         "notoperating" : 31.0,
+        "structural_node" : "",
         "name" : "TRAILER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 496.0
       },
       "position" : {
-        "x" : 540.936785361584,
-        "y" : -1291.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -963.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79981",
+        "id" : "6189",
         "parent" : "VEHICLE",
         "degree_layout" : 1,
         "asset_class_plan" : "Fleet",
@@ -613,183 +724,250 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DRONE_UAV",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79981,
+        "SUID" : 6189,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET/VEHICLE/DRONE_UAV",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DRONE_UAV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 61782.0
       },
       "position" : {
-        "x" : 690.936785361584,
-        "y" : -1291.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79977",
+        "id" : "6187",
         "parent" : "FLEET",
         "degree_layout" : 10,
         "asset_class_plan" : "Fleet",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "VEHICLE",
         "decommissioned" : 0.0,
         "maximo_classification" : "FLEET",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "FLEET",
         "corrective_work_needed" : "N",
-        "SUID" : 79977,
+        "SUID" : 6187,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/FLEET/VEHICLE",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VEHICLE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 365.93678536158404,
-        "y" : -1166.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79973",
+        "id" : "6185",
         "parent" : "YVW",
         "degree_layout" : 2,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "FLEET",
-        "SUID" : 79973,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6185,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/FLEET",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "FLEET"
       },
       "position" : {
-        "x" : 140.93678536158404,
-        "y" : -1166.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -1488.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79967",
+        "id" : "6183",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "VEHL_CHARGING_UNIT",
         "decommissioned" : 0.0,
         "maximo_classification" : "VEHL_CHARGING_UNIT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79967,
+        "SUID" : 6183,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/VEHL_CHARGING_UNIT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VEHL_CHARGING_UNIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2384.063214638416,
-        "y" : -2441.652888713332
+        "x" : -928.7075016265671,
+        "y" : -2863.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79961",
+        "id" : "6181",
         "parent" : "OFFICE",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "OFFICE_BUILDING",
         "decommissioned" : 0.0,
         "maximo_classification" : "OFFICE_BUILDING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79961,
+        "SUID" : 6181,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/OFFICE/OFFICE_BUILDING",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "OFFICE_BUILDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -759.063214638416,
-        "y" : -3816.652888713332
+        "x" : 2496.292498373433,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79957",
+        "id" : "6179",
         "parent" : "OFFICE",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "OFFICE_CARPARK",
         "decommissioned" : 0.0,
         "maximo_classification" : "OFFICE_CARPARK",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79957,
+        "SUID" : 6179,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/OFFICE/OFFICE_CARPARK",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "OFFICE_CARPARK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -934.063214638416,
-        "y" : -3691.652888713332
+        "x" : 2671.292498373433,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79953",
+        "id" : "6177",
         "parent" : "SITE",
         "degree_layout" : 3,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "OFFICE",
-        "SUID" : 79953,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6177,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/OFFICE",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "OFFICE"
       },
       "position" : {
-        "x" : -934.063214638416,
-        "y" : -3816.652888713332
+        "x" : 2496.292498373433,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79947",
+        "id" : "6175",
         "parent" : "SITE",
         "degree_layout" : 1,
         "asset_class_plan" : "Reassign to grounds and buildings or another location outside of M&E",
@@ -802,33 +980,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SILENCER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79947,
+        "SUID" : 6175,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "These were previously used on blowers, but the long description is indicative of the gap we have at the moment and can repurpose this to\nReassign to grounds and buildings or another location outside of M&E",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/SILENCER",
         "ldtext" : "Silencer classification should be used for acoustic enclosures,  baffles, or any other devices used to reduce sound levels from assets.  S.Graham, July 2024\"",
         "network_node_colour" : 1.0,
         "number_of_assets" : 46.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SILENCER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65161.0
       },
       "position" : {
-        "x" : -934.063214638416,
-        "y" : -4141.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79929",
+        "id" : "6173",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Portable Hand Equipment",
         "planned" : 0.0,
         "shared_name" : "PORTABLEEQ",
@@ -838,31 +1020,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PORTABLEEQ",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79929,
+        "SUID" : 6173,
         "operating" : 23.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/PORTABLEEQ",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 23.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PORTABLEEQ",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 61382.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -4266.652888713332
+        "x" : 2496.292498373433,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79883",
+        "id" : "6171",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Harmonics",
@@ -875,30 +1060,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWR_HARMONIC_FILTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79883,
+        "SUID" : 6171,
         "operating" : 27.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/POWR_HARMONIC_FILTR",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 27.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_HARMONIC_FILTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63341.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -4516.652888713332
+        "x" : 2496.292498373433,
+        "y" : -1713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79875",
+        "id" : "6169",
         "parent" : "MECHANICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Diesel Pumps",
@@ -911,7 +1100,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DIESEL_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79875,
+        "SUID" : 6169,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
@@ -923,20 +1112,22 @@ var networks = {"edges%201.csv": {
         "ldtext" : " Classification includes both fixed and mobile diesel pumps.  These are  used to provide emergency pumping capabilities.  (S Graham June 2019)",
         "network_node_colour" : 20.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DIESEL_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58841.0
       },
       "position" : {
-        "x" : -909.063214638416,
-        "y" : -766.6528887133318
+        "x" : -2328.707501626567,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79871",
+        "id" : "6167",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Filters",
@@ -949,7 +1140,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/POWR_FILTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79871,
+        "SUID" : 6167,
         "operating" : 223.0,
         "new_classification" : "N",
         "selected" : false,
@@ -961,22 +1152,25 @@ var networks = {"edges%201.csv": {
         "ldtext" : "Classification used for harmonic filters to manage power quality.  It does not include power factor correction devices. (S. Graham, Mar 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 223.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_FILTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 193.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -4566.652888713332
+        "x" : 2671.292498373433,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79867",
+        "id" : "6165",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Electrical System",
         "planned" : 0.0,
         "shared_name" : "ELECTRCL_SYSTM",
@@ -986,31 +1180,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTRCL_SYSTM",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79867,
+        "SUID" : 6165,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Only 5 assets here, what are they and can they be moved to another more specific classification",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRCL_SYSTM",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 8.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ELECTRCL_SYSTM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 96.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -4266.652888713332
+        "x" : 2671.292498373433,
+        "y" : -1713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79863",
+        "id" : "6163",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Power Supply",
         "planned" : 0.0,
         "shared_name" : "POWR_SUPLY",
@@ -1018,29 +1218,36 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "POWR_SUPLY",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWR_SUPLY",
+        "asset_owner" : "",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79863,
+        "SUID" : 6163,
         "operating" : 60.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/POWR_SUPLY",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 62.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_SUPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1066.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -4391.652888713332
+        "x" : 2296.292498373433,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79859",
+        "id" : "6161",
         "parent" : "ELECTRICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - E STOP",
@@ -1053,31 +1260,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/SAFTY_ESTOP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79859,
+        "SUID" : 6161,
         "operating" : 662.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/SAFTY_ESTOP",
         "ldtext" : "Purpose The purpose of the emergency stop function also know as the safety circuit  is to avert actual or impending emergency situations arising from the behavior of persons or from an unexpected hazardous event.   The E STOP asset classification refers to all components of the E-stop function for a machine including the device(s), electrical wiring and any safety relays (eg PILZ relays).  PILZ relays and any other components should be set up in Maximo as sub-assemblies (child assets) of the parent E_Stop asset. Asset Management Treatment E Stops are inspected for functionality and compliance to Australian Standards annually.Non compliant E-Stops shall be rectified at the earliest opportunity.  Australian StandardsAS4024 Part 1201 : General Principles for design - Risk assessment and risk reduction  AS4024  Part 1604: Design of of controls ..... - Emergency Stop(S. Graham, Aug 2019) ",
         "network_node_colour" : 20.0,
         "number_of_assets" : 754.0,
+        "To_be_removed" : "",
         "notoperating" : 11.0,
+        "structural_node" : "",
         "name" : "SAFTY_ESTOP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58641.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -4416.652888713332
+        "x" : 2296.292498373433,
+        "y" : -1713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79851",
+        "id" : "6159",
         "parent" : "MECHANICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Lifting Chains",
@@ -1090,31 +1300,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CHAIN",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79851,
+        "SUID" : 6159,
         "operating" : 266.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/CHAIN",
         "ldtext" : " All submersible pumps are fitted with lifting chains enabling them to be lifted from the wet well. When the chains are purchased Ventia arranges for them to be rated with a load limit. Current YVW practice for YVW submersible pump chains is to replace them every three years.References:  Maximo Job Plan: ARMS006551 YWIN1323 Sewerage Pump Stations Chain Replacement YWIN1324 Chain Lifting Assemblies for Pumps SPS000-M-1002  Pump Stool, Lifting Chain and Mounting Bracket Details AS2321 Short Link Chain for lifting purposes AS:3775 Chain Slings for Lifting Purposes AS: 4797 Stainless Steel Chain for lifting purposes(S. Graham, Sept 2019)    ",
         "network_node_colour" : 20.0,
         "number_of_assets" : 435.0,
+        "To_be_removed" : "",
         "notoperating" : 16.0,
+        "structural_node" : "",
         "name" : "CHAIN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 67.0
       },
       "position" : {
-        "x" : -909.063214638416,
-        "y" : -916.6528887133318
+        "x" : -2328.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79847",
+        "id" : "6157",
         "parent" : "MECHANICAL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Anchor Points",
@@ -1127,67 +1340,97 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ANCHR_POINT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 79847,
+        "SUID" : 6157,
         "operating" : 225.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/ANCHR_POINT",
         "ldtext" : "Anchor Points provide a point of attachment for personnel to connect lanyards or fall arrest systems to protect against  from falling from heights hazards. Note this does not include static lines at ladders.  These are classified  as FALL_ARST_EQUPMENT  Asset Management Plan  A anchor  point asset in Maximo may represent multiple physical anchor points.  The asset does not include harnesses or lanyards.  These are considered PPE and need to be provided by the personnel doing work. At a minimum anchor points should be tested annually.At site each anchor point should have a placard in a nearby cabinet that records the date it was last tested.   The anchor point should be marked with a plate so it can be matched against the placard.Relevant Documentation AS1891 Industrial fall-arrest systems and devices (S.Graham Jan 2020) ",
         "network_node_colour" : 20.0,
         "number_of_assets" : 273.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "ANCHR_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 50.0
       },
       "position" : {
-        "x" : -209.06321463841596,
-        "y" : -916.6528887133318
+        "x" : -2528.707501626567,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79843",
+        "id" : "6155",
         "parent" : "YVW",
         "degree_layout" : 15,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "ELECTRICAL",
-        "SUID" : 79843,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6155,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "ELECTRICAL"
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : -4266.652888713332
+        "x" : 2296.292498373433,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79839",
+        "id" : "6153",
         "parent" : "YVW",
         "degree_layout" : 22,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "MECHANICAL",
-        "SUID" : 79839,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6153,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "MECHANICAL"
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : -916.6528887133318
+        "x" : -2328.707501626567,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79835",
+        "id" : "6151",
         "parent" : "TREATMENT",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Separator",
         "planned" : 0.0,
         "shared_name" : "SEPARATOR",
@@ -1195,32 +1438,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "SEPARATOR",
         "offline" : 4.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SEPARATOR",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79835,
+        "SUID" : 6151,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SEPARATOR",
         "ldtext" : "SEPARATOR classification is for oil / water and air separators.  These are often used on compressed air or ventilation lines to remove moisture.   This is different to the FILTR classification which for treatment plant filters.  (S. Graham, July 24",
         "network_node_colour" : -2.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SEPARATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65143.0
       },
       "position" : {
-        "x" : -159.06321463841596,
-        "y" : -3166.652888713332
+        "x" : 646.2924983734329,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79831",
+        "id" : "6149",
         "parent" : "SCREENING",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Compactor",
         "planned" : 0.0,
         "shared_name" : "COMPCTR",
@@ -1228,31 +1478,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "COMPCTR",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/COMPCTR",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79831,
+        "SUID" : 6149,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/COMPCTR",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "COMPCTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1025.0
       },
       "position" : {
-        "x" : 1365.936785361584,
-        "y" : -3191.652888713332
+        "x" : 646.2924983734329,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79827",
+        "id" : "6147",
         "parent" : "SCREENING",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Rake",
         "planned" : 0.0,
         "shared_name" : "RAKE",
@@ -1260,31 +1518,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "RAKE",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RAKE",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79827,
+        "SUID" : 6147,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/RAKE",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "RAKE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 209.0
       },
       "position" : {
-        "x" : 1540.936785361584,
-        "y" : -3191.652888713332
+        "x" : 1021.2924983734329,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79823",
+        "id" : "6145",
         "parent" : "PIPEWORKS",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Pipework",
         "planned" : 0.0,
         "shared_name" : "PIPEWORK",
@@ -1292,33 +1558,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "PIPEWORK",
         "offline" : 6.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PIPEWORK",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79823,
+        "SUID" : 6145,
         "operating" : 44.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/PIPEWORKS/PIPEWORK",
         "ldtext" : "Miscellaneous classification.  Mostly used for lengths of pipe and other fittings (bends, tapers) held as spares.  (S.Graham, Jan 2022)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 50.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PIPEWORK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59264.0
       },
       "position" : {
-        "x" : 990.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1321.2924983734329,
+        "y" : -3163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79819",
+        "id" : "6143",
         "parent" : "CHEMICAL_DOSING",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Mobile Chemical Dosing Unit",
         "planned" : 0.0,
         "shared_name" : "MOB_CDF",
@@ -1326,29 +1598,36 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "MOB_CDF",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MOB_CDF",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79819,
+        "SUID" : 6143,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_DOSING/MOB_CDF",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "MOB_CDF",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65383.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -1716.6528887133318
+        "x" : -1653.7075016265671,
+        "y" : -2588.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79815",
+        "id" : "6141",
         "parent" : "SEWER_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Quality - Sampling and Monitoring Points",
@@ -1361,46 +1640,64 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/SEWSAMPLEPT",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "N",
-        "SUID" : 79815,
+        "SUID" : 6141,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/SEWER_MONITORING/SEWSAMPLEPT",
+        "ldtext" : "",
         "network_node_colour" : 6.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SEWSAMPLEPT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60343.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -2616.652888713332
+        "x" : -903.7075016265671,
+        "y" : -1413.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79811",
+        "id" : "6139",
         "parent" : "SEWER",
         "degree_layout" : 2,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "SEWER_MONITORING",
-        "SUID" : 79811,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6139,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/SEWER_MONITORING",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "SEWER_MONITORING"
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -2491.652888713332
+        "x" : -578.7075016265671,
+        "y" : -1413.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79807",
+        "id" : "6137",
         "parent" : "WATER_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Quality - Sampling and Monitoring Points",
@@ -1413,29 +1710,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_SAMPLNG_TAP",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 79807,
+        "SUID" : 6137,
         "operating" : 1341.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_MONITORING/DW_SAMPLNG_TAP",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 2704.0,
+        "To_be_removed" : "",
         "notoperating" : 62.0,
+        "structural_node" : "",
         "name" : "DW_SAMPLNG_TAP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 432.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -3691.652888713332
+        "x" : 1271.2924983734329,
+        "y" : -1238.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79803",
+        "id" : "6135",
         "parent" : "WATER_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Quality - Sampling and Monitoring Points",
@@ -1448,48 +1750,67 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_SAMPLNG_TAP",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "N",
-        "SUID" : 79803,
+        "SUID" : 6135,
         "operating" : 94.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_MONITORING/NDW_SAMPLNG_TAP",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 194.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "NDW_SAMPLNG_TAP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 464.0
       },
       "position" : {
-        "x" : -1559.063214638416,
-        "y" : -3566.652888713332
+        "x" : 1096.2924983734329,
+        "y" : -1363.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79799",
+        "id" : "6133",
         "parent" : "WATER",
         "degree_layout" : 3,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "WATER_MONITORING",
-        "SUID" : 79799,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6133,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_MONITORING",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "WATER_MONITORING"
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -3566.652888713332
+        "x" : 1271.2924983734329,
+        "y" : -1363.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79795",
+        "id" : "6131",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Guide Rail",
         "planned" : 0.0,
         "shared_name" : "GUIDE_RAIL",
@@ -1499,32 +1820,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GUIDE_RAIL",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79795,
+        "SUID" : 6131,
         "operating" : 226.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/GUIDE_RAIL",
         "ldtext" : "Guide rails are used to enable submersible pumps, mixers or macerators to be raised and lowered into underground chambers.  This classification includes the upper guide rail holder.  This classification does not include lifting chains (CHAIN) or the pump stool (PUMP_STOOL). S. Graham Oct 2019",
         "network_node_colour" : 1.0,
         "number_of_assets" : 280.0,
+        "To_be_removed" : "",
         "notoperating" : 15.0,
+        "structural_node" : "",
         "name" : "GUIDE_RAIL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 147.0
       },
       "position" : {
-        "x" : -2034.063214638416,
-        "y" : -3816.652888713332
+        "x" : 2121.292498373433,
+        "y" : -3638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79791",
+        "id" : "6129",
         "parent" : "BUILDING",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Fire Equipment",
         "planned" : 0.0,
         "shared_name" : "FIRE_EQUPMNT",
@@ -1534,29 +1860,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FIRE_EQUPMNT",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79791,
+        "SUID" : 6129,
         "operating" : 184.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BUILDING/FIRE_EQUPMNT",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 188.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FIRE_EQUPMNT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1042.0
       },
       "position" : {
-        "x" : -2359.063214638416,
-        "y" : -4266.652888713332
+        "x" : 2171.292498373433,
+        "y" : -2888.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79787",
+        "id" : "6127",
         "parent" : "TP_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Treatment Plant Planning - Weirs",
@@ -1569,30 +1900,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CHANN_WEIR_FLOW_TROU",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79787,
+        "SUID" : 6127,
         "operating" : 100.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "A majority of these are weirs which TPP will write a new asset class plan for. \nThere are some weirs that include level sensors and are used as flowmeters that we will likely create a new asset classification for towards the end of the year which would come under flowmeters, attached email for context",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/TP_MONITORING/CHANN_WEIR_FLOW_TROU",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 191.0,
+        "To_be_removed" : "",
         "notoperating" : 24.0,
+        "structural_node" : "",
         "name" : "CHANN_WEIR_FLOW_TROU",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45525.0
       },
       "position" : {
-        "x" : 765.936785361584,
-        "y" : -3516.652888713332
+        "x" : -53.70750162656714,
+        "y" : -2663.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79783",
+        "id" : "6125",
         "parent" : "TP_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Quality - Sampling and Monitoring Points",
@@ -1605,29 +1940,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TPSAMPLEPT",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79783,
+        "SUID" : 6125,
         "operating" : 511.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/TP_MONITORING/TPSAMPLEPT",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 537.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "TPSAMPLEPT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59501.0
       },
       "position" : {
-        "x" : 415.93678536158404,
-        "y" : -3516.652888713332
+        "x" : -53.70750162656714,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79779",
+        "id" : "6123",
         "parent" : "TP_MONITORING",
         "degree_layout" : 1,
         "asset_class_plan" : "Quality - Sampling and Monitoring Points",
@@ -1640,46 +1980,64 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/NOISE_MONTR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79779,
+        "SUID" : 6123,
         "operating" : 9.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/TP_MONITORING/NOISE_MONTR",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 9.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NOISE_MONTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64541.0
       },
       "position" : {
-        "x" : 590.936785361584,
-        "y" : -3641.652888713332
+        "x" : -228.70750162656714,
+        "y" : -2538.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79775",
+        "id" : "6121",
         "parent" : "TREATMENT",
         "degree_layout" : 4,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "TP_MONITORING",
-        "SUID" : 79775,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6121,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/TP_MONITORING",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "TP_MONITORING"
       },
       "position" : {
-        "x" : 590.936785361584,
-        "y" : -3516.652888713332
+        "x" : -53.70750162656714,
+        "y" : -2538.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79771",
+        "id" : "6119",
         "parent" : "DRAINAGE_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Stormwater & Drainage",
@@ -1692,30 +2050,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STORMWATER_PIPES",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79771,
+        "SUID" : 6119,
         "operating" : 269.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES/STORMWATER_PIPES",
         "ldtext" : "Created for capturing YVW owned stormwater pipes at all facilities.  (S.Graham / D. Frey, Jul-24)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 279.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STORMWATER_PIPES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62381.0
       },
       "position" : {
-        "x" : -1909.063214638416,
-        "y" : -3791.652888713332
+        "x" : 1521.2924983734329,
+        "y" : -3238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79767",
+        "id" : "6117",
         "parent" : "DRAINAGE_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Stormwater & Drainage",
@@ -1728,30 +2090,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STORMWATER_ACCESS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79767,
+        "SUID" : 6117,
         "operating" : 182.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES/STORMWATER_ACCESS",
         "ldtext" : "Created for capturing YVW owned stormwater pits and bulkheads at all facilities.  (S.Graham / D. Frey, Jul-24)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 191.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STORMWATER_ACCESS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65043.0
       },
       "position" : {
-        "x" : -1559.063214638416,
-        "y" : -3791.652888713332
+        "x" : 1521.2924983734329,
+        "y" : -2988.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79763",
+        "id" : "6115",
         "parent" : "DRAINAGE_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Stormwater & Drainage",
@@ -1764,30 +2130,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STORMWATER_CONNECT",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79763,
+        "SUID" : 6115,
         "operating" : 36.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES/STORMWATER_CONNECT",
         "ldtext" : "Created for capturing YVW owned downpipes and other small connections eg underground tank drainage  at facilities.  (S.Graham / D. Frey, Jul-24)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 39.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STORMWATER_CONNECT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65042.0
       },
       "position" : {
-        "x" : -1909.063214638416,
-        "y" : -3691.652888713332
+        "x" : 1446.2924983734329,
+        "y" : -3113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79759",
+        "id" : "6113",
         "parent" : "DRAINAGE_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Stormwater & Drainage",
@@ -1800,33 +2170,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DRAINAGE",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79759,
+        "SUID" : 6113,
         "operating" : 691.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Assets need to be moved off this classification into specific other classifications",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES/DRAINAGE",
         "ldtext" : "The DRAINAGE classification may cover the following assets.1. Stormwater drainage pipework and pits installed at YVW facilities.  These assets are owned and maintained by YVW.2. Council or Melbourne Water drainage assets that may be accessed by non-revenue water teams searching for water leaks and bursts that have not come to surface.  These will have a description along the lines of  \"Drainage Monitoring Point CANT01\"",
         "network_node_colour" : 1.0,
         "number_of_assets" : 702.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "DRAINAGE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 91.0
       },
       "position" : {
-        "x" : -1559.063214638416,
-        "y" : -3691.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -3238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79755",
+        "id" : "6111",
         "parent" : "DRAINAGE_STRUCTURES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Pits",
         "planned" : 0.0,
         "shared_name" : "PITS",
@@ -1836,65 +2210,97 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PITS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79755,
+        "SUID" : 6111,
         "operating" : 84.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES/PITS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 84.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PITS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62382.0
       },
       "position" : {
-        "x" : -1734.063214638416,
-        "y" : -3641.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -2988.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79751",
+        "id" : "6109",
         "parent" : "SITE",
         "degree_layout" : 6,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "DRAINAGE_STRUCTURES",
-        "SUID" : 79751,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6109,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/DRAINAGE_STRUCTURES",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "DRAINAGE_STRUCTURES"
       },
       "position" : {
-        "x" : -1734.063214638416,
-        "y" : -3791.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -3113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79749",
+        "id" : "6107",
         "parent" : "YVW",
         "degree_layout" : 10,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "SITE",
-        "SUID" : 79749,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6107,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "SITE"
       },
       "position" : {
-        "x" : -934.063214638416,
-        "y" : -3991.652888713332
+        "x" : 1921.2924983734329,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79745",
+        "id" : "6105",
         "parent" : "UV_SYS",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "UV Lamps",
         "planned" : 0.0,
         "shared_name" : "UV_LAMPS",
@@ -1902,93 +2308,114 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "UV_LAMPS",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/UV_LAMPS",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79745,
+        "SUID" : 6105,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/UV_SYS/UV_LAMPS",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "UV_LAMPS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65181.0
       },
       "position" : {
-        "x" : 340.93678536158404,
-        "y" : -4066.652888713332
+        "x" : 621.2924983734329,
+        "y" : -2588.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79741",
+        "id" : "6103",
         "parent" : "BUILDING",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Office Carpark and Depot",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DEPOT_YARD",
         "decommissioned" : 0.0,
         "maximo_classification" : "DEPOT_YARD",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79741,
+        "SUID" : 6103,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BUILDING/DEPOT_YARD",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DEPOT_YARD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2009.063214638416,
-        "y" : -4166.652888713332
+        "x" : 2346.292498373433,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79737",
+        "id" : "6101",
         "parent" : "BUILDING",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Office Carpark and Depot",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DEPOT_BUILDING",
         "decommissioned" : 0.0,
         "maximo_classification" : "DEPOT_BUILDING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79737,
+        "SUID" : 6101,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BUILDING/DEPOT_BUILDING",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DEPOT_BUILDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2359.063214638416,
-        "y" : -4166.652888713332
+        "x" : 2346.292498373433,
+        "y" : -2888.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79733",
+        "id" : "6099",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Land Management",
@@ -2001,123 +2428,151 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GARDNS_LANDSCPNG",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79733,
+        "SUID" : 6099,
         "operating" : 41.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/GARDNS_LANDSCPNG",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 48.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GARDNS_LANDSCPNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 136.0
       },
       "position" : {
-        "x" : -2734.063214638416,
-        "y" : -3866.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79729",
+        "id" : "6097",
         "parent" : "BUILDING",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - TP and Network Buildings",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PUMP BUILDING",
         "decommissioned" : 0.0,
         "maximo_classification" : "PUMP BUILDING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79729,
+        "SUID" : 6097,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BUILDING/PUMP BUILDING",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PUMP BUILDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2009.063214638416,
-        "y" : -4266.652888713332
+        "x" : 2421.292498373433,
+        "y" : -2763.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79725",
+        "id" : "6095",
         "parent" : "BUILDING",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - TP and Network Buildings",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SWITCHROOM",
         "decommissioned" : 0.0,
         "maximo_classification" : "SWITCHROOM",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79725,
+        "SUID" : 6095,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BUILDING/SWITCHROOM",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SWITCHROOM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -4316.652888713332
+        "x" : 2171.292498373433,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79723",
+        "id" : "6093",
         "parent" : "SITE",
         "degree_layout" : 6,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "BUILDING",
         "decommissioned" : 0.0,
         "maximo_classification" : "OFFICE",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79723,
+        "SUID" : 6093,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SITE/BUILDING",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BUILDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -4166.652888713332
+        "x" : 2171.292498373433,
+        "y" : -2763.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79719",
+        "id" : "6091",
         "parent" : "SECURITY",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -2130,29 +2585,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/FENCING",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79719,
+        "SUID" : 6091,
         "operating" : 26.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/SECURITY/FENCING",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 32.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FENCING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 439.0
       },
       "position" : {
-        "x" : -1084.063214638416,
-        "y" : -3791.652888713332
+        "x" : 2196.292498373433,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79715",
+        "id" : "6089",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -2165,78 +2625,106 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/BORE",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79715,
+        "SUID" : 6089,
         "operating" : 72.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/BORE",
         "ldtext" : " \nClassification includes groundwater\n  monitoring bores.\n  ",
         "network_node_colour" : 0.0,
         "number_of_assets" : 92.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "BORE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1021.0
       },
       "position" : {
-        "x" : -2884.063214638416,
-        "y" : -4116.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3563.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79709",
+        "id" : "6087",
         "parent" : "YVW",
         "degree_layout" : 2,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "SAFETY",
-        "SUID" : 79709,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6087,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "SAFETY"
       },
       "position" : {
-        "x" : -909.063214638416,
-        "y" : -1166.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -2188.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79705",
+        "id" : "6085",
         "parent" : "WATER",
         "degree_layout" : 9,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "WATER_ACCESS_POINT",
         "decommissioned" : 0.0,
         "maximo_classification" : "ACCESS_POINT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79705,
+        "SUID" : 6085,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_ACCESS_POINT",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WATER_ACCESS_POINT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2309.063214638416,
-        "y" : -3166.652888713332
+        "x" : 1496.2924983734329,
+        "y" : -963.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79701",
+        "id" : "6083",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Expansion Vessel",
         "planned" : 0.0,
         "shared_name" : "EXP_VESL",
@@ -2244,32 +2732,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "EXP_VESL",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/EXP_VESL",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79701,
+        "SUID" : 6083,
         "operating" : 6.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/EXP_VESL",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "EXP_VESL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65364.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : -2441.652888713332
+        "x" : -378.70750162656714,
+        "y" : -3013.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79697",
+        "id" : "6081",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Flare",
         "planned" : 0.0,
         "shared_name" : "FLARE",
@@ -2277,32 +2772,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "FLARE",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FLARE",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79697,
+        "SUID" : 6081,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/FLARE",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FLARE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65341.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -2441.652888713332
+        "x" : -928.7075016265671,
+        "y" : -3013.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79693",
+        "id" : "6079",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Odour Control Unit Reactor",
         "planned" : 0.0,
         "shared_name" : "OCUREACTOR",
@@ -2310,32 +2812,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "OCUREACTOR",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/OCUREACTOR",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79693,
+        "SUID" : 6079,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/OCUREACTOR",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "OCUREACTOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65362.0
       },
       "position" : {
-        "x" : -1584.063214638416,
-        "y" : -2441.652888713332
+        "x" : -378.70750162656714,
+        "y" : -3163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79689",
+        "id" : "6077",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Combined Heat Power Exhaust",
         "planned" : 0.0,
         "shared_name" : "CHPEXHAUST",
@@ -2343,32 +2852,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "CHPEXHAUST",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CHPEXHAUST",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79689,
+        "SUID" : 6077,
         "operating" : 9.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/CHPEXHAUST",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 9.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHPEXHAUST",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65365.0
       },
       "position" : {
-        "x" : -1784.063214638416,
-        "y" : -2441.652888713332
+        "x" : -378.70750162656714,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79685",
+        "id" : "6075",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Heat Exchanger",
         "planned" : 0.0,
         "shared_name" : "HEAT_EXCHANGE",
@@ -2376,32 +2892,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "HEAT_EXCHANGE",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/HEAT_EXCHANGE",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79685,
+        "SUID" : 6075,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/HEAT_EXCHANGE",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HEAT_EXCHANGE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65363.0
       },
       "position" : {
-        "x" : -1984.063214638416,
-        "y" : -2441.652888713332
+        "x" : -928.7075016265671,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79681",
+        "id" : "6073",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Air Cooler",
         "planned" : 0.0,
         "shared_name" : "AIR_COOL",
@@ -2409,32 +2932,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "AIR_COOL",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AIR_COOL",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79681,
+        "SUID" : 6073,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/AIR_COOL",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 5.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AIR_COOL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65366.0
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -2441.652888713332
+        "x" : -378.70750162656714,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79677",
+        "id" : "6071",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Wheel Wash",
         "planned" : 0.0,
         "shared_name" : "WHEELWASH",
@@ -2442,32 +2972,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "WHEELWASH",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WHEELWASH",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79677,
+        "SUID" : 6071,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
-        "size_factor" : 2,
+        "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/WHEELWASH",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WHEELWASH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65367.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -1991.6528887133318
+        "x" : 2396.292498373433,
+        "y" : -3088.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79673",
+        "id" : "6069",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Shredder",
         "planned" : 0.0,
         "shared_name" : "SHREDDER",
@@ -2475,32 +3012,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "SHREDDER",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SHREDDER",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79673,
+        "SUID" : 6069,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/SHREDDER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SHREDDER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65361.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : -1991.6528887133318
+        "x" : -928.7075016265671,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79669",
+        "id" : "6067",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Weigh Bridge",
         "planned" : 0.0,
         "shared_name" : "WEIGHBRIDGE",
@@ -2508,148 +3052,241 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "WEIGHBRIDGE",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WEIGHBRIDGE",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79669,
+        "SUID" : 6067,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
-        "size_factor" : 2,
+        "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/WEIGHBRIDGE",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WEIGHBRIDGE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65368.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -1991.6528887133318
+        "x" : 2321.292498373433,
+        "y" : -3213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79665",
+        "id" : "6065",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "BRIDGE",
-        "SUID" : 79665,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6065,
+        "new_classification" : "",
         "selected" : false,
-        "size_factor" : 2,
+        "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/BRIDGE",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "BRIDGE"
       },
       "position" : {
-        "x" : -1584.063214638416,
-        "y" : -1991.6528887133318
+        "x" : 2146.292498373433,
+        "y" : -2963.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79661",
+        "id" : "6063",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "DEPACKAGER",
-        "SUID" : 79661,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6063,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/DEPACKAGER",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "DEPACKAGER"
       },
       "position" : {
-        "x" : -1784.063214638416,
-        "y" : -1991.6528887133318
+        "x" : -378.70750162656714,
+        "y" : -2563.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79657",
+        "id" : "6061",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "WET_SCRUBBER",
-        "SUID" : 79657,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6061,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/WET_SCRUBBER",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "WET_SCRUBBER"
       },
       "position" : {
-        "x" : -1984.063214638416,
-        "y" : -1991.6528887133318
+        "x" : -928.7075016265671,
+        "y" : -2563.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79653",
+        "id" : "6059",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "COOLING_TOWERS",
-        "SUID" : 79653,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6059,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/COOLING_TOWERS",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "COOLING_TOWERS"
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -1991.6528887133318
+        "x" : -378.70750162656714,
+        "y" : -2713.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79649",
+        "id" : "6057",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "ODOUR_MONITORING",
-        "SUID" : 79649,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6057,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/ODOUR_MONITORING",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "ODOUR_MONITORING"
       },
       "position" : {
-        "x" : -2384.063214638416,
-        "y" : -1991.6528887133318
+        "x" : -928.7075016265671,
+        "y" : -2713.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79645",
+        "id" : "6055",
         "parent" : "ENERGY",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "DRYER",
-        "SUID" : 79645,
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 6055,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/DRYER",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "DRYER"
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -2441.652888713332
+        "x" : -378.70750162656714,
+        "y" : -2863.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79639",
+        "id" : "6053",
         "parent" : "YVW",
         "degree_layout" : 19,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "ENERGY",
         "decommissioned" : 0.0,
         "maximo_classification" : "POWER_GENERATION",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79639,
+        "SUID" : 6053,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "ENERGY",
@@ -2657,28 +3294,38 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -2216.652888713332
+        "x" : -653.7075016265671,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79629",
+        "id" : "6051",
+        "parent" : "",
         "degree_layout" : 11,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "YVW",
         "decommissioned" : 0.0,
         "maximo_classification" : "YVW",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79629,
+        "SUID" : 6051,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 4,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "YVW",
@@ -2686,13 +3333,13 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : -1166.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79625",
+        "id" : "6049",
         "parent" : "SECURITY",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Security",
@@ -2705,30 +3352,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SECRTY",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79625,
+        "SUID" : 6049,
         "operating" : 244.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Currently Maximo SECRTY = Locks, CCTV, Fences, Gates.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/SECURITY/SECRTY",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 258.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "SECRTY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 234.0
       },
       "position" : {
-        "x" : -1434.063214638416,
-        "y" : -3791.652888713332
+        "x" : 2196.292498373433,
+        "y" : -2563.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79621",
+        "id" : "6047",
         "parent" : "SECURITY",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Security",
@@ -2741,48 +3392,64 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ALARM",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79621,
+        "SUID" : 6047,
         "operating" : 32.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Alarms: most are building alarms, some are process alarms. Can split these so have BUILDING ALARM and PROCESS ALARM and the process ones would move to a different ACP",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/SECURITY/ALARM",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 35.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ALARM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1018.0
       },
       "position" : {
-        "x" : -1259.063214638416,
-        "y" : -3666.652888713332
+        "x" : 2371.292498373433,
+        "y" : -2438.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79619",
+        "id" : "6045",
         "parent" : "SITE",
         "degree_layout" : 4,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "SECURITY",
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79619,
+        "SUID" : 6045,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/SECURITY",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "SECURITY"
       },
       "position" : {
-        "x" : -1259.063214638416,
-        "y" : -3791.652888713332
+        "x" : 2196.292498373433,
+        "y" : -2438.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79615",
+        "id" : "6043",
         "parent" : "LAND_MANAGEMENT",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Land Management",
@@ -2795,29 +3462,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/PIPE_TRACKS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79615,
+        "SUID" : 6043,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/LAND_MANAGEMENT/PIPE_TRACKS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PIPE_TRACKS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 470.0
       },
       "position" : {
-        "x" : -1709.063214638416,
-        "y" : -4341.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -2663.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79611",
+        "id" : "6041",
         "parent" : "LAND_MANAGEMENT",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Land Management",
@@ -2830,29 +3502,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PADDOCK",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79611,
+        "SUID" : 6041,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/LAND_MANAGEMENT/PADDOCK",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PADDOCK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1064.0
       },
       "position" : {
-        "x" : -1884.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -2913.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79607",
+        "id" : "6039",
         "parent" : "LAND_MANAGEMENT",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Land Management",
@@ -2865,31 +3542,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/NATV_VEG_OFFST_AREA",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79607,
+        "SUID" : 6039,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Needs Better Name",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/LAND_MANAGEMENT/NATV_VEG_OFFST_AREA",
         "ldtext" : "Vegetation\n  offset areas.Areas offset to preserve biodiversity in exchange for removal of\n  native  vegetation",
         "network_node_colour" : 0.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NATV_VEG_OFFST_AREA",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 185.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1521.2924983734329,
+        "y" : -2663.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79603",
+        "id" : "6037",
         "parent" : "LAND_MANAGEMENT",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Land Management",
@@ -2902,49 +3582,64 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/CULTSIG",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79603,
+        "SUID" : 6037,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Each ACP has a chapter for Culturally Significant sites - we need to talk to Trish about this.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/LAND_MANAGEMENT/CULTSIG",
         "ldtext" : "These assets are located on YVW sites that YVW has a duty of care to protect.  These assets are not required for core YVWservice delivery but are of significance to either Indigenous or post European settlement heritage. Refer to location attachments for additional details",
         "network_node_colour" : 1.0,
         "number_of_assets" : 5.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CULTSIG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45441.0
       },
       "position" : {
-        "x" : -1884.063214638416,
-        "y" : -4291.652888713332
+        "x" : 1446.2924983734329,
+        "y" : -2788.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79601",
+        "id" : "6035",
         "parent" : "SITE",
         "degree_layout" : 5,
+        "asset_class_plan" : "",
+        "description" : "",
         "shared_name" : "LAND_MANAGEMENT",
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79601,
+        "SUID" : 6035,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/LAND_MANAGEMENT",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "LAND_MANAGEMENT"
       },
       "position" : {
-        "x" : -1709.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1696.2924983734329,
+        "y" : -2788.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79597",
+        "id" : "6033",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -2957,30 +3652,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PRESR_GUAGE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79597,
+        "SUID" : 6033,
         "operating" : 37.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR_GUAGE",
         "ldtext" : "Refer to Controlled Document YVWCD-2-6159  Pressure Instrumentation Installations for details of standard practice for installation.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 53.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PRESR_GUAGE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 475.0
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : 1333.3471112866682
+        "x" : -5828.707501626567,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79593",
+        "id" : "6031",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -2993,30 +3692,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/OUTLT_PRESR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79593,
+        "SUID" : 6031,
         "operating" : 274.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Just pressure transmitters on outlets",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/OUTLT_PRESR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 305.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "OUTLT_PRESR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 188.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : 1333.3471112866682
+        "x" : -5478.707501626567,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79589",
+        "id" : "6029",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3029,30 +3732,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INLET_PRESR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79589,
+        "SUID" : 6029,
         "operating" : 64.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Just pressure transmitters on inlets",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/INLET_PRESR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 64.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "INLET_PRESR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59803.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : 1083.3471112866682
+        "x" : -5828.707501626567,
+        "y" : -1463.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79585",
+        "id" : "6027",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3065,30 +3772,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PRESR_CONTRL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79585,
+        "SUID" : 6027,
         "operating" : 91.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Most of these are pressure guages, but a few a few pressure control valves that need to be moved out. All assets will need to be moved as regardless this is the wrong description",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR_CONTRL",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 95.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PRESR_CONTRL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 196.0
       },
       "position" : {
-        "x" : 115.93678536158404,
-        "y" : 1208.3471112866682
+        "x" : -5478.707501626567,
+        "y" : -1463.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79581",
+        "id" : "6025",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3101,30 +3812,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GUAGE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79581,
+        "SUID" : 6025,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All decommissioned assets, will need to either delete or use this as a guage asset class with type as an attribute",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/GUAGE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 21.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GUAGE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 146.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1333.3471112866682
+        "x" : -5653.707501626567,
+        "y" : -1413.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79577",
+        "id" : "6023",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3137,31 +3852,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PRESR_METR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79577,
+        "SUID" : 6023,
         "operating" : 464.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Mix of guages, switches and pressure transmittters",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR_METR",
         "ldtext" : "Refer to Controlled Document YVWCD-2-6159  Pressure Instrumentation Installations for details of standard practice for installation.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 617.0,
+        "To_be_removed" : "",
         "notoperating" : 48.0,
+        "structural_node" : "",
         "name" : "PRESR_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 197.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1083.3471112866682
+        "x" : -5828.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79573",
+        "id" : "6021",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3174,30 +3892,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PRESR_TRANSDUCERS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79573,
+        "SUID" : 6021,
         "operating" : 454.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR_TRANSDUCERS",
         "ldtext" : "Refer to Controlled Document YVWCD-2-6159  Pressure Instrumentation Installations for details of standard practice for installation.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 668.0,
+        "To_be_removed" : "",
         "notoperating" : 207.0,
+        "structural_node" : "",
         "name" : "PRESR_TRANSDUCERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42942.0
       },
       "position" : {
-        "x" : -259.06321463841596,
-        "y" : 1333.3471112866682
+        "x" : -5478.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79569",
+        "id" : "6019",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3210,30 +3932,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PRESR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79569,
+        "SUID" : 6019,
         "operating" : 24.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Mix of pressure switches and guages, will need to change this to pressure switch categorisation and migrate out guages",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 27.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PRESR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 195.0
       },
       "position" : {
-        "x" : -259.06321463841596,
-        "y" : 1083.3471112866682
+        "x" : -5828.707501626567,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79565",
+        "id" : "6017",
         "parent" : "PRESSURE_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Sensors",
@@ -3246,53 +3972,64 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PRESR_TRANSMTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79565,
+        "SUID" : 6017,
         "operating" : 59.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR/PRESR_TRANSMTR",
         "ldtext" : "Refer to Controlled Document YVWCD-2-6159  Pressure Instrumentation Installations for details of standard practice for installation.",
         "network_node_colour" : 20.0,
         "number_of_assets" : 63.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PRESR_TRANSMTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1067.0
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : 1083.3471112866682
+        "x" : -5478.707501626567,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79563",
+        "id" : "6015",
         "parent" : "MECHANICAL",
         "degree_layout" : 10,
         "asset_class_plan" : "M&E - Pressure Sensors",
         "description" : "Pressure Sensor",
         "shared_name" : "PRESSURE_SENSOR",
         "maximo_classification" : "PRESSURE_SENSOR",
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79563,
+        "SUID" : 6015,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
         "problem_description" : "Creating new classification to group these all up",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_SENSOR",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "PRESSURE_SENSOR"
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1208.3471112866682
+        "x" : -5653.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79559",
+        "id" : "6013",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3305,30 +4042,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_METR/ULTRSNC_FLOW_METR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79559,
+        "SUID" : 6013,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/ULTRSNC_FLOW_METR",
         "ldtext" : " Ultrasonic flow meters typically use the echo of an ultrasonic impulse to determine flow rates.   They may also be combined with level sensors to provide information about depth of flow.  They are typically used in open channel flows and may have significant cost advantages over full bore mag flows in large diameter pipes. These flow meters are distinct from traditional mechanical wheel or \"magflow\" meters that rely on variations in a magnetic field.  (S. Graham, Sept 2019)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ULTRSNC_FLOW_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 498.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : 883.3471112866682
+        "x" : -5378.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79555",
+        "id" : "6011",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3341,30 +4082,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_METR/THERMAL_FLOW_METER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79555,
+        "SUID" : 6011,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/THERMAL_FLOW_METER",
         "ldtext" : "A magnetic flow meter (mag flowmeter) is a volumetric flow meter which does not have any moving parts.  It relies on Faraday's law that describes the relationship between a conductor (water) moving in a magnetic field and inducing a voltage.Mag flow meters may be either insertion or in line (full body) type.  (S. Graham, Nov 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "THERMAL_FLOW_METER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64621.0
       },
       "position" : {
-        "x" : -1334.063214638416,
-        "y" : 1133.3471112866682
+        "x" : -5003.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79551",
+        "id" : "6009",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3377,30 +4122,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_RECORDER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79551,
+        "SUID" : 6009,
         "operating" : 24.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This includes pressure and flow measures, but is also the classification that's displayed on GIS so will need to discuss with them how we can clean this up",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/NDW_RECORDER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 36.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_RECORDER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 462.0
       },
       "position" : {
-        "x" : -1409.063214638416,
-        "y" : 1008.3471112866682
+        "x" : -5378.707501626567,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79547",
+        "id" : "6007",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3413,30 +4162,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_RECORDER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79547,
+        "SUID" : 6007,
         "operating" : 1657.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This includes pressure and flow measures, but is also the classification that's displayed on GIS so will need to discuss with them how we can clean this up",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/DW_RECORDER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 1748.0,
+        "To_be_removed" : "",
         "notoperating" : 9.0,
+        "structural_node" : "",
         "name" : "DW_RECORDER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 431.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 1133.3471112866682
+        "x" : -5003.707501626567,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79543",
+        "id" : "6005",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3449,30 +4202,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_METR/MAGFLOW_FLOW_METR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79543,
+        "SUID" : 6005,
         "operating" : 16.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/MAGFLOW_FLOW_METR",
         "ldtext" : "A magnetic flow meter (mag flowmeter) is a volumetric flow meter which does not have any moving parts.  It relies on Faraday's law that describes the relationship between a conductor (water) moving in a magnetic field and inducing a voltage.Mag flow meters may be either insertion or in line (full body) type.  (S. Graham, Nov 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 18.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MAGFLOW_FLOW_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 454.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 883.3471112866682
+        "x" : -5378.707501626567,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79539",
+        "id" : "6003",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3485,30 +4242,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_SWITCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79539,
+        "SUID" : 6003,
         "operating" : 283.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/FLOW_SWITCH",
         "ldtext" : "Flow switches are sensors that return a digital signal depending on if there is flow / no flow of a liquid or gas in a pipe.   Some flow switches can be set to output at a specific flow point.   Variations include paddle switches, thermal, shuttle / piston or piezo.  They are often used in pump protection applications. This classification does not include flow meters (FLOW_METRS)  which provide an analogue signal over a range of flows or customer billing meters (CUSTMR_METR)   (S.Graham, Oct 2019)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 363.0,
+        "To_be_removed" : "",
         "notoperating" : 45.0,
+        "structural_node" : "",
         "name" : "FLOW_SWITCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 443.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 1133.3471112866682
+        "x" : -5003.707501626567,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79535",
+        "id" : "6001",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3521,29 +4282,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_METR/DOSNG_FLOW_METR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79535,
+        "SUID" : 6001,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER/DOSNG_FLOW_METR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DOSNG_FLOW_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1141.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 883.3471112866682
+        "x" : -5378.707501626567,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79531",
+        "id" : "5999",
         "parent" : "FLOW_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Flowmeters",
@@ -3556,7 +4322,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOW_METR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79531,
+        "SUID" : 5999,
         "operating" : 662.0,
         "new_classification" : "N",
         "selected" : false,
@@ -3568,45 +4334,55 @@ var networks = {"edges%201.csv": {
         "ldtext" : " Flow meters are used to measure flows in open channels or pipes.  The asset classification includes the sensor, mountings, cables, transmitters and display units associated with the flow meter function. This classification does not include the customer billing meters. (S. Graham, Sept 2019)  ",
         "network_node_colour" : 20.0,
         "number_of_assets" : 852.0,
+        "To_be_removed" : "",
         "notoperating" : 21.0,
+        "structural_node" : "",
         "name" : "FLOW_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 127.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : 1133.3471112866682
+        "x" : -5203.707501626567,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79529",
+        "id" : "5997",
         "parent" : "MECHANICAL",
         "degree_layout" : 9,
         "asset_class_plan" : "M&E - Flowmeters",
         "description" : "Flow Meter",
         "shared_name" : "FLOW_METER",
         "maximo_classification" : "FLOW_METER",
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79529,
+        "SUID" : 5997,
+        "new_classification" : "",
         "selected" : false,
         "size_factor" : 2,
         "problem_description" : "This should have a new classification and migrate all current Flow_metr assets",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/FLOW_METER",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
         "name" : "FLOW_METER"
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 1008.3471112866682
+        "x" : -5203.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79525",
+        "id" : "5995",
         "parent" : "CHEMICAL_DOSING",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Calibration Column",
         "planned" : 1.0,
         "shared_name" : "CALBRTN_COLMN",
@@ -3616,30 +4392,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CALBRTN_COLMN",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 79525,
+        "SUID" : 5995,
         "operating" : 40.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_DOSING/CALBRTN_COLMN",
         "ldtext" : "Calibration Columns are used in chemical dosing facilities to enable pump flow rates to be easily determined.  (S.Graham, Aug 2023)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 70.0,
+        "To_be_removed" : "",
         "notoperating" : 14.0,
+        "structural_node" : "",
         "name" : "CALBRTN_COLMN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62321.0
       },
       "position" : {
-        "x" : -1484.063214638416,
-        "y" : -1466.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79521",
+        "id" : "5993",
         "parent" : "CHEMICAL_DOSING",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -3652,30 +4432,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DOSING_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79521,
+        "SUID" : 5993,
         "operating" : 143.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_DOSING/DOSING_PUMP",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 203.0,
+        "To_be_removed" : "",
         "notoperating" : 32.0,
+        "structural_node" : "",
         "name" : "DOSING_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60841.0
       },
       "position" : {
-        "x" : -1559.063214638416,
-        "y" : -1591.6528887133318
+        "x" : -1653.7075016265671,
+        "y" : -2488.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79517",
+        "id" : "5991",
         "parent" : "CHEMICAL_DOSING",
         "degree_layout" : 1,
         "asset_class_plan" : "Chemical - Dosing Facility",
@@ -3688,30 +4472,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CHEMCL_DOSNG_UNIT",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 79517,
+        "SUID" : 5991,
         "operating" : 15.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_DOSING/CHEMCL_DOSNG_UNIT",
+        "ldtext" : "",
         "network_node_colour" : 3.0,
         "number_of_assets" : 21.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "CHEMCL_DOSNG_UNIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1024.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -1466.6528887133318
+        "x" : -1303.7075016265671,
+        "y" : -2488.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79509",
+        "id" : "5989",
         "parent" : "OT",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Human Machine Interface (HMI)",
@@ -3724,31 +4512,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/HMI",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79509,
+        "SUID" : 5989,
         "operating" : 68.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/OT/HMI",
         "ldtext" : "\"HMI's provide a visual interface for operators to view the status of a facility.  They are sometimes configured to enable change of set points or control of the site. S.Graham (Oct, 2019)\"",
         "network_node_colour" : 20.0,
         "number_of_assets" : 70.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HMI",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59204.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -1816.6528887133318
+        "x" : -1228.7075016265671,
+        "y" : -1388.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79503",
+        "id" : "5987",
         "parent" : "OT",
         "degree_layout" : 1,
         "asset_class_plan" : "To Be Removed",
@@ -3761,31 +4552,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SPARE",
         "asset_owner" : "OT",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79503,
+        "SUID" : 5987,
         "operating" : 475.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "To be removed as a classification and all assets migrated to ohter classifications",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/SPARE",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 479.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SPARE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 61901.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -1466.6528887133318
+        "x" : -1228.7075016265671,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79499",
+        "id" : "5985",
         "parent" : "OT",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Control Equipment",
         "planned" : 7.0,
         "shared_name" : "CONTRL_EQUPMNT",
@@ -3795,47 +4592,59 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CONTRL_EQUPMNT",
         "asset_owner" : "OT",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79499,
+        "SUID" : 5985,
         "operating" : 1891.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This is a broad category,should be further divided into other existing relevant classifications.",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/CONTRL_EQUPMNT",
         "ldtext" : "Control Equipment applies to miscellaneous electrical control equipment that is not covered by specific classifications.  It includes any wiring, indicator lights, volt meters, switches, relays etc. PLC, RTU, HMI, Low Voltage Power, Batteries and chargers (BATRY_and CHARGER)  are not included as these have their own asset classificaitons. (S. Graham, Oct 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2162.0,
+        "To_be_removed" : "",
         "notoperating" : 24.0,
+        "structural_node" : "",
         "name" : "CONTRL_EQUPMNT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 74.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -1816.6528887133318
+        "x" : -1678.7075016265671,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79497",
+        "id" : "5983",
         "parent" : "YVW",
         "degree_layout" : 7,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "OT",
         "decommissioned" : 0.0,
         "maximo_classification" : "OT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79497,
+        "SUID" : 5983,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "OT",
@@ -3843,13 +4652,13 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -1616.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79475",
+        "id" : "5981",
         "parent" : "TREATMENT",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Decanter",
@@ -3862,7 +4671,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DECANTERS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79475,
+        "SUID" : 5981,
         "operating" : 9.0,
         "new_classification" : "N",
         "selected" : false,
@@ -3871,38 +4680,50 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/DECANTERS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 11.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DECANTERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45530.0
       },
       "position" : {
-        "x" : -159.06321463841596,
-        "y" : -3491.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79473",
+        "id" : "5979",
         "parent" : "YVW",
         "degree_layout" : 13,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "TREATMENT",
         "decommissioned" : 0.0,
         "maximo_classification" : "TREATMENT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79473,
+        "SUID" : 5979,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "TREATMENT",
@@ -3910,58 +4731,77 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -159.06321463841596,
-        "y" : -3316.652888713332
+        "x" : 846.2924983734329,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79469",
+        "id" : "5977",
         "parent" : "CHEMICAL",
         "degree_layout" : 5,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CHEMICAL_DOSING",
         "decommissioned" : 0.0,
         "maximo_classification" : "CHEMICAL_DOSING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79469,
+        "SUID" : 5977,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_DOSING",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHEMICAL_DOSING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -1591.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -2488.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79463",
+        "id" : "5975",
         "parent" : "YVW",
         "degree_layout" : 4,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CHEMICAL",
         "decommissioned" : 0.0,
         "maximo_classification" : "CHEMICAL",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 79463,
+        "SUID" : 5975,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "CHEMICAL",
@@ -3969,15 +4809,16 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1009.063214638416,
-        "y" : -1591.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79459",
+        "id" : "5973",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Grounds and Buildings",
         "planned" : 0.0,
         "shared_name" : "GRDS_BLDGS",
@@ -3985,30 +4826,36 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "GRDS_BLDGS",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS",
+        "asset_owner" : "",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79459,
+        "SUID" : 5973,
         "operating" : 43.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Mixed bag, deep dive required to workout what each is and move it to grounds or building specific classification",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/GRDS_BLDGS",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 50.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "GRDS_BLDGS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 141.0
       },
       "position" : {
-        "x" : -3034.063214638416,
-        "y" : -3866.652888713332
+        "x" : 1546.2924983734329,
+        "y" : -3313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79455",
+        "id" : "5971",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -4021,29 +4868,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TRACKS_DRIVWYS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79455,
+        "SUID" : 5971,
         "operating" : 59.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/TRACKS_DRIVWYS",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 64.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "TRACKS_DRIVWYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1102.0
       },
       "position" : {
-        "x" : -3109.063214638416,
-        "y" : -3991.652888713332
+        "x" : 2146.292498373433,
+        "y" : -3213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79451",
+        "id" : "5969",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -4056,30 +4908,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/GROUND",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79451,
+        "SUID" : 5969,
         "operating" : 260.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "These will need to be distributed to more specifc classifications. Leo note: looks like none of these are TP assets - they are ERS and SPSs among others, all Sewer or Water Planning assets.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/GROUND",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 298.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "GROUND",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1149.0
       },
       "position" : {
-        "x" : -2559.063214638416,
-        "y" : -3866.652888713332
+        "x" : 1546.2924983734329,
+        "y" : -3563.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79447",
+        "id" : "5967",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -4092,29 +4948,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ROADS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79447,
+        "SUID" : 5967,
         "operating" : 16.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/ROADS",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 20.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ROADS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 478.0
       },
       "position" : {
-        "x" : -2559.063214638416,
-        "y" : -4116.652888713332
+        "x" : 2321.292498373433,
+        "y" : -2963.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79443",
+        "id" : "5965",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -4127,30 +4988,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WATER_SUPPLY",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79443,
+        "SUID" : 5965,
         "operating" : 16.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "To discuss re. buildings/amenities, site water, irrigation systems etc.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/WATER_SUPPLY",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 24.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "WATER_SUPPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1110.0
       },
       "position" : {
-        "x" : -2734.063214638416,
-        "y" : -4116.652888713332
+        "x" : 1396.2924983734329,
+        "y" : -3313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79439",
+        "id" : "5963",
         "parent" : "GROUNDS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Grounds",
@@ -4163,126 +5028,151 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SIGNG",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79439,
+        "SUID" : 5963,
         "operating" : 122.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/GROUNDS/SIGNG",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 131.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "SIGNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1084.0
       },
       "position" : {
-        "x" : -2884.063214638416,
-        "y" : -3866.652888713332
+        "x" : 1321.2924983734329,
+        "y" : -3438.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79437",
+        "id" : "5961",
         "parent" : "SITE",
         "degree_layout" : 9,
         "asset_class_plan" : "Facilities - Grounds",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "GROUNDS",
         "decommissioned" : 0.0,
         "maximo_classification" : "GROUNDS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79437,
+        "SUID" : 5961,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SITE/GROUNDS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GROUNDS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2559.063214638416,
-        "y" : -3991.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3438.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79433",
+        "id" : "5959",
         "parent" : "BOLLRDS_AND_BARS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Bollards and Barriers",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "BARRIERS",
         "decommissioned" : 0.0,
         "maximo_classification" : "BARRIERS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79433,
+        "SUID" : 5959,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BOLLRDS_AND_BARS/BARRIERS",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BARRIERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -2588.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79429",
+        "id" : "5957",
         "parent" : "BOLLRDS_AND_BARS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Bollards and Barriers",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "BOLLARDS",
         "decommissioned" : 0.0,
         "maximo_classification" : "BOLLARDS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79429,
+        "SUID" : 5957,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BOLLRDS_AND_BARS/BOLLARDS",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BOLLARDS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1409.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79425",
+        "id" : "5955",
         "parent" : "BOLLRDS_AND_BARS",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Security",
@@ -4295,29 +5185,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GATE",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 79425,
+        "SUID" : 5955,
         "operating" : 33.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/BOLLRDS_AND_BARS/GATE",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 33.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GATE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 138.0
       },
       "position" : {
-        "x" : -1234.063214638416,
-        "y" : -4316.652888713332
+        "x" : 1496.2924983734329,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79423",
+        "id" : "5953",
         "parent" : "SITE",
         "degree_layout" : 4,
         "asset_class_plan" : "Facilities - Bollards and Barriers",
@@ -4330,7 +5225,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/BOLLRDS_AND_BARS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79423,
+        "SUID" : 5953,
         "operating" : 209.0,
         "new_classification" : "N",
         "selected" : false,
@@ -4339,24 +5234,28 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SITE/BOLLRDS_AND_BARS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 261.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "BOLLRDS_AND_BARS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59.0
       },
       "position" : {
-        "x" : -1234.063214638416,
-        "y" : -4191.652888713332
+        "x" : 1671.2924983734329,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79419",
+        "id" : "5951",
         "parent" : "SEWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Sewer Odour Control Facility",
         "planned" : 0.0,
         "shared_name" : "SOC",
@@ -4364,33 +5263,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "SOC",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/FACLTY/S_FACLTY/S_COL_FACLTY/SOC",
+        "asset_owner" : "",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79419,
+        "SUID" : 5951,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This is a facility. All assets here need to be deep dived and worked out if their individual assets have been captured",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/SOC",
         "ldtext" : "Sewer Odour Control Facilities are installed to manage gas (primarily H2S) levels both within the sewer system and leaving the system.   The can either be passive and consist of media filters to absorb H2S or may be chemical based (magnesium hydroxide or ferrous chloride) to prevent the formation of H2S(gas)   Sites with vents only are not considered to be Sewer Odour Control Facilities  (S.Graham, July 2023)",
         "network_node_colour" : -2.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1180.0
       },
       "position" : {
-        "x" : -309.06321463841596,
-        "y" : -2491.652888713332
+        "x" : -103.70750162656714,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79415",
+        "id" : "5949",
         "parent" : "SEWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Sewer Pipe",
         "planned" : 0.0,
         "shared_name" : "S_PIPE",
@@ -4398,30 +5303,36 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "S_PIPE",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_PIPE",
+        "asset_owner" : "",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79415,
+        "SUID" : 5949,
         "operating" : 8.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Classification to be sorted into other classes then removed",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/S_PIPE",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 8.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "S_PIPE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 491.0
       },
       "position" : {
-        "x" : -309.06321463841596,
-        "y" : -2066.652888713332
+        "x" : -578.7075016265671,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79403",
+        "id" : "5947",
         "parent" : "SEWER",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Rising Mains",
@@ -4434,7 +5345,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_PIPE/S_RISING_MAIN",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79403,
+        "SUID" : 5947,
         "operating" : 775.0,
         "new_classification" : "N",
         "selected" : false,
@@ -4446,36 +5357,47 @@ var networks = {"edges%201.csv": {
         "ldtext" : " Asset Classification includes rising mains (aka force mains) from pump stations.  Classification does not include the risers within the wet wells or the reticulation network in areas serviced by pressure sewers.(S Graham July 2017)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 979.0,
+        "To_be_removed" : "",
         "notoperating" : 175.0,
+        "structural_node" : "",
         "name" : "S_RISING_MAIN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1183.0
       },
       "position" : {
-        "x" : 65.93678536158404,
-        "y" : -2491.652888713332
+        "x" : -103.70750162656714,
+        "y" : -1488.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79397",
+        "id" : "5945",
         "parent" : "YVW",
         "degree_layout" : 13,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SEWER",
         "decommissioned" : 0.0,
         "maximo_classification" : "SEWER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79397,
+        "SUID" : 5945,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "SEWER",
@@ -4483,15 +5405,16 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -309.06321463841596,
-        "y" : -2291.652888713332
+        "x" : -353.70750162656714,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79393",
+        "id" : "5943",
         "parent" : "WATER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Filling Station",
         "planned" : 0.0,
         "shared_name" : "FILLNG_STATN",
@@ -4501,41 +5424,47 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FILLNG_STATN",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79393,
+        "SUID" : 5943,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Deep dive - to be removed from this list - leave as a location",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/FILLNG_STATN",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FILLNG_STATN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1040.0
       },
       "position" : {
-        "x" : -1284.063214638416,
-        "y" : -2966.652888713332
+        "x" : 1746.2924983734329,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79389",
+        "id" : "5941",
         "parent" : "WATER",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Ferrules",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "FERRULES",
         "decommissioned" : 0.0,
         "maximo_classification" : "FERRULES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79389,
+        "SUID" : 5941,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -4544,32 +5473,37 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/FERRULES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FERRULES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1084.063214638416,
-        "y" : -3391.652888713332
+        "x" : 1246.2924983734329,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79385",
+        "id" : "5939",
         "parent" : "WATER",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Distribution Mains",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DISTRIBUTION_MAINS",
         "decommissioned" : 0.0,
         "maximo_classification" : "DISTRIBUTION_MAINS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79385,
+        "SUID" : 5939,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -4578,21 +5512,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/DISTRIBUTION_MAINS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DISTRIBUTION_MAINS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1084.063214638416,
-        "y" : -2966.652888713332
+        "x" : 1746.2924983734329,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79375",
+        "id" : "5937",
         "parent" : "WATER",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Particle Dispersion Devices",
@@ -4605,46 +5542,59 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/PARTCL_DISPRSIN_DEVC",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 79375,
+        "SUID" : 5937,
         "operating" : 789.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/PARTCL_DISPRSIN_DEVC",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 842.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "PARTCL_DISPRSIN_DEVC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 469.0
       },
       "position" : {
-        "x" : -1284.063214638416,
-        "y" : -3391.652888713332
+        "x" : 1246.2924983734329,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79369",
+        "id" : "5935",
         "parent" : "YVW",
         "degree_layout" : 12,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "WATER",
         "decommissioned" : 0.0,
         "maximo_classification" : "WATER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 79369,
+        "SUID" : 5935,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 1,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER",
+        "ldtext" : "",
         "network_node_colour" : 21.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "WATER",
@@ -4652,13 +5602,13 @@ var networks = {"edges%201.csv": {
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1084.063214638416,
-        "y" : -3166.652888713332
+        "x" : 1496.2924983734329,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79365",
+        "id" : "5933",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4671,29 +5621,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/FACLTY/W_FACLTY/DW_FACLTY/DWSCOUR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79365,
+        "SUID" : 5933,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/DWSCOUR",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DWSCOUR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 509.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : 433.3471112866682
+        "x" : -4853.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79361",
+        "id" : "5931",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4706,29 +5661,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE_GATE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79361,
+        "SUID" : 5931,
         "operating" : 85.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/VALVE_GATE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 91.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VALVE_GATE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 312.0
       },
       "position" : {
-        "x" : -9.063214638415957,
-        "y" : 558.3471112866682
+        "x" : -4453.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79357",
+        "id" : "5929",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4741,30 +5701,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_ISOL_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79357,
+        "SUID" : 5929,
         "operating" : 8250.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/S_ISOL_VLV",
         "ldtext" : " Sewerage Isolation Valves are used to prevent flow in a pipe.  They may be knifegate, globe or penstocks.  In normal operation they are generally open and are only closed to isolate a pipeline.  They may be manually operated or operated under power using an actuator.  (S. Graham Sept 2017)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 8359.0,
+        "To_be_removed" : "",
         "notoperating" : 28.0,
+        "structural_node" : "",
         "name" : "S_ISOL_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 490.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 683.3471112866682
+        "x" : -4853.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79353",
+        "id" : "5927",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4777,29 +5741,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_ISOL_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79353,
+        "SUID" : 5927,
         "operating" : 8713.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/NDW_ISOL_VLV",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 8836.0,
+        "To_be_removed" : "",
         "notoperating" : 9.0,
+        "structural_node" : "",
         "name" : "NDW_ISOL_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 459.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 433.3471112866682
+        "x" : -4453.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79349",
+        "id" : "5925",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4812,30 +5781,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_ISOL_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79349,
+        "SUID" : 5925,
         "operating" : 105362.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/DW_ISOL_VLV",
         "ldtext" : " Isolation valves located on reticulation, distribution and transfer water mains.  Located to minimise shut off block sizes and enable isolation of sections of main to undertake maintenance activities.    May be either knife gate or butterfly style.  (S. Graham Feb 2018)",
         "network_node_colour" : 11.0,
         "number_of_assets" : 112230.0,
+        "To_be_removed" : "",
         "notoperating" : 471.0,
+        "structural_node" : "",
         "name" : "DW_ISOL_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1143.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 683.3471112866682
+        "x" : -4853.707501626567,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79345",
+        "id" : "5923",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4848,30 +5821,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PENSTOCK",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79345,
+        "SUID" : 5923,
         "operating" : 120.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/PENSTOCK",
         "ldtext" : "Penstocks are typically used in open channel flows to stop or redirect flows.  At YVW they are typically used to isolate sewerage wet wells and they are also used in treatment plant processes.   Note that this classification does not include isolation valves located on pressurized systems or stop boards that are manually installed.  (S. Graham, Sept 2019)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 140.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "PENSTOCK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45531.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 433.3471112866682
+        "x" : -4453.707501626567,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79341",
+        "id" : "5921",
         "parent" : "ISOLATION_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Isolation Valves",
@@ -4884,63 +5861,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STOPBOARD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79341,
+        "SUID" : 5921,
         "operating" : 19.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE/STOPBOARD",
         "ldtext" : "  Stopboards (also known as  drop boards or bulkheads) are used in the sewerage network to restrict or prevent flows in a sewer.  They are typically lowered into a manhole and fit inside a rebate.  They differ from penstocks in that they can be lifted from a manhole and are not permanently fixed.  They may be either planks that are stacked on top of each other or full face boards.    (S.Graham. Feb 2019)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 19.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STOPBOARD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58503.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : 683.3471112866682
+        "x" : -4653.707501626567,
+        "y" : -1488.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79339",
+        "id" : "5919",
         "parent" : "MECHANICAL",
         "degree_layout" : 8,
         "asset_class_plan" : "M&E - Isolation Valves",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "ISOLATION_VALVE",
         "decommissioned" : 0.0,
         "maximo_classification" : "ISOLATION_VALVE",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79339,
+        "SUID" : 5919,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/ISOLATION_VALVE",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ISOLATION_VALVE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 558.3471112866682
+        "x" : -4653.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79335",
+        "id" : "5917",
         "parent" : "PRESSURE_EQUIP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
@@ -4953,30 +5940,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ACCUMULATOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79335,
+        "SUID" : 5917,
         "operating" : 24.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_EQUIP/ACCUMULATOR",
         "ldtext" : "An accumulator is a pressure storage reservoir in which water  is held under pressure  applied by compressed air.  Accumulators may be used to buffer pressure fluctuations in water pipework and either  reduce water hammer events or reduce pump starts on small pumped supply systems.Compliance Note:  accumulators may required regular inspection and maintenance to satisfy OH&S regulations.   (S.Graham, Aug 2019)  ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 27.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "ACCUMULATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 43.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -91.65288871333178
+        "x" : -3903.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79331",
+        "id" : "5915",
         "parent" : "PRESSURE_EQUIP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
@@ -4989,30 +5980,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PRESR_VESL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79331,
+        "SUID" : 5915,
         "operating" : 24.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_EQUIP/PRESR_VESL",
         "ldtext" : " Pressure Vessels may be used by YVW for a number of functionsWater hammer attenuationOperation of pneumatic valves.Reduce pump starts on small pump supplied systems.Note:  There is some overlap with the YVW_POINTACCUMULATOR classification that needs to be resolved.Regulations  OH&S Regulations 2017  r105 Employer must ensure that plant is inspected to the extent necessary.r106 Records of maintenance and inspections must be kept for pressure vessels with as AS4343 Hazard Rating Level of A,B,C Australian StandardsAS4343 Pressure Equipment - Hazard Levels AS3788 Pressure Equipment in service inspections   Asset Management PlanWorkSafe Victoria recommends inspections be periodically carried out of Air receivers greater than 100MPA.L by a competent person. Recommended minimum frequency for AS3788: Commissioning inspection, 2yrs External Inspection, 4 years internal inspection. Suggests visual inspection before/during us. ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 127.0,
+        "To_be_removed" : "",
         "notoperating" : 80.0,
+        "structural_node" : "",
         "name" : "PRESR_VESL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1159.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : 158.34711128666822
+        "x" : -3553.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79327",
+        "id" : "5913",
         "parent" : "PRESSURE_EQUIP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
@@ -5025,30 +6020,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE/PRESR_RELIEF_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79327,
+        "SUID" : 5913,
         "operating" : 197.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_EQUIP/PRESR_RELIEF_VLV",
         "ldtext" : "Pressure relief valves are a safety device on pressurized systems . This classification does not include PRV's used to regulate water pressure at WBS sites. These require an annual inspection.  Australian StandardsAS4343 Pressure Equipment - Hazard Levels AS3788 Pressure Equipment in service inspections (S.Graham, Feb 2021)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 246.0,
+        "To_be_removed" : "",
         "notoperating" : 7.0,
+        "structural_node" : "",
         "name" : "PRESR_RELIEF_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 61121.0
       },
       "position" : {
-        "x" : -1134.063214638416,
-        "y" : 33.34711128666822
+        "x" : -3903.707501626567,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79323",
+        "id" : "5911",
         "parent" : "PRESSURE_EQUIP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
@@ -5061,62 +6060,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE/VALVESUS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79323,
+        "SUID" : 5911,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_EQUIP/VALVESUS",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VALVESUS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64121.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : 158.34711128666822
+        "x" : -3728.707501626567,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79321",
+        "id" : "5909",
         "parent" : "MECHANICAL",
         "degree_layout" : 5,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PRESSURE_EQUIP",
         "decommissioned" : 0.0,
         "maximo_classification" : "PRESSURE_EQUIP",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79321,
+        "SUID" : 5909,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/PRESSURE_EQUIP",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PRESSURE_EQUIP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : 33.34711128666822
+        "x" : -3728.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79317",
+        "id" : "5907",
         "parent" : "VALVE_ACTUATION",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Valve Actuation",
@@ -5129,29 +6139,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE/SOLENOID_VALVE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79317,
+        "SUID" : 5907,
         "operating" : 89.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/VALVE_ACTUATION/SOLENOID_VALVE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 89.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLENOID_VALVE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63943.0
       },
       "position" : {
-        "x" : 290.93678536158404,
-        "y" : -466.6528887133318
+        "x" : -3128.707501626567,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79313",
+        "id" : "5905",
         "parent" : "VALVE_ACTUATION",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Valve Actuation",
@@ -5164,30 +6179,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ACTUTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79313,
+        "SUID" : 5905,
         "operating" : 281.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/VALVE_ACTUATION/ACTUTR",
         "ldtext" : "Valve actuators are used to open and close valves and regulate the flow of liquids, with electrical actuators being powered by an electric motor. ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 366.0,
+        "To_be_removed" : "",
         "notoperating" : 62.0,
+        "structural_node" : "",
         "name" : "ACTUTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 44.0
       },
       "position" : {
-        "x" : 290.93678536158404,
-        "y" : -716.6528887133318
+        "x" : -2778.707501626567,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79309",
+        "id" : "5903",
         "parent" : "VALVE_ACTUATION",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Valve Actuation",
@@ -5200,62 +6219,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GEARBX",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79309,
+        "SUID" : 5903,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/VALVE_ACTUATION/GEARBX",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 74.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "GEARBX",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 139.0
       },
       "position" : {
-        "x" : 465.93678536158404,
-        "y" : -591.6528887133318
+        "x" : -2953.707501626567,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79307",
+        "id" : "5901",
         "parent" : "MECHANICAL",
         "degree_layout" : 4,
         "asset_class_plan" : "M&E - Valve Actuation",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "VALVE_ACTUATION",
         "decommissioned" : 0.0,
         "maximo_classification" : "VALVE_ACTUATION",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79307,
+        "SUID" : 5901,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/VALVE_ACTUATION",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VALVE_ACTUATION",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 290.93678536158404,
-        "y" : -591.6528887133318
+        "x" : -2953.707501626567,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79303",
+        "id" : "5899",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5268,29 +6298,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CNTRL_VLV/NDW_CNTRL_VLV_NR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79303,
+        "SUID" : 5899,
         "operating" : 89.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/NDW_CNTRL_VLV_NR",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 98.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "NDW_CNTRL_VLV_NR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 525.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : 1208.3471112866682
+        "x" : -5878.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79299",
+        "id" : "5897",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5303,30 +6338,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_BACKFLW_PREV_DEVC",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79299,
+        "SUID" : 5897,
         "operating" : 8315.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/DW_BACKFLW_PREV_DEVC",
         "ldtext" : "DW_BACKFLW_PREV_DEVC classsifcation is used for customer owned backflow prevention devices.   This classificaition does not apply to RPZD valves owned and maintained by YVW.  These should have the classification DW_BACKFLW_PRVE_DEVC  (S. Graham, July 2019)",
         "network_node_colour" : 11.0,
         "number_of_assets" : 8623.0,
+        "To_be_removed" : "",
         "notoperating" : 296.0,
+        "structural_node" : "",
         "name" : "DW_BACKFLW_PREV_DEVC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 423.0
       },
       "position" : {
-        "x" : -1459.063214638416,
-        "y" : 1458.3471112866682
+        "x" : -5503.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79295",
+        "id" : "5895",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5339,30 +6378,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_RPZD_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79295,
+        "SUID" : 5895,
         "operating" : 199.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/DW_RPZD_VLV",
         "ldtext" : "Reduced Pressure Zone Devices (RPZD) are used to prevent potentially contaminated liquids from being drawn back into the drinking water system.  This may happen in certain circumstances where a loss of pressure in the water mains may siphon contaminated water or other hazardous liquids back into the water supply system. There is a compliance obligation to test these annually.  Requirements for the installation, use, maintenance and testing of these devices is  outlined in the Australian Standard Series AS2845.  Note: This classification only applies to RPZD owned and maintained by YVW.   Backflow prevention devices that are owned and maintained by our customers should have the classification DW_BACKFLW_PREV_DEVC.    (S.Graham, July 2019)   ",
         "network_node_colour" : 11.0,
         "number_of_assets" : 262.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "DW_RPZD_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1144.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : 1333.3471112866682
+        "x" : -5878.707501626567,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79291",
+        "id" : "5893",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5375,29 +6418,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_RPZD_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79291,
+        "SUID" : 5893,
         "operating" : 18.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/NDW_RPZD_VLV",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 29.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_RPZD_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 463.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : 1458.3471112866682
+        "x" : -5503.707501626567,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79287",
+        "id" : "5891",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5410,29 +6458,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CNTRL_VLV/DW_CNTRL_VLV_NR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79287,
+        "SUID" : 5891,
         "operating" : 976.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/DW_CNTRL_VLV_NR",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 1093.0,
+        "To_be_removed" : "",
         "notoperating" : 21.0,
+        "structural_node" : "",
         "name" : "DW_CNTRL_VLV_NR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 514.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : 1208.3471112866682
+        "x" : -5878.707501626567,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79283",
+        "id" : "5889",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5445,29 +6498,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VALVE/CHECK_VALVE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79283,
+        "SUID" : 5889,
         "operating" : 53.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/CHECK_VALVE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 53.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHECK_VALVE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63941.0
       },
       "position" : {
-        "x" : -1159.063214638416,
-        "y" : 1458.3471112866682
+        "x" : -5503.707501626567,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79279",
+        "id" : "5887",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5480,30 +6538,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_CNTRL_VLV/S_CNTRL_VLV_NR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79279,
+        "SUID" : 5887,
         "operating" : 353.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/S_CNTRL_VLV_NR",
         "ldtext" : " Sewerage Control Valves - Non Return are valves located on sewerage rising mains that allow flow in one direction only.  They are installed to prevent sewage from draining back into the wet well when the pumps are not operating.  They may also be referred to as check or reflux valves.  (S. Graham Sept 2017)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 427.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "S_CNTRL_VLV_NR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 545.0
       },
       "position" : {
-        "x" : -1159.063214638416,
-        "y" : 1208.3471112866682
+        "x" : -5878.707501626567,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79275",
+        "id" : "5885",
         "parent" : "NON_RETURN_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Non Return Devices",
@@ -5516,63 +6578,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/COVER/FLAP_GATE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79275,
+        "SUID" : 5885,
         "operating" : 102.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES/FLAP_GATE",
         "ldtext" : "Flap gates are installed at ERS and prevent drainage water from flowing back into the sewer when the hydraulic grade of the the water way is higher than the sewer hydraulic grade line.  This classification does not include reflux valves installed at pumping stations or RPZD to prevent backflow contamination of the drinking water network. (S. Graham, Mar 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 124.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "FLAP_GATE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 440.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : 1458.3471112866682
+        "x" : -5703.707501626567,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79273",
+        "id" : "5883",
         "parent" : "MECHANICAL",
         "degree_layout" : 9,
         "asset_class_plan" : "M&E - Non Return Devices",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "NON_RETURN_DEVICES",
         "decommissioned" : 0.0,
         "maximo_classification" : "NON_RETURN_DEVICES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79273,
+        "SUID" : 5883,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/NON_RETURN_DEVICES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NON_RETURN_DEVICES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : 1333.3471112866682
+        "x" : -5703.707501626567,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79269",
+        "id" : "5881",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pressure Vessels and Relief Valves",
@@ -5585,29 +6657,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PRESR_VALVES",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79269,
+        "SUID" : 5881,
         "operating" : 256.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/PRESR_VALVES",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 278.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "PRESR_VALVES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 198.0
       },
       "position" : {
-        "x" : 65.93678536158404,
-        "y" : 758.3471112866682
+        "x" : -5353.707501626567,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79265",
+        "id" : "5879",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5620,29 +6697,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CNTRL_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79265,
+        "SUID" : 5879,
         "operating" : 26.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/DW_CNTRL_VLV",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 37.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "DW_CNTRL_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1142.0
       },
       "position" : {
-        "x" : 140.93678536158404,
-        "y" : 883.3471112866682
+        "x" : -4978.707501626567,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79261",
+        "id" : "5877",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5655,29 +6737,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CNTRL_VLV",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79261,
+        "SUID" : 5877,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/NDW_CNTRL_VLV",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_CNTRL_VLV",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 457.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 758.3471112866682
+        "x" : -5353.707501626567,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79257",
+        "id" : "5875",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5690,30 +6777,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PRESSURE_DAMPENER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79257,
+        "SUID" : 5875,
         "operating" : 23.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/PRESSURE_DAMPENER",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 26.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PRESSURE_DAMPENER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65001.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 1008.3471112866682
+        "x" : -4978.707501626567,
+        "y" : -1463.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79253",
+        "id" : "5873",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5726,29 +6817,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CNTRL_VLV/NDW_CNTRL_VLV_GLB",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79253,
+        "SUID" : 5873,
         "operating" : 16.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/NDW_CNTRL_VLV_GLB",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 16.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_CNTRL_VLV_GLB",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 523.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 758.3471112866682
+        "x" : -5153.707501626567,
+        "y" : -1413.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79249",
+        "id" : "5871",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5761,29 +6857,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CNTRL_VLV/NDW_CNTRL_VLV_NDL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79249,
+        "SUID" : 5871,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/NDW_CNTRL_VLV_NDL",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_CNTRL_VLV_NDL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 524.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 1008.3471112866682
+        "x" : -4978.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79245",
+        "id" : "5869",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5796,29 +6897,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CNTRL_VLV/DW_CNTRL_VLV_GLB",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79245,
+        "SUID" : 5869,
         "operating" : 469.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/DW_CNTRL_VLV_GLB",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 534.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "DW_CNTRL_VLV_GLB",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1171.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : 758.3471112866682
+        "x" : -5353.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79241",
+        "id" : "5867",
         "parent" : "CONTROL_VALVES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Control Valves",
@@ -5831,62 +6937,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CNTRL_VLV/DW_CNTRL_VLV_NDL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79241,
+        "SUID" : 5867,
         "operating" : 25.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES/DW_CNTRL_VLV_NDL",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 25.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DW_CNTRL_VLV_NDL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 513.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : 1008.3471112866682
+        "x" : -4978.707501626567,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79239",
+        "id" : "5865",
         "parent" : "MECHANICAL",
         "degree_layout" : 9,
         "asset_class_plan" : "M&E - Control Valves",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CONTROL_VALVES",
         "decommissioned" : 0.0,
         "maximo_classification" : "CONTROL_VALVES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79239,
+        "SUID" : 5865,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/CONTROL_VALVES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CONTROL_VALVES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 883.3471112866682
+        "x" : -5153.707501626567,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79235",
+        "id" : "5863",
         "parent" : "AIR_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Air Relief Valves",
@@ -5899,29 +7016,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_CNTRL_VLV/NDW_CNTRL_VLV_AIR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79235,
+        "SUID" : 5863,
         "operating" : 111.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/AIR_VALVE/NDW_CNTRL_VLV_AIR",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 114.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_CNTRL_VLV_AIR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1174.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -166.65288871333178
+        "x" : -3078.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79231",
+        "id" : "5861",
         "parent" : "AIR_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Air Relief Valves",
@@ -5934,30 +7056,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_CNTRL_VLV/S_CNTRL_VLV_AIR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79231,
+        "SUID" : 5861,
         "operating" : 332.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/AIR_VALVE/S_CNTRL_VLV_AIR",
         "ldtext" : " Classification is intended for air-valves on sewage rising mains that are intended to release or draw air into the main.  It does not include pneumatic actuated control valves such as found on on treatment plant filters.",
         "network_node_colour" : 6.0,
         "number_of_assets" : 400.0,
+        "To_be_removed" : "",
         "notoperating" : 25.0,
+        "structural_node" : "",
         "name" : "S_CNTRL_VLV_AIR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 544.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -291.6528887133318
+        "x" : -3428.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79227",
+        "id" : "5859",
         "parent" : "AIR_VALVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Air Relief Valves",
@@ -5970,61 +7096,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_CNTRL_VLV/DW_CNTRL_VLV_AIR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79227,
+        "SUID" : 5859,
         "operating" : 1890.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/AIR_VALVE/DW_CNTRL_VLV_AIR",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 1985.0,
+        "To_be_removed" : "",
         "notoperating" : 30.0,
+        "structural_node" : "",
         "name" : "DW_CNTRL_VLV_AIR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 510.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -416.6528887133318
+        "x" : -3253.707501626567,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79225",
+        "id" : "5857",
         "parent" : "MECHANICAL",
         "degree_layout" : 4,
         "asset_class_plan" : "M&E - Air Relief Valves",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "AIR_VALVE",
         "decommissioned" : 0.0,
         "maximo_classification" : "AIR_VALVE",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "A",
-        "SUID" : 79225,
+        "SUID" : 5857,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/AIR_VALVE",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AIR_VALVE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -291.6528887133318
+        "x" : -3253.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79221",
+        "id" : "5855",
         "parent" : "LEVEL_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Level Sensors",
@@ -6037,30 +7175,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/SEWER_LEVL_FLOAT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79221,
+        "SUID" : 5855,
         "operating" : 185.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR/SEWER_LEVL_FLOAT",
         "ldtext" : "Floats are used to indicate when the level of liquid  in a storage is above or below a certain level.  Unlike level sensors they provide a binary (0,1) output.  Note this classification is very similar to the FLOAT classification.  (S.Graham, Oct 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 187.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "SEWER_LEVL_FLOAT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 239.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 233.34711128666822
+        "x" : -4328.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79217",
+        "id" : "5853",
         "parent" : "LEVEL_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Level Sensors",
@@ -6073,30 +7215,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/LEVL_SENSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79217,
+        "SUID" : 5853,
         "operating" : 786.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR/LEVL_SENSR",
         "ldtext" : " Level sensors detect the level of liquid within a storage vessel or pipe.  Level sensors classification includes level swtiches, hydrostatic,  ultrasonic and radar.  It does not include floats which are a separate asset classification FLOAT or SEWER_LEVL_FLOAT.Although hystrostatic sensors are technically pressure sensors and not level sensors they are included in this classification for consistency. Any associated equipment including  also includes cables, glands, support brackets,  signal conditioning and indicating instruments are considered to be part of the level sensor asset.  This classification does not include pressure sensors installed on pipelines. (S. Graham, Feb 2018) ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 1053.0,
+        "To_be_removed" : "",
         "notoperating" : 41.0,
+        "structural_node" : "",
         "name" : "LEVL_SENSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 452.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 483.3471112866682
+        "x" : -3978.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79213",
+        "id" : "5851",
         "parent" : "LEVEL_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Level Sensors",
@@ -6109,30 +7255,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/FLOAT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79213,
+        "SUID" : 5851,
         "operating" : 390.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR/FLOAT",
         "ldtext" : "Floats are used to indicate when the level of liquid  in a storage is above or below a certain level.  Unlike level sensors they provide a binary (0,1) output.  (S.Graham, Oct 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 420.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "FLOAT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1043.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 233.34711128666822
+        "x" : -4328.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79209",
+        "id" : "5849",
         "parent" : "LEVEL_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Level Sensors",
@@ -6145,30 +7295,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/LEVEL_SWITCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79209,
+        "SUID" : 5849,
         "operating" : 173.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR/LEVEL_SWITCH",
         "ldtext" : "Level switches provide a digital output.   Note FLOATS are a seperate classification.  LEVEL_SENSRS are also a seperate classification as they provide an analogue out put of the level.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 222.0,
+        "To_be_removed" : "",
         "notoperating" : 36.0,
+        "structural_node" : "",
         "name" : "LEVEL_SWITCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45382.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 483.3471112866682
+        "x" : -3978.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79205",
+        "id" : "5847",
         "parent" : "LEVEL_SENSOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Level Sensors",
@@ -6181,61 +7335,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/LEVEL TRANSMITTER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79205,
+        "SUID" : 5847,
         "operating" : 12.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR/LEVEL TRANSMITTER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 12.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "LEVEL TRANSMITTER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64061.0
       },
       "position" : {
-        "x" : -1109.063214638416,
-        "y" : 358.3471112866682
+        "x" : -4153.707501626567,
+        "y" : -1588.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79203",
+        "id" : "5845",
         "parent" : "MECHANICAL",
         "degree_layout" : 6,
         "asset_class_plan" : "M&E - Level Sensors",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "LEVEL_SENSOR",
         "decommissioned" : 0.0,
         "maximo_classification" : "LEVEL_SENSOR",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79203,
+        "SUID" : 5845,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/LEVEL_SENSOR",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "LEVEL_SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 358.3471112866682
+        "x" : -4153.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79199",
+        "id" : "5843",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6248,30 +7414,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/SENSOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79199,
+        "SUID" : 5843,
         "operating" : 34.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Assets need to move to proper Classifications, and get rid of this classification",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/SENSOR",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 37.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 236.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 2108.347111286668
+        "x" : -6778.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79195",
+        "id" : "5841",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6284,30 +7454,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/DO_PROBE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79195,
+        "SUID" : 5841,
         "operating" : 31.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/DO_PROBE",
         "ldtext" : "Dissolved Oxygen probes are located in the treatment plant reactors to measure the dissolved oxygen content and control the aeration system (S. Graham, Sept 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 44.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "DO_PROBE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45301.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1408.3471112866682
+        "x" : -6928.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79191",
+        "id" : "5839",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6320,29 +7494,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/SUSP_SENSOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79191,
+        "SUID" : 5839,
         "operating" : 17.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/SUSP_SENSOR",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 32.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "SUSP_SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45524.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1508.3471112866682
+        "x" : -7078.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79187",
+        "id" : "5837",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6355,29 +7534,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/CHLORINE_SENSOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79187,
+        "SUID" : 5837,
         "operating" : 16.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/CHLORINE_SENSOR",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 16.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHLORINE_SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63581.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1608.3471112866682
+        "x" : -7228.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79183",
+        "id" : "5835",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6390,30 +7574,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/H2S_SENSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79183,
+        "SUID" : 5835,
         "operating" : 38.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/H2S_SENSR",
         "ldtext" : "H2S Sensors are used in the either sewer or treatment plant applications. They may be installed temporarily in manholes for odour investigations (Odalog units) Permanent installations are located at SOC and SPS, these may be for breakthrough detection, dosing control or OH&S reasons.  (S. Graham, Oct 2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 41.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "H2S_SENSR",
         "cancelled" : 0.0,
         "inconstruction" : 1.0,
         "classstructureuid" : 447.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1708.3471112866682
+        "x" : -7303.707501626567,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79179",
+        "id" : "5833",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6426,29 +7614,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WQ_PROBE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79179,
+        "SUID" : 5833,
         "operating" : 49.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/WQ_PROBE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 49.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WQ_PROBE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59481.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1808.3471112866682
+        "x" : -6003.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79175",
+        "id" : "5831",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6461,30 +7654,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/EC_SENSOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79175,
+        "SUID" : 5831,
         "operating" : 13.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/EC_SENSOR",
         "ldtext" : "EC Sensors are used to measure the electrical conductivity which is a measure of salt quantity in water.  They are typically installed at Class A plants (RPS) or at Water Quality Stations (WQS & RQS).  (S.Graham, Oct2020)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 13.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "EC_SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45523.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1908.3471112866682
+        "x" : -6003.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79171",
+        "id" : "5829",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6497,30 +7694,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/SIGNAL ISOLATOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79171,
+        "SUID" : 5829,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This isn't actually a sensor but a component installed between sensors and OT equipment, probably just leave it in analysers for now",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/SIGNAL ISOLATOR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SIGNAL ISOLATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64041.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 2008.3471112866682
+        "x" : -6178.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79167",
+        "id" : "5827",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6533,29 +7734,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/WQ_SENSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79167,
+        "SUID" : 5827,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/WQ_SENSR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 5.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WQ_SENSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45542.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 2208.347111286668
+        "x" : -6178.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79163",
+        "id" : "5825",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6568,29 +7774,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PH/DO_ANALYSER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79163,
+        "SUID" : 5825,
         "operating" : 59.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/PH/DO_ANALYSER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 64.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PH/DO_ANALYSER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58062.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : 1408.3471112866682
+        "x" : -6328.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79159",
+        "id" : "5823",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6603,30 +7814,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/TEMPERATURE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79159,
+        "SUID" : 5823,
         "operating" : 102.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/TEMPERATURE",
         "ldtext" : " Includes any instrument primarily used for measuring temperature.It does not include pH sensors which measure temperature secondarily.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 122.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "TEMPERATURE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45483.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1608.3471112866682
+        "x" : -6328.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79155",
+        "id" : "5821",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6639,29 +7854,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PH_METER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79155,
+        "SUID" : 5821,
         "operating" : 67.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/PH_METER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 92.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "PH_METER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45261.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1708.3471112866682
+        "x" : -6478.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79151",
+        "id" : "5819",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6674,29 +7894,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/TURBDTY_ANLYSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79151,
+        "SUID" : 5819,
         "operating" : 30.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/TURBDTY_ANLYSR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 43.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "TURBDTY_ANLYSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1166.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1808.3471112866682
+        "x" : -6478.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79147",
+        "id" : "5817",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6709,30 +7934,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/AMMONIA_ANLYSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79147,
+        "SUID" : 5817,
         "operating" : 13.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/AMMONIA_ANLYSR",
         "ldtext" : " This classifications includes instruments used to measure ammonia concentrations. It also includes instruments which measure multiple nutrient parameters, such as Chemscans.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 20.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "AMMONIA_ANLYSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 409.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1908.3471112866682
+        "x" : -6628.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79143",
+        "id" : "5815",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6745,29 +7974,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/CHLORINE_ANLYSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79143,
+        "SUID" : 5815,
         "operating" : 78.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/CHLORINE_ANLYSR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 96.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "CHLORINE_ANLYSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 416.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 2008.3471112866682
+        "x" : -6628.707501626567,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79139",
+        "id" : "5813",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6780,29 +8014,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AUTOSAMPLER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79139,
+        "SUID" : 5813,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/AUTOSAMPLER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AUTOSAMPLER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58182.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 2108.347111286668
+        "x" : -6778.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79135",
+        "id" : "5811",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6815,29 +8054,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SOIL_PROBE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79135,
+        "SUID" : 5811,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/SOIL_PROBE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOIL_PROBE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1091.0
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : 2258.347111286668
+        "x" : -6928.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79131",
+        "id" : "5809",
         "parent" : "ANALYSER",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Analysers",
@@ -6850,29 +8094,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/ORP_ANLYSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 79131,
+        "SUID" : 5809,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER/ORP_ANLYSR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ORP_ANLYSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45522.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : 1508.3471112866682
+        "x" : -7078.707501626567,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79129",
+        "id" : "5807",
         "parent" : "MECHANICAL",
         "degree_layout" : 19,
         "asset_class_plan" : "M&E - Analysers",
@@ -6885,7 +8134,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/ANALYSER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79129,
+        "SUID" : 5807,
         "operating" : 14.0,
         "new_classification" : "N",
         "selected" : false,
@@ -6894,22 +8143,25 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/ANALYSER",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 14.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ANALYSER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62601.0
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : 1408.3471112866682
+        "x" : -6003.707501626567,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79125",
+        "id" : "5805",
         "parent" : "RTU_PLC",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - PLCs and RTUs",
@@ -6922,30 +8174,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RTU",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79125,
+        "SUID" : 5805,
         "operating" : 1132.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/RTU_PLC/RTU",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 5.0,
         "number_of_assets" : 1228.0,
+        "To_be_removed" : "",
         "notoperating" : 14.0,
+        "structural_node" : "",
         "name" : "RTU",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 215.0
       },
       "position" : {
-        "x" : 415.93678536158404,
-        "y" : -1416.6528887133318
+        "x" : -1703.7075016265671,
+        "y" : -1263.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79121",
+        "id" : "5803",
         "parent" : "RTU_PLC",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - PLCs and RTUs",
@@ -6958,63 +8214,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PLC",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79121,
+        "SUID" : 5803,
         "operating" : 363.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/RTU_PLC/PLC",
         "ldtext" : " PLC (Programmable Logic Controller)  an industrial digital computer  which has been ruggedized and adapted for the control of manufacturing processes, such as assembly lines, or robotic devices, or any activity that requires high reliability control and ease of programming and process fault diagnosis.  (Wikipedia, 2019).  YVW typically uses PLC's to control treatment plants and water pumping stations.  Control of less complex facilities such as sewage pumping stations are generally by remote telemetry units (RTU) (S. Graham, June 2019)",
         "network_node_colour" : 5.0,
         "number_of_assets" : 430.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "PLC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 191.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -1291.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -1388.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79119",
+        "id" : "5801",
         "parent" : "OT",
         "degree_layout" : 3,
         "asset_class_plan" : "OT - PLCs and RTUs",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "RTU_PLC",
         "decommissioned" : 0.0,
         "maximo_classification" : "RTU_PLC",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79119,
+        "SUID" : 5801,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/OT/RTU_PLC",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "RTU_PLC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -1416.6528887133318
+        "x" : -1703.7075016265671,
+        "y" : -1388.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79115",
+        "id" : "5799",
         "parent" : "BACKUP_POWER_SUPPLY",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Backup Power Supply",
@@ -7027,29 +8293,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/BATRY_AND_CHARGER",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79115,
+        "SUID" : 5799,
         "operating" : 649.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/BACKUP_POWER_SUPPLY/BATRY_AND_CHARGER",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 743.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "BATRY_AND_CHARGER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 55.0
       },
       "position" : {
-        "x" : 565.936785361584,
-        "y" : -1891.6528887133318
+        "x" : -903.7075016265671,
+        "y" : -1263.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79111",
+        "id" : "5797",
         "parent" : "BACKUP_POWER_SUPPLY",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Backup Power Supply",
@@ -7062,29 +8333,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/BATTERY",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79111,
+        "SUID" : 5797,
         "operating" : 14.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/BACKUP_POWER_SUPPLY/BATTERY",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 15.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BATTERY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63741.0
       },
       "position" : {
-        "x" : 215.93678536158404,
-        "y" : -1891.6528887133318
+        "x" : -1078.7075016265671,
+        "y" : -1138.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79107",
+        "id" : "5795",
         "parent" : "BACKUP_POWER_SUPPLY",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Backup Power Supply",
@@ -7097,62 +8373,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/UNINTRPTD_POWR_SUPLY",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79107,
+        "SUID" : 5795,
         "operating" : 195.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/BACKUP_POWER_SUPPLY/UNINTRPTD_POWR_SUPLY",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 198.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "UNINTRPTD_POWR_SUPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 307.0
       },
       "position" : {
-        "x" : 390.93678536158404,
-        "y" : -2016.6528887133318
+        "x" : -1078.7075016265671,
+        "y" : -1388.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79105",
+        "id" : "5793",
         "parent" : "OT",
         "degree_layout" : 4,
         "asset_class_plan" : "OT - Backup Power Supply",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "BACKUP_POWER_SUPPLY",
         "decommissioned" : 0.0,
         "maximo_classification" : "BACKUP_POWER_SUPPLY",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79105,
+        "SUID" : 5793,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/OT/BACKUP_POWER_SUPPLY",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BACKUP_POWER_SUPPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 390.93678536158404,
-        "y" : -1891.6528887133318
+        "x" : -1078.7075016265671,
+        "y" : -1263.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79101",
+        "id" : "5791",
         "parent" : "COM_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cabinets",
@@ -7165,30 +8452,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TELMTRY",
         "asset_owner" : "OT",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79101,
+        "SUID" : 5791,
         "operating" : 33.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This is a broad category,should be further divided into other existing relevant classifications.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/TELMTRY",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 45.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "TELMTRY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 302.0
       },
       "position" : {
-        "x" : 490.93678536158404,
-        "y" : -1491.6528887133318
+        "x" : -1653.7075016265671,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79097",
+        "id" : "5789",
         "parent" : "COM_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -7201,29 +8492,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/NETWORK_SWITCH",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79097,
+        "SUID" : 5789,
         "operating" : 121.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/NETWORK_SWITCH",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 121.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NETWORK_SWITCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58882.0
       },
       "position" : {
-        "x" : 490.93678536158404,
-        "y" : -1741.6528887133318
+        "x" : -1303.7075016265671,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79093",
+        "id" : "5787",
         "parent" : "COM_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Communication Devices",
@@ -7236,29 +8532,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/LAND_LINE",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79093,
+        "SUID" : 5787,
         "operating" : 122.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/LAND_LINE",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 161.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "LAND_LINE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1054.0
       },
       "position" : {
-        "x" : 665.936785361584,
-        "y" : -1491.6528887133318
+        "x" : -1653.7075016265671,
+        "y" : -1088.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79089",
+        "id" : "5785",
         "parent" : "COM_DEVICES",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Communication Devices",
@@ -7271,62 +8572,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MODEM",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79089,
+        "SUID" : 5785,
         "operating" : 331.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/MODEM",
+        "ldtext" : "",
         "network_node_colour" : 5.0,
         "number_of_assets" : 540.0,
+        "To_be_removed" : "",
         "notoperating" : 9.0,
+        "structural_node" : "",
         "name" : "MODEM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 176.0
       },
       "position" : {
-        "x" : 665.936785361584,
-        "y" : -1741.6528887133318
+        "x" : -1303.7075016265671,
+        "y" : -1088.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79085",
+        "id" : "5783",
         "parent" : "OT",
         "degree_layout" : 6,
         "asset_class_plan" : "OT - Communication Devices",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "COM_DEVICES",
         "decommissioned" : 0.0,
         "maximo_classification" : "COM_DEVICES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 79085,
+        "SUID" : 5783,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/OT/COM_DEVICES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "COM_DEVICES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 490.93678536158404,
-        "y" : -1616.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79081",
+        "id" : "5781",
         "parent" : "PROPERTY_CON_BRANCH",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Property Connection Branch",
@@ -7339,30 +8651,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_BACKFLW_PREV_DEVC",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79081,
+        "SUID" : 5781,
         "operating" : 75.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PROPERTY_CON_BRANCH/S_BACKFLW_PREV_DEVC",
         "ldtext" : "Sewage  backflow prevention devices are located on a number of customers house connection branches to prevent sewage surcharging into the customers property during storm events.  They are only installed where there is a history of customer spills caused by hydraulic deficiency of the sewer. This classification does not include:Non-return valves installed at pump stations to prevent the rising main draining back into the wet well.  Flap gates installed on ERS to prevent stormwater flows from entering the sewer.  RPZD devices installed to protect the potable water system from cross contamination (S. Graham, May 2018)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 113.0,
+        "To_be_removed" : "",
         "notoperating" : 30.0,
+        "structural_node" : "",
         "name" : "S_BACKFLW_PREV_DEVC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1163.0
       },
       "position" : {
-        "x" : 415.93678536158404,
-        "y" : -2091.652888713332
+        "x" : -753.7075016265671,
+        "y" : -1213.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79077",
+        "id" : "5779",
         "parent" : "PROPERTY_CON_BRANCH",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Property Connection Branch",
@@ -7375,63 +8691,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_PIPE/S_SERVICE_LINE",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79077,
+        "SUID" : 5779,
         "operating" : 715155.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PROPERTY_CON_BRANCH/S_SERVICE_LINE",
         "ldtext" : "The connection between a customers sanitary drain / house connection drain (HCD) and the sewer. May also be known asHouse Connection Branches (HCB)Property LateralsNeed to confirm if pressure sewer connections should be included in this classification.   ",
         "network_node_colour" : 6.0,
         "number_of_assets" : 724316.0,
+        "To_be_removed" : "",
         "notoperating" : 1885.0,
+        "structural_node" : "",
         "name" : "S_SERVICE_LINE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 549.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -1966.6528887133318
+        "x" : -928.7075016265671,
+        "y" : -1338.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79075",
+        "id" : "5777",
         "parent" : "SEWER",
         "degree_layout" : 3,
         "asset_class_plan" : "Sewer - Property Connection Branch",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PROPERTY_CON_BRANCH",
         "decommissioned" : 0.0,
         "maximo_classification" : "PROPERTY_CON_BRANCH",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79075,
+        "SUID" : 5777,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/PROPERTY_CON_BRANCH",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PROPERTY_CON_BRANCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 240.93678536158404,
-        "y" : -2091.652888713332
+        "x" : -753.7075016265671,
+        "y" : -1338.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79071",
+        "id" : "5775",
         "parent" : "PRESSURE_AREA",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Pressure Areas",
@@ -7444,63 +8770,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_PIPE/S_PRESSURE",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79071,
+        "SUID" : 5775,
         "operating" : 1793.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PRESSURE_AREA/S_PRESSURE",
         "ldtext" : " Classification includes the reticulation pipework in areas serviced by pressure sewers.  It does not include rising mains from SPS (S_RISING_MAIN)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 1894.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "S_PRESSURE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 547.0
       },
       "position" : {
-        "x" : 65.93678536158404,
-        "y" : -1966.6528887133318
+        "x" : 46.29249837343286,
+        "y" : -1213.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79069",
+        "id" : "5773",
         "parent" : "SEWER",
         "degree_layout" : 2,
         "asset_class_plan" : "Sewer - Pressure Areas",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PRESSURE_AREA",
         "decommissioned" : 0.0,
         "maximo_classification" : "PRESSURE_AREA",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79069,
+        "SUID" : 5773,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/PRESSURE_AREA",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PRESSURE_AREA",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 65.93678536158404,
-        "y" : -2091.652888713332
+        "x" : -128.70750162656714,
+        "y" : -1213.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79065",
+        "id" : "5771",
         "parent" : "PRESSURE_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Pressure Systems",
@@ -7513,31 +8849,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/PSS_TANK",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79065,
+        "SUID" : 5771,
         "operating" : 4296.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Missing Data",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PRESSURE_SYS/PSS_TANK",
         "ldtext" : "On property tank containing pump and level sensing equipment.  Holds household effluent until pump cut in is reached.Typically around 700-1000l and made from moulded PE or fibreglass.  (S. Graham, Oct 2019)   ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 4310.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PSS_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57741.0
       },
       "position" : {
-        "x" : 365.93678536158404,
-        "y" : -2891.652888713332
+        "x" : 521.2924983734329,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79061",
+        "id" : "5769",
         "parent" : "PRESSURE_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Pressure Systems",
@@ -7550,31 +8889,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PSS_CONTROL",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79061,
+        "SUID" : 5769,
         "operating" : 4331.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Missing Data",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PRESSURE_SYS/PSS_CONTROL",
         "ldtext" : "Pressure Sewer Control panels are located at customers properties and provide the motor starting and logic control functions for the pressure sewer unit.  A number of them may be fitted with telemetry via mobile network for one or two way communications.  Classification includes the cabinet, telemetry, visual and audible alarms, pump controller(S.Graham, Oct 2019) Note: In March 2022 Aquatec advised that  they\nare currently experiencing a shortage of components that make up our Control\npanels.\n To\nensure we don’t delay the installation contractor – PSSA & Aquatec have\ncome up with a process that will allow for installation to occur without\ninterference with the customers experience.\n For\nYVW to be able to have visibility of assets onsite it has been decided that the\nControl panels that are missing the modem component will have a Serial number\nending with “-NM�? (No Modem).\n PSSA\nhave confirmed and agreed that at the time of installing the pump into the\nmachine, PSSA will install the modem in the control panel. They will add into\nthe GISUPDATE log, ‘modem installed.’    ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 4358.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PSS_CONTROL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59261.0
       },
       "position" : {
-        "x" : 715.936785361584,
-        "y" : -2891.652888713332
+        "x" : 521.2924983734329,
+        "y" : -938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79057",
+        "id" : "5767",
         "parent" : "PRESSURE_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Pressure Systems",
@@ -7587,31 +8929,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/BOUNDARY_KIT",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79057,
+        "SUID" : 5767,
         "operating" : 2831.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Missing Data",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PRESSURE_SYS/BOUNDARY_KIT",
         "ldtext" : "Installed on pressure sewers near the property  boundary to\nprovide an isolation point and prevent backflow.  Often referred to as BVK.   Isolation valve, check valve and valve box and lid are considered to be part of the asset. (S. Graham, Jan 2020)   ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2839.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "BOUNDARY_KIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57721.0
       },
       "position" : {
-        "x" : 365.93678536158404,
-        "y" : -2991.652888713332
+        "x" : 696.2924983734329,
+        "y" : -1188.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79053",
+        "id" : "5765",
         "parent" : "PRESSURE_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Pressure Systems",
@@ -7624,64 +8969,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/PSS_LVLSENSR",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79053,
+        "SUID" : 5765,
         "operating" : 3242.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Missing Data",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/PRESSURE_SYS/PSS_LVLSENSR",
         "ldtext" : " Level sensors detect the level of liquid within a storage vessel or pipe.  Level sensors classification includes level swtiches, hydrostatic,  ultrasonic and radar.  It does not include floats which are a separate asset classification FLOAT or SEWER_LEVL_FLOAT.Although hystrostatic sensors are technically pressure sensors and not level sensors they are included in this classification for consistency. Any associated equipment including  also includes cables, glands, support brackets,  signal conditioning and indicating instruments are considered to be part of the level sensor asset.  This classification does not include pressure sensors installed on pipelines. (S. Graham, Feb 2018) ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 3260.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "PSS_LVLSENSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62081.0
       },
       "position" : {
-        "x" : 540.936785361584,
-        "y" : -3041.652888713332
+        "x" : 771.2924983734329,
+        "y" : -1063.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79051",
+        "id" : "5763",
         "parent" : "SEWER",
         "degree_layout" : 5,
         "asset_class_plan" : "Sewer - Pressure Systems",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PRESSURE_SYS",
         "decommissioned" : 0.0,
         "maximo_classification" : "PRESSURE_SYS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79051,
+        "SUID" : 5763,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/PRESSURE_SYS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PRESSURE_SYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 540.936785361584,
-        "y" : -2891.652888713332
+        "x" : 521.2924983734329,
+        "y" : -1063.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79047",
+        "id" : "5761",
         "parent" : "VENTS_CANISTERS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Vents and Carbon Canister",
@@ -7694,31 +9048,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/VENTILATION",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79047,
+        "SUID" : 5761,
         "operating" : 37.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Some Fans in here",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/VENTS_CANISTERS/VENTILATION",
         "ldtext" : "VENTILATION classification is used for ductwork at tanks and storages to enable air turnover to allow for pressure equalisation during empty and filling operations or to assist in temperature control in switch rooms. Note it does not include vents located on sewage pipelines used to ventilate the sewer (S_VENT)It also does not include air conditioners ( AIR_CONDTNG) or fans (FAN)  (S.Graham , Oct 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 71.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "VENTILATION",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 321.0
       },
       "position" : {
-        "x" : 540.936785361584,
-        "y" : -2091.652888713332
+        "x" : -653.7075016265671,
+        "y" : -888.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79043",
+        "id" : "5759",
         "parent" : "VENTS_CANISTERS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Vents and Carbon Canister",
@@ -7731,30 +9088,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CARBON_CANSTR",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79043,
+        "SUID" : 5759,
         "operating" : 73.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/VENTS_CANISTERS/CARBON_CANSTR",
         "ldtext" : "Classification used for carbon canisters or other adsorbent media used for gas phase odour control purposes.  Not to be used for granular activated carbon (GAC)  used for liquid phase treatment.  (S.Graham, Sept 2020)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 143.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "CARBON_CANSTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64.0
       },
       "position" : {
-        "x" : 890.936785361584,
-        "y" : -2091.652888713332
+        "x" : -828.7075016265671,
+        "y" : -1013.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79039",
+        "id" : "5757",
         "parent" : "VENTS_CANISTERS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Vents and Carbon Canister",
@@ -7767,63 +9128,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_VENT",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79039,
+        "SUID" : 5757,
         "operating" : 1488.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/VENTS_CANISTERS/S_VENT",
         "ldtext" : " Asset Classification includes vents located on the reticulation and branch sewers:  IncludesMMBW style (base with separate tube)WSAA designLow level vents (mushroom)Green DomesCarbon CanistersThe type of vent and whether or not there is an odour filter attached is defined in the asset specificiation. More complex odour control facilities (chemical dosing, powered or telemetered sites  are classified as sewer odour control (SOC) facilities.   Does not include air valves on rising mains or ventilation on customers house connection branches. The vent asset includes the vent tube and base, foundations and any associated airlines.  Asset Numbering - Replacement of historic tube & base vents with WSAA standard vents are recorded as works on the existing asset.   New assets are only created in Maximo if the vent is relocated and the GIS needs to be updated as well.    ",
         "network_node_colour" : 6.0,
         "number_of_assets" : 1642.0,
+        "To_be_removed" : "",
         "notoperating" : 49.0,
+        "structural_node" : "",
         "name" : "S_VENT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 494.0
       },
       "position" : {
-        "x" : 715.936785361584,
-        "y" : -1966.6528887133318
+        "x" : -653.7075016265671,
+        "y" : -1138.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79037",
+        "id" : "5755",
         "parent" : "SEWER",
         "degree_layout" : 4,
         "asset_class_plan" : "Sewer - Vents and Carbon Canister",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "VENTS_CANISTERS",
         "decommissioned" : 0.0,
         "maximo_classification" : "VENTS_CANISTERS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79037,
+        "SUID" : 5755,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/VENTS_CANISTERS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "VENTS_CANISTERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 715.936785361584,
-        "y" : -2091.652888713332
+        "x" : -653.7075016265671,
+        "y" : -1013.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79033",
+        "id" : "5753",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -7833,31 +9204,36 @@ var networks = {"edges%201.csv": {
         "decommissioned" : 0.0,
         "maximo_classification" : "WELL",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79033,
+        "SUID" : 5753,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All moved off -  Steve as fixed this, remove classification",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/WELL",
+        "ldtext" : "",
         "network_node_colour" : 6.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WELL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 865.936785361584,
-        "y" : -2416.652888713332
+        "x" : -153.70750162656714,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79029",
+        "id" : "5751",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -7870,31 +9246,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_STORAGE/S_DETNTION_TANK",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79029,
+        "SUID" : 5751,
         "operating" : 15.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "S_ACCESS has some of these as well - ideally these needs to be split off as they come out of the asset exchange",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/S_DETNTION_TANK",
         "ldtext" : " Classification is for sewage emergency storages located at pump stations and flow control facility tanks. ",
         "network_node_colour" : 6.0,
         "number_of_assets" : 17.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "S_DETNTION_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 546.0
       },
       "position" : {
-        "x" : 865.936785361584,
-        "y" : -2166.652888713332
+        "x" : -528.7075016265671,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79025",
+        "id" : "5749",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -7907,31 +9286,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WELLWASH",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79025,
+        "SUID" : 5749,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "There are move, must be -missclassified",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/WELLWASH",
         "ldtext" : "\"HMI's provide a visual interface for operators to view the status of a facility.  They are sometimes configured to enable change of set points or control of the site. S.Graham (Oct, 2019)\"",
         "network_node_colour" : 6.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WELLWASH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60881.0
       },
       "position" : {
-        "x" : 1040.936785361584,
-        "y" : -2416.652888713332
+        "x" : -153.70750162656714,
+        "y" : -813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79021",
+        "id" : "5747",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -7944,29 +9326,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STORG_STRUCTR",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 79021,
+        "SUID" : 5747,
         "operating" : 6.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/STORG_STRUCTR",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 7.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STORG_STRUCTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 286.0
       },
       "position" : {
-        "x" : 1040.936785361584,
-        "y" : -2166.652888713332
+        "x" : -528.7075016265671,
+        "y" : -813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79017",
+        "id" : "5745",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -7979,30 +9366,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/HOSE",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79017,
+        "SUID" : 5745,
         "operating" : 57.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/HOSE",
         "ldtext" : "Classification includes hoses and hose reels for wash down purposes.  Note Firefighting hoses and equipment has a separate classification  FIRE_EQUPMNT",
         "network_node_colour" : 6.0,
         "number_of_assets" : 92.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HOSE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1052.0
       },
       "position" : {
-        "x" : 1190.936785361584,
-        "y" : -2416.652888713332
+        "x" : -153.70750162656714,
+        "y" : -713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79013",
+        "id" : "5743",
         "parent" : "WET_WELLS",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -8015,30 +9406,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/S_STORAGE_FLUSH",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79013,
+        "SUID" : 5743,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/WET_WELLS/S_STORAGE_FLUSH",
         "ldtext" : "Pump stools are used with submersible pumps. The claw of the pump seats onto the stool. The stool is fixed to the floor of the well .  The stool also has a flanged connection to the  RISER pipework and have fixing points for the guide rails.   (S.Graham, Oct 2019)",
         "network_node_colour" : 6.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "S_STORAGE_FLUSH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59221.0
       },
       "position" : {
-        "x" : 1265.936785361584,
-        "y" : -2291.652888713332
+        "x" : -353.70750162656714,
+        "y" : -663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79011",
+        "id" : "5741",
         "parent" : "SEWER",
         "degree_layout" : 7,
         "asset_class_plan" : "Sewer - Wet Wells",
@@ -8051,7 +9446,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_STORAGE/WET_WELLS",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79011,
+        "SUID" : 5741,
         "operating" : 65.0,
         "new_classification" : "N",
         "selected" : false,
@@ -8063,20 +9458,22 @@ var networks = {"edges%201.csv": {
         "ldtext" : " WET_WELLS classification includes the concrete wet wells at sewage pumping stations (SPS)  and treatment plant inlet works (IPS).It does not include emergency storages or dry wells. ",
         "network_node_colour" : 20.0,
         "number_of_assets" : 94.0,
+        "To_be_removed" : "",
         "notoperating" : 10.0,
+        "structural_node" : "",
         "name" : "WET_WELLS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1184.0
       },
       "position" : {
-        "x" : 865.936785361584,
-        "y" : -2291.652888713332
+        "x" : -353.70750162656714,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79007",
+        "id" : "5739",
         "parent" : "S_MAIN_BRANCH",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Main and Branch",
@@ -8089,97 +9486,112 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/S/S_PIPE/S_GRVTY_MAIN",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79007,
+        "SUID" : 5739,
         "operating" : 253669.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/S_MAIN_BRANCH/S_GRVTY_MAIN",
         "ldtext" : " Classification includes all gravity sewer pipes.  Includes reticulation, branch and main sewers.  It does not include HCB's (S_SERVICE_LINE) S. Graham July 2017",
         "network_node_colour" : 6.0,
         "number_of_assets" : 257047.0,
+        "To_be_removed" : "",
         "notoperating" : 2834.0,
+        "structural_node" : "",
         "name" : "S_GRVTY_MAIN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1182.0
       },
       "position" : {
-        "x" : 390.93678536158404,
-        "y" : -2816.652888713332
+        "x" : 196.29249837343286,
+        "y" : -1263.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79003",
+        "id" : "5737",
         "parent" : "S_MAIN_BRANCH",
         "degree_layout" : 1,
         "asset_class_plan" : "Sewer - Main and Branch",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SIPHONS",
         "decommissioned" : 0.0,
         "maximo_classification" : "SIPHONS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79003,
+        "SUID" : 5737,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "SEWER_Function = SIPHON ---- currently they sit inside \"S_GRVTY_MAIN\" 555- FEATURE/TABLE - TYPE SIPHON ---- SIPHON ACP should be intergrated into Main and Branch as as sub section",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SEWER/S_MAIN_BRANCH/SIPHONS",
+        "ldtext" : "",
         "network_node_colour" : 6.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SIPHONS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 215.93678536158404,
-        "y" : -2691.652888713332
+        "x" : 371.29249837343286,
+        "y" : -1138.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79001",
+        "id" : "5735",
         "parent" : "SEWER",
         "degree_layout" : 3,
         "asset_class_plan" : "Sewer - Main and Branch",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "S_MAIN_BRANCH",
         "decommissioned" : 0.0,
         "maximo_classification" : "S_MAIN_BRANCH",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "No",
-        "SUID" : 79001,
+        "SUID" : 5735,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SEWER/S_MAIN_BRANCH",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "S_MAIN_BRANCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 390.93678536158404,
-        "y" : -2691.652888713332
+        "x" : 196.29249837343286,
+        "y" : -1138.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78997",
+        "id" : "5733",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8192,31 +9604,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANK_HATCH",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78997,
+        "SUID" : 5733,
         "operating" : 19.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Missing some of these - see no. of tanks",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/TANK_HATCH",
         "ldtext" : "Used for top and side entry hatches into tanks and reservoirs.  May be installed on water, sewer and treatment plant assets.  (S.Graham, July 2023)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 24.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "TANK_HATCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 301.0
       },
       "position" : {
-        "x" : -1684.063214638416,
-        "y" : -2991.652888713332
+        "x" : 1821.2924983734329,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78993",
+        "id" : "5731",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8229,31 +9644,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANK",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78993,
+        "SUID" : 5731,
         "operating" : 207.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Don’t think this should be under water (all TP/Class B/C Tanks)",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/TANK",
         "ldtext" : "Treatment\n  plant tanks (excluding class A).  Includes open and closed above and below\n  ground tanks. Does not include fuel tanks.Does not include potable water tanks.  ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 323.0,
+        "To_be_removed" : "",
         "notoperating" : 28.0,
+        "structural_node" : "",
         "name" : "TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 299.0
       },
       "position" : {
-        "x" : -2084.063214638416,
-        "y" : -2891.652888713332
+        "x" : 1821.2924983734329,
+        "y" : -1163.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78989",
+        "id" : "5729",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8266,30 +9684,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANKS",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78989,
+        "SUID" : 5729,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Deep dive - these need to move",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/TANKS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 5.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "TANKS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 300.0
       },
       "position" : {
-        "x" : -1684.063214638416,
-        "y" : -2891.652888713332
+        "x" : 1996.2924983734329,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78985",
+        "id" : "5727",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8302,29 +9724,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WRS_TANK",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78985,
+        "SUID" : 5727,
         "operating" : 38.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/WRS_TANK",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 42.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "WRS_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57623.0
       },
       "position" : {
-        "x" : -2084.063214638416,
-        "y" : -2791.652888713332
+        "x" : 1996.2924983734329,
+        "y" : -1163.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78981",
+        "id" : "5725",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8337,29 +9764,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RRS_TANK",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78981,
+        "SUID" : 5725,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/RRS_TANK",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "RRS_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57622.0
       },
       "position" : {
-        "x" : -1684.063214638416,
-        "y" : -2791.652888713332
+        "x" : 2146.292498373433,
+        "y" : -913.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78977",
+        "id" : "5723",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
@@ -8372,32 +9804,38 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WTS_TANK",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78977,
+        "SUID" : 5723,
         "operating" : 7.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/WTS_TANK",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 12.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "WTS_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57621.0
       },
       "position" : {
-        "x" : -1884.063214638416,
-        "y" : -2741.652888713332
+        "x" : 2146.292498373433,
+        "y" : -1163.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78973",
+        "id" : "5721",
         "parent" : "WATER_TANKS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Tanks",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "WATER TANK",
         "decommissioned" : 0.0,
@@ -8406,64 +9844,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANK/WATER_TANK",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78973,
+        "SUID" : 5721,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Deep dive - these need to move",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/WATER_TANKS/WATER TANK",
         "ldtext" : "WATER_TANK classification is used for small water tanks.  These are generally small <10,000l and often used to hold water for clean up purposes at SPS sites where reticulated water is not available.  It is not to be used for water storages supplying customers.  (S. Graham, Oct 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WATER TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60741.0
       },
       "position" : {
-        "x" : -2084.063214638416,
-        "y" : -2991.652888713332
+        "x" : 2221.292498373433,
+        "y" : -1038.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78971",
+        "id" : "5719",
         "parent" : "WATER",
         "degree_layout" : 8,
         "asset_class_plan" : "Water - Tanks",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "WATER_TANKS",
         "decommissioned" : 0.0,
         "maximo_classification" : "WATER_TANKS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78971,
+        "SUID" : 5719,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/WATER_TANKS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WATER_TANKS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1884.063214638416,
-        "y" : -2991.652888713332
+        "x" : 1821.2924983734329,
+        "y" : -1038.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78967",
+        "id" : "5717",
         "parent" : "HYDRANTS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Hydrants",
@@ -8476,31 +9923,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/HYDRANT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78967,
+        "SUID" : 5717,
         "operating" : 19.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "move to DW or NDW Hydrants",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/HYDRANTS/HYDRANT",
         "ldtext" : " Winches are used at a number of sites (mostly STP and SFC) to lift pit lids or mixers. Generally they are hand operated and require an annual inspection.  (S. Graham, Mar 2019)",
         "network_node_colour" : 11.0,
         "number_of_assets" : 23.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HYDRANT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58961.0
       },
       "position" : {
-        "x" : -1409.063214638416,
-        "y" : -2691.652888713332
+        "x" : 2246.292498373433,
+        "y" : -1488.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78963",
+        "id" : "5715",
         "parent" : "HYDRANTS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Hydrants",
@@ -8513,29 +9963,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_HYDRANT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78963,
+        "SUID" : 5715,
         "operating" : 85956.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/HYDRANTS/DW_HYDRANT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 97801.0,
+        "To_be_removed" : "",
         "notoperating" : 276.0,
+        "structural_node" : "",
         "name" : "DW_HYDRANT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 427.0
       },
       "position" : {
-        "x" : -1759.063214638416,
-        "y" : -2691.652888713332
+        "x" : 2246.292498373433,
+        "y" : -1238.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78959",
+        "id" : "5713",
         "parent" : "HYDRANTS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Hydrants",
@@ -8548,30 +10003,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FIRE_PLUG",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78959,
+        "SUID" : 5713,
         "operating" : 27.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "move to DW or NDW Hydrants",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/HYDRANTS/FIRE_PLUG",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 27.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FIRE_PLUG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 124.0
       },
       "position" : {
-        "x" : -1409.063214638416,
-        "y" : -2591.652888713332
+        "x" : 2421.292498373433,
+        "y" : -1488.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78955",
+        "id" : "5711",
         "parent" : "HYDRANTS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Hydrants",
@@ -8584,126 +10043,151 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_HYDRANT",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78955,
+        "SUID" : 5711,
         "operating" : 7014.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/HYDRANTS/NDW_HYDRANT",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 9023.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "NDW_HYDRANT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 458.0
       },
       "position" : {
-        "x" : -1584.063214638416,
-        "y" : -2541.652888713332
+        "x" : 2496.292498373433,
+        "y" : -1363.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78953",
+        "id" : "5709",
         "parent" : "WATER",
         "degree_layout" : 5,
         "asset_class_plan" : "Water - Hydrants",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "HYDRANTS",
         "decommissioned" : 0.0,
         "maximo_classification" : "HYDRANTS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78953,
+        "SUID" : 5709,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/HYDRANTS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HYDRANTS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1584.063214638416,
-        "y" : -2691.652888713332
+        "x" : 2246.292498373433,
+        "y" : -1363.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78949",
+        "id" : "5707",
         "parent" : "CUSTMR_METR",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Customer Meters",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DIGITAL_METER",
         "decommissioned" : 0.0,
         "maximo_classification" : "DIGITAL_METER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78949,
+        "SUID" : 5707,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/CUSTMR_METR/DIGITAL_METER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DIGITAL_METER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1259.063214638416,
-        "y" : -2891.652888713332
+        "x" : 946.2924983734329,
+        "y" : -1313.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78945",
+        "id" : "5705",
         "parent" : "CUSTMR_METR",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Customer Meters",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "MECH_METER",
         "decommissioned" : 0.0,
         "maximo_classification" : "MECH_METER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78945,
+        "SUID" : 5705,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/CUSTMR_METR/MECH_METER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MECH_METER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1434.063214638416,
-        "y" : -2766.652888713332
+        "x" : 771.2924983734329,
+        "y" : -1438.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78943",
+        "id" : "5703",
         "parent" : "WATER",
         "degree_layout" : 3,
         "asset_class_plan" : "Water - Customer Meters",
@@ -8716,7 +10200,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CUSTMR_METR",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78943,
+        "SUID" : 5703,
         "operating" : 1165552.0,
         "new_classification" : "N",
         "selected" : false,
@@ -8728,20 +10212,22 @@ var networks = {"edges%201.csv": {
         "ldtext" : "Flow meter installed at customer's property for billing purposes.  (S.Graham, July 2023)",
         "network_node_colour" : 20.0,
         "number_of_assets" : 1270618.0,
+        "To_be_removed" : "",
         "notoperating" : 101439.0,
+        "structural_node" : "",
         "name" : "CUSTMR_METR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 81.0
       },
       "position" : {
-        "x" : -1434.063214638416,
-        "y" : -2891.652888713332
+        "x" : 946.2924983734329,
+        "y" : -1438.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78939",
+        "id" : "5701",
         "parent" : "W_RETIC_MAINS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Reticulation Mains",
@@ -8754,31 +10240,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_PIPE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78939,
+        "SUID" : 5701,
         "operating" : 262827.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Everything but the Dist Mains size <300",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS/DW_PIPE",
         "ldtext" : " Classification includes water mains (transfer, distribution and reticulation)It does not include non-drinking water mains or customer water services.",
         "network_node_colour" : 11.0,
         "number_of_assets" : 293195.0,
+        "To_be_removed" : "",
         "notoperating" : 20296.0,
+        "structural_node" : "",
         "name" : "DW_PIPE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 429.0
       },
       "position" : {
-        "x" : -1834.063214638416,
-        "y" : -3341.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -1238.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78935",
+        "id" : "5699",
         "parent" : "W_RETIC_MAINS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Reticulation Mains",
@@ -8791,29 +10280,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_PIPE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78935,
+        "SUID" : 5699,
         "operating" : 23731.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS/NDW_PIPE",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 24099.0,
+        "To_be_removed" : "",
         "notoperating" : 152.0,
+        "structural_node" : "",
         "name" : "NDW_PIPE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 461.0
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -3341.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -988.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78931",
+        "id" : "5697",
         "parent" : "W_RETIC_MAINS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Reticulation Mains",
@@ -8826,30 +10320,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_BLNK_END",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78931,
+        "SUID" : 5697,
         "operating" : 1893.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Deep dive required",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS/DW_BLNK_END",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 2455.0,
+        "To_be_removed" : "",
         "notoperating" : 282.0,
+        "structural_node" : "",
         "name" : "DW_BLNK_END",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 424.0
       },
       "position" : {
-        "x" : -1834.063214638416,
-        "y" : -3441.652888713332
+        "x" : 971.2924983734329,
+        "y" : -1238.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78927",
+        "id" : "5695",
         "parent" : "W_RETIC_MAINS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Reticulation Mains",
@@ -8862,29 +10360,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_BLNK_END",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78927,
+        "SUID" : 5695,
         "operating" : 226.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS/NDW_BLNK_END",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 375.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "NDW_BLNK_END",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1152.0
       },
       "position" : {
-        "x" : -2184.063214638416,
-        "y" : -3441.652888713332
+        "x" : 971.2924983734329,
+        "y" : -988.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78923",
+        "id" : "5693",
         "parent" : "W_RETIC_MAINS",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Reticulation Mains",
@@ -8897,63 +10400,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_RBP",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78923,
+        "SUID" : 5693,
         "operating" : 8.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Move to NDW_BLNK_END, remove this classification",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS/NDW_RBP",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 16.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "NDW_RBP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64961.0
       },
       "position" : {
-        "x" : -2009.063214638416,
-        "y" : -3491.652888713332
+        "x" : 896.2924983734329,
+        "y" : -1113.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78921",
+        "id" : "5691",
         "parent" : "WATER",
         "degree_layout" : 6,
         "asset_class_plan" : "Water - Reticulation Mains",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "W_RETIC_MAINS",
         "decommissioned" : 0.0,
         "maximo_classification" : "W_RETIC_MAINS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78921,
+        "SUID" : 5691,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/W_RETIC_MAINS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "W_RETIC_MAINS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2009.063214638416,
-        "y" : -3341.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -1113.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78917",
+        "id" : "5689",
         "parent" : "W_MAIN_TO_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Main to Meter",
@@ -8966,29 +10479,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/NDW/NDW_SERVICE_LINE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78917,
+        "SUID" : 5689,
         "operating" : 56657.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_MAIN_TO_METER/NDW_SERVICE_LINE",
+        "ldtext" : "",
         "network_node_colour" : 11.0,
         "number_of_assets" : 57094.0,
+        "To_be_removed" : "",
         "notoperating" : 55.0,
+        "structural_node" : "",
         "name" : "NDW_SERVICE_LINE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 465.0
       },
       "position" : {
-        "x" : -1709.063214638416,
-        "y" : -3366.652888713332
+        "x" : 1921.2924983734329,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78913",
+        "id" : "5687",
         "parent" : "W_MAIN_TO_METER",
         "degree_layout" : 1,
         "asset_class_plan" : "Water - Main to Meter",
@@ -9001,63 +10519,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/DW/DW_SERVICE_LINE",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78913,
+        "SUID" : 5687,
         "operating" : 716328.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/WATER/W_MAIN_TO_METER/DW_SERVICE_LINE",
         "ldtext" : "Pipework between the reticulation pipe and the customers water supply meter. (S Graham Feb 2018) attributes removed from class (S Dickinson Jan 2021)ACTSZINLBSTRPINTSZIPIPELGTHPRCONIDPRODUCTWSLSERV ",
         "network_node_colour" : 11.0,
         "number_of_assets" : 733449.0,
+        "To_be_removed" : "",
         "notoperating" : 1083.0,
+        "structural_node" : "",
         "name" : "DW_SERVICE_LINE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 433.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -3491.652888713332
+        "x" : 2096.292498373433,
+        "y" : -1438.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78911",
+        "id" : "5685",
         "parent" : "WATER",
         "degree_layout" : 3,
         "asset_class_plan" : "Water - Main to Meter",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "W_MAIN_TO_METER",
         "decommissioned" : 0.0,
         "maximo_classification" : "W_MAIN_TO_METER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "WATER",
         "corrective_work_needed" : "No",
-        "SUID" : 78911,
+        "SUID" : 5685,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/WATER/W_MAIN_TO_METER",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "W_MAIN_TO_METER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -3366.652888713332
+        "x" : 1921.2924983734329,
+        "y" : -1438.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78907",
+        "id" : "5683",
         "parent" : "IRRIGATION SYSTEMS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Irrigation",
@@ -9070,62 +10598,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/IRRIGATOR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78907,
+        "SUID" : 5683,
         "operating" : 13.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/IRRIGATION SYSTEMS/IRRIGATOR",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 19.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "IRRIGATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45527.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -3666.652888713332
+        "x" : 421.29249837343286,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78905",
+        "id" : "5681",
         "parent" : "TREATMENT",
         "degree_layout" : 2,
         "asset_class_plan" : "TP - Irrigation Systems",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "IRRIGATION SYSTEMS",
         "decommissioned" : 0.0,
         "maximo_classification" : "IRRIGATION SYSTEMS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78905,
+        "SUID" : 5681,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/IRRIGATION SYSTEMS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "IRRIGATION SYSTEMS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -3541.652888713332
+        "x" : 596.2924983734329,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78901",
+        "id" : "5679",
         "parent" : "DIFFUSERS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Diffusers",
@@ -9138,31 +10677,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AERTR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78901,
+        "SUID" : 5679,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/DIFFUSERS/AERTR",
         "ldtext" : " This classification includes mechanical aerators, such as surface aerators on lagoons and rotor/brush aerators. It does not include diffusers.",
         "network_node_colour" : 12.0,
         "number_of_assets" : 14.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AERTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45.0
       },
       "position" : {
-        "x" : 515.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2963.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78897",
+        "id" : "5677",
         "parent" : "DIFFUSERS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Diffusers",
@@ -9175,30 +10717,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/BELLOWS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78897,
+        "SUID" : 5677,
         "operating" : 51.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/DIFFUSERS/BELLOWS",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 56.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "BELLOWS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62322.0
       },
       "position" : {
-        "x" : 865.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1246.2924983734329,
+        "y" : -2838.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78893",
+        "id" : "5675",
         "parent" : "DIFFUSERS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Diffusers",
@@ -9211,63 +10757,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DIFFSR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78893,
+        "SUID" : 5675,
         "operating" : 27.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/DIFFUSERS/DIFFSR",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 35.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "DIFFSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 89.0
       },
       "position" : {
-        "x" : 690.936785361584,
-        "y" : -2991.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2713.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78891",
+        "id" : "5673",
         "parent" : "TREATMENT",
         "degree_layout" : 4,
         "asset_class_plan" : "TP - Diffusers",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DIFFUSERS",
         "decommissioned" : 0.0,
         "maximo_classification" : "DIFFUSERS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78891,
+        "SUID" : 5673,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/DIFFUSERS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DIFFUSERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 690.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2838.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78887",
+        "id" : "5671",
         "parent" : "PIPEWORKS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Pipeworks",
@@ -9280,30 +10836,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STP_PIPE_ APPURT",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78887,
+        "SUID" : 5671,
         "operating" : 269.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/PIPEWORKS/STP_PIPE_ APPURT",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 485.0,
+        "To_be_removed" : "",
         "notoperating" : 57.0,
+        "structural_node" : "",
         "name" : "STP_PIPE_ APPURT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45532.0
       },
       "position" : {
-        "x" : 1340.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -3038.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78883",
+        "id" : "5669",
         "parent" : "PIPEWORKS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Pipeworks",
@@ -9316,42 +10876,47 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PIPEWORK/PIPE FITTINGS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78883,
+        "SUID" : 5669,
         "operating" : 61.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/PIPEWORKS/PIPE FITTINGS",
         "ldtext" : "Miscellaneous classification.  Mostly used for lengths of pipe and other fittings (bends, tapers) held as spares.  (S.Graham, Jan 2022)",
         "network_node_colour" : 12.0,
         "number_of_assets" : 61.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PIPE FITTINGS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62961.0
       },
       "position" : {
-        "x" : 1165.936785361584,
-        "y" : -2991.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -3288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78881",
+        "id" : "5667",
         "parent" : "TREATMENT",
         "degree_layout" : 4,
         "asset_class_plan" : "TP - Pipeworks",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "PIPEWORKS",
         "decommissioned" : 0.0,
         "maximo_classification" : "PIPEWORKS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78881,
+        "SUID" : 5667,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -9360,21 +10925,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/PIPEWORKS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PIPEWORKS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 1165.936785361584,
-        "y" : -3116.652888713332
+        "x" : 1146.2924983734329,
+        "y" : -3163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78877",
+        "id" : "5665",
         "parent" : "SCREW_BELT_PRESS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screening and Grit Removal",
@@ -9387,30 +10955,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AUGER",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78877,
+        "SUID" : 5665,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREW_BELT_PRESS/AUGER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AUGER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 54.0
       },
       "position" : {
-        "x" : 15.936785361584043,
-        "y" : -3741.652888713332
+        "x" : 271.29249837343286,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78873",
+        "id" : "5663",
         "parent" : "SCREW_BELT_PRESS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screw Press Conveyor Belt",
@@ -9423,42 +10995,47 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/BELT_PRESS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78873,
+        "SUID" : 5663,
         "operating" : 8.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREW_BELT_PRESS/BELT_PRESS",
         "ldtext" : " This includes mechanical equipment used for thickening/dewatering sludge, including belt presses, gravity decks, and their components.",
         "network_node_colour" : 12.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "BELT_PRESS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 56.0
       },
       "position" : {
-        "x" : 190.93678536158404,
-        "y" : -3866.652888713332
+        "x" : 96.29249837343286,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78871",
+        "id" : "5661",
         "parent" : "TREATMENT",
         "degree_layout" : 3,
         "asset_class_plan" : "TP - Screw Press Conveyor Belt",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SCREW_BELT_PRESS",
         "decommissioned" : 0.0,
         "maximo_classification" : "SCREW_BELT_PRESS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78871,
+        "SUID" : 5661,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -9467,21 +11044,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/SCREW_BELT_PRESS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SCREW_BELT_PRESS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 190.93678536158404,
-        "y" : -3741.652888713332
+        "x" : 271.29249837343286,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78867",
+        "id" : "5659",
         "parent" : "LAGOONS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Lagoons",
@@ -9494,31 +11074,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STORG_DAM",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78867,
+        "SUID" : 5659,
         "operating" : 24.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "This may not be an appropriate term, given Dams have very specific requirements",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/LAGOONS/STORG_DAM",
         "ldtext" : " \nClassification includes larger ingound basins, lagoons and open storages. ",
         "network_node_colour" : 12.0,
         "number_of_assets" : 30.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "STORG_DAM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 285.0
       },
       "position" : {
-        "x" : 390.93678536158404,
-        "y" : -3116.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78863",
+        "id" : "5657",
         "parent" : "LAGOONS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Lagoons",
@@ -9531,63 +11114,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TREATMNT_LAGN",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78863,
+        "SUID" : 5657,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Should go, and moved",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/LAGOONS/TREATMNT_LAGN",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "TREATMNT_LAGN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 305.0
       },
       "position" : {
-        "x" : 215.93678536158404,
-        "y" : -2991.652888713332
+        "x" : 1246.2924983734329,
+        "y" : -2513.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78861",
+        "id" : "5655",
         "parent" : "TREATMENT",
         "degree_layout" : 3,
         "asset_class_plan" : "TP - Lagoons",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "LAGOONS",
         "decommissioned" : 0.0,
         "maximo_classification" : "LAGOONS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78861,
+        "SUID" : 5655,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/LAGOONS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "LAGOONS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 215.93678536158404,
-        "y" : -3116.652888713332
+        "x" : 1071.2924983734329,
+        "y" : -2513.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78857",
+        "id" : "5653",
         "parent" : "CLARIFIERS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Clarifiers",
@@ -9600,42 +11193,47 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SCRAPR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78857,
+        "SUID" : 5653,
         "operating" : 26.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Ask Declan",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/CLARIFIERS/SCRAPR",
         "ldtext" : " This refers to mechanical rotating scrapers which remove surface scum and settled sludge from clarifiers at treatment plants. This classification includes both the submerged and surface components of the scraper, such as the scraper arm, roller, submerged rake, support column, and scum box. It does NOT include the mechanical/electrical equipment which moves the scraper (i.e. motor, gearbox).",
         "network_node_colour" : 12.0,
         "number_of_assets" : 69.0,
+        "To_be_removed" : "",
         "notoperating" : 15.0,
+        "structural_node" : "",
         "name" : "SCRAPR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 225.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -2966.652888713332
+        "x" : 1271.2924983734329,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78855",
+        "id" : "5651",
         "parent" : "TREATMENT",
         "degree_layout" : 2,
         "asset_class_plan" : "TP - Clarifiers",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CLARIFIERS",
         "decommissioned" : 0.0,
         "maximo_classification" : "CLARIFIERS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78855,
+        "SUID" : 5651,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -9644,21 +11242,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/CLARIFIERS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CLARIFIERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -3091.652888713332
+        "x" : 1096.2924983734329,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78851",
+        "id" : "5649",
         "parent" : "FILTERING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Filter or Strainer",
@@ -9671,30 +11272,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FILTR_NOZL",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78851,
+        "SUID" : 5649,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "What is this, do we need to capture thesE?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/FILTERING/FILTR_NOZL",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FILTR_NOZL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 120.0
       },
       "position" : {
-        "x" : 890.936785361584,
-        "y" : -3591.652888713332
+        "x" : 496.29249837343286,
+        "y" : -3063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78847",
+        "id" : "5647",
         "parent" : "FILTERING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Filter or Strainer",
@@ -9707,30 +11312,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MEMBRN_MODULE",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78847,
+        "SUID" : 5647,
         "operating" : 165.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/FILTERING/MEMBRN_MODULE",
         "ldtext" : " This classification includes ultrafiltration membrane modules. Typically there are 4 membranes to each vessel, and 8 vessels to each skid, making 32 membranes in total per skid. However, each skid is only assigned one asset ID.",
         "network_node_colour" : 12.0,
         "number_of_assets" : 201.0,
+        "To_be_removed" : "",
         "notoperating" : 34.0,
+        "structural_node" : "",
         "name" : "MEMBRN_MODULE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 170.0
       },
       "position" : {
-        "x" : 1065.936785361584,
-        "y" : -3641.652888713332
+        "x" : 496.29249837343286,
+        "y" : -2813.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78843",
+        "id" : "5645",
         "parent" : "FILTERING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Filter or Strainer",
@@ -9743,30 +11352,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STRAINER",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78843,
+        "SUID" : 5645,
         "operating" : 242.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "description is odd",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/FILTERING/STRAINER",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 278.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "STRAINER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 289.0
       },
       "position" : {
-        "x" : 1240.936785361584,
-        "y" : -3491.652888713332
+        "x" : 321.29249837343286,
+        "y" : -3063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78839",
+        "id" : "5643",
         "parent" : "FILTERING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Filter or Strainer",
@@ -9779,31 +11392,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FILTR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78839,
+        "SUID" : 5643,
         "operating" : 80.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Deep dive, could be valves in here",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/FILTERING/FILTR",
         "ldtext" : " This classification includes tertiary sand filters,upflow clarifier cells, and their components (excluding the filter media). This classification does not include strainers. It does not include carbon canisters for odour control.)",
         "network_node_colour" : 12.0,
         "number_of_assets" : 125.0,
+        "To_be_removed" : "",
         "notoperating" : 12.0,
+        "structural_node" : "",
         "name" : "FILTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 117.0
       },
       "position" : {
-        "x" : 890.936785361584,
-        "y" : -3491.652888713332
+        "x" : 321.29249837343286,
+        "y" : -2813.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78835",
+        "id" : "5641",
         "parent" : "FILTERING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Filter or Strainer",
@@ -9816,63 +11432,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FILTR_MATRL",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78835,
+        "SUID" : 5641,
         "operating" : 8.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "What is this, why does it exist?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/FILTERING/FILTR_MATRL",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 11.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "FILTR_MATRL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1041.0
       },
       "position" : {
-        "x" : 1240.936785361584,
-        "y" : -3591.652888713332
+        "x" : 246.29249837343286,
+        "y" : -2938.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78833",
+        "id" : "5639",
         "parent" : "TREATMENT",
         "degree_layout" : 6,
         "asset_class_plan" : "TP - Filter or Strainer",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "FILTERING",
         "decommissioned" : 0.0,
         "maximo_classification" : "FILTERING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78833,
+        "SUID" : 5639,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/FILTERING",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FILTERING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 1065.936785361584,
-        "y" : -3491.652888713332
+        "x" : 496.29249837343286,
+        "y" : -2938.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78829",
+        "id" : "5637",
         "parent" : "UV_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - UV Systems",
@@ -9885,31 +11511,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/UV_UNIT",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78829,
+        "SUID" : 5637,
         "operating" : 12.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Check, to make sure there is no switchboards in here",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/UV_SYS/UV_UNIT",
         "ldtext" : " This includes UV disinfection systems, both in-pipe reactors and in-channel systems. This includes components such as lamps and ballasts, but does not include UV transmissivity/intensity instruments.",
         "network_node_colour" : 12.0,
         "number_of_assets" : 27.0,
+        "To_be_removed" : "",
         "notoperating" : 7.0,
+        "structural_node" : "",
         "name" : "UV_UNIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 309.0
       },
       "position" : {
-        "x" : 515.936785361584,
-        "y" : -3941.652888713332
+        "x" : 446.29249837343286,
+        "y" : -2713.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78825",
+        "id" : "5635",
         "parent" : "UV_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - UV Systems",
@@ -9922,63 +11551,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/UV_SENSOR",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78825,
+        "SUID" : 5635,
         "operating" : 11.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Move under instruments - Sensors?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/UV_SYS/UV_SENSOR",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 29.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "UV_SENSOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45521.0
       },
       "position" : {
-        "x" : 165.93678536158404,
-        "y" : -3941.652888713332
+        "x" : 621.2924983734329,
+        "y" : -2838.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78823",
+        "id" : "5633",
         "parent" : "TREATMENT",
         "degree_layout" : 4,
         "asset_class_plan" : "TP - UV Systems",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "UV_SYS",
         "decommissioned" : 0.0,
         "maximo_classification" : "UV_SYS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "No",
-        "SUID" : 78823,
+        "SUID" : 5633,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/UV_SYS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "UV_SYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 340.93678536158404,
-        "y" : -3941.652888713332
+        "x" : 621.2924983734329,
+        "y" : -2713.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78819",
+        "id" : "5631",
         "parent" : "SCREENING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screening and Grit Removal",
@@ -9991,31 +11630,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SCREEN",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78819,
+        "SUID" : 5631,
         "operating" : 47.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/SCREEN",
         "ldtext" : "This classification includes both static and mechanised screens.  Mechanised screens are installed at treatment plants whereas static screens may be installed on ERS.  The 'screen' asset should include the components, such as gearboxes, motors, etc.  (S. Graham March 2020) ",
         "network_node_colour" : 12.0,
         "number_of_assets" : 58.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "SCREEN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 227.0
       },
       "position" : {
-        "x" : 1690.936785361584,
-        "y" : -3441.652888713332
+        "x" : 646.2924983734329,
+        "y" : -3363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78815",
+        "id" : "5629",
         "parent" : "SCREENING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screening and Grit Removal",
@@ -10028,30 +11670,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SCR_BIN",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78815,
+        "SUID" : 5629,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/SCR_BIN",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SCR_BIN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58141.0
       },
       "position" : {
-        "x" : 1765.936785361584,
-        "y" : -3316.652888713332
+        "x" : 1021.2924983734329,
+        "y" : -3363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78811",
+        "id" : "5627",
         "parent" : "SCREENING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screening and Grit Removal",
@@ -10064,30 +11710,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GRIT_CLASSIFIER",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78811,
+        "SUID" : 5627,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/GRIT_CLASSIFIER",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GRIT_CLASSIFIER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45529.0
       },
       "position" : {
-        "x" : 1365.936785361584,
-        "y" : -3441.652888713332
+        "x" : 646.2924983734329,
+        "y" : -3463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78807",
+        "id" : "5625",
         "parent" : "SCREENING",
         "degree_layout" : 1,
         "asset_class_plan" : "TP - Screening and Grit Removal",
@@ -10100,41 +11750,47 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GRIT_CHAMBER",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78807,
+        "SUID" : 5625,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Something isnt right here, possible ocnfusion, and then asset may be missing completely",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/TREATMENT/SCREENING/GRIT_CHAMBER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GRIT_CHAMBER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 45528.0
       },
       "position" : {
-        "x" : 1540.936785361584,
-        "y" : -3441.652888713332
+        "x" : 846.2924983734329,
+        "y" : -3513.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78805",
+        "id" : "5623",
         "parent" : "TREATMENT",
         "degree_layout" : 7,
         "asset_class_plan" : "TP - Screening and Grit Removal",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SCREENING",
         "decommissioned" : 0.0,
         "maximo_classification" : "SCREENING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78805,
+        "SUID" : 5623,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -10143,21 +11799,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/TREATMENT/SCREENING",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SCREENING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : 1365.936785361584,
-        "y" : -3316.652888713332
+        "x" : 846.2924983734329,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78801",
+        "id" : "5621",
         "parent" : "SUBMERSIBLE_PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Submersible Pump",
@@ -10170,31 +11829,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RISER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78801,
+        "SUID" : 5621,
         "operating" : 196.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "I've kept this as part of the pump set but could be considered part of the site pipework / supports",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP/RISER",
         "ldtext" : "RISERs are the vertical pipes found in sewer pumping stations.  This also includes any bracing and bends on the pipework.  It does not include the pump stool.  (S. Graham, Sept 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 219.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "RISER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 212.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 358.3471112866682
+        "x" : -3853.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78797",
+        "id" : "5619",
         "parent" : "SUBMERSIBLE_PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Submersible Pump",
@@ -10207,30 +11869,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/SUBMRSBL_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78797,
+        "SUID" : 5619,
         "operating" : 566.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP/SUBMRSBL_PUMP",
         "ldtext" : " Submersible pumps are typically used in sewage pumping stations or treatment plants.  So called because they are immersed in the liquid that they are pumping.  They can be either centrifugal or positive displacement.This classification does not include the on property pressure sewer pumps which have classification PSS_SUBMRSBL_PUMP.  Special Comments Maximo Representation1. Manufacturer's Pump curve to be attached to asset.2. All attributes to be completed.3. Rotable number to be assigned. 4.  Sub number needs to be assigned and matching stainless steel plate attached to the pump. 5.  Purchase cost and commissioned dates to be completed.  Asset Class Plan Summary There are no obligatory regulatory inspections for submersible pumps.Submersible pumps will generally require an annual mechanical (MESUBMECH)  and electrical (MESUBELEC)  inspection.  This should be included on the route for the SPS.   (S.Graham, Feb 21)   ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 943.0,
+        "To_be_removed" : "",
         "notoperating" : 83.0,
+        "structural_node" : "",
         "name" : "SUBMRSBL_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 486.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 108.34711128666822
+        "x" : -3503.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78793",
+        "id" : "5617",
         "parent" : "SUBMERSIBLE_PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Submersible Pump",
@@ -10243,31 +11909,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/PSS_SUBMERSBL_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78793,
+        "SUID" : 5617,
         "operating" : 4184.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "May become its own classification once we deep dive sub pumps",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP/PSS_SUBMERSBL_PUMP",
         "ldtext" : "Pump contained within pressure sewer system.  Typically submersible,  single phase with a vortex style impeller. Pumps may be fitted with integral pressure switches for control purposes.  (S. Graham, 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 4273.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "PSS_SUBMERSBL_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57763.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 358.3471112866682
+        "x" : -3853.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78789",
+        "id" : "5615",
         "parent" : "SUBMERSIBLE_PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Submersible Pump",
@@ -10280,31 +11949,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP_STOOL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78789,
+        "SUID" : 5615,
         "operating" : 192.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "I've kept this as part of the pump set but could be considered part of the site pipework / supports",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP/PUMP_STOOL",
         "ldtext" : "Pump stools are used with submersible pumps. The claw of the pump seats onto the stool. The stool is fixed to the floor of the well .  The stool also has a flanged connection to the  RISER pipework and have fixing points for the guide rails.   (S.Graham, Oct 2019)",
         "network_node_colour" : 9.0,
         "number_of_assets" : 204.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "PUMP_STOOL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59201.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : 108.34711128666822
+        "x" : -3503.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78785",
+        "id" : "5613",
         "parent" : "SUBMERSIBLE_PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Submersible Pump",
@@ -10317,64 +11989,76 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MACERATOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78785,
+        "SUID" : 5613,
         "operating" : 12.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP/MACERATOR",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 17.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "MACERATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 165.0
       },
       "position" : {
-        "x" : -159.06321463841596,
-        "y" : 233.34711128666822
+        "x" : -3678.707501626567,
+        "y" : -1588.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78783",
+        "id" : "5611",
         "parent" : "MECHANICAL",
         "degree_layout" : 6,
         "asset_class_plan" : "M&E - Submersible Pump",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SUBMERSIBLE_PUMP",
         "decommissioned" : 0.0,
         "maximo_classification" : "SUBMERSIBLE_PUMP",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78783,
+        "SUID" : 5611,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/SUBMERSIBLE_PUMP",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SUBMERSIBLE_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : 233.34711128666822
+        "x" : -3678.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78779",
+        "id" : "5609",
         "parent" : "BLOWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Aeration Blower",
         "planned" : 0.0,
         "shared_name" : "BLOWER_AERATION",
@@ -10382,32 +12066,39 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "BLOWER_AERATION",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/FACLTY/MECHEQUIP/BLOWER/BLOWER_AERATION",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 78779,
+        "SUID" : 5609,
         "operating" : 36.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/BLOWER/BLOWER_AERATION",
         "ldtext" : "This classification includes blowers used for supplying air to primarily bioreactor aeration systems. It does not include air compressors, fans or extraction ventilation systems.",
         "network_node_colour" : -2.0,
         "number_of_assets" : 51.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "BLOWER_AERATION",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65582.0
       },
       "position" : {
-        "x" : -34.06321463841596,
-        "y" : -791.6528887133318
+        "x" : -2628.707501626567,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78775",
+        "id" : "5607",
         "parent" : "BLOWER",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Non-Aeration Blower",
         "planned" : 0.0,
         "shared_name" : "BLOWER_NONAERATION",
@@ -10415,29 +12106,36 @@ var networks = {"edges%201.csv": {
         "maximo_classification" : "BLOWER_NONAERATION",
         "offline" : 0.0,
         "current_maximo_hierarchy" : "YVW/FACLTY/MECHEQUIP/BLOWER/BLOWER_NONAERATION",
+        "asset_owner" : "",
         "corrective_work_needed" : "No",
-        "SUID" : 78775,
+        "SUID" : 5607,
         "operating" : 31.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/BLOWER/BLOWER_NONAERATION",
+        "ldtext" : "",
         "network_node_colour" : -2.0,
         "number_of_assets" : 49.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "BLOWER_NONAERATION",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 65585.0
       },
       "position" : {
-        "x" : 140.93678536158404,
-        "y" : -666.6528887133318
+        "x" : -2803.707501626567,
+        "y" : -1388.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78773",
+        "id" : "5605",
         "parent" : "MECHANICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "M&E - Blowers",
@@ -10447,9 +12145,10 @@ var networks = {"edges%201.csv": {
         "decommissioned" : 0.0,
         "maximo_classification" : "BLOWER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78773,
+        "SUID" : 5605,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
@@ -10458,21 +12157,24 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/BLOWER",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BLOWER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -34.06321463841596,
-        "y" : -666.6528887133318
+        "x" : -2803.707501626567,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78769",
+        "id" : "5603",
         "parent" : "MIXERS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Mixers",
@@ -10485,30 +12187,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MIXER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78769,
+        "SUID" : 5603,
         "operating" : 97.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MIXERS/MIXER",
         "ldtext" : " This classification includes mechanical mixers, typically used in treatment plant bioreactor tanks or chemical dosing systems.",
         "network_node_colour" : 9.0,
         "number_of_assets" : 109.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "MIXER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 173.0
       },
       "position" : {
-        "x" : -1209.063214638416,
-        "y" : -566.6528887133318
+        "x" : -2803.707501626567,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78765",
+        "id" : "5601",
         "parent" : "MIXERS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Mixers",
@@ -10521,63 +12227,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PIPEWORK/STATIC_MIXER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78765,
+        "SUID" : 5601,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "May need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MIXERS/STATIC_MIXER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "STATIC_MIXER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63942.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -691.6528887133318
+        "x" : -2628.707501626567,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78763",
+        "id" : "5599",
         "parent" : "MECHANICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "M&E - Mixers",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "MIXERS",
         "decommissioned" : 0.0,
         "maximo_classification" : "MIXERS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78763,
+        "SUID" : 5599,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/MIXERS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MIXERS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1209.063214638416,
-        "y" : -691.6528887133318
+        "x" : -2628.707501626567,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78759",
+        "id" : "5597",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10590,30 +12306,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/PUMP(GENERIC)",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78759,
+        "SUID" : 5597,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/PUMP(GENERIC)",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PUMP(GENERIC)",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 476.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 558.3471112866682
+        "x" : -4878.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78755",
+        "id" : "5595",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10626,30 +12346,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/WATR_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78755,
+        "SUID" : 5595,
         "operating" : 6.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/WATR_PUMP",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "WATR_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 501.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : 808.3471112866682
+        "x" : -4503.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78751",
+        "id" : "5593",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10662,30 +12386,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/PUMP_TRANSFER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78751,
+        "SUID" : 5593,
         "operating" : 10.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/PUMP_TRANSFER",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PUMP_TRANSFER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63682.0
       },
       "position" : {
-        "x" : -1259.063214638416,
-        "y" : 683.3471112866682
+        "x" : -4878.707501626567,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78747",
+        "id" : "5591",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10698,30 +12426,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/SLUDG_PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78747,
+        "SUID" : 5591,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/SLUDG_PUMP",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 17.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SLUDG_PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1161.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 808.3471112866682
+        "x" : -4503.707501626567,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78743",
+        "id" : "5589",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10734,30 +12466,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/PDPUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78743,
+        "SUID" : 5589,
         "operating" : 60.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/PDPUMP",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 72.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "PDPUMP",
         "cancelled" : 1.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57923.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 558.3471112866682
+        "x" : -4878.707501626567,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78739",
+        "id" : "5587",
         "parent" : "PUMP",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Pumps",
@@ -10770,30 +12506,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP/PUMP_CENTRI",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78739,
+        "SUID" : 5587,
         "operating" : 178.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Pumps will probably be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/PUMP/PUMP_CENTRI",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 223.0,
+        "To_be_removed" : "",
         "notoperating" : 19.0,
+        "structural_node" : "",
         "name" : "PUMP_CENTRI",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 477.0
       },
       "position" : {
-        "x" : -1034.063214638416,
-        "y" : 808.3471112866682
+        "x" : -4678.707501626567,
+        "y" : -2388.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78737",
+        "id" : "5585",
         "parent" : "MECHANICAL",
         "degree_layout" : 7,
         "asset_class_plan" : "M&E - Pumps",
@@ -10806,7 +12546,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/PUMP",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78737,
+        "SUID" : 5585,
         "operating" : 237.0,
         "new_classification" : "N",
         "selected" : false,
@@ -10815,22 +12555,25 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/PUMP",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 320.0,
+        "To_be_removed" : "",
         "notoperating" : 31.0,
+        "structural_node" : "",
         "name" : "PUMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 200.0
       },
       "position" : {
-        "x" : -859.063214638416,
-        "y" : 683.3471112866682
+        "x" : -4678.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78733",
+        "id" : "5583",
         "parent" : "CRANE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cranes",
@@ -10843,30 +12586,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/LIFTNG_JACK",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78733,
+        "SUID" : 5583,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All crane classifications will probably need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CRANE/LIFTNG_JACK",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "LIFTNG_JACK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 161.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -216.65288871333178
+        "x" : -4028.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78729",
+        "id" : "5581",
         "parent" : "CRANE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cranes",
@@ -10879,31 +12626,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WINCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78729,
+        "SUID" : 5581,
         "operating" : 69.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All crane classifications will probably need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CRANE/WINCH",
         "ldtext" : " Winches are used at a number of sites (mostly STP and SFC) to lift pit lids or mixers. Generally they are hand operated and require an annual inspection. Relevant StandardsAS2550 Cranes Hoists and Winches  (S. Graham, Mar 2019) ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 96.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "WINCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42702.0
       },
       "position" : {
-        "x" : -209.06321463841596,
-        "y" : 33.34711128666822
+        "x" : -4378.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78725",
+        "id" : "5579",
         "parent" : "CRANE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cranes",
@@ -10916,30 +12666,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE/HOIST_CRANE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78725,
+        "SUID" : 5579,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All crane classifications will probably need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CRANE/HOIST_CRANE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 5.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HOIST_CRANE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 152.0
       },
       "position" : {
-        "x" : -209.06321463841596,
-        "y" : -216.65288871333178
+        "x" : -4028.707501626567,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78721",
+        "id" : "5577",
         "parent" : "CRANE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cranes",
@@ -10952,30 +12706,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE/JIB_CRANE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78721,
+        "SUID" : 5577,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All crane classifications will probably need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CRANE/JIB_CRANE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 7.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "JIB_CRANE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 450.0
       },
       "position" : {
-        "x" : -134.06321463841596,
-        "y" : -91.65288871333178
+        "x" : -4378.707501626567,
+        "y" : -2238.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78717",
+        "id" : "5575",
         "parent" : "CRANE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Cranes",
@@ -10988,30 +12746,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE/MONRL_CRANE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78717,
+        "SUID" : 5575,
         "operating" : 36.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "All crane classifications will probably need to be consolidated",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/CRANE/MONRL_CRANE",
+        "ldtext" : "",
         "network_node_colour" : 9.0,
         "number_of_assets" : 102.0,
+        "To_be_removed" : "",
         "notoperating" : 15.0,
+        "structural_node" : "",
         "name" : "MONRL_CRANE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 177.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : 33.34711128666822
+        "x" : -4203.707501626567,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78715",
+        "id" : "5573",
         "parent" : "MECHANICAL",
         "degree_layout" : 6,
         "asset_class_plan" : "M&E - Cranes",
@@ -11024,7 +12786,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78715,
+        "SUID" : 5573,
         "operating" : 36.0,
         "new_classification" : "N",
         "selected" : false,
@@ -11033,22 +12795,25 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/CRANE",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 131.0,
+        "To_be_removed" : "",
         "notoperating" : 56.0,
+        "structural_node" : "",
         "name" : "CRANE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1028.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -91.65288871333178
+        "x" : -4203.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78711",
+        "id" : "5571",
         "parent" : "COMPRESS_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Compressors",
@@ -11061,30 +12826,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AIR_SPARGING_UNIT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78711,
+        "SUID" : 5571,
         "operating" : 3.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Needs deep dive, may be able to roll up into COMPRSR",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/COMPRESS_SYS/AIR_SPARGING_UNIT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 3.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AIR_SPARGING_UNIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62621.0
       },
       "position" : {
-        "x" : -359.06321463841596,
-        "y" : -866.6528887133318
+        "x" : -2478.707501626567,
+        "y" : -1713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78707",
+        "id" : "5569",
         "parent" : "COMPRESS_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Compressors",
@@ -11097,64 +12866,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/COMPRSR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78707,
+        "SUID" : 5569,
         "operating" : 44.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Should air receivers also be around here? Also are pressure vessels / relief valves missing from the list or just didn't need clarification?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/COMPRESS_SYS/COMPRSR",
         "ldtext" : "Compressors are used to supply pressurized air into an air receiver.   They are generally found at treatment plants and are used to operate pnuematic valves or provide air for filter backwash purposes. The air receiver may or may not be an integral part of the compressor.   If it is not an integral part it will have a separate asset number. This asset class also includes all of the pressure piping associated with the asset.  This asset class does not include treatment plant blowers or fans.  (S.Graham, Mar 2021) ",
         "network_node_colour" : 9.0,
         "number_of_assets" : 74.0,
+        "To_be_removed" : "",
         "notoperating" : 9.0,
+        "structural_node" : "",
         "name" : "COMPRSR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 72.0
       },
       "position" : {
-        "x" : -184.06321463841596,
-        "y" : -741.6528887133318
+        "x" : -2653.707501626567,
+        "y" : -1588.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78705",
+        "id" : "5567",
         "parent" : "MECHANICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "M&E - Compressors",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "COMPRESS_SYS",
         "decommissioned" : 0.0,
         "maximo_classification" : "COMPRESS_SYS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78705,
+        "SUID" : 5567,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/COMPRESS_SYS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "COMPRESS_SYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -359.06321463841596,
-        "y" : -741.6528887133318
+        "x" : -2653.707501626567,
+        "y" : -1713.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78701",
+        "id" : "5565",
         "parent" : "CLIMATE_CONTROL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Climate Control",
@@ -11167,30 +12945,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/AIR_CONDTNG",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78701,
+        "SUID" : 5565,
         "operating" : 56.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CLIMATE_CONTROL/AIR_CONDTNG",
         "ldtext" : "Classification used for all forms of air-conditioning.  Cooling, heating, dehumidifiers etc.  (S.Graham, July 2024)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 63.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "AIR_CONDTNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 47.0
       },
       "position" : {
-        "x" : -1209.063214638416,
-        "y" : -4566.652888713332
+        "x" : 2821.292498373433,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78697",
+        "id" : "5563",
         "parent" : "CLIMATE_CONTROL",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Climate Control",
@@ -11203,62 +12985,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/FAN",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78697,
+        "SUID" : 5563,
         "operating" : 218.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CLIMATE_CONTROL/FAN",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 249.0,
+        "To_be_removed" : "",
         "notoperating" : 9.0,
+        "structural_node" : "",
         "name" : "FAN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 109.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -4691.652888713332
+        "x" : 2996.292498373433,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78695",
+        "id" : "5561",
         "parent" : "ELECTRICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "M&E - Climate Control",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CLIMATE_CONTROL",
         "decommissioned" : 0.0,
         "maximo_classification" : "CLIMATE_CONTROL",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78695,
+        "SUID" : 5561,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/CLIMATE_CONTROL",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CLIMATE_CONTROL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1209.063214638416,
-        "y" : -4691.652888713332
+        "x" : 2996.292498373433,
+        "y" : -2338.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78691",
+        "id" : "5559",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11271,30 +13064,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/JUNCTBOX",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78691,
+        "SUID" : 5559,
         "operating" : 141.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/JUNCTBOX",
         "ldtext" : "Used to terminate or join electrical cables.  No control functions occur in these boxes. (S.Graham Feb 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 154.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "JUNCTBOX",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59565.0
       },
       "position" : {
-        "x" : -1459.063214638416,
-        "y" : -5216.652888713332
+        "x" : 3396.292498373433,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78687",
+        "id" : "5557",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11307,29 +13104,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/ELECCAB",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78687,
+        "SUID" : 5557,
         "operating" : 134.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/ELECCAB",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 137.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ELECCAB",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64945.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -5091.652888713332
+        "x" : 3571.292498373433,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78683",
+        "id" : "5555",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11339,31 +13141,36 @@ var networks = {"edges%201.csv": {
         "decommissioned" : 0.0,
         "maximo_classification" : "MARSHALCAB",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78683,
+        "SUID" : 5555,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - and moved to other classification",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/MARSHALCAB",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MARSHALCAB",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -5216.652888713332
+        "x" : 3221.292498373433,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78679",
+        "id" : "5553",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11376,30 +13183,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/DISTBOARD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78679,
+        "SUID" : 5553,
         "operating" : 68.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/DISTBOARD",
         "ldtext" : "Distribution boards distribute 1 or 3 phase power across a site to manage power loads. (S.Graham Feb 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 69.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DISTBOARD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59564.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -4966.652888713332
+        "x" : 3571.292498373433,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78675",
+        "id" : "5551",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11412,30 +13223,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWR_DISTRBTN",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78675,
+        "SUID" : 5551,
         "operating" : 39.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - This will likely all move to switchboard",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/POWR_DISTRBTN",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 46.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_DISTRBTN",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 192.0
       },
       "position" : {
-        "x" : -1159.063214638416,
-        "y" : -5216.652888713332
+        "x" : 3221.292498373433,
+        "y" : -2213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78671",
+        "id" : "5549",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11448,30 +13263,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWR_FACTR_CORR_UNIT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78671,
+        "SUID" : 5549,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - There are more, will need to be found",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/POWR_FACTR_CORR_UNIT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_FACTR_CORR_UNIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63381.0
       },
       "position" : {
-        "x" : -1159.063214638416,
-        "y" : -4966.652888713332
+        "x" : 3571.292498373433,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78667",
+        "id" : "5547",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11484,31 +13303,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CABINET",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78667,
+        "SUID" : 5547,
         "operating" : 889.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - Needs to move - likley ELECCAB",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/CABINET",
         "ldtext" : "Electrical cabinets enclose electrical equipment.  Power supply is generally single phase, do not contain switching gear and are associated with a limited number of instruments. The asset includes the enclosure and any supports,  termination switches and any wiring.  RTU/PLC, E-Stops and any instrumentation should be recorded in Maximo as separate assets.   Note electrical switchboards are a separate asset classification. (S. Graham, Feb 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1422.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "CABINET",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63621.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -5216.652888713332
+        "x" : 3221.292498373433,
+        "y" : -2313.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78663",
+        "id" : "5545",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11521,30 +13343,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/SWITCHBOARD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78663,
+        "SUID" : 5545,
         "operating" : 464.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/SWITCHBOARD",
         "ldtext" : "Contain switching gear to energise electrical motors.  Will often include electrical distribution and marshalling compartments. (S.Graham Feb 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 655.0,
+        "To_be_removed" : "",
         "notoperating" : 27.0,
+        "structural_node" : "",
         "name" : "SWITCHBOARD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59561.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -4966.652888713332
+        "x" : 3571.292498373433,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78659",
+        "id" : "5543",
         "parent" : "ELECTENCLOSE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11557,30 +13383,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/LOCALCONT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78659,
+        "SUID" : 5543,
         "operating" : 455.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE/LOCALCONT",
         "ldtext" : "Contains control and monitoring equipment for a single motor or a number of instruments. (S.Graham Feb 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 485.0,
+        "To_be_removed" : "",
         "notoperating" : 5.0,
+        "structural_node" : "",
         "name" : "LOCALCONT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59562.0
       },
       "position" : {
-        "x" : -1459.063214638416,
-        "y" : -4966.652888713332
+        "x" : 3221.292498373433,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78657",
+        "id" : "5541",
         "parent" : "ELECTRICAL",
         "degree_layout" : 10,
         "asset_class_plan" : "M&E - Electrical Enclosure",
@@ -11593,17 +13423,19 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78657,
+        "SUID" : 5541,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
         "problem_description" : "Needs to move",
+        "asset_class_plan_in_foundation" : "",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/ELECTENCLOSE",
         "ldtext" : "This classification is the parent classification for all electrical enclosures. (S.Graham Feb 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
         "structural_node" : "Y",
         "name" : "ELECTENCLOSE",
@@ -11612,13 +13444,13 @@ var networks = {"edges%201.csv": {
         "classstructureuid" : 59541.0
       },
       "position" : {
-        "x" : -984.063214638416,
-        "y" : -5091.652888713332
+        "x" : 3396.292498373433,
+        "y" : -2113.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78653",
+        "id" : "5539",
         "parent" : "MOTOR_DRIVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Motors and Drives",
@@ -11631,31 +13463,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/DRIVE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78653,
+        "SUID" : 5539,
         "operating" : 526.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - what is in here, VSD or soft starter?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MOTOR_DRIVE/DRIVE",
         "ldtext" : "Classification includes variable speed drives (VSD) and variable frequency drives (VFD).   Variable speed drives are primarily used to regulate the frequency of the AC power supply to control the speed of an electric motor.  Note from 2018 to 2023 this classification was also used for Soft Starters which have now been reclassified as MOTOR_STARTER.  Until the data in Maximo is reviewed there will be some misclassified assets.  (S Graham,  Oct 2023)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 702.0,
+        "To_be_removed" : "",
         "notoperating" : 52.0,
+        "structural_node" : "",
         "name" : "DRIVE",
         "cancelled" : 1.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 92.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -541.6528887133318
+        "x" : -3028.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78649",
+        "id" : "5537",
         "parent" : "MOTOR_DRIVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Motors and Drives",
@@ -11668,29 +13503,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MOTOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78649,
+        "SUID" : 5537,
         "operating" : 357.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MOTOR_DRIVE/MOTOR",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 693.0,
+        "To_be_removed" : "",
         "notoperating" : 31.0,
+        "structural_node" : "",
         "name" : "MOTOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 178.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -291.6528887133318
+        "x" : -3378.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78645",
+        "id" : "5535",
         "parent" : "MOTOR_DRIVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Motors and Drives",
@@ -11703,31 +13543,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DRIVE_PS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78645,
+        "SUID" : 5535,
         "operating" : 11.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - moved to 'DRIVE'",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MOTOR_DRIVE/DRIVE_PS",
         "ldtext" : "No longer used as asset classification.  Replaced by DRIVE. (S.Graham, Oct 22)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 11.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DRIVE_PS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1032.0
       },
       "position" : {
-        "x" : -209.06321463841596,
-        "y" : -541.6528887133318
+        "x" : -3028.707501626567,
+        "y" : -1638.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78641",
+        "id" : "5533",
         "parent" : "MOTOR_DRIVE",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Motors and Drives",
@@ -11740,64 +13583,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/MOTOR_STARTER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78641,
+        "SUID" : 5533,
         "operating" : 156.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - what is in there, likely split required by starter type for better Asset Management",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/MOTOR_DRIVE/MOTOR_STARTER",
         "ldtext" : "The MOTOR_STARTER classification includes Soft Starters, DOL\nStarters, Start Delta Starters and Auto Transformer starters.  This classification does not include Variable Speed Drives (VSD) or Variable Frequency Drives (VFD) as these are classified as DRIVES.  The key difference\nbetween a Drive and motor starter is that a motor starter is normally bypassed\nwhen the motor reaches its full speed and it does not have the speed control\nfunction while Drives can not only provide a soft start to the motor but also\nremain in the circuit throughout the motor operation to provide speed control.  Note prior to 2023 soft starters were classified as DRIVE so there will be some mis-classified and duplicate assets in Maximo  until this the asset data is cleaned up.   (S.Graham & M. Waqas, Oct 2023)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 156.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MOTOR_STARTER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62441.0
       },
       "position" : {
-        "x" : 415.93678536158404,
-        "y" : -416.6528887133318
+        "x" : -3203.707501626567,
+        "y" : -1588.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78639",
+        "id" : "5531",
         "parent" : "MECHANICAL",
         "degree_layout" : 5,
         "asset_class_plan" : "M&E - Motors and Drives",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "MOTOR_DRIVE",
         "decommissioned" : 0.0,
         "maximo_classification" : "MOTOR_DRIVE",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78639,
+        "SUID" : 5531,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/MOTOR_DRIVE",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MOTOR_DRIVE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -384.06321463841596,
-        "y" : -416.6528887133318
+        "x" : -3203.707501626567,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78635",
+        "id" : "5529",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11810,29 +13662,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/POWR_MONTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78635,
+        "SUID" : 5529,
         "operating" : 40.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/POWR_MONTR",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 41.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWR_MONTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 194.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : -5366.652888713332
+        "x" : 4171.292498373433,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78631",
+        "id" : "5527",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11845,30 +13702,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ISOLATOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78631,
+        "SUID" : 5527,
         "operating" : 313.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/ISOLATOR",
         "ldtext" : "Off load switching\n  device used to isolate downstream electrical equipment for maintenance. (S. Graham Mar 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 316.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "ISOLATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59642.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : -5466.652888713332
+        "x" : 4321.292498373433,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78627",
+        "id" : "5525",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11881,31 +13742,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/CONTACTOR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78627,
+        "SUID" : 5525,
         "operating" : 800.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - this is a consumable item - that is run to failure, run under reactive WO",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/CONTACTOR",
         "ldtext" : "Electrically controlled switch to switch high current load devices.  Designed to suppress arc formation.  Does not provide the same fault protection function of a circuit breaker (MCCB).  (S. Graham, Mar 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 804.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CONTACTOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59644.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : -5566.652888713332
+        "x" : 4321.292498373433,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78623",
+        "id" : "5523",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11918,31 +13782,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/SURGE_FILTER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78623,
+        "SUID" : 5523,
         "operating" : 9.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - this is a consumable item",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/SURGE_FILTER",
         "ldtext" : "Classification used for harmonic filters to manage power quality.  It does not include power factor correction devices. (S. Graham, Mar 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 9.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SURGE_FILTER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63401.0
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : -5616.652888713332
+        "x" : 4396.292498373433,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78619",
+        "id" : "5521",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11955,31 +13822,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/CIRCUIT_BREAKER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78619,
+        "SUID" : 5521,
         "operating" : 1348.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - remove minor breakers, keep air circuit breaker then rename this classification to air circuit breakers",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/CIRCUIT_BREAKER",
         "ldtext" : "3 Phase circuit breakers that provide automatic protection from fault conditions.  (S. Graham, Mar 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 1354.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "CIRCUIT_BREAKER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60863.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : -5166.652888713332
+        "x" : 3696.292498373433,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78615",
+        "id" : "5519",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -11992,29 +13862,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/AUTO_TRANSFR_SWITCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78615,
+        "SUID" : 5519,
         "operating" : 54.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/AUTO_TRANSFR_SWITCH",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 54.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "AUTO_TRANSFR_SWITCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1020.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -5166.652888713332
+        "x" : 3696.292498373433,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78611",
+        "id" : "5517",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -12027,30 +13902,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ATS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78611,
+        "SUID" : 5517,
         "operating" : 75.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - move to \"AUTO_TRANSFER_SWITCH\"",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/ATS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 94.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "ATS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 53.0
       },
       "position" : {
-        "x" : -434.06321463841596,
-        "y" : -5266.652888713332
+        "x" : 3871.292498373433,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78607",
+        "id" : "5515",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -12063,30 +13942,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SWITCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78607,
+        "SUID" : 5515,
         "operating" : 99.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - most likely a limit switch",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/SWITCH",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 105.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "SWITCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 293.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -5266.652888713332
+        "x" : 3871.292498373433,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78603",
+        "id" : "5513",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -12099,29 +13982,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELECTENCLOSE/RCD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78603,
+        "SUID" : 5513,
         "operating" : 400.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/RCD",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 403.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "RCD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64982.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -5366.652888713332
+        "x" : 4021.292498373433,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78599",
+        "id" : "5511",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -12134,29 +14022,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/INSTRMNT/LIMIT_SWTCH",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78599,
+        "SUID" : 5511,
         "operating" : 182.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/LIMIT_SWTCH",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 193.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "LIMIT_SWTCH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 162.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -5466.652888713332
+        "x" : 4021.292498373433,
+        "y" : -2063.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78595",
+        "id" : "5509",
         "parent" : "SWITCHGEAR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Switchgear and Protection",
@@ -12169,64 +14062,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/MCCB",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78595,
+        "SUID" : 5509,
         "operating" : 8.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - this is a consumable item",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR/MCCB",
         "ldtext" : "3 Phase circuit breakers that provide automatic protection from fault conditions.  (S. Graham, Mar 2020)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 8.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "MCCB",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59643.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -5566.652888713332
+        "x" : 4171.292498373433,
+        "y" : -1813.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78593",
+        "id" : "5507",
         "parent" : "ELECTRICAL",
         "degree_layout" : 12,
         "asset_class_plan" : "M&E - Switchgear and Protection",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SWITCHGEAR",
         "decommissioned" : 0.0,
         "maximo_classification" : "SWITCHGEAR",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78593,
+        "SUID" : 5507,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/SWITCHGEAR",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SWITCHGEAR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -634.063214638416,
-        "y" : -5166.652888713332
+        "x" : 3696.292498373433,
+        "y" : -1938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78589",
+        "id" : "5505",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12239,30 +14141,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/PVT_ELEC_LINE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78589,
+        "SUID" : 5505,
         "operating" : 36.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/PVT_ELEC_LINE",
         "ldtext" : "Private Electrical Lines (PEL) are electrical lines that YVW has an obligation under the Electrical Safety Act 1998 to maintain.  Ausnet Services maintain a register of PEL s and issues annual notices to maintain these.(S. Graham, Nov 2019) ",
         "network_node_colour" : 22.0,
         "number_of_assets" : 36.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "PVT_ELEC_LINE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59382.0
       },
       "position" : {
-        "x" : -284.06321463841596,
-        "y" : -5216.652888713332
+        "x" : 3471.292498373433,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78585",
+        "id" : "5503",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12275,29 +14181,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/MAINS_POWR_SUPLY",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78585,
+        "SUID" : 5503,
         "operating" : 408.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/MAINS_POWR_SUPLY",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 481.0,
+        "To_be_removed" : "",
         "notoperating" : 13.0,
+        "structural_node" : "",
         "name" : "MAINS_POWR_SUPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 166.0
       },
       "position" : {
-        "x" : -284.06321463841596,
-        "y" : -4966.652888713332
+        "x" : 3096.292498373433,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78581",
+        "id" : "5501",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12310,30 +14221,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/DC POWER SUPPLY",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78581,
+        "SUID" : 5501,
         "operating" : 21.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DC POWER SUPPLY' Why not underscores?",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/DC POWER SUPPLY",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 21.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DC POWER SUPPLY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63761.0
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : -5216.652888713332
+        "x" : 3471.292498373433,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78577",
+        "id" : "5499",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12346,29 +14261,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/LOW_VOLTAGE_POWR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78577,
+        "SUID" : 5499,
         "operating" : 530.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/LOW_VOLTAGE_POWR",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 609.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "LOW_VOLTAGE_POWR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1056.0
       },
       "position" : {
-        "x" : -109.06321463841596,
-        "y" : -4966.652888713332
+        "x" : 3096.292498373433,
+        "y" : -1663.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78573",
+        "id" : "5497",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12381,31 +14301,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELCTRCL_CABLNG",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78573,
+        "SUID" : 5497,
         "operating" : 301.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Should be split into \"LOW_VOLTAGE_POWR\", \"MAINS_POWR_SUPLY\", \"PVT_ELEC_LINE\" could be comms cables -- these will need to be worked with OT",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/ELCTRCL_CABLNG",
         "ldtext" : "Classification is typically used for electrical cables either below ground or above ground in cable trays.Notes1.) Power cables from the motor back to a junction box are generally considered to be part of the pump asset. 2.) Cabling within switchboards or other electrical cabinets are considered to be components of these assets. (S.Graham, Oct 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 318.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "ELCTRCL_CABLNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 95.0
       },
       "position" : {
-        "x" : 40.93678536158404,
-        "y" : -5216.652888713332
+        "x" : 3471.292498373433,
+        "y" : -1563.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78569",
+        "id" : "5495",
         "parent" : "CABLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Cables",
@@ -12418,64 +14341,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CABLE_TRAY",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78569,
+        "SUID" : 5495,
         "operating" : 2.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Should this be an asset? - hazards associated - maybe hazards go on the sites",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/CABLES/CABLE_TRAY",
         "ldtext" : "Cable trays are used to support above ground electrical and control cabling around facilities.  S. Graham (Oct,2019)\"",
         "network_node_colour" : 1.0,
         "number_of_assets" : 2.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CABLE_TRAY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 59262.0
       },
       "position" : {
-        "x" : 115.93678536158404,
-        "y" : -5091.652888713332
+        "x" : 3271.292498373433,
+        "y" : -1513.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78567",
+        "id" : "5493",
         "parent" : "ELECTRICAL",
         "degree_layout" : 7,
         "asset_class_plan" : "M&E - Power Cables",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CABLES",
         "decommissioned" : 0.0,
         "maximo_classification" : "CABLES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78567,
+        "SUID" : 5493,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/CABLES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CABLES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -284.06321463841596,
-        "y" : -5091.652888713332
+        "x" : 3271.292498373433,
+        "y" : -1763.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78563",
+        "id" : "5491",
         "parent" : "POWER_POLES",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Power Poles",
@@ -12488,30 +14420,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWER_SUPPLY_PILLAR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78563,
+        "SUID" : 5491,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/POWER_POLES/POWER_SUPPLY_PILLAR",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWER_SUPPLY_PILLAR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63461.0
       },
       "position" : {
-        "x" : -234.06321463841596,
-        "y" : -4691.652888713332
+        "x" : 2821.292498373433,
+        "y" : -1613.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78561",
+        "id" : "5489",
         "parent" : "ELECTRICAL",
         "degree_layout" : 2,
         "asset_class_plan" : "M&E - Power Poles",
@@ -12524,31 +14460,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/POWER_POLES",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78561,
+        "SUID" : 5489,
         "operating" : 42.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/POWER_POLES",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 20.0,
         "number_of_assets" : 42.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "POWER_POLES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 62221.0
       },
       "position" : {
-        "x" : -409.06321463841596,
-        "y" : -4691.652888713332
+        "x" : 2821.292498373433,
+        "y" : -1738.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78557",
+        "id" : "5487",
         "parent" : "LIGHTNG",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Lighting",
@@ -12561,30 +14500,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/ELEC_POWR_LIGHTNG",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78557,
+        "SUID" : 5487,
         "operating" : 56.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - what is in here, does it include emergency lighting?",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/LIGHTNG/ELEC_POWR_LIGHTNG",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 56.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ELEC_POWR_LIGHTNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 98.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -4616.652888713332
+        "x" : 2846.292498373433,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78555",
+        "id" : "5485",
         "parent" : "ELECTRICAL",
         "degree_layout" : 2,
         "asset_class_plan" : "M&E - Lighting",
@@ -12597,7 +14540,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/LIGHTNG",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78555,
+        "SUID" : 5485,
         "operating" : 523.0,
         "new_classification" : "N",
         "selected" : false,
@@ -12609,20 +14552,22 @@ var networks = {"edges%201.csv": {
         "ldtext" : "Classification used for external lighting.",
         "network_node_colour" : 1.0,
         "number_of_assets" : 623.0,
+        "To_be_removed" : "",
         "notoperating" : 21.0,
+        "structural_node" : "",
         "name" : "LIGHTNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1055.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -4616.652888713332
+        "x" : 2846.292498373433,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78551",
+        "id" : "5483",
         "parent" : "ELECTRLYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12635,30 +14580,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/TSTLEAD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78551,
+        "SUID" : 5483,
         "operating" : 908.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "DEEP DIVE - need to determine if this needs to be in maximo at all",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS/TSTLEAD",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 934.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "TSTLEAD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42186.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -4891.652888713332
+        "x" : 3146.292498373433,
+        "y" : -2688.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78547",
+        "id" : "5481",
         "parent" : "ELECTRLYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12671,30 +14620,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/CATHODE",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78547,
+        "SUID" : 5481,
         "operating" : 102.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS/CATHODE",
         "ldtext" : " CATHODE classifcation includes impressed current cathodic protection.  Does not include sacrificial anodes,",
         "network_node_colour" : 22.0,
         "number_of_assets" : 105.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "CATHODE",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42187.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -4641.652888713332
+        "x" : 3321.292498373433,
+        "y" : -2538.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78543",
+        "id" : "5479",
         "parent" : "ELECTRLYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12707,30 +14660,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CATHODIC_PROTECT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78543,
+        "SUID" : 5479,
         "operating" : 17.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "TO BE DELETED - Should be under \"CATHODE\"",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS/CATHODIC_PROTECT",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 17.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CATHODIC_PROTECT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 57442.0
       },
       "position" : {
-        "x" : -1709.063214638416,
-        "y" : -4891.652888713332
+        "x" : 2971.292498373433,
+        "y" : -2538.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78539",
+        "id" : "5477",
         "parent" : "ELECTRLYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12743,30 +14700,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/ANODES/SACANOD",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78539,
+        "SUID" : 5477,
         "operating" : 272.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "CLARIFICATION - should be moved to \"ANODE\"",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS/SACANOD",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 277.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SACANOD",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42182.0
       },
       "position" : {
-        "x" : -1709.063214638416,
-        "y" : -4641.652888713332
+        "x" : 3321.292498373433,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78535",
+        "id" : "5475",
         "parent" : "ELECTRLYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12779,29 +14740,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/ANODES",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78535,
+        "SUID" : 5475,
         "operating" : 2693.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS/ANODES",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 2728.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ANODES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42181.0
       },
       "position" : {
-        "x" : -1784.063214638416,
-        "y" : -4766.652888713332
+        "x" : 2971.292498373433,
+        "y" : -2638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78533",
+        "id" : "5473",
         "parent" : "ELECTRICAL",
         "degree_layout" : 6,
         "asset_class_plan" : "M&E - Electrolysis Protection",
@@ -12814,7 +14780,7 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78533,
+        "SUID" : 5473,
         "operating" : 518.0,
         "new_classification" : "N",
         "selected" : false,
@@ -12823,22 +14789,25 @@ var networks = {"edges%201.csv": {
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/ELECTRLYS",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 523.0,
+        "To_be_removed" : "",
         "notoperating" : 2.0,
+        "structural_node" : "",
         "name" : "ELECTRLYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 436.0
       },
       "position" : {
-        "x" : -1534.063214638416,
-        "y" : -4766.652888713332
+        "x" : 3146.292498373433,
+        "y" : -2538.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78529",
+        "id" : "5471",
         "parent" : "EARTH_BONDING",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Earthing and Equipotential Bonding",
@@ -12851,29 +14820,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/BOND",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78529,
+        "SUID" : 5471,
         "operating" : 420.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/EARTH_BONDING/BOND",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 439.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "BOND",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42183.0
       },
       "position" : {
-        "x" : 90.93678536158404,
-        "y" : -4766.652888713332
+        "x" : 2796.292498373433,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78525",
+        "id" : "5469",
         "parent" : "EARTH_BONDING",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Earthing and Equipotential Bonding",
@@ -12886,29 +14860,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/BOND/DRGBOND",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78525,
+        "SUID" : 5469,
         "operating" : 147.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/EARTH_BONDING/DRGBOND",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 152.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DRGBOND",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42184.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : -4641.652888713332
+        "x" : 3146.292498373433,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78521",
+        "id" : "5467",
         "parent" : "EARTH_BONDING",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Earthing and Equipotential Bonding",
@@ -12921,62 +14900,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_NETWORK/GRDS_BLDGS/ELECTRLYS/ERTBED",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78521,
+        "SUID" : 5467,
         "operating" : 12.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ELECTRICAL/EARTH_BONDING/ERTBED",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 12.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ERTBED",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 42185.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : -4891.652888713332
+        "x" : 2971.292498373433,
+        "y" : -1413.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78519",
+        "id" : "5465",
         "parent" : "ELECTRICAL",
         "degree_layout" : 4,
         "asset_class_plan" : "M&E - Earthing and Equipotential Bonding",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "EARTH_BONDING",
         "decommissioned" : 0.0,
         "maximo_classification" : "EARTH_BONDING",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "No",
-        "SUID" : 78519,
+        "SUID" : 5465,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ELECTRICAL/EARTH_BONDING",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "EARTH_BONDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -84.06321463841596,
-        "y" : -4766.652888713332
+        "x" : 2971.292498373433,
+        "y" : -1538.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78515",
+        "id" : "5463",
         "parent" : "GENERATOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Generators",
@@ -12989,29 +14979,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GENRTNG_SYSTM",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78515,
+        "SUID" : 5463,
         "operating" : 82.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/GENERATOR/GENRTNG_SYSTM",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 86.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "GENRTNG_SYSTM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1048.0
       },
       "position" : {
-        "x" : -2384.063214638416,
-        "y" : -1891.6528887133318
+        "x" : -828.7075016265671,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78511",
+        "id" : "5461",
         "parent" : "GENERATOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Generators",
@@ -13024,30 +15019,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/DIESEL_GENRTR",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78511,
+        "SUID" : 5461,
         "operating" : 60.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/GENERATOR/DIESEL_GENRTR",
         "ldtext" : " Classification includes both fixed and portable generators used to provide back up electrical power to infrastructure assets.Does not include ReWaste facility assets or Trigen facility at Mitcham.  (S Graham July 2017)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 125.0,
+        "To_be_removed" : "",
         "notoperating" : 14.0,
+        "structural_node" : "",
         "name" : "DIESEL_GENRTR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 87.0
       },
       "position" : {
-        "x" : -2734.063214638416,
-        "y" : -1891.6528887133318
+        "x" : -478.70750162656714,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78507",
+        "id" : "5459",
         "parent" : "GENERATOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Generators",
@@ -13060,29 +15059,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/GENERATOR_AC",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78507,
+        "SUID" : 5459,
         "operating" : 5.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/GENERATOR/GENERATOR_AC",
+        "ldtext" : "",
         "network_node_colour" : 22.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "GENERATOR_AC",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 140.0
       },
       "position" : {
-        "x" : -2384.063214638416,
-        "y" : -1791.6528887133318
+        "x" : -828.7075016265671,
+        "y" : -3363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78503",
+        "id" : "5457",
         "parent" : "GENERATOR",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Generators",
@@ -13095,63 +15099,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANK/FUEL_TANK",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78503,
+        "SUID" : 5457,
         "operating" : 9.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/GENERATOR/FUEL_TANK",
         "ldtext" : "Classification is for free standing fuel tanks.It does not include fuel tanks that are an integral part of a generator.S.Graham (Aug, 2021) ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 9.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "FUEL_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 61487.0
       },
       "position" : {
-        "x" : -2559.063214638416,
-        "y" : -1741.6528887133318
+        "x" : -653.7075016265671,
+        "y" : -3413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78501",
+        "id" : "5455",
         "parent" : "ENERGY",
         "degree_layout" : 5,
         "asset_class_plan" : "M&E - Generators",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "GENERATOR",
         "decommissioned" : 0.0,
         "maximo_classification" : "GENERATOR",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78501,
+        "SUID" : 5455,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ENERGY/GENERATOR",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "GENERATOR",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2559.063214638416,
-        "y" : -1891.6528887133318
+        "x" : -653.7075016265671,
+        "y" : -3263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78497",
+        "id" : "5453",
         "parent" : "SOLAR_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Solar Generating Systems",
@@ -13164,30 +15178,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/SOLAR_COMBINER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78497,
+        "SUID" : 5453,
         "operating" : 6.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/SOLAR_SYS/SOLAR_COMBINER",
         "ldtext" : "SOLAR_COMBINER - a piece of electrical equipment that combines the output of multiple arrays.  (S.Graham Sept2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 6.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLAR_COMBINER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60622.0
       },
       "position" : {
-        "x" : -2909.063214638416,
-        "y" : -2216.652888713332
+        "x" : -1103.7075016265671,
+        "y" : -2963.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78493",
+        "id" : "5451",
         "parent" : "SOLAR_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Solar Generating Systems",
@@ -13200,30 +15218,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/SOLAR_ARRAY",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78493,
+        "SUID" : 5451,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/SOLAR_SYS/SOLAR_ARRAY",
         "ldtext" : "SOLAR_ARRAY  is an asset classification for a component within a SOLAR_SYSTEM The SOLAR_ARRAY is a grouping of 2 or more panels that along with other SOLAR_ARRAY and SOLAR_INVERTERS and SOLAR_COMBINERS make up the SOLAR_SYSTEMNote the SOLAR_PANEL classification is only to be used for single panels powering telemetry units and a battery charger. (S.Graham, Sept 2020) ",
         "network_node_colour" : 22.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLAR_ARRAY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60621.0
       },
       "position" : {
-        "x" : -2659.063214638416,
-        "y" : -2091.652888713332
+        "x" : -1103.7075016265671,
+        "y" : -3213.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78489",
+        "id" : "5449",
         "parent" : "SOLAR_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Solar Generating Systems",
@@ -13236,30 +15258,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ELECTEQUIP/SOLAR_INVERTER",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78489,
+        "SUID" : 5449,
         "operating" : 14.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/SOLAR_SYS/SOLAR_INVERTER",
         "ldtext" : " SOLAR_INVERTER - asset classification for equipment that converts the DC power from an array to AC power.   Will generally be a component within a SOLAR_SYSTEM.  (S.Graham Sept 2020)",
         "network_node_colour" : 22.0,
         "number_of_assets" : 14.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLAR_INVERTER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60623.0
       },
       "position" : {
-        "x" : -2659.063214638416,
-        "y" : -2341.652888713332
+        "x" : -1278.7075016265671,
+        "y" : -2963.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78485",
+        "id" : "5447",
         "parent" : "SOLAR_SYS",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Solar Generating Systems",
@@ -13272,63 +15298,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SOLAR_PANL",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78485,
+        "SUID" : 5447,
         "operating" : 63.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/ENERGY/SOLAR_SYS/SOLAR_PANL",
         "ldtext" : "SOLAR_PANL asset classification is to be used for single panels powering RTUs or small pieces of equipment. For larger grid connected systems the SOLAR_SYSTEM, SOLAR_ARRAY classifications should be used. (S. Graham, Sept 2020) ",
         "network_node_colour" : 22.0,
         "number_of_assets" : 67.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLAR_PANL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 270.0
       },
       "position" : {
-        "x" : -2834.063214638416,
-        "y" : -2091.652888713332
+        "x" : -1353.7075016265671,
+        "y" : -3088.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78483",
+        "id" : "5445",
         "parent" : "ENERGY",
         "degree_layout" : 5,
         "asset_class_plan" : "M&E - Solar Generating Systems",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "SOLAR_SYS",
         "decommissioned" : 0.0,
         "maximo_classification" : "SOLAR_SYS",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78483,
+        "SUID" : 5445,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/ENERGY/SOLAR_SYS",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SOLAR_SYS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2659.063214638416,
-        "y" : -2216.652888713332
+        "x" : -1103.7075016265671,
+        "y" : -3088.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78479",
+        "id" : "5443",
         "parent" : "CHEMCL_STORG",
         "degree_layout" : 1,
         "asset_class_plan" : "Chemical - Dosing Facility",
@@ -13341,30 +15377,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SPILL_KIT",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78479,
+        "SUID" : 5443,
         "operating" : 14.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMCL_STORG/SPILL_KIT",
         "ldtext" : " Winches are used at a number of sites (mostly STP and SFC) to lift pit lids or mixers. Generally they are hand operated and require an annual inspection. Relevant StandardsAS2550 Cranes Hoists and Winches  (S. Graham, Mar 2019) ",
         "network_node_colour" : 3.0,
         "number_of_assets" : 14.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SPILL_KIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63541.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : -1416.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78475",
+        "id" : "5441",
         "parent" : "CHEMCL_STORG",
         "degree_layout" : 1,
         "asset_class_plan" : "Chemical - Dosing Facility",
@@ -13377,31 +15417,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/BUNDING",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78475,
+        "SUID" : 5441,
         "operating" : 86.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMCL_STORG/BUNDING",
+        "ldtext" : "",
         "network_node_colour" : 3.0,
         "number_of_assets" : 118.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "BUNDING",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60.0
       },
       "position" : {
-        "x" : -834.063214638416,
-        "y" : -1416.6528887133318
+        "x" : -1703.7075016265671,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78471",
+        "id" : "5439",
         "parent" : "CHEMCL_STORG",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Chemical Tank",
         "planned" : 0.0,
         "shared_name" : "CHEMCL_TANK",
@@ -13411,29 +15457,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/TANK/CHEMCL_TANK",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "N",
-        "SUID" : 78471,
+        "SUID" : 5439,
         "operating" : 30.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "N",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMCL_STORG/CHEMCL_TANK",
+        "ldtext" : "",
         "network_node_colour" : 6.0,
         "number_of_assets" : 35.0,
+        "To_be_removed" : "",
         "notoperating" : 3.0,
+        "structural_node" : "",
         "name" : "CHEMCL_TANK",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1139.0
       },
       "position" : {
-        "x" : -1009.063214638416,
-        "y" : -1291.6528887133318
+        "x" : -1703.7075016265671,
+        "y" : -2163.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78469",
+        "id" : "5437",
         "parent" : "CHEMICAL",
         "degree_layout" : 4,
         "asset_class_plan" : "Chemical - Storage",
@@ -13446,30 +15497,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CHEMCL_STORG",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78469,
+        "SUID" : 5437,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/CHEMICAL/CHEMCL_STORG",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 8.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHEMCL_STORG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 68.0
       },
       "position" : {
-        "x" : -1009.063214638416,
-        "y" : -1416.6528887133318
+        "x" : -1703.7075016265671,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78465",
+        "id" : "5435",
         "parent" : "CHEMICAL_EYE_SHOWER",
         "degree_layout" : 1,
         "asset_class_plan" : "Chemical - Shower and Eyewash Stations",
@@ -13482,29 +15537,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SAFTY_SHOWER",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78465,
+        "SUID" : 5435,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_EYE_SHOWER/SAFTY_SHOWER",
+        "ldtext" : "",
         "network_node_colour" : 3.0,
         "number_of_assets" : 10.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SAFTY_SHOWER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 219.0
       },
       "position" : {
-        "x" : -1009.063214638416,
-        "y" : -1891.6528887133318
+        "x" : -1253.7075016265671,
+        "y" : -2413.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78461",
+        "id" : "5433",
         "parent" : "CHEMICAL_EYE_SHOWER",
         "degree_layout" : 1,
         "asset_class_plan" : "Chemical - Shower and Eyewash Stations",
@@ -13517,63 +15577,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/EYE_WASH",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78461,
+        "SUID" : 5433,
         "operating" : 162.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_EYE_SHOWER/EYE_WASH",
         "ldtext" : "Safety equipment in chemical dosing areas.  Includes safety showers and eye washes.  These are typically installed at: Treatment plants chemical storage areas and laboratories Sewage odour control facilities Water chlorination plants.The asset includes the eyewash, pipework supplying the eyewash, bunding and drainage from the eyewash.  Regulations  OHS Regulations 2018, R. 18: Proper installation, use and maintenance of risk control measures. Australian StandardsAS 4775: Emergency Eyewash and Shower Equipment    ",
         "network_node_colour" : 3.0,
         "number_of_assets" : 237.0,
+        "To_be_removed" : "",
         "notoperating" : 8.0,
+        "structural_node" : "",
         "name" : "EYE_WASH",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 107.0
       },
       "position" : {
-        "x" : -1184.063214638416,
-        "y" : -1766.6528887133318
+        "x" : -1078.7075016265671,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78459",
+        "id" : "5431",
         "parent" : "CHEMICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "Chemical - Shower and Eyewash Stations",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "CHEMICAL_EYE_SHOWER",
         "decommissioned" : 0.0,
         "maximo_classification" : "CHEMICAL_EYE_SHOWER",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "CHEMICAL",
         "corrective_work_needed" : "N",
-        "SUID" : 78459,
+        "SUID" : 5431,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/CHEMICAL/CHEMICAL_EYE_SHOWER",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "CHEMICAL_EYE_SHOWER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1009.063214638416,
-        "y" : -1766.6528887133318
+        "x" : -1253.7075016265671,
+        "y" : -2288.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78455",
+        "id" : "5429",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Access Structures",
@@ -13586,30 +15656,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STAIRS/LADDER",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78455,
+        "SUID" : 5429,
         "operating" : 177.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/LADDER",
         "ldtext" : "Ladders are used to access vertical or near vertical slopes.Typically they are found in wet wells, maintenance structures and water tanks.This classification also includes portable ladders and step irons.  Note step irons and ladders in manholes are considered to be integral to the access point and are not considered separate assets.Design and installation should comply with AS/NZS 1657 Fixed Platforms, Walkways, Stairways and ladders, design construction and installation.No prescribed standards for maintenance, but consider the use of fall measures, if applicable.  OHS 2017 r 41: Prevention of fall measures required UNLESS task is undertaken on structure that comply with AS 1657, requirements of Building Regulations 2006, AND are used for the purpose for which they were designed.   (SGraham, Sept 2019) ",
         "network_node_colour" : 0.0,
         "number_of_assets" : 218.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "LADDER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 451.0
       },
       "position" : {
-        "x" : -2434.063214638416,
-        "y" : -3816.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78451",
+        "id" : "5427",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Access Structures",
@@ -13622,29 +15696,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RAMP",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78451,
+        "SUID" : 5427,
         "operating" : 12.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/RAMP",
+        "ldtext" : "",
         "network_node_colour" : 0.0,
         "number_of_assets" : 12.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "RAMP",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 63441.0
       },
       "position" : {
-        "x" : -2434.063214638416,
-        "y" : -3716.652888713332
+        "x" : 2121.292498373433,
+        "y" : -3738.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78447",
+        "id" : "5425",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Access Structures",
@@ -13657,30 +15736,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/WALKWY",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78447,
+        "SUID" : 5425,
         "operating" : 142.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/WALKWY",
         "ldtext" : "Access\n  structures (i.e. platforms, stairways, etc.). Includes walkways, platforms,\n  stairs, ladders.",
         "network_node_colour" : 0.0,
         "number_of_assets" : 232.0,
+        "To_be_removed" : "",
         "notoperating" : 18.0,
+        "structural_node" : "",
         "name" : "WALKWY",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1109.0
       },
       "position" : {
-        "x" : -2034.063214638416,
-        "y" : -3716.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3738.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78443",
+        "id" : "5423",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Access Structures",
@@ -13693,30 +15776,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SAFTY_GUARD_RAIL",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78443,
+        "SUID" : 5423,
         "operating" : 237.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/SAFTY_GUARD_RAIL",
         "ldtext" : "SAFTY_GUARD_RAIL protect against falling from heights hazards. Note that guards installed to prevent personnel from injury from moving equipment have the classification GUARD.  (S. Graham , Jan 2020)",
         "network_node_colour" : 0.0,
         "number_of_assets" : 250.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "SAFTY_GUARD_RAIL",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 217.0
       },
       "position" : {
-        "x" : -2434.063214638416,
-        "y" : -3616.652888713332
+        "x" : 2121.292498373433,
+        "y" : -3838.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78439",
+        "id" : "5421",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
         "asset_class_plan" : "Facilities - Access Structures",
@@ -13729,32 +15816,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/STAIRS",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78439,
+        "SUID" : 5421,
         "operating" : 164.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/STAIRS",
         "ldtext" : "Stairs are used to access levels at different elevations.Mostly located at treatment plants.  Note stairs that wrap around water tanks do not appear to be included in Maximo. New assets should be compliant to AS1657 Fixed Platforms, Walkways, Stairways and Ladders.  (S.Graham, Jan 2022)",
         "network_node_colour" : 0.0,
         "number_of_assets" : 186.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "STAIRS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 281.0
       },
       "position" : {
-        "x" : -2034.063214638416,
-        "y" : -3616.652888713332
+        "x" : 1721.2924983734329,
+        "y" : -3838.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78435",
+        "id" : "5419",
         "parent" : "ACCESS_STRUCTURES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Cover",
         "planned" : 0.0,
         "shared_name" : "COVER",
@@ -13764,63 +15856,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/COVER",
         "asset_owner" : "SEWER",
         "corrective_work_needed" : "N",
-        "SUID" : 78435,
+        "SUID" : 5419,
         "operating" : 156.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES/COVER",
         "ldtext" : " Covers are used to restrict entry to below ground assets.They are typically found on wet wells and emergency storages.  Note 1 Covers on standard manholes are not considered to be separate assets and are part of the maintenance hole (S_ACCESS) classificationNote 2 Tank hatches on water supply assets are  a separate classification TANK_HATCH.  (S.Graham, Sept 2019)",
         "network_node_colour" : 1.0,
         "number_of_assets" : 165.0,
+        "To_be_removed" : "",
         "notoperating" : 4.0,
+        "structural_node" : "",
         "name" : "COVER",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 78.0
       },
       "position" : {
-        "x" : -2234.063214638416,
-        "y" : -3566.652888713332
+        "x" : 1921.2924983734329,
+        "y" : -3888.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78433",
+        "id" : "5417",
         "parent" : "SITE",
         "degree_layout" : 8,
         "asset_class_plan" : "Facilities - Access Structures",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "ACCESS_STRUCTURES",
         "decommissioned" : 0.0,
         "maximo_classification" : "ACCESS_STRUCTURES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "TP",
         "corrective_work_needed" : "N",
-        "SUID" : 78433,
+        "SUID" : 5417,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/SITE/ACCESS_STRUCTURES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "ACCESS_STRUCTURES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -2234.063214638416,
-        "y" : -3816.652888713332
+        "x" : 1921.2924983734329,
+        "y" : -3638.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78429",
+        "id" : "5415",
         "parent" : "DAVIT",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Davit Bases",
@@ -13833,30 +15935,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE/DAV_ARM_BAS",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78429,
+        "SUID" : 5415,
         "operating" : 141.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/DAVIT/DAV_ARM_BAS",
         "ldtext" : "The Davit Arm Base is a permanently installed base plate that a davit arm can be inserted into.  The davit arm can then be used for confined space access.  Typically they are installed at sewer pump stations and water reservoirs.  (S.Graham, Sept 2021)",
         "network_node_colour" : 12.0,
         "number_of_assets" : 185.0,
+        "To_be_removed" : "",
         "notoperating" : 6.0,
+        "structural_node" : "",
         "name" : "DAV_ARM_BAS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 421.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -491.6528887133318
+        "x" : -2953.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78425",
+        "id" : "5413",
         "parent" : "DAVIT",
         "degree_layout" : 1,
         "asset_class_plan" : "M&E - Davit Bases",
@@ -13869,65 +15975,76 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/CRANE/DAVIT_ARM",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78425,
+        "SUID" : 5413,
         "operating" : 19.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/MECHANICAL/DAVIT/DAVIT_ARM",
         "ldtext" : "Right angled crane with the ability to slew.  Comprised of boom,  mast, winch and other lifting gear.  May be fitted onto a base (separate asset classification) or permanently fixed to a structure",
         "network_node_colour" : 12.0,
         "number_of_assets" : 21.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DAVIT_ARM",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 60342.0
       },
       "position" : {
-        "x" : -1059.063214638416,
-        "y" : -616.6528887133318
+        "x" : -2778.707501626567,
+        "y" : -2263.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78423",
+        "id" : "5411",
         "parent" : "MECHANICAL",
         "degree_layout" : 3,
         "asset_class_plan" : "M&E - Davit Bases",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "DAVIT",
         "decommissioned" : 0.0,
         "maximo_classification" : "DAVIT",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78423,
+        "SUID" : 5411,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
         "the_ACP" : "Y",
         "hierarchy" : "YVW/MECHANICAL/DAVIT",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "DAVIT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -884.063214638416,
-        "y" : -616.6528887133318
+        "x" : -2778.707501626567,
+        "y" : -2138.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78419",
+        "id" : "5409",
         "parent" : "HARNESSES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Safety Rigging",
         "planned" : 0.0,
         "shared_name" : "SAFTY_RIGNG",
@@ -13937,31 +16054,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SAFTY_RIGNG",
         "asset_owner" : "TBD",
         "corrective_work_needed" : "N",
-        "SUID" : 78419,
+        "SUID" : 5409,
         "operating" : 0.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY/HARNESSES/SAFTY_RIGNG",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 15.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SAFTY_RIGNG",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1074.0
       },
       "position" : {
-        "x" : -1134.063214638416,
-        "y" : -1041.6528887133318
+        "x" : -1878.7075016265671,
+        "y" : -2363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78415",
+        "id" : "5407",
         "parent" : "HARNESSES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Safety Harness",
         "planned" : 0.0,
         "shared_name" : "SAFTY_HARNS",
@@ -13971,31 +16094,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SAFTY_HARNS",
         "asset_owner" : "TBD",
         "corrective_work_needed" : "N",
-        "SUID" : 78415,
+        "SUID" : 5407,
         "operating" : 1.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY/HARNESSES/SAFTY_HARNS",
+        "ldtext" : "",
         "network_node_colour" : 12.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SAFTY_HARNS",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 218.0
       },
       "position" : {
-        "x" : -1134.063214638416,
-        "y" : -1291.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -2463.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78411",
+        "id" : "5405",
         "parent" : "HARNESSES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Fall Arrest Equipment",
         "planned" : 0.0,
         "shared_name" : "FALL_ARST_EQUPMNT",
@@ -14005,32 +16134,37 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/FALL_ARST_EQUPMNT",
         "asset_owner" : "M&E",
         "corrective_work_needed" : "N",
-        "SUID" : 78411,
+        "SUID" : 5405,
         "operating" : 40.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY/HARNESSES/FALL_ARST_EQUPMNT",
         "ldtext" : "The FALL_ARST_EQUPMNT classification is used for the static lines which are installed on ladders to protect against uncontrolled falls.  It includes the static lines and travellers.  It does not include harnesses or lanyards which are considered to be PPE supplied by the individual.  Note the classification does not include anchor points (ANCHR_POINTS) .  (S.Graham Jan 2020) Asset Management Approach All FALL_ARST_EQUPMENT assets are currently non operational.  There is a program managed by Peter Barglowski in Asset Integration to return them to service by July 2020. ",
         "network_node_colour" : 1.0,
         "number_of_assets" : 68.0,
+        "To_be_removed" : "",
         "notoperating" : 14.0,
+        "structural_node" : "",
         "name" : "FALL_ARST_EQUPMNT",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 1037.0
       },
       "position" : {
-        "x" : -1309.063214638416,
-        "y" : -1041.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -2513.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78407",
+        "id" : "5403",
         "parent" : "HARNESSES",
         "degree_layout" : 1,
+        "asset_class_plan" : "",
         "description" : "Life Jacket",
         "planned" : 0.0,
         "shared_name" : "SAFTY_LIFEJACKET",
@@ -14040,59 +16174,73 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/SAFTY_LIFEJACKET",
         "asset_owner" : "TBD",
         "corrective_work_needed" : "N",
-        "SUID" : 78407,
+        "SUID" : 5403,
         "operating" : 4.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "TBD",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY/HARNESSES/SAFTY_LIFEJACKET",
         "ldtext" : "Lifejackets are held at treatment plants to ensure safety around unguarded water bodies.  Refer to Distribution Services Safety Manual for additional information.",
         "network_node_colour" : 12.0,
         "number_of_assets" : 4.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "SAFTY_LIFEJACKET",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 64923.0
       },
       "position" : {
-        "x" : -1384.063214638416,
-        "y" : -1166.6528887133318
+        "x" : -2228.707501626567,
+        "y" : -2363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78405",
+        "id" : "5401",
         "parent" : "SAFETY",
         "degree_layout" : 5,
+        "asset_class_plan" : "",
+        "description" : "",
         "planned" : 0.0,
         "shared_name" : "HARNESSES",
         "decommissioned" : 0.0,
         "maximo_classification" : "HARNESSES",
         "offline" : 0.0,
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
         "corrective_work_needed" : "N",
-        "SUID" : 78405,
+        "SUID" : 5401,
         "operating" : 0.0,
         "new_classification" : "Y",
         "selected" : false,
         "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
         "hierarchy" : "YVW/SAFETY/HARNESSES",
+        "ldtext" : "",
         "network_node_colour" : 20.0,
         "number_of_assets" : 0.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "HARNESSES",
         "cancelled" : 0.0,
         "inconstruction" : 0.0
       },
       "position" : {
-        "x" : -1134.063214638416,
-        "y" : -1166.6528887133318
+        "x" : -2053.707501626567,
+        "y" : -2363.159016530478
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78401",
+        "id" : "5399",
         "parent" : "RADIO",
         "degree_layout" : 1,
         "asset_class_plan" : "OT - Radio Network",
@@ -14105,29 +16253,34 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/ANTENNA",
         "asset_owner" : "OT",
         "corrective_work_needed" : "No",
-        "SUID" : 78401,
+        "SUID" : 5399,
         "operating" : 87.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
+        "problem_description" : "",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/RADIO/ANTENNA",
+        "ldtext" : "",
         "network_node_colour" : 1.0,
         "number_of_assets" : 89.0,
+        "To_be_removed" : "",
         "notoperating" : 1.0,
+        "structural_node" : "",
         "name" : "ANTENNA",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 52.0
       },
       "position" : {
-        "x" : 890.936785361584,
-        "y" : -1616.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -938.1590165304779
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78399",
+        "id" : "5397",
         "parent" : "COM_DEVICES",
         "degree_layout" : 2,
         "asset_class_plan" : "OT - Radio Network",
@@ -14140,5407 +16293,5452 @@ var networks = {"edges%201.csv": {
         "current_maximo_hierarchy" : "YVW/YVW_POINT/RADIO",
         "asset_owner" : "OT",
         "corrective_work_needed" : "Yes",
-        "SUID" : 78399,
+        "SUID" : 5397,
         "operating" : 94.0,
         "new_classification" : "N",
         "selected" : false,
         "size_factor" : 3,
         "problem_description" : "Need to differentiate Radio asset at operational site, vs Radio Network that communicates to each Radio asset.",
         "asset_class_plan_in_foundation" : "Y",
+        "the_ACP" : "",
         "hierarchy" : "YVW/OT/COM_DEVICES/RADIO",
         "ldtext" : " RTUs (Remote Terminal Unit or Remote Telemetry Units)   are microprocessor-controlled electronic device that interfaces objects in the physical world to a distributed control system or SCADA (supervisory control and data acquisition) system by transmitting telemetry data to a master system, and by using messages from the master supervisory system to control connected objects.  (Wikipedia, 2019)  Some RTU's used by YVW are also used to provide site control in lieu of a PLC.  (S.Graham, 2019)",
         "network_node_colour" : 5.0,
         "number_of_assets" : 94.0,
+        "To_be_removed" : "",
         "notoperating" : 0.0,
+        "structural_node" : "",
         "name" : "RADIO",
         "cancelled" : 0.0,
         "inconstruction" : 0.0,
         "classstructureuid" : 58881.0
       },
       "position" : {
-        "x" : 740.936785361584,
-        "y" : -1616.6528887133318
+        "x" : -1478.7075016265671,
+        "y" : -1038.1590165304779
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "5395",
+        "parent" : "",
+        "asset_class_plan" : "",
+        "description" : "",
+        "shared_name" : "VEHICLE_ACCESS",
+        "maximo_classification" : "",
+        "current_maximo_hierarchy" : "",
+        "asset_owner" : "",
+        "corrective_work_needed" : "",
+        "SUID" : 5395,
+        "new_classification" : "",
+        "selected" : false,
+        "size_factor" : 2,
+        "problem_description" : "",
+        "asset_class_plan_in_foundation" : "",
+        "the_ACP" : "",
+        "hierarchy" : "",
+        "ldtext" : "",
+        "To_be_removed" : "",
+        "structural_node" : "",
+        "name" : "VEHICLE_ACCESS"
+      },
+      "position" : {
+        "x" : 2146.292498373433,
+        "y" : -3088.159016530478
       },
       "selected" : false
     } ],
     "edges" : [ {
       "data" : {
-        "id" : "80015",
-        "source" : "79977",
-        "target" : "80013",
+        "id" : "7055",
+        "source" : "6187",
+        "target" : "6205",
         "shared_name" : "VEHICLE (interacts with) PLANT",
         "name" : "VEHICLE (interacts with) PLANT",
         "interaction" : "interacts with",
-        "SUID" : 80015,
+        "SUID" : 7055,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80011",
-        "source" : "79977",
-        "target" : "80009",
+        "id" : "7053",
+        "source" : "6187",
+        "target" : "6203",
         "shared_name" : "VEHICLE (interacts with) TRUCK",
         "name" : "VEHICLE (interacts with) TRUCK",
         "interaction" : "interacts with",
-        "SUID" : 80011,
+        "SUID" : 7053,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80007",
-        "source" : "79977",
-        "target" : "80005",
+        "id" : "7051",
+        "source" : "6187",
+        "target" : "6201",
         "shared_name" : "VEHICLE (interacts with) PASSENGER",
         "name" : "VEHICLE (interacts with) PASSENGER",
         "interaction" : "interacts with",
-        "SUID" : 80007,
+        "SUID" : 7051,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80003",
-        "source" : "79977",
-        "target" : "80001",
+        "id" : "7049",
+        "source" : "6187",
+        "target" : "6199",
         "shared_name" : "VEHICLE (interacts with) BOAT",
         "name" : "VEHICLE (interacts with) BOAT",
         "interaction" : "interacts with",
-        "SUID" : 80003,
+        "SUID" : 7049,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79999",
-        "source" : "79977",
-        "target" : "79997",
+        "id" : "7047",
+        "source" : "6187",
+        "target" : "6197",
         "shared_name" : "VEHICLE (interacts with) VEHCL",
         "name" : "VEHICLE (interacts with) VEHCL",
         "interaction" : "interacts with",
-        "SUID" : 79999,
+        "SUID" : 7047,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79995",
-        "source" : "79977",
-        "target" : "79993",
+        "id" : "7045",
+        "source" : "6187",
+        "target" : "6195",
         "shared_name" : "VEHICLE (interacts with) GPS",
         "name" : "VEHICLE (interacts with) GPS",
         "interaction" : "interacts with",
-        "SUID" : 79995,
+        "SUID" : 7045,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79991",
-        "source" : "79977",
-        "target" : "79989",
+        "id" : "7043",
+        "source" : "6187",
+        "target" : "6193",
         "shared_name" : "VEHICLE (interacts with) COMMERCIAL",
         "name" : "VEHICLE (interacts with) COMMERCIAL",
         "interaction" : "interacts with",
-        "SUID" : 79991,
+        "SUID" : 7043,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79987",
-        "source" : "79977",
-        "target" : "79985",
+        "id" : "7041",
+        "source" : "6187",
+        "target" : "6191",
         "shared_name" : "VEHICLE (interacts with) TRAILER",
         "name" : "VEHICLE (interacts with) TRAILER",
         "interaction" : "interacts with",
-        "SUID" : 79987,
+        "SUID" : 7041,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79983",
-        "source" : "79977",
-        "target" : "79981",
+        "id" : "7039",
+        "source" : "6187",
+        "target" : "6189",
         "shared_name" : "VEHICLE (interacts with) DRONE_UAV",
         "name" : "VEHICLE (interacts with) DRONE_UAV",
         "interaction" : "interacts with",
-        "SUID" : 79983,
+        "SUID" : 7039,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79979",
-        "source" : "79973",
-        "target" : "79977",
+        "id" : "7037",
+        "source" : "6185",
+        "target" : "6187",
         "shared_name" : "FLEET (interacts with) VEHICLE",
         "name" : "FLEET (interacts with) VEHICLE",
         "interaction" : "interacts with",
-        "SUID" : 79979,
+        "SUID" : 7037,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79963",
-        "source" : "79953",
-        "target" : "79961",
+        "id" : "7035",
+        "source" : "6177",
+        "target" : "6181",
         "shared_name" : "OFFICE (interacts with) OFFICE_BUILDING",
         "name" : "OFFICE (interacts with) OFFICE_BUILDING",
         "interaction" : "interacts with",
-        "SUID" : 79963,
+        "SUID" : 7035,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79959",
-        "source" : "79953",
-        "target" : "79957",
+        "id" : "7033",
+        "source" : "6177",
+        "target" : "6179",
         "shared_name" : "OFFICE (interacts with) OFFICE_CARPARK",
         "name" : "OFFICE (interacts with) OFFICE_CARPARK",
         "interaction" : "interacts with",
-        "SUID" : 79959,
+        "SUID" : 7033,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79931",
-        "source" : "79843",
-        "target" : "79929",
+        "id" : "7031",
+        "source" : "6155",
+        "target" : "6173",
         "shared_name" : "ELECTRICAL (interacts with) PORTABLEEQ",
         "name" : "ELECTRICAL (interacts with) PORTABLEEQ",
         "interaction" : "interacts with",
-        "SUID" : 79931,
+        "SUID" : 7031,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79927",
-        "source" : "79843",
-        "target" : "78695",
+        "id" : "7029",
+        "source" : "6155",
+        "target" : "5561",
         "shared_name" : "ELECTRICAL (interacts with) CLIMATE_CONTROL",
         "name" : "ELECTRICAL (interacts with) CLIMATE_CONTROL",
         "interaction" : "interacts with",
-        "SUID" : 79927,
+        "SUID" : 7029,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79925",
-        "source" : "79843",
-        "target" : "78555",
+        "id" : "7027",
+        "source" : "6155",
+        "target" : "5485",
         "shared_name" : "ELECTRICAL (interacts with) LIGHTNG",
         "name" : "ELECTRICAL (interacts with) LIGHTNG",
         "interaction" : "interacts with",
-        "SUID" : 79925,
+        "SUID" : 7027,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79923",
-        "source" : "79843",
-        "target" : "78519",
+        "id" : "7025",
+        "source" : "6155",
+        "target" : "5465",
         "shared_name" : "ELECTRICAL (interacts with) EARTH_BONDING",
         "name" : "ELECTRICAL (interacts with) EARTH_BONDING",
         "interaction" : "interacts with",
-        "SUID" : 79923,
+        "SUID" : 7025,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79921",
-        "source" : "79843",
-        "target" : "78533",
+        "id" : "7023",
+        "source" : "6155",
+        "target" : "5473",
         "shared_name" : "ELECTRICAL (interacts with) ELECTRLYS",
         "name" : "ELECTRICAL (interacts with) ELECTRLYS",
         "interaction" : "interacts with",
-        "SUID" : 79921,
+        "SUID" : 7023,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79919",
-        "source" : "79843",
-        "target" : "78567",
+        "id" : "7021",
+        "source" : "6155",
+        "target" : "5493",
         "shared_name" : "ELECTRICAL (interacts with) CABLES",
         "name" : "ELECTRICAL (interacts with) CABLES",
         "interaction" : "interacts with",
-        "SUID" : 79919,
+        "SUID" : 7021,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79901",
-        "source" : "79843",
-        "target" : "78657",
+        "id" : "7019",
+        "source" : "6155",
+        "target" : "5541",
         "shared_name" : "ELECTRICAL (interacts with) ELECTENCLOSE",
         "name" : "ELECTRICAL (interacts with) ELECTENCLOSE",
         "interaction" : "interacts with",
-        "SUID" : 79901,
+        "SUID" : 7019,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79899",
-        "source" : "79843",
-        "target" : "78593",
+        "id" : "7017",
+        "source" : "6155",
+        "target" : "5507",
         "shared_name" : "ELECTRICAL (interacts with) SWITCHGEAR",
         "name" : "ELECTRICAL (interacts with) SWITCHGEAR",
         "interaction" : "interacts with",
-        "SUID" : 79899,
+        "SUID" : 7017,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79885",
-        "source" : "79843",
-        "target" : "79883",
+        "id" : "7015",
+        "source" : "6155",
+        "target" : "6171",
         "shared_name" : "ELECTRICAL (interacts with) POWR_HARMONIC_FILTR",
         "name" : "ELECTRICAL (interacts with) POWR_HARMONIC_FILTR",
         "interaction" : "interacts with",
-        "SUID" : 79885,
+        "SUID" : 7015,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79881",
-        "source" : "79843",
-        "target" : "78561",
+        "id" : "7013",
+        "source" : "6155",
+        "target" : "5489",
         "shared_name" : "ELECTRICAL (interacts with) POWER_POLES",
         "name" : "ELECTRICAL (interacts with) POWER_POLES",
         "interaction" : "interacts with",
-        "SUID" : 79881,
+        "SUID" : 7013,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79873",
-        "source" : "79843",
-        "target" : "79871",
+        "id" : "7011",
+        "source" : "6155",
+        "target" : "6167",
         "shared_name" : "ELECTRICAL (interacts with) POWR_FILTR",
         "name" : "ELECTRICAL (interacts with) POWR_FILTR",
         "interaction" : "interacts with",
-        "SUID" : 79873,
+        "SUID" : 7011,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79869",
-        "source" : "79843",
-        "target" : "79867",
+        "id" : "7009",
+        "source" : "6155",
+        "target" : "6165",
         "shared_name" : "ELECTRICAL (interacts with) ELECTRCL_SYSTM",
         "name" : "ELECTRICAL (interacts with) ELECTRCL_SYSTM",
         "interaction" : "interacts with",
-        "SUID" : 79869,
+        "SUID" : 7009,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79865",
-        "source" : "79843",
-        "target" : "79863",
+        "id" : "7007",
+        "source" : "6155",
+        "target" : "6163",
         "shared_name" : "ELECTRICAL (interacts with) POWR_SUPLY",
         "name" : "ELECTRICAL (interacts with) POWR_SUPLY",
         "interaction" : "interacts with",
-        "SUID" : 79865,
+        "SUID" : 7007,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79861",
-        "source" : "79843",
-        "target" : "79859",
+        "id" : "7005",
+        "source" : "6155",
+        "target" : "6161",
         "shared_name" : "ELECTRICAL (interacts with) SAFTY_ESTOP",
         "name" : "ELECTRICAL (interacts with) SAFTY_ESTOP",
         "interaction" : "interacts with",
-        "SUID" : 79861,
+        "SUID" : 7005,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79933",
-        "source" : "79839",
-        "target" : "79563",
+        "id" : "7003",
+        "source" : "6153",
+        "target" : "6015",
         "shared_name" : "MECHANICAL (interacts with) PRESSURE_SENSOR",
         "name" : "MECHANICAL (interacts with) PRESSURE_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79933,
+        "SUID" : 7003,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79917",
-        "source" : "79839",
-        "target" : "79339",
+        "id" : "7001",
+        "source" : "6153",
+        "target" : "5919",
         "shared_name" : "MECHANICAL (interacts with) ISOLATION_VALVE",
         "name" : "MECHANICAL (interacts with) ISOLATION_VALVE",
         "interaction" : "interacts with",
-        "SUID" : 79917,
+        "SUID" : 7001,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79915",
-        "source" : "79839",
-        "target" : "79225",
+        "id" : "6999",
+        "source" : "6153",
+        "target" : "5857",
         "shared_name" : "MECHANICAL (interacts with) AIR_VALVE",
         "name" : "MECHANICAL (interacts with) AIR_VALVE",
         "interaction" : "interacts with",
-        "SUID" : 79915,
+        "SUID" : 6999,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79913",
-        "source" : "79839",
-        "target" : "78773",
+        "id" : "6997",
+        "source" : "6153",
+        "target" : "5605",
         "shared_name" : "MECHANICAL (interacts with) BLOWER",
         "name" : "MECHANICAL (interacts with) BLOWER",
         "interaction" : "interacts with",
-        "SUID" : 79913,
+        "SUID" : 6997,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79911",
-        "source" : "79839",
-        "target" : "78423",
+        "id" : "6995",
+        "source" : "6153",
+        "target" : "5411",
         "shared_name" : "MECHANICAL (interacts with) DAVIT",
         "name" : "MECHANICAL (interacts with) DAVIT",
         "interaction" : "interacts with",
-        "SUID" : 79911,
+        "SUID" : 6995,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79909",
-        "source" : "79839",
-        "target" : "79529",
+        "id" : "6993",
+        "source" : "6153",
+        "target" : "5997",
         "shared_name" : "MECHANICAL (interacts with) FLOW_METER",
         "name" : "MECHANICAL (interacts with) FLOW_METER",
         "interaction" : "interacts with",
-        "SUID" : 79909,
+        "SUID" : 6993,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79907",
-        "source" : "79839",
-        "target" : "79239",
+        "id" : "6991",
+        "source" : "6153",
+        "target" : "5865",
         "shared_name" : "MECHANICAL (interacts with) CONTROL_VALVES",
         "name" : "MECHANICAL (interacts with) CONTROL_VALVES",
         "interaction" : "interacts with",
-        "SUID" : 79907,
+        "SUID" : 6991,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79905",
-        "source" : "79839",
-        "target" : "79273",
+        "id" : "6989",
+        "source" : "6153",
+        "target" : "5883",
         "shared_name" : "MECHANICAL (interacts with) NON_RETURN_DEVICES",
         "name" : "MECHANICAL (interacts with) NON_RETURN_DEVICES",
         "interaction" : "interacts with",
-        "SUID" : 79905,
+        "SUID" : 6989,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79903",
-        "source" : "79839",
-        "target" : "79129",
+        "id" : "6987",
+        "source" : "6153",
+        "target" : "5807",
         "shared_name" : "MECHANICAL (interacts with) ANALYSER",
         "name" : "MECHANICAL (interacts with) ANALYSER",
         "interaction" : "interacts with",
-        "SUID" : 79903,
+        "SUID" : 6987,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79897",
-        "source" : "79839",
-        "target" : "78715",
+        "id" : "6985",
+        "source" : "6153",
+        "target" : "5573",
         "shared_name" : "MECHANICAL (interacts with) CRANE",
         "name" : "MECHANICAL (interacts with) CRANE",
         "interaction" : "interacts with",
-        "SUID" : 79897,
+        "SUID" : 6985,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79895",
-        "source" : "79839",
-        "target" : "78737",
+        "id" : "6983",
+        "source" : "6153",
+        "target" : "5585",
         "shared_name" : "MECHANICAL (interacts with) PUMP",
         "name" : "MECHANICAL (interacts with) PUMP",
         "interaction" : "interacts with",
-        "SUID" : 79895,
+        "SUID" : 6983,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79893",
-        "source" : "79839",
-        "target" : "79203",
+        "id" : "6981",
+        "source" : "6153",
+        "target" : "5845",
         "shared_name" : "MECHANICAL (interacts with) LEVEL_SENSOR",
         "name" : "MECHANICAL (interacts with) LEVEL_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79893,
+        "SUID" : 6981,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79891",
-        "source" : "79839",
-        "target" : "78639",
+        "id" : "6979",
+        "source" : "6153",
+        "target" : "5531",
         "shared_name" : "MECHANICAL (interacts with) MOTOR_DRIVE",
         "name" : "MECHANICAL (interacts with) MOTOR_DRIVE",
         "interaction" : "interacts with",
-        "SUID" : 79891,
+        "SUID" : 6979,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79889",
-        "source" : "79839",
-        "target" : "79321",
+        "id" : "6977",
+        "source" : "6153",
+        "target" : "5909",
         "shared_name" : "MECHANICAL (interacts with) PRESSURE_EQUIP",
         "name" : "MECHANICAL (interacts with) PRESSURE_EQUIP",
         "interaction" : "interacts with",
-        "SUID" : 79889,
+        "SUID" : 6977,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79887",
-        "source" : "79839",
-        "target" : "79307",
+        "id" : "6975",
+        "source" : "6153",
+        "target" : "5901",
         "shared_name" : "MECHANICAL (interacts with) VALVE_ACTUATION",
         "name" : "MECHANICAL (interacts with) VALVE_ACTUATION",
         "interaction" : "interacts with",
-        "SUID" : 79887,
+        "SUID" : 6975,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79879",
-        "source" : "79839",
-        "target" : "78783",
+        "id" : "6973",
+        "source" : "6153",
+        "target" : "5611",
         "shared_name" : "MECHANICAL (interacts with) SUBMERSIBLE_PUMP",
         "name" : "MECHANICAL (interacts with) SUBMERSIBLE_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 79879,
+        "SUID" : 6973,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79877",
-        "source" : "79839",
-        "target" : "79875",
+        "id" : "6971",
+        "source" : "6153",
+        "target" : "6169",
         "shared_name" : "MECHANICAL (interacts with) DIESEL_PUMP",
         "name" : "MECHANICAL (interacts with) DIESEL_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 79877,
+        "SUID" : 6971,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79857",
-        "source" : "79839",
-        "target" : "78705",
+        "id" : "6969",
+        "source" : "6153",
+        "target" : "5567",
         "shared_name" : "MECHANICAL (interacts with) COMPRESS_SYS",
         "name" : "MECHANICAL (interacts with) COMPRESS_SYS",
         "interaction" : "interacts with",
-        "SUID" : 79857,
+        "SUID" : 6969,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79855",
-        "source" : "79839",
-        "target" : "78763",
+        "id" : "6967",
+        "source" : "6153",
+        "target" : "5599",
         "shared_name" : "MECHANICAL (interacts with) MIXERS",
         "name" : "MECHANICAL (interacts with) MIXERS",
         "interaction" : "interacts with",
-        "SUID" : 79855,
+        "SUID" : 6967,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79853",
-        "source" : "79839",
-        "target" : "79851",
+        "id" : "6965",
+        "source" : "6153",
+        "target" : "6159",
         "shared_name" : "MECHANICAL (interacts with) CHAIN",
         "name" : "MECHANICAL (interacts with) CHAIN",
         "interaction" : "interacts with",
-        "SUID" : 79853,
+        "SUID" : 6965,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79849",
-        "source" : "79839",
-        "target" : "79847",
+        "id" : "6963",
+        "source" : "6153",
+        "target" : "6157",
         "shared_name" : "MECHANICAL (interacts with) ANCHR_POINT",
         "name" : "MECHANICAL (interacts with) ANCHR_POINT",
         "interaction" : "interacts with",
-        "SUID" : 79849,
+        "SUID" : 6963,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79817",
-        "source" : "79811",
-        "target" : "79815",
+        "id" : "6961",
+        "source" : "6139",
+        "target" : "6141",
         "shared_name" : "SEWER_MONITORING (interacts with) SEWSAMPLEPT",
         "name" : "SEWER_MONITORING (interacts with) SEWSAMPLEPT",
         "interaction" : "interacts with",
-        "SUID" : 79817,
+        "SUID" : 6961,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79809",
-        "source" : "79799",
-        "target" : "79807",
+        "id" : "6959",
+        "source" : "6133",
+        "target" : "6137",
         "shared_name" : "WATER_MONITORING (interacts with) DW_SAMPLNG_TAP",
         "name" : "WATER_MONITORING (interacts with) DW_SAMPLNG_TAP",
         "interaction" : "interacts with",
-        "SUID" : 79809,
+        "SUID" : 6959,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79805",
-        "source" : "79799",
-        "target" : "79803",
+        "id" : "6957",
+        "source" : "6133",
+        "target" : "6135",
         "shared_name" : "WATER_MONITORING (interacts with) NDW_SAMPLNG_TAP",
         "name" : "WATER_MONITORING (interacts with) NDW_SAMPLNG_TAP",
         "interaction" : "interacts with",
-        "SUID" : 79805,
+        "SUID" : 6957,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79789",
-        "source" : "79775",
-        "target" : "79787",
+        "id" : "6955",
+        "source" : "6121",
+        "target" : "6127",
         "shared_name" : "TP_MONITORING (interacts with) CHANN_WEIR_FLOW_TROU",
         "name" : "TP_MONITORING (interacts with) CHANN_WEIR_FLOW_TROU",
         "interaction" : "interacts with",
-        "SUID" : 79789,
+        "SUID" : 6955,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79785",
-        "source" : "79775",
-        "target" : "79783",
+        "id" : "6953",
+        "source" : "6121",
+        "target" : "6125",
         "shared_name" : "TP_MONITORING (interacts with) TPSAMPLEPT",
         "name" : "TP_MONITORING (interacts with) TPSAMPLEPT",
         "interaction" : "interacts with",
-        "SUID" : 79785,
+        "SUID" : 6953,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79781",
-        "source" : "79775",
-        "target" : "79779",
+        "id" : "6951",
+        "source" : "6121",
+        "target" : "6123",
         "shared_name" : "TP_MONITORING (interacts with) NOISE_MONTR",
         "name" : "TP_MONITORING (interacts with) NOISE_MONTR",
         "interaction" : "interacts with",
-        "SUID" : 79781,
+        "SUID" : 6951,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79773",
-        "source" : "79751",
-        "target" : "79771",
+        "id" : "6949",
+        "source" : "6109",
+        "target" : "6119",
         "shared_name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_PIPES",
         "name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_PIPES",
         "interaction" : "interacts with",
-        "SUID" : 79773,
+        "SUID" : 6949,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79769",
-        "source" : "79751",
-        "target" : "79767",
+        "id" : "6947",
+        "source" : "6109",
+        "target" : "6117",
         "shared_name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_ACCESS",
         "name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_ACCESS",
         "interaction" : "interacts with",
-        "SUID" : 79769,
+        "SUID" : 6947,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79765",
-        "source" : "79751",
-        "target" : "79763",
+        "id" : "6945",
+        "source" : "6109",
+        "target" : "6115",
         "shared_name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_CONNECT",
         "name" : "DRAINAGE_STRUCTURES (interacts with) STORMWATER_CONNECT",
         "interaction" : "interacts with",
-        "SUID" : 79765,
+        "SUID" : 6945,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79761",
-        "source" : "79751",
-        "target" : "79759",
+        "id" : "6943",
+        "source" : "6109",
+        "target" : "6113",
         "shared_name" : "DRAINAGE_STRUCTURES (interacts with) DRAINAGE",
         "name" : "DRAINAGE_STRUCTURES (interacts with) DRAINAGE",
         "interaction" : "interacts with",
-        "SUID" : 79761,
+        "SUID" : 6943,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79757",
-        "source" : "79751",
-        "target" : "79755",
+        "id" : "6941",
+        "source" : "6109",
+        "target" : "6111",
         "shared_name" : "DRAINAGE_STRUCTURES (interacts with) PITS",
         "name" : "DRAINAGE_STRUCTURES (interacts with) PITS",
         "interaction" : "interacts with",
-        "SUID" : 79757,
+        "SUID" : 6941,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79955",
-        "source" : "79749",
-        "target" : "79953",
+        "id" : "6939",
+        "source" : "6107",
+        "target" : "6177",
         "shared_name" : "SITE (interacts with) OFFICE",
         "name" : "SITE (interacts with) OFFICE",
         "interaction" : "interacts with",
-        "SUID" : 79955,
+        "SUID" : 6939,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79951",
-        "source" : "79749",
-        "target" : "79601",
+        "id" : "6937",
+        "source" : "6107",
+        "target" : "6035",
         "shared_name" : "SITE (interacts with) LAND_MANAGEMENT",
         "name" : "SITE (interacts with) LAND_MANAGEMENT",
         "interaction" : "interacts with",
-        "SUID" : 79951,
+        "SUID" : 6937,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79949",
-        "source" : "79749",
-        "target" : "79947",
+        "id" : "6935",
+        "source" : "6107",
+        "target" : "6175",
         "shared_name" : "SITE (interacts with) SILENCER",
         "name" : "SITE (interacts with) SILENCER",
         "interaction" : "interacts with",
-        "SUID" : 79949,
+        "SUID" : 6935,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79945",
-        "source" : "79749",
-        "target" : "79423",
+        "id" : "6933",
+        "source" : "6107",
+        "target" : "5953",
         "shared_name" : "SITE (interacts with) BOLLRDS_AND_BARS",
         "name" : "SITE (interacts with) BOLLRDS_AND_BARS",
         "interaction" : "interacts with",
-        "SUID" : 79945,
+        "SUID" : 6933,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79943",
-        "source" : "79749",
-        "target" : "79437",
+        "id" : "6931",
+        "source" : "6107",
+        "target" : "5961",
         "shared_name" : "SITE (interacts with) GROUNDS",
         "name" : "SITE (interacts with) GROUNDS",
         "interaction" : "interacts with",
-        "SUID" : 79943,
+        "SUID" : 6931,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79941",
-        "source" : "79749",
-        "target" : "79619",
+        "id" : "6929",
+        "source" : "6107",
+        "target" : "6045",
         "shared_name" : "SITE (interacts with) SECURITY",
         "name" : "SITE (interacts with) SECURITY",
         "interaction" : "interacts with",
-        "SUID" : 79941,
+        "SUID" : 6929,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79939",
-        "source" : "79749",
-        "target" : "79723",
+        "id" : "6927",
+        "source" : "6107",
+        "target" : "6093",
         "shared_name" : "SITE (interacts with) BUILDING",
         "name" : "SITE (interacts with) BUILDING",
         "interaction" : "interacts with",
-        "SUID" : 79939,
+        "SUID" : 6927,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79937",
-        "source" : "79749",
-        "target" : "78433",
+        "id" : "6925",
+        "source" : "6107",
+        "target" : "5417",
         "shared_name" : "SITE (interacts with) ACCESS_STRUCTURES",
         "name" : "SITE (interacts with) ACCESS_STRUCTURES",
         "interaction" : "interacts with",
-        "SUID" : 79937,
+        "SUID" : 6925,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79753",
-        "source" : "79749",
-        "target" : "79751",
+        "id" : "6923",
+        "source" : "6107",
+        "target" : "6109",
         "shared_name" : "SITE (interacts with) DRAINAGE_STRUCTURES",
         "name" : "SITE (interacts with) DRAINAGE_STRUCTURES",
         "interaction" : "interacts with",
-        "SUID" : 79753,
+        "SUID" : 6923,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79793",
-        "source" : "79723",
-        "target" : "79791",
+        "id" : "6921",
+        "source" : "6107",
+        "target" : "5395",
+        "shared_name" : "SITE (interacts with) VEHICLE_ACCESS",
+        "name" : "SITE (interacts with) VEHICLE_ACCESS",
+        "interaction" : "interacts with",
+        "SUID" : 6921,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6919",
+        "source" : "6093",
+        "target" : "6129",
         "shared_name" : "BUILDING (interacts with) FIRE_EQUPMNT",
         "name" : "BUILDING (interacts with) FIRE_EQUPMNT",
         "interaction" : "interacts with",
-        "SUID" : 79793,
+        "SUID" : 6919,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79743",
-        "source" : "79723",
-        "target" : "79741",
+        "id" : "6917",
+        "source" : "6093",
+        "target" : "6103",
         "shared_name" : "BUILDING (interacts with) DEPOT_YARD",
         "name" : "BUILDING (interacts with) DEPOT_YARD",
         "interaction" : "interacts with",
-        "SUID" : 79743,
+        "SUID" : 6917,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79739",
-        "source" : "79723",
-        "target" : "79737",
+        "id" : "6915",
+        "source" : "6093",
+        "target" : "6101",
         "shared_name" : "BUILDING (interacts with) DEPOT_BUILDING",
         "name" : "BUILDING (interacts with) DEPOT_BUILDING",
         "interaction" : "interacts with",
-        "SUID" : 79739,
+        "SUID" : 6915,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79731",
-        "source" : "79723",
-        "target" : "79729",
+        "id" : "6913",
+        "source" : "6093",
+        "target" : "6097",
         "shared_name" : "BUILDING (interacts with) PUMP BUILDING",
         "name" : "BUILDING (interacts with) PUMP BUILDING",
         "interaction" : "interacts with",
-        "SUID" : 79731,
+        "SUID" : 6913,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79727",
-        "source" : "79723",
-        "target" : "79725",
+        "id" : "6911",
+        "source" : "6093",
+        "target" : "6095",
         "shared_name" : "BUILDING (interacts with) SWITCHROOM",
         "name" : "BUILDING (interacts with) SWITCHROOM",
         "interaction" : "interacts with",
-        "SUID" : 79727,
+        "SUID" : 6911,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79711",
-        "source" : "79709",
-        "target" : "78405",
+        "id" : "6909",
+        "source" : "6087",
+        "target" : "5401",
         "shared_name" : "SAFETY (interacts with) HARNESSES",
         "name" : "SAFETY (interacts with) HARNESSES",
         "interaction" : "interacts with",
-        "SUID" : 79711,
+        "SUID" : 6909,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80047",
-        "source" : "79705",
-        "target" : "80045",
+        "id" : "6907",
+        "source" : "6085",
+        "target" : "6221",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) DW_PMPNG_POINT",
         "name" : "WATER_ACCESS_POINT (interacts with) DW_PMPNG_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80047,
+        "SUID" : 6907,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80043",
-        "source" : "79705",
-        "target" : "80041",
+        "id" : "6905",
+        "source" : "6085",
+        "target" : "6219",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) VALVE_PIT",
         "name" : "WATER_ACCESS_POINT (interacts with) VALVE_PIT",
         "interaction" : "interacts with",
-        "SUID" : 80043,
+        "SUID" : 6905,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80039",
-        "source" : "79705",
-        "target" : "80037",
+        "id" : "6903",
+        "source" : "6085",
+        "target" : "6217",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) DW_SWAB_POINT",
         "name" : "WATER_ACCESS_POINT (interacts with) DW_SWAB_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80039,
+        "SUID" : 6903,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80035",
-        "source" : "79705",
-        "target" : "80033",
+        "id" : "6901",
+        "source" : "6085",
+        "target" : "6215",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) NDW_CHLRN_POINT",
         "name" : "WATER_ACCESS_POINT (interacts with) NDW_CHLRN_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80035,
+        "SUID" : 6901,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80031",
-        "source" : "79705",
-        "target" : "80029",
+        "id" : "6899",
+        "source" : "6085",
+        "target" : "6213",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) DW_CHLRN_POINT",
         "name" : "WATER_ACCESS_POINT (interacts with) DW_CHLRN_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80031,
+        "SUID" : 6899,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80027",
-        "source" : "79705",
-        "target" : "80025",
+        "id" : "6897",
+        "source" : "6085",
+        "target" : "6211",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) DW_MANHOLE",
         "name" : "WATER_ACCESS_POINT (interacts with) DW_MANHOLE",
         "interaction" : "interacts with",
-        "SUID" : 80027,
+        "SUID" : 6897,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80023",
-        "source" : "79705",
-        "target" : "80021",
+        "id" : "6895",
+        "source" : "6085",
+        "target" : "6209",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) NDW_SWAB_POINT",
         "name" : "WATER_ACCESS_POINT (interacts with) NDW_SWAB_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80023,
+        "SUID" : 6895,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80019",
-        "source" : "79705",
-        "target" : "80017",
+        "id" : "6893",
+        "source" : "6085",
+        "target" : "6207",
         "shared_name" : "WATER_ACCESS_POINT (interacts with) NDW_MANHOLE",
         "name" : "WATER_ACCESS_POINT (interacts with) NDW_MANHOLE",
         "interaction" : "interacts with",
-        "SUID" : 80019,
+        "SUID" : 6893,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79971",
-        "source" : "79639",
-        "target" : "78483",
+        "id" : "6891",
+        "source" : "6053",
+        "target" : "5445",
         "shared_name" : "ENERGY (interacts with) SOLAR_SYS",
         "name" : "ENERGY (interacts with) SOLAR_SYS",
         "interaction" : "interacts with",
-        "SUID" : 79971,
+        "SUID" : 6891,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79969",
-        "source" : "79639",
-        "target" : "79967",
+        "id" : "6889",
+        "source" : "6053",
+        "target" : "6183",
         "shared_name" : "ENERGY (interacts with) VEHL_CHARGING_UNIT",
         "name" : "ENERGY (interacts with) VEHL_CHARGING_UNIT",
         "interaction" : "interacts with",
-        "SUID" : 79969,
+        "SUID" : 6889,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79965",
-        "source" : "79639",
-        "target" : "78501",
+        "id" : "6887",
+        "source" : "6053",
+        "target" : "5455",
         "shared_name" : "ENERGY (interacts with) GENERATOR",
         "name" : "ENERGY (interacts with) GENERATOR",
         "interaction" : "interacts with",
-        "SUID" : 79965,
+        "SUID" : 6887,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79703",
-        "source" : "79639",
-        "target" : "79701",
+        "id" : "6885",
+        "source" : "6053",
+        "target" : "6083",
         "shared_name" : "ENERGY (interacts with) EXP_VESL",
         "name" : "ENERGY (interacts with) EXP_VESL",
         "interaction" : "interacts with",
-        "SUID" : 79703,
+        "SUID" : 6885,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79699",
-        "source" : "79639",
-        "target" : "79697",
+        "id" : "6883",
+        "source" : "6053",
+        "target" : "6081",
         "shared_name" : "ENERGY (interacts with) FLARE",
         "name" : "ENERGY (interacts with) FLARE",
         "interaction" : "interacts with",
-        "SUID" : 79699,
+        "SUID" : 6883,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79695",
-        "source" : "79639",
-        "target" : "79693",
+        "id" : "6881",
+        "source" : "6053",
+        "target" : "6079",
         "shared_name" : "ENERGY (interacts with) OCUREACTOR",
         "name" : "ENERGY (interacts with) OCUREACTOR",
         "interaction" : "interacts with",
-        "SUID" : 79695,
+        "SUID" : 6881,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79691",
-        "source" : "79639",
-        "target" : "79689",
+        "id" : "6879",
+        "source" : "6053",
+        "target" : "6077",
         "shared_name" : "ENERGY (interacts with) CHPEXHAUST",
         "name" : "ENERGY (interacts with) CHPEXHAUST",
         "interaction" : "interacts with",
-        "SUID" : 79691,
+        "SUID" : 6879,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79687",
-        "source" : "79639",
-        "target" : "79685",
+        "id" : "6877",
+        "source" : "6053",
+        "target" : "6075",
         "shared_name" : "ENERGY (interacts with) HEAT_EXCHANGE",
         "name" : "ENERGY (interacts with) HEAT_EXCHANGE",
         "interaction" : "interacts with",
-        "SUID" : 79687,
+        "SUID" : 6877,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79683",
-        "source" : "79639",
-        "target" : "79681",
+        "id" : "6875",
+        "source" : "6053",
+        "target" : "6073",
         "shared_name" : "ENERGY (interacts with) AIR_COOL",
         "name" : "ENERGY (interacts with) AIR_COOL",
         "interaction" : "interacts with",
-        "SUID" : 79683,
+        "SUID" : 6875,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79679",
-        "source" : "79639",
-        "target" : "79677",
-        "shared_name" : "ENERGY (interacts with) WHEELWASH",
-        "name" : "ENERGY (interacts with) WHEELWASH",
-        "interaction" : "interacts with",
-        "SUID" : 79679,
-        "shared_interaction" : "interacts with",
-        "selected" : false
-      },
-      "selected" : false
-    }, {
-      "data" : {
-        "id" : "79675",
-        "source" : "79639",
-        "target" : "79673",
+        "id" : "6873",
+        "source" : "6053",
+        "target" : "6069",
         "shared_name" : "ENERGY (interacts with) SHREDDER",
         "name" : "ENERGY (interacts with) SHREDDER",
         "interaction" : "interacts with",
-        "SUID" : 79675,
+        "SUID" : 6873,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79671",
-        "source" : "79639",
-        "target" : "79669",
-        "shared_name" : "ENERGY (interacts with) WEIGHBRIDGE",
-        "name" : "ENERGY (interacts with) WEIGHBRIDGE",
-        "interaction" : "interacts with",
-        "SUID" : 79671,
-        "shared_interaction" : "interacts with",
-        "selected" : false
-      },
-      "selected" : false
-    }, {
-      "data" : {
-        "id" : "79667",
-        "source" : "79639",
-        "target" : "79665",
-        "shared_name" : "ENERGY (interacts with) BRIDGE",
-        "name" : "ENERGY (interacts with) BRIDGE",
-        "interaction" : "interacts with",
-        "SUID" : 79667,
-        "shared_interaction" : "interacts with",
-        "selected" : false
-      },
-      "selected" : false
-    }, {
-      "data" : {
-        "id" : "79663",
-        "source" : "79639",
-        "target" : "79661",
+        "id" : "6871",
+        "source" : "6053",
+        "target" : "6063",
         "shared_name" : "ENERGY (interacts with) DEPACKAGER",
         "name" : "ENERGY (interacts with) DEPACKAGER",
         "interaction" : "interacts with",
-        "SUID" : 79663,
+        "SUID" : 6871,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79659",
-        "source" : "79639",
-        "target" : "79657",
+        "id" : "6869",
+        "source" : "6053",
+        "target" : "6061",
         "shared_name" : "ENERGY (interacts with) WET_SCRUBBER",
         "name" : "ENERGY (interacts with) WET_SCRUBBER",
         "interaction" : "interacts with",
-        "SUID" : 79659,
+        "SUID" : 6869,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79655",
-        "source" : "79639",
-        "target" : "79653",
+        "id" : "6867",
+        "source" : "6053",
+        "target" : "6059",
         "shared_name" : "ENERGY (interacts with) COOLING_TOWERS",
         "name" : "ENERGY (interacts with) COOLING_TOWERS",
         "interaction" : "interacts with",
-        "SUID" : 79655,
+        "SUID" : 6867,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79651",
-        "source" : "79639",
-        "target" : "79649",
+        "id" : "6865",
+        "source" : "6053",
+        "target" : "6057",
         "shared_name" : "ENERGY (interacts with) ODOUR_MONITORING",
         "name" : "ENERGY (interacts with) ODOUR_MONITORING",
         "interaction" : "interacts with",
-        "SUID" : 79651,
+        "SUID" : 6865,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79647",
-        "source" : "79639",
-        "target" : "79645",
+        "id" : "6863",
+        "source" : "6053",
+        "target" : "6055",
         "shared_name" : "ENERGY (interacts with) DRYER",
         "name" : "ENERGY (interacts with) DRYER",
         "interaction" : "interacts with",
-        "SUID" : 79647,
+        "SUID" : 6863,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79975",
-        "source" : "79629",
-        "target" : "79973",
+        "id" : "6861",
+        "source" : "6051",
+        "target" : "6185",
         "shared_name" : "YVW (interacts with) FLEET",
         "name" : "YVW (interacts with) FLEET",
         "interaction" : "interacts with",
-        "SUID" : 79975,
+        "SUID" : 6861,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79935",
-        "source" : "79629",
-        "target" : "79749",
+        "id" : "6859",
+        "source" : "6051",
+        "target" : "6107",
         "shared_name" : "YVW (interacts with) SITE",
         "name" : "YVW (interacts with) SITE",
         "interaction" : "interacts with",
-        "SUID" : 79935,
+        "SUID" : 6859,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79845",
-        "source" : "79629",
-        "target" : "79843",
+        "id" : "6857",
+        "source" : "6051",
+        "target" : "6155",
         "shared_name" : "YVW (interacts with) ELECTRICAL",
         "name" : "YVW (interacts with) ELECTRICAL",
         "interaction" : "interacts with",
-        "SUID" : 79845,
+        "SUID" : 6857,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79841",
-        "source" : "79629",
-        "target" : "79839",
+        "id" : "6855",
+        "source" : "6051",
+        "target" : "6153",
         "shared_name" : "YVW (interacts with) MECHANICAL",
         "name" : "YVW (interacts with) MECHANICAL",
         "interaction" : "interacts with",
-        "SUID" : 79841,
+        "SUID" : 6855,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79713",
-        "source" : "79629",
-        "target" : "79709",
+        "id" : "6853",
+        "source" : "6051",
+        "target" : "6087",
         "shared_name" : "YVW (interacts with) SAFETY",
         "name" : "YVW (interacts with) SAFETY",
         "interaction" : "interacts with",
-        "SUID" : 79713,
+        "SUID" : 6853,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79643",
-        "source" : "79629",
-        "target" : "79473",
+        "id" : "6851",
+        "source" : "6051",
+        "target" : "5979",
         "shared_name" : "YVW (interacts with) TREATMENT",
         "name" : "YVW (interacts with) TREATMENT",
         "interaction" : "interacts with",
-        "SUID" : 79643,
+        "SUID" : 6851,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79641",
-        "source" : "79629",
-        "target" : "79639",
+        "id" : "6849",
+        "source" : "6051",
+        "target" : "6053",
         "shared_name" : "YVW (interacts with) ENERGY",
         "name" : "YVW (interacts with) ENERGY",
         "interaction" : "interacts with",
-        "SUID" : 79641,
+        "SUID" : 6849,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79637",
-        "source" : "79629",
-        "target" : "79397",
+        "id" : "6847",
+        "source" : "6051",
+        "target" : "5945",
         "shared_name" : "YVW (interacts with) SEWER",
         "name" : "YVW (interacts with) SEWER",
         "interaction" : "interacts with",
-        "SUID" : 79637,
+        "SUID" : 6847,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79635",
-        "source" : "79629",
-        "target" : "79369",
+        "id" : "6845",
+        "source" : "6051",
+        "target" : "5935",
         "shared_name" : "YVW (interacts with) WATER",
         "name" : "YVW (interacts with) WATER",
         "interaction" : "interacts with",
-        "SUID" : 79635,
+        "SUID" : 6845,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79633",
-        "source" : "79629",
-        "target" : "79497",
+        "id" : "6843",
+        "source" : "6051",
+        "target" : "5983",
         "shared_name" : "YVW (interacts with) OT",
         "name" : "YVW (interacts with) OT",
         "interaction" : "interacts with",
-        "SUID" : 79633,
+        "SUID" : 6843,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79631",
-        "source" : "79629",
-        "target" : "79463",
+        "id" : "6841",
+        "source" : "6051",
+        "target" : "5975",
         "shared_name" : "YVW (interacts with) CHEMICAL",
         "name" : "YVW (interacts with) CHEMICAL",
         "interaction" : "interacts with",
-        "SUID" : 79631,
+        "SUID" : 6841,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79721",
-        "source" : "79619",
-        "target" : "79719",
+        "id" : "6839",
+        "source" : "6045",
+        "target" : "6091",
         "shared_name" : "SECURITY (interacts with) FENCING",
         "name" : "SECURITY (interacts with) FENCING",
         "interaction" : "interacts with",
-        "SUID" : 79721,
+        "SUID" : 6839,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79627",
-        "source" : "79619",
-        "target" : "79625",
+        "id" : "6837",
+        "source" : "6045",
+        "target" : "6049",
         "shared_name" : "SECURITY (interacts with) SECRTY",
         "name" : "SECURITY (interacts with) SECRTY",
         "interaction" : "interacts with",
-        "SUID" : 79627,
+        "SUID" : 6837,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79623",
-        "source" : "79619",
-        "target" : "79621",
+        "id" : "6835",
+        "source" : "6045",
+        "target" : "6047",
         "shared_name" : "SECURITY (interacts with) ALARM",
         "name" : "SECURITY (interacts with) ALARM",
         "interaction" : "interacts with",
-        "SUID" : 79623,
+        "SUID" : 6835,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79617",
-        "source" : "79601",
-        "target" : "79615",
+        "id" : "6833",
+        "source" : "6035",
+        "target" : "6043",
         "shared_name" : "LAND_MANAGEMENT (interacts with) PIPE_TRACKS",
         "name" : "LAND_MANAGEMENT (interacts with) PIPE_TRACKS",
         "interaction" : "interacts with",
-        "SUID" : 79617,
+        "SUID" : 6833,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79613",
-        "source" : "79601",
-        "target" : "79611",
+        "id" : "6831",
+        "source" : "6035",
+        "target" : "6041",
         "shared_name" : "LAND_MANAGEMENT (interacts with) PADDOCK",
         "name" : "LAND_MANAGEMENT (interacts with) PADDOCK",
         "interaction" : "interacts with",
-        "SUID" : 79613,
+        "SUID" : 6831,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79609",
-        "source" : "79601",
-        "target" : "79607",
+        "id" : "6829",
+        "source" : "6035",
+        "target" : "6039",
         "shared_name" : "LAND_MANAGEMENT (interacts with) NATV_VEG_OFFST_AREA",
         "name" : "LAND_MANAGEMENT (interacts with) NATV_VEG_OFFST_AREA",
         "interaction" : "interacts with",
-        "SUID" : 79609,
+        "SUID" : 6829,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79605",
-        "source" : "79601",
-        "target" : "79603",
+        "id" : "6827",
+        "source" : "6035",
+        "target" : "6037",
         "shared_name" : "LAND_MANAGEMENT (interacts with) CULTSIG",
         "name" : "LAND_MANAGEMENT (interacts with) CULTSIG",
         "interaction" : "interacts with",
-        "SUID" : 79605,
+        "SUID" : 6827,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79599",
-        "source" : "79563",
-        "target" : "79597",
+        "id" : "6825",
+        "source" : "6015",
+        "target" : "6033",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR_GUAGE",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR_GUAGE",
         "interaction" : "interacts with",
-        "SUID" : 79599,
+        "SUID" : 6825,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79595",
-        "source" : "79563",
-        "target" : "79593",
+        "id" : "6823",
+        "source" : "6015",
+        "target" : "6031",
         "shared_name" : "PRESSURE_SENSOR (interacts with) OUTLT_PRESR",
         "name" : "PRESSURE_SENSOR (interacts with) OUTLT_PRESR",
         "interaction" : "interacts with",
-        "SUID" : 79595,
+        "SUID" : 6823,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79591",
-        "source" : "79563",
-        "target" : "79589",
+        "id" : "6821",
+        "source" : "6015",
+        "target" : "6029",
         "shared_name" : "PRESSURE_SENSOR (interacts with) INLET_PRESR",
         "name" : "PRESSURE_SENSOR (interacts with) INLET_PRESR",
         "interaction" : "interacts with",
-        "SUID" : 79591,
+        "SUID" : 6821,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79587",
-        "source" : "79563",
-        "target" : "79585",
+        "id" : "6819",
+        "source" : "6015",
+        "target" : "6027",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR_CONTRL",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR_CONTRL",
         "interaction" : "interacts with",
-        "SUID" : 79587,
+        "SUID" : 6819,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79583",
-        "source" : "79563",
-        "target" : "79581",
+        "id" : "6817",
+        "source" : "6015",
+        "target" : "6025",
         "shared_name" : "PRESSURE_SENSOR (interacts with) GUAGE",
         "name" : "PRESSURE_SENSOR (interacts with) GUAGE",
         "interaction" : "interacts with",
-        "SUID" : 79583,
+        "SUID" : 6817,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79579",
-        "source" : "79563",
-        "target" : "79577",
+        "id" : "6815",
+        "source" : "6015",
+        "target" : "6023",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR_METR",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR_METR",
         "interaction" : "interacts with",
-        "SUID" : 79579,
+        "SUID" : 6815,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79575",
-        "source" : "79563",
-        "target" : "79573",
+        "id" : "6813",
+        "source" : "6015",
+        "target" : "6021",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR_TRANSDUCERS",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR_TRANSDUCERS",
         "interaction" : "interacts with",
-        "SUID" : 79575,
+        "SUID" : 6813,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79571",
-        "source" : "79563",
-        "target" : "79569",
+        "id" : "6811",
+        "source" : "6015",
+        "target" : "6019",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR",
         "interaction" : "interacts with",
-        "SUID" : 79571,
+        "SUID" : 6811,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79567",
-        "source" : "79563",
-        "target" : "79565",
+        "id" : "6809",
+        "source" : "6015",
+        "target" : "6017",
         "shared_name" : "PRESSURE_SENSOR (interacts with) PRESR_TRANSMTR",
         "name" : "PRESSURE_SENSOR (interacts with) PRESR_TRANSMTR",
         "interaction" : "interacts with",
-        "SUID" : 79567,
+        "SUID" : 6809,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79561",
-        "source" : "79529",
-        "target" : "79559",
+        "id" : "6807",
+        "source" : "5997",
+        "target" : "6013",
         "shared_name" : "FLOW_METER (interacts with) ULTRSNC_FLOW_METR",
         "name" : "FLOW_METER (interacts with) ULTRSNC_FLOW_METR",
         "interaction" : "interacts with",
-        "SUID" : 79561,
+        "SUID" : 6807,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79557",
-        "source" : "79529",
-        "target" : "79555",
+        "id" : "6805",
+        "source" : "5997",
+        "target" : "6011",
         "shared_name" : "FLOW_METER (interacts with) THERMAL_FLOW_METER",
         "name" : "FLOW_METER (interacts with) THERMAL_FLOW_METER",
         "interaction" : "interacts with",
-        "SUID" : 79557,
+        "SUID" : 6805,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79553",
-        "source" : "79529",
-        "target" : "79551",
+        "id" : "6803",
+        "source" : "5997",
+        "target" : "6009",
         "shared_name" : "FLOW_METER (interacts with) NDW_RECORDER",
         "name" : "FLOW_METER (interacts with) NDW_RECORDER",
         "interaction" : "interacts with",
-        "SUID" : 79553,
+        "SUID" : 6803,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79549",
-        "source" : "79529",
-        "target" : "79547",
+        "id" : "6801",
+        "source" : "5997",
+        "target" : "6007",
         "shared_name" : "FLOW_METER (interacts with) DW_RECORDER",
         "name" : "FLOW_METER (interacts with) DW_RECORDER",
         "interaction" : "interacts with",
-        "SUID" : 79549,
+        "SUID" : 6801,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79545",
-        "source" : "79529",
-        "target" : "79543",
+        "id" : "6799",
+        "source" : "5997",
+        "target" : "6005",
         "shared_name" : "FLOW_METER (interacts with) MAGFLOW_FLOW_METR",
         "name" : "FLOW_METER (interacts with) MAGFLOW_FLOW_METR",
         "interaction" : "interacts with",
-        "SUID" : 79545,
+        "SUID" : 6799,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79541",
-        "source" : "79529",
-        "target" : "79539",
+        "id" : "6797",
+        "source" : "5997",
+        "target" : "6003",
         "shared_name" : "FLOW_METER (interacts with) FLOW_SWITCH",
         "name" : "FLOW_METER (interacts with) FLOW_SWITCH",
         "interaction" : "interacts with",
-        "SUID" : 79541,
+        "SUID" : 6797,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79537",
-        "source" : "79529",
-        "target" : "79535",
+        "id" : "6795",
+        "source" : "5997",
+        "target" : "6001",
         "shared_name" : "FLOW_METER (interacts with) DOSNG_FLOW_METR",
         "name" : "FLOW_METER (interacts with) DOSNG_FLOW_METR",
         "interaction" : "interacts with",
-        "SUID" : 79537,
+        "SUID" : 6795,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79533",
-        "source" : "79529",
-        "target" : "79531",
+        "id" : "6793",
+        "source" : "5997",
+        "target" : "5999",
         "shared_name" : "FLOW_METER (interacts with) FLOW_METR",
         "name" : "FLOW_METER (interacts with) FLOW_METR",
         "interaction" : "interacts with",
-        "SUID" : 79533,
+        "SUID" : 6793,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79515",
-        "source" : "79497",
-        "target" : "79119",
+        "id" : "6791",
+        "source" : "5983",
+        "target" : "5801",
         "shared_name" : "OT (interacts with) RTU_PLC",
         "name" : "OT (interacts with) RTU_PLC",
         "interaction" : "interacts with",
-        "SUID" : 79515,
+        "SUID" : 6791,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79513",
-        "source" : "79497",
-        "target" : "79105",
+        "id" : "6789",
+        "source" : "5983",
+        "target" : "5793",
         "shared_name" : "OT (interacts with) BACKUP_POWER_SUPPLY",
         "name" : "OT (interacts with) BACKUP_POWER_SUPPLY",
         "interaction" : "interacts with",
-        "SUID" : 79513,
+        "SUID" : 6789,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79511",
-        "source" : "79497",
-        "target" : "79509",
+        "id" : "6787",
+        "source" : "5983",
+        "target" : "5989",
         "shared_name" : "OT (interacts with) HMI",
         "name" : "OT (interacts with) HMI",
         "interaction" : "interacts with",
-        "SUID" : 79511,
+        "SUID" : 6787,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79507",
-        "source" : "79497",
-        "target" : "79085",
+        "id" : "6785",
+        "source" : "5983",
+        "target" : "5783",
         "shared_name" : "OT (interacts with) COM_DEVICES",
         "name" : "OT (interacts with) COM_DEVICES",
         "interaction" : "interacts with",
-        "SUID" : 79507,
+        "SUID" : 6785,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79505",
-        "source" : "79497",
-        "target" : "79503",
+        "id" : "6783",
+        "source" : "5983",
+        "target" : "5987",
         "shared_name" : "OT (interacts with) SPARE",
         "name" : "OT (interacts with) SPARE",
         "interaction" : "interacts with",
-        "SUID" : 79505,
+        "SUID" : 6783,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79501",
-        "source" : "79497",
-        "target" : "79499",
+        "id" : "6781",
+        "source" : "5983",
+        "target" : "5985",
         "shared_name" : "OT (interacts with) CONTRL_EQUPMNT",
         "name" : "OT (interacts with) CONTRL_EQUPMNT",
         "interaction" : "interacts with",
-        "SUID" : 79501,
+        "SUID" : 6781,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79837",
-        "source" : "79473",
-        "target" : "79835",
+        "id" : "6779",
+        "source" : "5979",
+        "target" : "6151",
         "shared_name" : "TREATMENT (interacts with) SEPARATOR",
         "name" : "TREATMENT (interacts with) SEPARATOR",
         "interaction" : "interacts with",
-        "SUID" : 79837,
+        "SUID" : 6779,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79777",
-        "source" : "79473",
-        "target" : "79775",
+        "id" : "6777",
+        "source" : "5979",
+        "target" : "6121",
         "shared_name" : "TREATMENT (interacts with) TP_MONITORING",
         "name" : "TREATMENT (interacts with) TP_MONITORING",
         "interaction" : "interacts with",
-        "SUID" : 79777,
+        "SUID" : 6777,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79495",
-        "source" : "79473",
-        "target" : "78905",
+        "id" : "6775",
+        "source" : "5979",
+        "target" : "5681",
         "shared_name" : "TREATMENT (interacts with) IRRIGATION SYSTEMS",
         "name" : "TREATMENT (interacts with) IRRIGATION SYSTEMS",
         "interaction" : "interacts with",
-        "SUID" : 79495,
+        "SUID" : 6775,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79493",
-        "source" : "79473",
-        "target" : "78891",
+        "id" : "6773",
+        "source" : "5979",
+        "target" : "5673",
         "shared_name" : "TREATMENT (interacts with) DIFFUSERS",
         "name" : "TREATMENT (interacts with) DIFFUSERS",
         "interaction" : "interacts with",
-        "SUID" : 79493,
+        "SUID" : 6773,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79491",
-        "source" : "79473",
-        "target" : "78881",
+        "id" : "6771",
+        "source" : "5979",
+        "target" : "5667",
         "shared_name" : "TREATMENT (interacts with) PIPEWORKS",
         "name" : "TREATMENT (interacts with) PIPEWORKS",
         "interaction" : "interacts with",
-        "SUID" : 79491,
+        "SUID" : 6771,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79489",
-        "source" : "79473",
-        "target" : "78871",
+        "id" : "6769",
+        "source" : "5979",
+        "target" : "5661",
         "shared_name" : "TREATMENT (interacts with) SCREW_BELT_PRESS",
         "name" : "TREATMENT (interacts with) SCREW_BELT_PRESS",
         "interaction" : "interacts with",
-        "SUID" : 79489,
+        "SUID" : 6769,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79487",
-        "source" : "79473",
-        "target" : "78861",
+        "id" : "6767",
+        "source" : "5979",
+        "target" : "5655",
         "shared_name" : "TREATMENT (interacts with) LAGOONS",
         "name" : "TREATMENT (interacts with) LAGOONS",
         "interaction" : "interacts with",
-        "SUID" : 79487,
+        "SUID" : 6767,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79485",
-        "source" : "79473",
-        "target" : "78855",
+        "id" : "6765",
+        "source" : "5979",
+        "target" : "5651",
         "shared_name" : "TREATMENT (interacts with) CLARIFIERS",
         "name" : "TREATMENT (interacts with) CLARIFIERS",
         "interaction" : "interacts with",
-        "SUID" : 79485,
+        "SUID" : 6765,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79483",
-        "source" : "79473",
-        "target" : "78833",
+        "id" : "6763",
+        "source" : "5979",
+        "target" : "5639",
         "shared_name" : "TREATMENT (interacts with) FILTERING",
         "name" : "TREATMENT (interacts with) FILTERING",
         "interaction" : "interacts with",
-        "SUID" : 79483,
+        "SUID" : 6763,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79481",
-        "source" : "79473",
-        "target" : "78823",
+        "id" : "6761",
+        "source" : "5979",
+        "target" : "5633",
         "shared_name" : "TREATMENT (interacts with) UV_SYS",
         "name" : "TREATMENT (interacts with) UV_SYS",
         "interaction" : "interacts with",
-        "SUID" : 79481,
+        "SUID" : 6761,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79479",
-        "source" : "79473",
-        "target" : "78805",
+        "id" : "6759",
+        "source" : "5979",
+        "target" : "5623",
         "shared_name" : "TREATMENT (interacts with) SCREENING",
         "name" : "TREATMENT (interacts with) SCREENING",
         "interaction" : "interacts with",
-        "SUID" : 79479,
+        "SUID" : 6759,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79477",
-        "source" : "79473",
-        "target" : "79475",
+        "id" : "6757",
+        "source" : "5979",
+        "target" : "5981",
         "shared_name" : "TREATMENT (interacts with) DECANTERS",
         "name" : "TREATMENT (interacts with) DECANTERS",
         "interaction" : "interacts with",
-        "SUID" : 79477,
+        "SUID" : 6757,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79821",
-        "source" : "79469",
-        "target" : "79819",
+        "id" : "6755",
+        "source" : "5977",
+        "target" : "6143",
         "shared_name" : "CHEMICAL_DOSING (interacts with) MOB_CDF",
         "name" : "CHEMICAL_DOSING (interacts with) MOB_CDF",
         "interaction" : "interacts with",
-        "SUID" : 79821,
+        "SUID" : 6755,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79527",
-        "source" : "79469",
-        "target" : "79525",
+        "id" : "6753",
+        "source" : "5977",
+        "target" : "5995",
         "shared_name" : "CHEMICAL_DOSING (interacts with) CALBRTN_COLMN",
         "name" : "CHEMICAL_DOSING (interacts with) CALBRTN_COLMN",
         "interaction" : "interacts with",
-        "SUID" : 79527,
+        "SUID" : 6753,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79523",
-        "source" : "79469",
-        "target" : "79521",
+        "id" : "6751",
+        "source" : "5977",
+        "target" : "5993",
         "shared_name" : "CHEMICAL_DOSING (interacts with) DOSING_PUMP",
         "name" : "CHEMICAL_DOSING (interacts with) DOSING_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 79523,
+        "SUID" : 6751,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79519",
-        "source" : "79469",
-        "target" : "79517",
+        "id" : "6749",
+        "source" : "5977",
+        "target" : "5991",
         "shared_name" : "CHEMICAL_DOSING (interacts with) CHEMCL_DOSNG_UNIT",
         "name" : "CHEMICAL_DOSING (interacts with) CHEMCL_DOSNG_UNIT",
         "interaction" : "interacts with",
-        "SUID" : 79519,
+        "SUID" : 6749,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79471",
-        "source" : "79463",
-        "target" : "79469",
+        "id" : "6747",
+        "source" : "5975",
+        "target" : "5977",
         "shared_name" : "CHEMICAL (interacts with) CHEMICAL_DOSING",
         "name" : "CHEMICAL (interacts with) CHEMICAL_DOSING",
         "interaction" : "interacts with",
-        "SUID" : 79471,
+        "SUID" : 6747,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79467",
-        "source" : "79463",
-        "target" : "78469",
+        "id" : "6745",
+        "source" : "5975",
+        "target" : "5437",
         "shared_name" : "CHEMICAL (interacts with) CHEMCL_STORG",
         "name" : "CHEMICAL (interacts with) CHEMCL_STORG",
         "interaction" : "interacts with",
-        "SUID" : 79467,
+        "SUID" : 6745,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79465",
-        "source" : "79463",
-        "target" : "78459",
+        "id" : "6743",
+        "source" : "5975",
+        "target" : "5431",
         "shared_name" : "CHEMICAL (interacts with) CHEMICAL_EYE_SHOWER",
         "name" : "CHEMICAL (interacts with) CHEMICAL_EYE_SHOWER",
         "interaction" : "interacts with",
-        "SUID" : 79465,
+        "SUID" : 6743,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79735",
-        "source" : "79437",
-        "target" : "79733",
+        "id" : "6741",
+        "source" : "5961",
+        "target" : "6099",
         "shared_name" : "GROUNDS (interacts with) GARDNS_LANDSCPNG",
         "name" : "GROUNDS (interacts with) GARDNS_LANDSCPNG",
         "interaction" : "interacts with",
-        "SUID" : 79735,
+        "SUID" : 6741,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79717",
-        "source" : "79437",
-        "target" : "79715",
+        "id" : "6739",
+        "source" : "5961",
+        "target" : "6089",
         "shared_name" : "GROUNDS (interacts with) BORE",
         "name" : "GROUNDS (interacts with) BORE",
         "interaction" : "interacts with",
-        "SUID" : 79717,
+        "SUID" : 6739,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79461",
-        "source" : "79437",
-        "target" : "79459",
+        "id" : "6737",
+        "source" : "5961",
+        "target" : "5973",
         "shared_name" : "GROUNDS (interacts with) GRDS_BLDGS",
         "name" : "GROUNDS (interacts with) GRDS_BLDGS",
         "interaction" : "interacts with",
-        "SUID" : 79461,
+        "SUID" : 6737,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79457",
-        "source" : "79437",
-        "target" : "79455",
-        "shared_name" : "GROUNDS (interacts with) TRACKS_DRIVWYS",
-        "name" : "GROUNDS (interacts with) TRACKS_DRIVWYS",
-        "interaction" : "interacts with",
-        "SUID" : 79457,
-        "shared_interaction" : "interacts with",
-        "selected" : false
-      },
-      "selected" : false
-    }, {
-      "data" : {
-        "id" : "79453",
-        "source" : "79437",
-        "target" : "79451",
+        "id" : "6735",
+        "source" : "5961",
+        "target" : "5969",
         "shared_name" : "GROUNDS (interacts with) GROUND",
         "name" : "GROUNDS (interacts with) GROUND",
         "interaction" : "interacts with",
-        "SUID" : 79453,
+        "SUID" : 6735,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79449",
-        "source" : "79437",
-        "target" : "79447",
-        "shared_name" : "GROUNDS (interacts with) ROADS",
-        "name" : "GROUNDS (interacts with) ROADS",
-        "interaction" : "interacts with",
-        "SUID" : 79449,
-        "shared_interaction" : "interacts with",
-        "selected" : false
-      },
-      "selected" : false
-    }, {
-      "data" : {
-        "id" : "79445",
-        "source" : "79437",
-        "target" : "79443",
+        "id" : "6733",
+        "source" : "5961",
+        "target" : "5965",
         "shared_name" : "GROUNDS (interacts with) WATER_SUPPLY",
         "name" : "GROUNDS (interacts with) WATER_SUPPLY",
         "interaction" : "interacts with",
-        "SUID" : 79445,
+        "SUID" : 6733,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79441",
-        "source" : "79437",
-        "target" : "79439",
+        "id" : "6731",
+        "source" : "5961",
+        "target" : "5963",
         "shared_name" : "GROUNDS (interacts with) SIGNG",
         "name" : "GROUNDS (interacts with) SIGNG",
         "interaction" : "interacts with",
-        "SUID" : 79441,
+        "SUID" : 6731,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79435",
-        "source" : "79423",
-        "target" : "79433",
+        "id" : "6729",
+        "source" : "5953",
+        "target" : "5959",
         "shared_name" : "BOLLRDS_AND_BARS (interacts with) BARRIERS",
         "name" : "BOLLRDS_AND_BARS (interacts with) BARRIERS",
         "interaction" : "interacts with",
-        "SUID" : 79435,
+        "SUID" : 6729,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79431",
-        "source" : "79423",
-        "target" : "79429",
+        "id" : "6727",
+        "source" : "5953",
+        "target" : "5957",
         "shared_name" : "BOLLRDS_AND_BARS (interacts with) BOLLARDS",
         "name" : "BOLLRDS_AND_BARS (interacts with) BOLLARDS",
         "interaction" : "interacts with",
-        "SUID" : 79431,
+        "SUID" : 6727,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79427",
-        "source" : "79423",
-        "target" : "79425",
+        "id" : "6725",
+        "source" : "5953",
+        "target" : "5955",
         "shared_name" : "BOLLRDS_AND_BARS (interacts with) GATE",
         "name" : "BOLLRDS_AND_BARS (interacts with) GATE",
         "interaction" : "interacts with",
-        "SUID" : 79427,
+        "SUID" : 6725,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80055",
-        "source" : "79397",
-        "target" : "80053",
+        "id" : "6723",
+        "source" : "5945",
+        "target" : "6225",
         "shared_name" : "SEWER (interacts with) S_ACCESS",
         "name" : "SEWER (interacts with) S_ACCESS",
         "interaction" : "interacts with",
-        "SUID" : 80055,
+        "SUID" : 6723,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "80051",
-        "source" : "79397",
-        "target" : "80049",
+        "id" : "6721",
+        "source" : "5945",
+        "target" : "6223",
         "shared_name" : "SEWER (interacts with) S_ACCESS_POINT",
         "name" : "SEWER (interacts with) S_ACCESS_POINT",
         "interaction" : "interacts with",
-        "SUID" : 80051,
+        "SUID" : 6721,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79813",
-        "source" : "79397",
-        "target" : "79811",
+        "id" : "6719",
+        "source" : "5945",
+        "target" : "6139",
         "shared_name" : "SEWER (interacts with) SEWER_MONITORING",
         "name" : "SEWER (interacts with) SEWER_MONITORING",
         "interaction" : "interacts with",
-        "SUID" : 79813,
+        "SUID" : 6719,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79421",
-        "source" : "79397",
-        "target" : "79419",
+        "id" : "6717",
+        "source" : "5945",
+        "target" : "5951",
         "shared_name" : "SEWER (interacts with) SOC",
         "name" : "SEWER (interacts with) SOC",
         "interaction" : "interacts with",
-        "SUID" : 79421,
+        "SUID" : 6717,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79417",
-        "source" : "79397",
-        "target" : "79415",
+        "id" : "6715",
+        "source" : "5945",
+        "target" : "5949",
         "shared_name" : "SEWER (interacts with) S_PIPE",
         "name" : "SEWER (interacts with) S_PIPE",
         "interaction" : "interacts with",
-        "SUID" : 79417,
+        "SUID" : 6715,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79413",
-        "source" : "79397",
-        "target" : "79075",
+        "id" : "6713",
+        "source" : "5945",
+        "target" : "5777",
         "shared_name" : "SEWER (interacts with) PROPERTY_CON_BRANCH",
         "name" : "SEWER (interacts with) PROPERTY_CON_BRANCH",
         "interaction" : "interacts with",
-        "SUID" : 79413,
+        "SUID" : 6713,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79411",
-        "source" : "79397",
-        "target" : "79069",
+        "id" : "6711",
+        "source" : "5945",
+        "target" : "5773",
         "shared_name" : "SEWER (interacts with) PRESSURE_AREA",
         "name" : "SEWER (interacts with) PRESSURE_AREA",
         "interaction" : "interacts with",
-        "SUID" : 79411,
+        "SUID" : 6711,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79409",
-        "source" : "79397",
-        "target" : "79051",
+        "id" : "6709",
+        "source" : "5945",
+        "target" : "5763",
         "shared_name" : "SEWER (interacts with) PRESSURE_SYS",
         "name" : "SEWER (interacts with) PRESSURE_SYS",
         "interaction" : "interacts with",
-        "SUID" : 79409,
+        "SUID" : 6709,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79407",
-        "source" : "79397",
-        "target" : "79037",
+        "id" : "6707",
+        "source" : "5945",
+        "target" : "5755",
         "shared_name" : "SEWER (interacts with) VENTS_CANISTERS",
         "name" : "SEWER (interacts with) VENTS_CANISTERS",
         "interaction" : "interacts with",
-        "SUID" : 79407,
+        "SUID" : 6707,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79405",
-        "source" : "79397",
-        "target" : "79403",
+        "id" : "6705",
+        "source" : "5945",
+        "target" : "5947",
         "shared_name" : "SEWER (interacts with) S_RISING_MAIN",
         "name" : "SEWER (interacts with) S_RISING_MAIN",
         "interaction" : "interacts with",
-        "SUID" : 79405,
+        "SUID" : 6705,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79401",
-        "source" : "79397",
-        "target" : "79011",
+        "id" : "6703",
+        "source" : "5945",
+        "target" : "5741",
         "shared_name" : "SEWER (interacts with) WET_WELLS",
         "name" : "SEWER (interacts with) WET_WELLS",
         "interaction" : "interacts with",
-        "SUID" : 79401,
+        "SUID" : 6703,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79399",
-        "source" : "79397",
-        "target" : "79001",
+        "id" : "6701",
+        "source" : "5945",
+        "target" : "5735",
         "shared_name" : "SEWER (interacts with) S_MAIN_BRANCH",
         "name" : "SEWER (interacts with) S_MAIN_BRANCH",
         "interaction" : "interacts with",
-        "SUID" : 79399,
+        "SUID" : 6701,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79801",
-        "source" : "79369",
-        "target" : "79799",
+        "id" : "6699",
+        "source" : "5935",
+        "target" : "6133",
         "shared_name" : "WATER (interacts with) WATER_MONITORING",
         "name" : "WATER (interacts with) WATER_MONITORING",
         "interaction" : "interacts with",
-        "SUID" : 79801,
+        "SUID" : 6699,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79707",
-        "source" : "79369",
-        "target" : "79705",
+        "id" : "6697",
+        "source" : "5935",
+        "target" : "6085",
         "shared_name" : "WATER (interacts with) WATER_ACCESS_POINT",
         "name" : "WATER (interacts with) WATER_ACCESS_POINT",
         "interaction" : "interacts with",
-        "SUID" : 79707,
+        "SUID" : 6697,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79395",
-        "source" : "79369",
-        "target" : "79393",
+        "id" : "6695",
+        "source" : "5935",
+        "target" : "5943",
         "shared_name" : "WATER (interacts with) FILLNG_STATN",
         "name" : "WATER (interacts with) FILLNG_STATN",
         "interaction" : "interacts with",
-        "SUID" : 79395,
+        "SUID" : 6695,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79391",
-        "source" : "79369",
-        "target" : "79389",
+        "id" : "6693",
+        "source" : "5935",
+        "target" : "5941",
         "shared_name" : "WATER (interacts with) FERRULES",
         "name" : "WATER (interacts with) FERRULES",
         "interaction" : "interacts with",
-        "SUID" : 79391,
+        "SUID" : 6693,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79387",
-        "source" : "79369",
-        "target" : "79385",
+        "id" : "6691",
+        "source" : "5935",
+        "target" : "5939",
         "shared_name" : "WATER (interacts with) DISTRIBUTION_MAINS",
         "name" : "WATER (interacts with) DISTRIBUTION_MAINS",
         "interaction" : "interacts with",
-        "SUID" : 79387,
+        "SUID" : 6691,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79383",
-        "source" : "79369",
-        "target" : "78971",
+        "id" : "6689",
+        "source" : "5935",
+        "target" : "5719",
         "shared_name" : "WATER (interacts with) WATER_TANKS",
         "name" : "WATER (interacts with) WATER_TANKS",
         "interaction" : "interacts with",
-        "SUID" : 79383,
+        "SUID" : 6689,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79381",
-        "source" : "79369",
-        "target" : "78953",
+        "id" : "6687",
+        "source" : "5935",
+        "target" : "5709",
         "shared_name" : "WATER (interacts with) HYDRANTS",
         "name" : "WATER (interacts with) HYDRANTS",
         "interaction" : "interacts with",
-        "SUID" : 79381,
+        "SUID" : 6687,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79379",
-        "source" : "79369",
-        "target" : "78943",
+        "id" : "6685",
+        "source" : "5935",
+        "target" : "5703",
         "shared_name" : "WATER (interacts with) CUSTMR_METR",
         "name" : "WATER (interacts with) CUSTMR_METR",
         "interaction" : "interacts with",
-        "SUID" : 79379,
+        "SUID" : 6685,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79377",
-        "source" : "79369",
-        "target" : "79375",
+        "id" : "6683",
+        "source" : "5935",
+        "target" : "5937",
         "shared_name" : "WATER (interacts with) PARTCL_DISPRSIN_DEVC",
         "name" : "WATER (interacts with) PARTCL_DISPRSIN_DEVC",
         "interaction" : "interacts with",
-        "SUID" : 79377,
+        "SUID" : 6683,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79373",
-        "source" : "79369",
-        "target" : "78921",
+        "id" : "6681",
+        "source" : "5935",
+        "target" : "5691",
         "shared_name" : "WATER (interacts with) W_RETIC_MAINS",
         "name" : "WATER (interacts with) W_RETIC_MAINS",
         "interaction" : "interacts with",
-        "SUID" : 79373,
+        "SUID" : 6681,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79371",
-        "source" : "79369",
-        "target" : "78911",
+        "id" : "6679",
+        "source" : "5935",
+        "target" : "5685",
         "shared_name" : "WATER (interacts with) W_MAIN_TO_METER",
         "name" : "WATER (interacts with) W_MAIN_TO_METER",
         "interaction" : "interacts with",
-        "SUID" : 79371,
+        "SUID" : 6679,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79367",
-        "source" : "79339",
-        "target" : "79365",
+        "id" : "6677",
+        "source" : "5919",
+        "target" : "5933",
         "shared_name" : "ISOLATION_VALVE (interacts with) DWSCOUR",
         "name" : "ISOLATION_VALVE (interacts with) DWSCOUR",
         "interaction" : "interacts with",
-        "SUID" : 79367,
+        "SUID" : 6677,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79363",
-        "source" : "79339",
-        "target" : "79361",
+        "id" : "6675",
+        "source" : "5919",
+        "target" : "5931",
         "shared_name" : "ISOLATION_VALVE (interacts with) VALVE_GATE",
         "name" : "ISOLATION_VALVE (interacts with) VALVE_GATE",
         "interaction" : "interacts with",
-        "SUID" : 79363,
+        "SUID" : 6675,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79359",
-        "source" : "79339",
-        "target" : "79357",
+        "id" : "6673",
+        "source" : "5919",
+        "target" : "5929",
         "shared_name" : "ISOLATION_VALVE (interacts with) S_ISOL_VLV",
         "name" : "ISOLATION_VALVE (interacts with) S_ISOL_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79359,
+        "SUID" : 6673,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79355",
-        "source" : "79339",
-        "target" : "79353",
+        "id" : "6671",
+        "source" : "5919",
+        "target" : "5927",
         "shared_name" : "ISOLATION_VALVE (interacts with) NDW_ISOL_VLV",
         "name" : "ISOLATION_VALVE (interacts with) NDW_ISOL_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79355,
+        "SUID" : 6671,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79351",
-        "source" : "79339",
-        "target" : "79349",
+        "id" : "6669",
+        "source" : "5919",
+        "target" : "5925",
         "shared_name" : "ISOLATION_VALVE (interacts with) DW_ISOL_VLV",
         "name" : "ISOLATION_VALVE (interacts with) DW_ISOL_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79351,
+        "SUID" : 6669,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79347",
-        "source" : "79339",
-        "target" : "79345",
+        "id" : "6667",
+        "source" : "5919",
+        "target" : "5923",
         "shared_name" : "ISOLATION_VALVE (interacts with) PENSTOCK",
         "name" : "ISOLATION_VALVE (interacts with) PENSTOCK",
         "interaction" : "interacts with",
-        "SUID" : 79347,
+        "SUID" : 6667,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79343",
-        "source" : "79339",
-        "target" : "79341",
+        "id" : "6665",
+        "source" : "5919",
+        "target" : "5921",
         "shared_name" : "ISOLATION_VALVE (interacts with) STOPBOARD",
         "name" : "ISOLATION_VALVE (interacts with) STOPBOARD",
         "interaction" : "interacts with",
-        "SUID" : 79343,
+        "SUID" : 6665,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79337",
-        "source" : "79321",
-        "target" : "79335",
+        "id" : "6663",
+        "source" : "5909",
+        "target" : "5917",
         "shared_name" : "PRESSURE_EQUIP (interacts with) ACCUMULATOR",
         "name" : "PRESSURE_EQUIP (interacts with) ACCUMULATOR",
         "interaction" : "interacts with",
-        "SUID" : 79337,
+        "SUID" : 6663,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79333",
-        "source" : "79321",
-        "target" : "79331",
+        "id" : "6661",
+        "source" : "5909",
+        "target" : "5915",
         "shared_name" : "PRESSURE_EQUIP (interacts with) PRESR_VESL",
         "name" : "PRESSURE_EQUIP (interacts with) PRESR_VESL",
         "interaction" : "interacts with",
-        "SUID" : 79333,
+        "SUID" : 6661,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79329",
-        "source" : "79321",
-        "target" : "79327",
+        "id" : "6659",
+        "source" : "5909",
+        "target" : "5913",
         "shared_name" : "PRESSURE_EQUIP (interacts with) PRESR_RELIEF_VLV",
         "name" : "PRESSURE_EQUIP (interacts with) PRESR_RELIEF_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79329,
+        "SUID" : 6659,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79325",
-        "source" : "79321",
-        "target" : "79323",
+        "id" : "6657",
+        "source" : "5909",
+        "target" : "5911",
         "shared_name" : "PRESSURE_EQUIP (interacts with) VALVESUS",
         "name" : "PRESSURE_EQUIP (interacts with) VALVESUS",
         "interaction" : "interacts with",
-        "SUID" : 79325,
+        "SUID" : 6657,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79319",
-        "source" : "79307",
-        "target" : "79317",
+        "id" : "6655",
+        "source" : "5901",
+        "target" : "5907",
         "shared_name" : "VALVE_ACTUATION (interacts with) SOLENOID_VALVE",
         "name" : "VALVE_ACTUATION (interacts with) SOLENOID_VALVE",
         "interaction" : "interacts with",
-        "SUID" : 79319,
+        "SUID" : 6655,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79315",
-        "source" : "79307",
-        "target" : "79313",
+        "id" : "6653",
+        "source" : "5901",
+        "target" : "5905",
         "shared_name" : "VALVE_ACTUATION (interacts with) ACTUTR",
         "name" : "VALVE_ACTUATION (interacts with) ACTUTR",
         "interaction" : "interacts with",
-        "SUID" : 79315,
+        "SUID" : 6653,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79311",
-        "source" : "79307",
-        "target" : "79309",
+        "id" : "6651",
+        "source" : "5901",
+        "target" : "5903",
         "shared_name" : "VALVE_ACTUATION (interacts with) GEARBX",
         "name" : "VALVE_ACTUATION (interacts with) GEARBX",
         "interaction" : "interacts with",
-        "SUID" : 79311,
+        "SUID" : 6651,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79305",
-        "source" : "79273",
-        "target" : "79303",
+        "id" : "6649",
+        "source" : "5883",
+        "target" : "5899",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) NDW_CNTRL_VLV_NR",
         "name" : "NON_RETURN_DEVICES (interacts with) NDW_CNTRL_VLV_NR",
         "interaction" : "interacts with",
-        "SUID" : 79305,
+        "SUID" : 6649,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79301",
-        "source" : "79273",
-        "target" : "79299",
+        "id" : "6647",
+        "source" : "5883",
+        "target" : "5897",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) DW_BACKFLW_PREV_DEVC",
         "name" : "NON_RETURN_DEVICES (interacts with) DW_BACKFLW_PREV_DEVC",
         "interaction" : "interacts with",
-        "SUID" : 79301,
+        "SUID" : 6647,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79297",
-        "source" : "79273",
-        "target" : "79295",
+        "id" : "6645",
+        "source" : "5883",
+        "target" : "5895",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) DW_RPZD_VLV",
         "name" : "NON_RETURN_DEVICES (interacts with) DW_RPZD_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79297,
+        "SUID" : 6645,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79293",
-        "source" : "79273",
-        "target" : "79291",
+        "id" : "6643",
+        "source" : "5883",
+        "target" : "5893",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) NDW_RPZD_VLV",
         "name" : "NON_RETURN_DEVICES (interacts with) NDW_RPZD_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79293,
+        "SUID" : 6643,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79289",
-        "source" : "79273",
-        "target" : "79287",
+        "id" : "6641",
+        "source" : "5883",
+        "target" : "5891",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) DW_CNTRL_VLV_NR",
         "name" : "NON_RETURN_DEVICES (interacts with) DW_CNTRL_VLV_NR",
         "interaction" : "interacts with",
-        "SUID" : 79289,
+        "SUID" : 6641,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79285",
-        "source" : "79273",
-        "target" : "79283",
+        "id" : "6639",
+        "source" : "5883",
+        "target" : "5889",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) CHECK_VALVE",
         "name" : "NON_RETURN_DEVICES (interacts with) CHECK_VALVE",
         "interaction" : "interacts with",
-        "SUID" : 79285,
+        "SUID" : 6639,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79281",
-        "source" : "79273",
-        "target" : "79279",
+        "id" : "6637",
+        "source" : "5883",
+        "target" : "5887",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) S_CNTRL_VLV_NR",
         "name" : "NON_RETURN_DEVICES (interacts with) S_CNTRL_VLV_NR",
         "interaction" : "interacts with",
-        "SUID" : 79281,
+        "SUID" : 6637,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79277",
-        "source" : "79273",
-        "target" : "79275",
+        "id" : "6635",
+        "source" : "5883",
+        "target" : "5885",
         "shared_name" : "NON_RETURN_DEVICES (interacts with) FLAP_GATE",
         "name" : "NON_RETURN_DEVICES (interacts with) FLAP_GATE",
         "interaction" : "interacts with",
-        "SUID" : 79277,
+        "SUID" : 6635,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79271",
-        "source" : "79239",
-        "target" : "79269",
+        "id" : "6633",
+        "source" : "5865",
+        "target" : "5881",
         "shared_name" : "CONTROL_VALVES (interacts with) PRESR_VALVES",
         "name" : "CONTROL_VALVES (interacts with) PRESR_VALVES",
         "interaction" : "interacts with",
-        "SUID" : 79271,
+        "SUID" : 6633,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79267",
-        "source" : "79239",
-        "target" : "79265",
+        "id" : "6631",
+        "source" : "5865",
+        "target" : "5879",
         "shared_name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV",
         "name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79267,
+        "SUID" : 6631,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79263",
-        "source" : "79239",
-        "target" : "79261",
+        "id" : "6629",
+        "source" : "5865",
+        "target" : "5877",
         "shared_name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV",
         "name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV",
         "interaction" : "interacts with",
-        "SUID" : 79263,
+        "SUID" : 6629,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79259",
-        "source" : "79239",
-        "target" : "79257",
+        "id" : "6627",
+        "source" : "5865",
+        "target" : "5875",
         "shared_name" : "CONTROL_VALVES (interacts with) PRESSURE_DAMPENER",
         "name" : "CONTROL_VALVES (interacts with) PRESSURE_DAMPENER",
         "interaction" : "interacts with",
-        "SUID" : 79259,
+        "SUID" : 6627,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79255",
-        "source" : "79239",
-        "target" : "79253",
+        "id" : "6625",
+        "source" : "5865",
+        "target" : "5873",
         "shared_name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV_GLB",
         "name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV_GLB",
         "interaction" : "interacts with",
-        "SUID" : 79255,
+        "SUID" : 6625,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79251",
-        "source" : "79239",
-        "target" : "79249",
+        "id" : "6623",
+        "source" : "5865",
+        "target" : "5871",
         "shared_name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV_NDL",
         "name" : "CONTROL_VALVES (interacts with) NDW_CNTRL_VLV_NDL",
         "interaction" : "interacts with",
-        "SUID" : 79251,
+        "SUID" : 6623,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79247",
-        "source" : "79239",
-        "target" : "79245",
+        "id" : "6621",
+        "source" : "5865",
+        "target" : "5869",
         "shared_name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV_GLB",
         "name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV_GLB",
         "interaction" : "interacts with",
-        "SUID" : 79247,
+        "SUID" : 6621,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79243",
-        "source" : "79239",
-        "target" : "79241",
+        "id" : "6619",
+        "source" : "5865",
+        "target" : "5867",
         "shared_name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV_NDL",
         "name" : "CONTROL_VALVES (interacts with) DW_CNTRL_VLV_NDL",
         "interaction" : "interacts with",
-        "SUID" : 79243,
+        "SUID" : 6619,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79237",
-        "source" : "79225",
-        "target" : "79235",
+        "id" : "6617",
+        "source" : "5857",
+        "target" : "5863",
         "shared_name" : "AIR_VALVE (interacts with) NDW_CNTRL_VLV_AIR",
         "name" : "AIR_VALVE (interacts with) NDW_CNTRL_VLV_AIR",
         "interaction" : "interacts with",
-        "SUID" : 79237,
+        "SUID" : 6617,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79233",
-        "source" : "79225",
-        "target" : "79231",
+        "id" : "6615",
+        "source" : "5857",
+        "target" : "5861",
         "shared_name" : "AIR_VALVE (interacts with) S_CNTRL_VLV_AIR",
         "name" : "AIR_VALVE (interacts with) S_CNTRL_VLV_AIR",
         "interaction" : "interacts with",
-        "SUID" : 79233,
+        "SUID" : 6615,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79229",
-        "source" : "79225",
-        "target" : "79227",
+        "id" : "6613",
+        "source" : "5857",
+        "target" : "5859",
         "shared_name" : "AIR_VALVE (interacts with) DW_CNTRL_VLV_AIR",
         "name" : "AIR_VALVE (interacts with) DW_CNTRL_VLV_AIR",
         "interaction" : "interacts with",
-        "SUID" : 79229,
+        "SUID" : 6613,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79223",
-        "source" : "79203",
-        "target" : "79221",
+        "id" : "6611",
+        "source" : "5845",
+        "target" : "5855",
         "shared_name" : "LEVEL_SENSOR (interacts with) SEWER_LEVL_FLOAT",
         "name" : "LEVEL_SENSOR (interacts with) SEWER_LEVL_FLOAT",
         "interaction" : "interacts with",
-        "SUID" : 79223,
+        "SUID" : 6611,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79219",
-        "source" : "79203",
-        "target" : "79217",
+        "id" : "6609",
+        "source" : "5845",
+        "target" : "5853",
         "shared_name" : "LEVEL_SENSOR (interacts with) LEVL_SENSR",
         "name" : "LEVEL_SENSOR (interacts with) LEVL_SENSR",
         "interaction" : "interacts with",
-        "SUID" : 79219,
+        "SUID" : 6609,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79215",
-        "source" : "79203",
-        "target" : "79213",
+        "id" : "6607",
+        "source" : "5845",
+        "target" : "5851",
         "shared_name" : "LEVEL_SENSOR (interacts with) FLOAT",
         "name" : "LEVEL_SENSOR (interacts with) FLOAT",
         "interaction" : "interacts with",
-        "SUID" : 79215,
+        "SUID" : 6607,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79211",
-        "source" : "79203",
-        "target" : "79209",
+        "id" : "6605",
+        "source" : "5845",
+        "target" : "5849",
         "shared_name" : "LEVEL_SENSOR (interacts with) LEVEL_SWITCH",
         "name" : "LEVEL_SENSOR (interacts with) LEVEL_SWITCH",
         "interaction" : "interacts with",
-        "SUID" : 79211,
+        "SUID" : 6605,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79207",
-        "source" : "79203",
-        "target" : "79205",
+        "id" : "6603",
+        "source" : "5845",
+        "target" : "5847",
         "shared_name" : "LEVEL_SENSOR (interacts with) LEVEL TRANSMITTER",
         "name" : "LEVEL_SENSOR (interacts with) LEVEL TRANSMITTER",
         "interaction" : "interacts with",
-        "SUID" : 79207,
+        "SUID" : 6603,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79201",
-        "source" : "79129",
-        "target" : "79199",
+        "id" : "6601",
+        "source" : "5807",
+        "target" : "5843",
         "shared_name" : "ANALYSER (interacts with) SENSOR",
         "name" : "ANALYSER (interacts with) SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79201,
+        "SUID" : 6601,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79197",
-        "source" : "79129",
-        "target" : "79195",
+        "id" : "6599",
+        "source" : "5807",
+        "target" : "5841",
         "shared_name" : "ANALYSER (interacts with) DO_PROBE",
         "name" : "ANALYSER (interacts with) DO_PROBE",
         "interaction" : "interacts with",
-        "SUID" : 79197,
+        "SUID" : 6599,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79193",
-        "source" : "79129",
-        "target" : "79191",
+        "id" : "6597",
+        "source" : "5807",
+        "target" : "5839",
         "shared_name" : "ANALYSER (interacts with) SUSP_SENSOR",
         "name" : "ANALYSER (interacts with) SUSP_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79193,
+        "SUID" : 6597,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79189",
-        "source" : "79129",
-        "target" : "79187",
+        "id" : "6595",
+        "source" : "5807",
+        "target" : "5837",
         "shared_name" : "ANALYSER (interacts with) CHLORINE_SENSOR",
         "name" : "ANALYSER (interacts with) CHLORINE_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79189,
+        "SUID" : 6595,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79185",
-        "source" : "79129",
-        "target" : "79183",
+        "id" : "6593",
+        "source" : "5807",
+        "target" : "5835",
         "shared_name" : "ANALYSER (interacts with) H2S_SENSR",
         "name" : "ANALYSER (interacts with) H2S_SENSR",
         "interaction" : "interacts with",
-        "SUID" : 79185,
+        "SUID" : 6593,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79181",
-        "source" : "79129",
-        "target" : "79179",
+        "id" : "6591",
+        "source" : "5807",
+        "target" : "5833",
         "shared_name" : "ANALYSER (interacts with) WQ_PROBE",
         "name" : "ANALYSER (interacts with) WQ_PROBE",
         "interaction" : "interacts with",
-        "SUID" : 79181,
+        "SUID" : 6591,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79177",
-        "source" : "79129",
-        "target" : "79175",
+        "id" : "6589",
+        "source" : "5807",
+        "target" : "5831",
         "shared_name" : "ANALYSER (interacts with) EC_SENSOR",
         "name" : "ANALYSER (interacts with) EC_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 79177,
+        "SUID" : 6589,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79173",
-        "source" : "79129",
-        "target" : "79171",
+        "id" : "6587",
+        "source" : "5807",
+        "target" : "5829",
         "shared_name" : "ANALYSER (interacts with) SIGNAL ISOLATOR",
         "name" : "ANALYSER (interacts with) SIGNAL ISOLATOR",
         "interaction" : "interacts with",
-        "SUID" : 79173,
+        "SUID" : 6587,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79169",
-        "source" : "79129",
-        "target" : "79167",
+        "id" : "6585",
+        "source" : "5807",
+        "target" : "5827",
         "shared_name" : "ANALYSER (interacts with) WQ_SENSR",
         "name" : "ANALYSER (interacts with) WQ_SENSR",
         "interaction" : "interacts with",
-        "SUID" : 79169,
+        "SUID" : 6585,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79165",
-        "source" : "79129",
-        "target" : "79163",
+        "id" : "6583",
+        "source" : "5807",
+        "target" : "5825",
         "shared_name" : "ANALYSER (interacts with) PH/DO_ANALYSER",
         "name" : "ANALYSER (interacts with) PH/DO_ANALYSER",
         "interaction" : "interacts with",
-        "SUID" : 79165,
+        "SUID" : 6583,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79161",
-        "source" : "79129",
-        "target" : "79159",
+        "id" : "6581",
+        "source" : "5807",
+        "target" : "5823",
         "shared_name" : "ANALYSER (interacts with) TEMPERATURE",
         "name" : "ANALYSER (interacts with) TEMPERATURE",
         "interaction" : "interacts with",
-        "SUID" : 79161,
+        "SUID" : 6581,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79157",
-        "source" : "79129",
-        "target" : "79155",
+        "id" : "6579",
+        "source" : "5807",
+        "target" : "5821",
         "shared_name" : "ANALYSER (interacts with) PH_METER",
         "name" : "ANALYSER (interacts with) PH_METER",
         "interaction" : "interacts with",
-        "SUID" : 79157,
+        "SUID" : 6579,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79153",
-        "source" : "79129",
-        "target" : "79151",
+        "id" : "6577",
+        "source" : "5807",
+        "target" : "5819",
         "shared_name" : "ANALYSER (interacts with) TURBDTY_ANLYSR",
         "name" : "ANALYSER (interacts with) TURBDTY_ANLYSR",
         "interaction" : "interacts with",
-        "SUID" : 79153,
+        "SUID" : 6577,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79149",
-        "source" : "79129",
-        "target" : "79147",
+        "id" : "6575",
+        "source" : "5807",
+        "target" : "5817",
         "shared_name" : "ANALYSER (interacts with) AMMONIA_ANLYSR",
         "name" : "ANALYSER (interacts with) AMMONIA_ANLYSR",
         "interaction" : "interacts with",
-        "SUID" : 79149,
+        "SUID" : 6575,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79145",
-        "source" : "79129",
-        "target" : "79143",
+        "id" : "6573",
+        "source" : "5807",
+        "target" : "5815",
         "shared_name" : "ANALYSER (interacts with) CHLORINE_ANLYSR",
         "name" : "ANALYSER (interacts with) CHLORINE_ANLYSR",
         "interaction" : "interacts with",
-        "SUID" : 79145,
+        "SUID" : 6573,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79141",
-        "source" : "79129",
-        "target" : "79139",
+        "id" : "6571",
+        "source" : "5807",
+        "target" : "5813",
         "shared_name" : "ANALYSER (interacts with) AUTOSAMPLER",
         "name" : "ANALYSER (interacts with) AUTOSAMPLER",
         "interaction" : "interacts with",
-        "SUID" : 79141,
+        "SUID" : 6571,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79137",
-        "source" : "79129",
-        "target" : "79135",
+        "id" : "6569",
+        "source" : "5807",
+        "target" : "5811",
         "shared_name" : "ANALYSER (interacts with) SOIL_PROBE",
         "name" : "ANALYSER (interacts with) SOIL_PROBE",
         "interaction" : "interacts with",
-        "SUID" : 79137,
+        "SUID" : 6569,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79133",
-        "source" : "79129",
-        "target" : "79131",
+        "id" : "6567",
+        "source" : "5807",
+        "target" : "5809",
         "shared_name" : "ANALYSER (interacts with) ORP_ANLYSR",
         "name" : "ANALYSER (interacts with) ORP_ANLYSR",
         "interaction" : "interacts with",
-        "SUID" : 79133,
+        "SUID" : 6567,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79127",
-        "source" : "79119",
-        "target" : "79125",
+        "id" : "6565",
+        "source" : "5801",
+        "target" : "5805",
         "shared_name" : "RTU_PLC (interacts with) RTU",
         "name" : "RTU_PLC (interacts with) RTU",
         "interaction" : "interacts with",
-        "SUID" : 79127,
+        "SUID" : 6565,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79123",
-        "source" : "79119",
-        "target" : "79121",
+        "id" : "6563",
+        "source" : "5801",
+        "target" : "5803",
         "shared_name" : "RTU_PLC (interacts with) PLC",
         "name" : "RTU_PLC (interacts with) PLC",
         "interaction" : "interacts with",
-        "SUID" : 79123,
+        "SUID" : 6563,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79117",
-        "source" : "79105",
-        "target" : "79115",
+        "id" : "6561",
+        "source" : "5793",
+        "target" : "5799",
         "shared_name" : "BACKUP_POWER_SUPPLY (interacts with) BATRY_AND_CHARGER",
         "name" : "BACKUP_POWER_SUPPLY (interacts with) BATRY_AND_CHARGER",
         "interaction" : "interacts with",
-        "SUID" : 79117,
+        "SUID" : 6561,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79113",
-        "source" : "79105",
-        "target" : "79111",
+        "id" : "6559",
+        "source" : "5793",
+        "target" : "5797",
         "shared_name" : "BACKUP_POWER_SUPPLY (interacts with) BATTERY",
         "name" : "BACKUP_POWER_SUPPLY (interacts with) BATTERY",
         "interaction" : "interacts with",
-        "SUID" : 79113,
+        "SUID" : 6559,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79109",
-        "source" : "79105",
-        "target" : "79107",
+        "id" : "6557",
+        "source" : "5793",
+        "target" : "5795",
         "shared_name" : "BACKUP_POWER_SUPPLY (interacts with) UNINTRPTD_POWR_SUPLY",
         "name" : "BACKUP_POWER_SUPPLY (interacts with) UNINTRPTD_POWR_SUPLY",
         "interaction" : "interacts with",
-        "SUID" : 79109,
+        "SUID" : 6557,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79103",
-        "source" : "79085",
-        "target" : "79101",
+        "id" : "6555",
+        "source" : "5783",
+        "target" : "5791",
         "shared_name" : "COM_DEVICES (interacts with) TELMTRY",
         "name" : "COM_DEVICES (interacts with) TELMTRY",
         "interaction" : "interacts with",
-        "SUID" : 79103,
+        "SUID" : 6555,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79099",
-        "source" : "79085",
-        "target" : "79097",
+        "id" : "6553",
+        "source" : "5783",
+        "target" : "5789",
         "shared_name" : "COM_DEVICES (interacts with) NETWORK_SWITCH",
         "name" : "COM_DEVICES (interacts with) NETWORK_SWITCH",
         "interaction" : "interacts with",
-        "SUID" : 79099,
+        "SUID" : 6553,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79095",
-        "source" : "79085",
-        "target" : "79093",
+        "id" : "6551",
+        "source" : "5783",
+        "target" : "5787",
         "shared_name" : "COM_DEVICES (interacts with) LAND_LINE",
         "name" : "COM_DEVICES (interacts with) LAND_LINE",
         "interaction" : "interacts with",
-        "SUID" : 79095,
+        "SUID" : 6551,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79091",
-        "source" : "79085",
-        "target" : "79089",
+        "id" : "6549",
+        "source" : "5783",
+        "target" : "5785",
         "shared_name" : "COM_DEVICES (interacts with) MODEM",
         "name" : "COM_DEVICES (interacts with) MODEM",
         "interaction" : "interacts with",
-        "SUID" : 79091,
+        "SUID" : 6549,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79087",
-        "source" : "79085",
-        "target" : "78399",
+        "id" : "6547",
+        "source" : "5783",
+        "target" : "5397",
         "shared_name" : "COM_DEVICES (interacts with) RADIO",
         "name" : "COM_DEVICES (interacts with) RADIO",
         "interaction" : "interacts with",
-        "SUID" : 79087,
+        "SUID" : 6547,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79083",
-        "source" : "79075",
-        "target" : "79081",
+        "id" : "6545",
+        "source" : "5777",
+        "target" : "5781",
         "shared_name" : "PROPERTY_CON_BRANCH (interacts with) S_BACKFLW_PREV_DEVC",
         "name" : "PROPERTY_CON_BRANCH (interacts with) S_BACKFLW_PREV_DEVC",
         "interaction" : "interacts with",
-        "SUID" : 79083,
+        "SUID" : 6545,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79079",
-        "source" : "79075",
-        "target" : "79077",
+        "id" : "6543",
+        "source" : "5777",
+        "target" : "5779",
         "shared_name" : "PROPERTY_CON_BRANCH (interacts with) S_SERVICE_LINE",
         "name" : "PROPERTY_CON_BRANCH (interacts with) S_SERVICE_LINE",
         "interaction" : "interacts with",
-        "SUID" : 79079,
+        "SUID" : 6543,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79073",
-        "source" : "79069",
-        "target" : "79071",
+        "id" : "6541",
+        "source" : "5773",
+        "target" : "5775",
         "shared_name" : "PRESSURE_AREA (interacts with) S_PRESSURE",
         "name" : "PRESSURE_AREA (interacts with) S_PRESSURE",
         "interaction" : "interacts with",
-        "SUID" : 79073,
+        "SUID" : 6541,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79067",
-        "source" : "79051",
-        "target" : "79065",
+        "id" : "6539",
+        "source" : "5763",
+        "target" : "5771",
         "shared_name" : "PRESSURE_SYS (interacts with) PSS_TANK",
         "name" : "PRESSURE_SYS (interacts with) PSS_TANK",
         "interaction" : "interacts with",
-        "SUID" : 79067,
+        "SUID" : 6539,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79063",
-        "source" : "79051",
-        "target" : "79061",
+        "id" : "6537",
+        "source" : "5763",
+        "target" : "5769",
         "shared_name" : "PRESSURE_SYS (interacts with) PSS_CONTROL",
         "name" : "PRESSURE_SYS (interacts with) PSS_CONTROL",
         "interaction" : "interacts with",
-        "SUID" : 79063,
+        "SUID" : 6537,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79059",
-        "source" : "79051",
-        "target" : "79057",
+        "id" : "6535",
+        "source" : "5763",
+        "target" : "5767",
         "shared_name" : "PRESSURE_SYS (interacts with) BOUNDARY_KIT",
         "name" : "PRESSURE_SYS (interacts with) BOUNDARY_KIT",
         "interaction" : "interacts with",
-        "SUID" : 79059,
+        "SUID" : 6535,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79055",
-        "source" : "79051",
-        "target" : "79053",
+        "id" : "6533",
+        "source" : "5763",
+        "target" : "5765",
         "shared_name" : "PRESSURE_SYS (interacts with) PSS_LVLSENSR",
         "name" : "PRESSURE_SYS (interacts with) PSS_LVLSENSR",
         "interaction" : "interacts with",
-        "SUID" : 79055,
+        "SUID" : 6533,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79049",
-        "source" : "79037",
-        "target" : "79047",
+        "id" : "6531",
+        "source" : "5755",
+        "target" : "5761",
         "shared_name" : "VENTS_CANISTERS (interacts with) VENTILATION",
         "name" : "VENTS_CANISTERS (interacts with) VENTILATION",
         "interaction" : "interacts with",
-        "SUID" : 79049,
+        "SUID" : 6531,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79045",
-        "source" : "79037",
-        "target" : "79043",
+        "id" : "6529",
+        "source" : "5755",
+        "target" : "5759",
         "shared_name" : "VENTS_CANISTERS (interacts with) CARBON_CANSTR",
         "name" : "VENTS_CANISTERS (interacts with) CARBON_CANSTR",
         "interaction" : "interacts with",
-        "SUID" : 79045,
+        "SUID" : 6529,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79041",
-        "source" : "79037",
-        "target" : "79039",
+        "id" : "6527",
+        "source" : "5755",
+        "target" : "5757",
         "shared_name" : "VENTS_CANISTERS (interacts with) S_VENT",
         "name" : "VENTS_CANISTERS (interacts with) S_VENT",
         "interaction" : "interacts with",
-        "SUID" : 79041,
+        "SUID" : 6527,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79035",
-        "source" : "79011",
-        "target" : "79033",
+        "id" : "6525",
+        "source" : "5741",
+        "target" : "5753",
         "shared_name" : "WET_WELLS (interacts with) WELL",
         "name" : "WET_WELLS (interacts with) WELL",
         "interaction" : "interacts with",
-        "SUID" : 79035,
+        "SUID" : 6525,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79031",
-        "source" : "79011",
-        "target" : "79029",
+        "id" : "6523",
+        "source" : "5741",
+        "target" : "5751",
         "shared_name" : "WET_WELLS (interacts with) S_DETNTION_TANK",
         "name" : "WET_WELLS (interacts with) S_DETNTION_TANK",
         "interaction" : "interacts with",
-        "SUID" : 79031,
+        "SUID" : 6523,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79027",
-        "source" : "79011",
-        "target" : "79025",
+        "id" : "6521",
+        "source" : "5741",
+        "target" : "5749",
         "shared_name" : "WET_WELLS (interacts with) WELLWASH",
         "name" : "WET_WELLS (interacts with) WELLWASH",
         "interaction" : "interacts with",
-        "SUID" : 79027,
+        "SUID" : 6521,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79023",
-        "source" : "79011",
-        "target" : "79021",
+        "id" : "6519",
+        "source" : "5741",
+        "target" : "5747",
         "shared_name" : "WET_WELLS (interacts with) STORG_STRUCTR",
         "name" : "WET_WELLS (interacts with) STORG_STRUCTR",
         "interaction" : "interacts with",
-        "SUID" : 79023,
+        "SUID" : 6519,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79019",
-        "source" : "79011",
-        "target" : "79017",
+        "id" : "6517",
+        "source" : "5741",
+        "target" : "5745",
         "shared_name" : "WET_WELLS (interacts with) HOSE",
         "name" : "WET_WELLS (interacts with) HOSE",
         "interaction" : "interacts with",
-        "SUID" : 79019,
+        "SUID" : 6517,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79015",
-        "source" : "79011",
-        "target" : "79013",
+        "id" : "6515",
+        "source" : "5741",
+        "target" : "5743",
         "shared_name" : "WET_WELLS (interacts with) S_STORAGE_FLUSH",
         "name" : "WET_WELLS (interacts with) S_STORAGE_FLUSH",
         "interaction" : "interacts with",
-        "SUID" : 79015,
+        "SUID" : 6515,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79009",
-        "source" : "79001",
-        "target" : "79007",
+        "id" : "6513",
+        "source" : "5735",
+        "target" : "5739",
         "shared_name" : "S_MAIN_BRANCH (interacts with) S_GRVTY_MAIN",
         "name" : "S_MAIN_BRANCH (interacts with) S_GRVTY_MAIN",
         "interaction" : "interacts with",
-        "SUID" : 79009,
+        "SUID" : 6513,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79005",
-        "source" : "79001",
-        "target" : "79003",
+        "id" : "6511",
+        "source" : "5735",
+        "target" : "5737",
         "shared_name" : "S_MAIN_BRANCH (interacts with) SIPHONS",
         "name" : "S_MAIN_BRANCH (interacts with) SIPHONS",
         "interaction" : "interacts with",
-        "SUID" : 79005,
+        "SUID" : 6511,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78999",
-        "source" : "78971",
-        "target" : "78997",
+        "id" : "6509",
+        "source" : "5719",
+        "target" : "5733",
         "shared_name" : "WATER_TANKS (interacts with) TANK_HATCH",
         "name" : "WATER_TANKS (interacts with) TANK_HATCH",
         "interaction" : "interacts with",
-        "SUID" : 78999,
+        "SUID" : 6509,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78995",
-        "source" : "78971",
-        "target" : "78993",
+        "id" : "6507",
+        "source" : "5719",
+        "target" : "5731",
         "shared_name" : "WATER_TANKS (interacts with) TANK",
         "name" : "WATER_TANKS (interacts with) TANK",
         "interaction" : "interacts with",
-        "SUID" : 78995,
+        "SUID" : 6507,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78991",
-        "source" : "78971",
-        "target" : "78989",
+        "id" : "6505",
+        "source" : "5719",
+        "target" : "5729",
         "shared_name" : "WATER_TANKS (interacts with) TANKS",
         "name" : "WATER_TANKS (interacts with) TANKS",
         "interaction" : "interacts with",
-        "SUID" : 78991,
+        "SUID" : 6505,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78987",
-        "source" : "78971",
-        "target" : "78985",
+        "id" : "6503",
+        "source" : "5719",
+        "target" : "5727",
         "shared_name" : "WATER_TANKS (interacts with) WRS_TANK",
         "name" : "WATER_TANKS (interacts with) WRS_TANK",
         "interaction" : "interacts with",
-        "SUID" : 78987,
+        "SUID" : 6503,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78983",
-        "source" : "78971",
-        "target" : "78981",
+        "id" : "6501",
+        "source" : "5719",
+        "target" : "5725",
         "shared_name" : "WATER_TANKS (interacts with) RRS_TANK",
         "name" : "WATER_TANKS (interacts with) RRS_TANK",
         "interaction" : "interacts with",
-        "SUID" : 78983,
+        "SUID" : 6501,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78979",
-        "source" : "78971",
-        "target" : "78977",
+        "id" : "6499",
+        "source" : "5719",
+        "target" : "5723",
         "shared_name" : "WATER_TANKS (interacts with) WTS_TANK",
         "name" : "WATER_TANKS (interacts with) WTS_TANK",
         "interaction" : "interacts with",
-        "SUID" : 78979,
+        "SUID" : 6499,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78975",
-        "source" : "78971",
-        "target" : "78973",
+        "id" : "6497",
+        "source" : "5719",
+        "target" : "5721",
         "shared_name" : "WATER_TANKS (interacts with) WATER TANK",
         "name" : "WATER_TANKS (interacts with) WATER TANK",
         "interaction" : "interacts with",
-        "SUID" : 78975,
+        "SUID" : 6497,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78969",
-        "source" : "78953",
-        "target" : "78967",
+        "id" : "6495",
+        "source" : "5709",
+        "target" : "5717",
         "shared_name" : "HYDRANTS (interacts with) HYDRANT",
         "name" : "HYDRANTS (interacts with) HYDRANT",
         "interaction" : "interacts with",
-        "SUID" : 78969,
+        "SUID" : 6495,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78965",
-        "source" : "78953",
-        "target" : "78963",
+        "id" : "6493",
+        "source" : "5709",
+        "target" : "5715",
         "shared_name" : "HYDRANTS (interacts with) DW_HYDRANT",
         "name" : "HYDRANTS (interacts with) DW_HYDRANT",
         "interaction" : "interacts with",
-        "SUID" : 78965,
+        "SUID" : 6493,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78961",
-        "source" : "78953",
-        "target" : "78959",
+        "id" : "6491",
+        "source" : "5709",
+        "target" : "5713",
         "shared_name" : "HYDRANTS (interacts with) FIRE_PLUG",
         "name" : "HYDRANTS (interacts with) FIRE_PLUG",
         "interaction" : "interacts with",
-        "SUID" : 78961,
+        "SUID" : 6491,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78957",
-        "source" : "78953",
-        "target" : "78955",
+        "id" : "6489",
+        "source" : "5709",
+        "target" : "5711",
         "shared_name" : "HYDRANTS (interacts with) NDW_HYDRANT",
         "name" : "HYDRANTS (interacts with) NDW_HYDRANT",
         "interaction" : "interacts with",
-        "SUID" : 78957,
+        "SUID" : 6489,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78951",
-        "source" : "78943",
-        "target" : "78949",
+        "id" : "6487",
+        "source" : "5703",
+        "target" : "5707",
         "shared_name" : "CUSTMR_METR (interacts with) DIGITAL_METER",
         "name" : "CUSTMR_METR (interacts with) DIGITAL_METER",
         "interaction" : "interacts with",
-        "SUID" : 78951,
+        "SUID" : 6487,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78947",
-        "source" : "78943",
-        "target" : "78945",
+        "id" : "6485",
+        "source" : "5703",
+        "target" : "5705",
         "shared_name" : "CUSTMR_METR (interacts with) MECH_METER",
         "name" : "CUSTMR_METR (interacts with) MECH_METER",
         "interaction" : "interacts with",
-        "SUID" : 78947,
+        "SUID" : 6485,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78941",
-        "source" : "78921",
-        "target" : "78939",
+        "id" : "6483",
+        "source" : "5691",
+        "target" : "5701",
         "shared_name" : "W_RETIC_MAINS (interacts with) DW_PIPE",
         "name" : "W_RETIC_MAINS (interacts with) DW_PIPE",
         "interaction" : "interacts with",
-        "SUID" : 78941,
+        "SUID" : 6483,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78937",
-        "source" : "78921",
-        "target" : "78935",
+        "id" : "6481",
+        "source" : "5691",
+        "target" : "5699",
         "shared_name" : "W_RETIC_MAINS (interacts with) NDW_PIPE",
         "name" : "W_RETIC_MAINS (interacts with) NDW_PIPE",
         "interaction" : "interacts with",
-        "SUID" : 78937,
+        "SUID" : 6481,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78933",
-        "source" : "78921",
-        "target" : "78931",
+        "id" : "6479",
+        "source" : "5691",
+        "target" : "5697",
         "shared_name" : "W_RETIC_MAINS (interacts with) DW_BLNK_END",
         "name" : "W_RETIC_MAINS (interacts with) DW_BLNK_END",
         "interaction" : "interacts with",
-        "SUID" : 78933,
+        "SUID" : 6479,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78929",
-        "source" : "78921",
-        "target" : "78927",
+        "id" : "6477",
+        "source" : "5691",
+        "target" : "5695",
         "shared_name" : "W_RETIC_MAINS (interacts with) NDW_BLNK_END",
         "name" : "W_RETIC_MAINS (interacts with) NDW_BLNK_END",
         "interaction" : "interacts with",
-        "SUID" : 78929,
+        "SUID" : 6477,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78925",
-        "source" : "78921",
-        "target" : "78923",
+        "id" : "6475",
+        "source" : "5691",
+        "target" : "5693",
         "shared_name" : "W_RETIC_MAINS (interacts with) NDW_RBP",
         "name" : "W_RETIC_MAINS (interacts with) NDW_RBP",
         "interaction" : "interacts with",
-        "SUID" : 78925,
+        "SUID" : 6475,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78919",
-        "source" : "78911",
-        "target" : "78917",
+        "id" : "6473",
+        "source" : "5685",
+        "target" : "5689",
         "shared_name" : "W_MAIN_TO_METER (interacts with) NDW_SERVICE_LINE",
         "name" : "W_MAIN_TO_METER (interacts with) NDW_SERVICE_LINE",
         "interaction" : "interacts with",
-        "SUID" : 78919,
+        "SUID" : 6473,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78915",
-        "source" : "78911",
-        "target" : "78913",
+        "id" : "6471",
+        "source" : "5685",
+        "target" : "5687",
         "shared_name" : "W_MAIN_TO_METER (interacts with) DW_SERVICE_LINE",
         "name" : "W_MAIN_TO_METER (interacts with) DW_SERVICE_LINE",
         "interaction" : "interacts with",
-        "SUID" : 78915,
+        "SUID" : 6471,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78909",
-        "source" : "78905",
-        "target" : "78907",
+        "id" : "6469",
+        "source" : "5681",
+        "target" : "5683",
         "shared_name" : "IRRIGATION SYSTEMS (interacts with) IRRIGATOR",
         "name" : "IRRIGATION SYSTEMS (interacts with) IRRIGATOR",
         "interaction" : "interacts with",
-        "SUID" : 78909,
+        "SUID" : 6469,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78903",
-        "source" : "78891",
-        "target" : "78901",
+        "id" : "6467",
+        "source" : "5673",
+        "target" : "5679",
         "shared_name" : "DIFFUSERS (interacts with) AERTR",
         "name" : "DIFFUSERS (interacts with) AERTR",
         "interaction" : "interacts with",
-        "SUID" : 78903,
+        "SUID" : 6467,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78899",
-        "source" : "78891",
-        "target" : "78897",
+        "id" : "6465",
+        "source" : "5673",
+        "target" : "5677",
         "shared_name" : "DIFFUSERS (interacts with) BELLOWS",
         "name" : "DIFFUSERS (interacts with) BELLOWS",
         "interaction" : "interacts with",
-        "SUID" : 78899,
+        "SUID" : 6465,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78895",
-        "source" : "78891",
-        "target" : "78893",
+        "id" : "6463",
+        "source" : "5673",
+        "target" : "5675",
         "shared_name" : "DIFFUSERS (interacts with) DIFFSR",
         "name" : "DIFFUSERS (interacts with) DIFFSR",
         "interaction" : "interacts with",
-        "SUID" : 78895,
+        "SUID" : 6463,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79825",
-        "source" : "78881",
-        "target" : "79823",
+        "id" : "6461",
+        "source" : "5667",
+        "target" : "6145",
         "shared_name" : "PIPEWORKS (interacts with) PIPEWORK",
         "name" : "PIPEWORKS (interacts with) PIPEWORK",
         "interaction" : "interacts with",
-        "SUID" : 79825,
+        "SUID" : 6461,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78889",
-        "source" : "78881",
-        "target" : "78887",
+        "id" : "6459",
+        "source" : "5667",
+        "target" : "5671",
         "shared_name" : "PIPEWORKS (interacts with) STP_PIPE_ APPURT",
         "name" : "PIPEWORKS (interacts with) STP_PIPE_ APPURT",
         "interaction" : "interacts with",
-        "SUID" : 78889,
+        "SUID" : 6459,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78885",
-        "source" : "78881",
-        "target" : "78883",
+        "id" : "6457",
+        "source" : "5667",
+        "target" : "5669",
         "shared_name" : "PIPEWORKS (interacts with) PIPE FITTINGS",
         "name" : "PIPEWORKS (interacts with) PIPE FITTINGS",
         "interaction" : "interacts with",
-        "SUID" : 78885,
+        "SUID" : 6457,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78879",
-        "source" : "78871",
-        "target" : "78877",
+        "id" : "6455",
+        "source" : "5661",
+        "target" : "5665",
         "shared_name" : "SCREW_BELT_PRESS (interacts with) AUGER",
         "name" : "SCREW_BELT_PRESS (interacts with) AUGER",
         "interaction" : "interacts with",
-        "SUID" : 78879,
+        "SUID" : 6455,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78875",
-        "source" : "78871",
-        "target" : "78873",
+        "id" : "6453",
+        "source" : "5661",
+        "target" : "5663",
         "shared_name" : "SCREW_BELT_PRESS (interacts with) BELT_PRESS",
         "name" : "SCREW_BELT_PRESS (interacts with) BELT_PRESS",
         "interaction" : "interacts with",
-        "SUID" : 78875,
+        "SUID" : 6453,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78869",
-        "source" : "78861",
-        "target" : "78867",
+        "id" : "6451",
+        "source" : "5655",
+        "target" : "5659",
         "shared_name" : "LAGOONS (interacts with) STORG_DAM",
         "name" : "LAGOONS (interacts with) STORG_DAM",
         "interaction" : "interacts with",
-        "SUID" : 78869,
+        "SUID" : 6451,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78865",
-        "source" : "78861",
-        "target" : "78863",
+        "id" : "6449",
+        "source" : "5655",
+        "target" : "5657",
         "shared_name" : "LAGOONS (interacts with) TREATMNT_LAGN",
         "name" : "LAGOONS (interacts with) TREATMNT_LAGN",
         "interaction" : "interacts with",
-        "SUID" : 78865,
+        "SUID" : 6449,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78859",
-        "source" : "78855",
-        "target" : "78857",
+        "id" : "6447",
+        "source" : "5651",
+        "target" : "5653",
         "shared_name" : "CLARIFIERS (interacts with) SCRAPR",
         "name" : "CLARIFIERS (interacts with) SCRAPR",
         "interaction" : "interacts with",
-        "SUID" : 78859,
+        "SUID" : 6447,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78853",
-        "source" : "78833",
-        "target" : "78851",
+        "id" : "6445",
+        "source" : "5639",
+        "target" : "5649",
         "shared_name" : "FILTERING (interacts with) FILTR_NOZL",
         "name" : "FILTERING (interacts with) FILTR_NOZL",
         "interaction" : "interacts with",
-        "SUID" : 78853,
+        "SUID" : 6445,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78849",
-        "source" : "78833",
-        "target" : "78847",
+        "id" : "6443",
+        "source" : "5639",
+        "target" : "5647",
         "shared_name" : "FILTERING (interacts with) MEMBRN_MODULE",
         "name" : "FILTERING (interacts with) MEMBRN_MODULE",
         "interaction" : "interacts with",
-        "SUID" : 78849,
+        "SUID" : 6443,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78845",
-        "source" : "78833",
-        "target" : "78843",
+        "id" : "6441",
+        "source" : "5639",
+        "target" : "5645",
         "shared_name" : "FILTERING (interacts with) STRAINER",
         "name" : "FILTERING (interacts with) STRAINER",
         "interaction" : "interacts with",
-        "SUID" : 78845,
+        "SUID" : 6441,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78841",
-        "source" : "78833",
-        "target" : "78839",
+        "id" : "6439",
+        "source" : "5639",
+        "target" : "5643",
         "shared_name" : "FILTERING (interacts with) FILTR",
         "name" : "FILTERING (interacts with) FILTR",
         "interaction" : "interacts with",
-        "SUID" : 78841,
+        "SUID" : 6439,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78837",
-        "source" : "78833",
-        "target" : "78835",
+        "id" : "6437",
+        "source" : "5639",
+        "target" : "5641",
         "shared_name" : "FILTERING (interacts with) FILTR_MATRL",
         "name" : "FILTERING (interacts with) FILTR_MATRL",
         "interaction" : "interacts with",
-        "SUID" : 78837,
+        "SUID" : 6437,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79747",
-        "source" : "78823",
-        "target" : "79745",
+        "id" : "6435",
+        "source" : "5633",
+        "target" : "6105",
         "shared_name" : "UV_SYS (interacts with) UV_LAMPS",
         "name" : "UV_SYS (interacts with) UV_LAMPS",
         "interaction" : "interacts with",
-        "SUID" : 79747,
+        "SUID" : 6435,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78831",
-        "source" : "78823",
-        "target" : "78829",
+        "id" : "6433",
+        "source" : "5633",
+        "target" : "5637",
         "shared_name" : "UV_SYS (interacts with) UV_UNIT",
         "name" : "UV_SYS (interacts with) UV_UNIT",
         "interaction" : "interacts with",
-        "SUID" : 78831,
+        "SUID" : 6433,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78827",
-        "source" : "78823",
-        "target" : "78825",
+        "id" : "6431",
+        "source" : "5633",
+        "target" : "5635",
         "shared_name" : "UV_SYS (interacts with) UV_SENSOR",
         "name" : "UV_SYS (interacts with) UV_SENSOR",
         "interaction" : "interacts with",
-        "SUID" : 78827,
+        "SUID" : 6431,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79833",
-        "source" : "78805",
-        "target" : "79831",
+        "id" : "6429",
+        "source" : "5623",
+        "target" : "6149",
         "shared_name" : "SCREENING (interacts with) COMPCTR",
         "name" : "SCREENING (interacts with) COMPCTR",
         "interaction" : "interacts with",
-        "SUID" : 79833,
+        "SUID" : 6429,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79829",
-        "source" : "78805",
-        "target" : "79827",
+        "id" : "6427",
+        "source" : "5623",
+        "target" : "6147",
         "shared_name" : "SCREENING (interacts with) RAKE",
         "name" : "SCREENING (interacts with) RAKE",
         "interaction" : "interacts with",
-        "SUID" : 79829,
+        "SUID" : 6427,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78821",
-        "source" : "78805",
-        "target" : "78819",
+        "id" : "6425",
+        "source" : "5623",
+        "target" : "5631",
         "shared_name" : "SCREENING (interacts with) SCREEN",
         "name" : "SCREENING (interacts with) SCREEN",
         "interaction" : "interacts with",
-        "SUID" : 78821,
+        "SUID" : 6425,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78817",
-        "source" : "78805",
-        "target" : "78815",
+        "id" : "6423",
+        "source" : "5623",
+        "target" : "5629",
         "shared_name" : "SCREENING (interacts with) SCR_BIN",
         "name" : "SCREENING (interacts with) SCR_BIN",
         "interaction" : "interacts with",
-        "SUID" : 78817,
+        "SUID" : 6423,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78813",
-        "source" : "78805",
-        "target" : "78811",
+        "id" : "6421",
+        "source" : "5623",
+        "target" : "5627",
         "shared_name" : "SCREENING (interacts with) GRIT_CLASSIFIER",
         "name" : "SCREENING (interacts with) GRIT_CLASSIFIER",
         "interaction" : "interacts with",
-        "SUID" : 78813,
+        "SUID" : 6421,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78809",
-        "source" : "78805",
-        "target" : "78807",
+        "id" : "6419",
+        "source" : "5623",
+        "target" : "5625",
         "shared_name" : "SCREENING (interacts with) GRIT_CHAMBER",
         "name" : "SCREENING (interacts with) GRIT_CHAMBER",
         "interaction" : "interacts with",
-        "SUID" : 78809,
+        "SUID" : 6419,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78803",
-        "source" : "78783",
-        "target" : "78801",
+        "id" : "6417",
+        "source" : "5611",
+        "target" : "5621",
         "shared_name" : "SUBMERSIBLE_PUMP (interacts with) RISER",
         "name" : "SUBMERSIBLE_PUMP (interacts with) RISER",
         "interaction" : "interacts with",
-        "SUID" : 78803,
+        "SUID" : 6417,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78799",
-        "source" : "78783",
-        "target" : "78797",
+        "id" : "6415",
+        "source" : "5611",
+        "target" : "5619",
         "shared_name" : "SUBMERSIBLE_PUMP (interacts with) SUBMRSBL_PUMP",
         "name" : "SUBMERSIBLE_PUMP (interacts with) SUBMRSBL_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 78799,
+        "SUID" : 6415,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78795",
-        "source" : "78783",
-        "target" : "78793",
+        "id" : "6413",
+        "source" : "5611",
+        "target" : "5617",
         "shared_name" : "SUBMERSIBLE_PUMP (interacts with) PSS_SUBMERSBL_PUMP",
         "name" : "SUBMERSIBLE_PUMP (interacts with) PSS_SUBMERSBL_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 78795,
+        "SUID" : 6413,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78791",
-        "source" : "78783",
-        "target" : "78789",
+        "id" : "6411",
+        "source" : "5611",
+        "target" : "5615",
         "shared_name" : "SUBMERSIBLE_PUMP (interacts with) PUMP_STOOL",
         "name" : "SUBMERSIBLE_PUMP (interacts with) PUMP_STOOL",
         "interaction" : "interacts with",
-        "SUID" : 78791,
+        "SUID" : 6411,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78787",
-        "source" : "78783",
-        "target" : "78785",
+        "id" : "6409",
+        "source" : "5611",
+        "target" : "5613",
         "shared_name" : "SUBMERSIBLE_PUMP (interacts with) MACERATOR",
         "name" : "SUBMERSIBLE_PUMP (interacts with) MACERATOR",
         "interaction" : "interacts with",
-        "SUID" : 78787,
+        "SUID" : 6409,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78781",
-        "source" : "78773",
-        "target" : "78779",
+        "id" : "6407",
+        "source" : "5605",
+        "target" : "5609",
         "shared_name" : "BLOWER (interacts with) BLOWER_AERATION",
         "name" : "BLOWER (interacts with) BLOWER_AERATION",
         "interaction" : "interacts with",
-        "SUID" : 78781,
+        "SUID" : 6407,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78777",
-        "source" : "78773",
-        "target" : "78775",
+        "id" : "6405",
+        "source" : "5605",
+        "target" : "5607",
         "shared_name" : "BLOWER (interacts with) BLOWER_NONAERATION",
         "name" : "BLOWER (interacts with) BLOWER_NONAERATION",
         "interaction" : "interacts with",
-        "SUID" : 78777,
+        "SUID" : 6405,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78771",
-        "source" : "78763",
-        "target" : "78769",
+        "id" : "6403",
+        "source" : "5599",
+        "target" : "5603",
         "shared_name" : "MIXERS (interacts with) MIXER",
         "name" : "MIXERS (interacts with) MIXER",
         "interaction" : "interacts with",
-        "SUID" : 78771,
+        "SUID" : 6403,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78767",
-        "source" : "78763",
-        "target" : "78765",
+        "id" : "6401",
+        "source" : "5599",
+        "target" : "5601",
         "shared_name" : "MIXERS (interacts with) STATIC_MIXER",
         "name" : "MIXERS (interacts with) STATIC_MIXER",
         "interaction" : "interacts with",
-        "SUID" : 78767,
+        "SUID" : 6401,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78761",
-        "source" : "78737",
-        "target" : "78759",
+        "id" : "6399",
+        "source" : "5585",
+        "target" : "5597",
         "shared_name" : "PUMP (interacts with) PUMP(GENERIC)",
         "name" : "PUMP (interacts with) PUMP(GENERIC)",
         "interaction" : "interacts with",
-        "SUID" : 78761,
+        "SUID" : 6399,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78757",
-        "source" : "78737",
-        "target" : "78755",
+        "id" : "6397",
+        "source" : "5585",
+        "target" : "5595",
         "shared_name" : "PUMP (interacts with) WATR_PUMP",
         "name" : "PUMP (interacts with) WATR_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 78757,
+        "SUID" : 6397,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78753",
-        "source" : "78737",
-        "target" : "78751",
+        "id" : "6395",
+        "source" : "5585",
+        "target" : "5593",
         "shared_name" : "PUMP (interacts with) PUMP_TRANSFER",
         "name" : "PUMP (interacts with) PUMP_TRANSFER",
         "interaction" : "interacts with",
-        "SUID" : 78753,
+        "SUID" : 6395,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78749",
-        "source" : "78737",
-        "target" : "78747",
+        "id" : "6393",
+        "source" : "5585",
+        "target" : "5591",
         "shared_name" : "PUMP (interacts with) SLUDG_PUMP",
         "name" : "PUMP (interacts with) SLUDG_PUMP",
         "interaction" : "interacts with",
-        "SUID" : 78749,
+        "SUID" : 6393,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78745",
-        "source" : "78737",
-        "target" : "78743",
+        "id" : "6391",
+        "source" : "5585",
+        "target" : "5589",
         "shared_name" : "PUMP (interacts with) PDPUMP",
         "name" : "PUMP (interacts with) PDPUMP",
         "interaction" : "interacts with",
-        "SUID" : 78745,
+        "SUID" : 6391,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78741",
-        "source" : "78737",
-        "target" : "78739",
+        "id" : "6389",
+        "source" : "5585",
+        "target" : "5587",
         "shared_name" : "PUMP (interacts with) PUMP_CENTRI",
         "name" : "PUMP (interacts with) PUMP_CENTRI",
         "interaction" : "interacts with",
-        "SUID" : 78741,
+        "SUID" : 6389,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78735",
-        "source" : "78715",
-        "target" : "78733",
+        "id" : "6387",
+        "source" : "5573",
+        "target" : "5583",
         "shared_name" : "CRANE (interacts with) LIFTNG_JACK",
         "name" : "CRANE (interacts with) LIFTNG_JACK",
         "interaction" : "interacts with",
-        "SUID" : 78735,
+        "SUID" : 6387,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78731",
-        "source" : "78715",
-        "target" : "78729",
+        "id" : "6385",
+        "source" : "5573",
+        "target" : "5581",
         "shared_name" : "CRANE (interacts with) WINCH",
         "name" : "CRANE (interacts with) WINCH",
         "interaction" : "interacts with",
-        "SUID" : 78731,
+        "SUID" : 6385,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78727",
-        "source" : "78715",
-        "target" : "78725",
+        "id" : "6383",
+        "source" : "5573",
+        "target" : "5579",
         "shared_name" : "CRANE (interacts with) HOIST_CRANE",
         "name" : "CRANE (interacts with) HOIST_CRANE",
         "interaction" : "interacts with",
-        "SUID" : 78727,
+        "SUID" : 6383,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78723",
-        "source" : "78715",
-        "target" : "78721",
+        "id" : "6381",
+        "source" : "5573",
+        "target" : "5577",
         "shared_name" : "CRANE (interacts with) JIB_CRANE",
         "name" : "CRANE (interacts with) JIB_CRANE",
         "interaction" : "interacts with",
-        "SUID" : 78723,
+        "SUID" : 6381,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78719",
-        "source" : "78715",
-        "target" : "78717",
+        "id" : "6379",
+        "source" : "5573",
+        "target" : "5575",
         "shared_name" : "CRANE (interacts with) MONRL_CRANE",
         "name" : "CRANE (interacts with) MONRL_CRANE",
         "interaction" : "interacts with",
-        "SUID" : 78719,
+        "SUID" : 6379,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78713",
-        "source" : "78705",
-        "target" : "78711",
+        "id" : "6377",
+        "source" : "5567",
+        "target" : "5571",
         "shared_name" : "COMPRESS_SYS (interacts with) AIR_SPARGING_UNIT",
         "name" : "COMPRESS_SYS (interacts with) AIR_SPARGING_UNIT",
         "interaction" : "interacts with",
-        "SUID" : 78713,
+        "SUID" : 6377,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78709",
-        "source" : "78705",
-        "target" : "78707",
+        "id" : "6375",
+        "source" : "5567",
+        "target" : "5569",
         "shared_name" : "COMPRESS_SYS (interacts with) COMPRSR",
         "name" : "COMPRESS_SYS (interacts with) COMPRSR",
         "interaction" : "interacts with",
-        "SUID" : 78709,
+        "SUID" : 6375,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78703",
-        "source" : "78695",
-        "target" : "78701",
+        "id" : "6373",
+        "source" : "5561",
+        "target" : "5565",
         "shared_name" : "CLIMATE_CONTROL (interacts with) AIR_CONDTNG",
         "name" : "CLIMATE_CONTROL (interacts with) AIR_CONDTNG",
         "interaction" : "interacts with",
-        "SUID" : 78703,
+        "SUID" : 6373,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78699",
-        "source" : "78695",
-        "target" : "78697",
+        "id" : "6371",
+        "source" : "5561",
+        "target" : "5563",
         "shared_name" : "CLIMATE_CONTROL (interacts with) FAN",
         "name" : "CLIMATE_CONTROL (interacts with) FAN",
         "interaction" : "interacts with",
-        "SUID" : 78699,
+        "SUID" : 6371,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78693",
-        "source" : "78657",
-        "target" : "78691",
+        "id" : "6369",
+        "source" : "5541",
+        "target" : "5559",
         "shared_name" : "ELECTENCLOSE (interacts with) JUNCTBOX",
         "name" : "ELECTENCLOSE (interacts with) JUNCTBOX",
         "interaction" : "interacts with",
-        "SUID" : 78693,
+        "SUID" : 6369,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78689",
-        "source" : "78657",
-        "target" : "78687",
+        "id" : "6367",
+        "source" : "5541",
+        "target" : "5557",
         "shared_name" : "ELECTENCLOSE (interacts with) ELECCAB",
         "name" : "ELECTENCLOSE (interacts with) ELECCAB",
         "interaction" : "interacts with",
-        "SUID" : 78689,
+        "SUID" : 6367,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78685",
-        "source" : "78657",
-        "target" : "78683",
+        "id" : "6365",
+        "source" : "5541",
+        "target" : "5555",
         "shared_name" : "ELECTENCLOSE (interacts with) MARSHALCAB",
         "name" : "ELECTENCLOSE (interacts with) MARSHALCAB",
         "interaction" : "interacts with",
-        "SUID" : 78685,
+        "SUID" : 6365,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78681",
-        "source" : "78657",
-        "target" : "78679",
+        "id" : "6363",
+        "source" : "5541",
+        "target" : "5553",
         "shared_name" : "ELECTENCLOSE (interacts with) DISTBOARD",
         "name" : "ELECTENCLOSE (interacts with) DISTBOARD",
         "interaction" : "interacts with",
-        "SUID" : 78681,
+        "SUID" : 6363,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78677",
-        "source" : "78657",
-        "target" : "78675",
+        "id" : "6361",
+        "source" : "5541",
+        "target" : "5551",
         "shared_name" : "ELECTENCLOSE (interacts with) POWR_DISTRBTN",
         "name" : "ELECTENCLOSE (interacts with) POWR_DISTRBTN",
         "interaction" : "interacts with",
-        "SUID" : 78677,
+        "SUID" : 6361,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78673",
-        "source" : "78657",
-        "target" : "78671",
+        "id" : "6359",
+        "source" : "5541",
+        "target" : "5549",
         "shared_name" : "ELECTENCLOSE (interacts with) POWR_FACTR_CORR_UNIT",
         "name" : "ELECTENCLOSE (interacts with) POWR_FACTR_CORR_UNIT",
         "interaction" : "interacts with",
-        "SUID" : 78673,
+        "SUID" : 6359,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78669",
-        "source" : "78657",
-        "target" : "78667",
+        "id" : "6357",
+        "source" : "5541",
+        "target" : "5547",
         "shared_name" : "ELECTENCLOSE (interacts with) CABINET",
         "name" : "ELECTENCLOSE (interacts with) CABINET",
         "interaction" : "interacts with",
-        "SUID" : 78669,
+        "SUID" : 6357,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78665",
-        "source" : "78657",
-        "target" : "78663",
+        "id" : "6355",
+        "source" : "5541",
+        "target" : "5545",
         "shared_name" : "ELECTENCLOSE (interacts with) SWITCHBOARD",
         "name" : "ELECTENCLOSE (interacts with) SWITCHBOARD",
         "interaction" : "interacts with",
-        "SUID" : 78665,
+        "SUID" : 6355,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78661",
-        "source" : "78657",
-        "target" : "78659",
+        "id" : "6353",
+        "source" : "5541",
+        "target" : "5543",
         "shared_name" : "ELECTENCLOSE (interacts with) LOCALCONT",
         "name" : "ELECTENCLOSE (interacts with) LOCALCONT",
         "interaction" : "interacts with",
-        "SUID" : 78661,
+        "SUID" : 6353,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78655",
-        "source" : "78639",
-        "target" : "78653",
+        "id" : "6351",
+        "source" : "5531",
+        "target" : "5539",
         "shared_name" : "MOTOR_DRIVE (interacts with) DRIVE",
         "name" : "MOTOR_DRIVE (interacts with) DRIVE",
         "interaction" : "interacts with",
-        "SUID" : 78655,
+        "SUID" : 6351,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78651",
-        "source" : "78639",
-        "target" : "78649",
+        "id" : "6349",
+        "source" : "5531",
+        "target" : "5537",
         "shared_name" : "MOTOR_DRIVE (interacts with) MOTOR",
         "name" : "MOTOR_DRIVE (interacts with) MOTOR",
         "interaction" : "interacts with",
-        "SUID" : 78651,
+        "SUID" : 6349,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78647",
-        "source" : "78639",
-        "target" : "78645",
+        "id" : "6347",
+        "source" : "5531",
+        "target" : "5535",
         "shared_name" : "MOTOR_DRIVE (interacts with) DRIVE_PS",
         "name" : "MOTOR_DRIVE (interacts with) DRIVE_PS",
         "interaction" : "interacts with",
-        "SUID" : 78647,
+        "SUID" : 6347,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78643",
-        "source" : "78639",
-        "target" : "78641",
+        "id" : "6345",
+        "source" : "5531",
+        "target" : "5533",
         "shared_name" : "MOTOR_DRIVE (interacts with) MOTOR_STARTER",
         "name" : "MOTOR_DRIVE (interacts with) MOTOR_STARTER",
         "interaction" : "interacts with",
-        "SUID" : 78643,
+        "SUID" : 6345,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78637",
-        "source" : "78593",
-        "target" : "78635",
+        "id" : "6343",
+        "source" : "5507",
+        "target" : "5529",
         "shared_name" : "SWITCHGEAR (interacts with) POWR_MONTR",
         "name" : "SWITCHGEAR (interacts with) POWR_MONTR",
         "interaction" : "interacts with",
-        "SUID" : 78637,
+        "SUID" : 6343,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78633",
-        "source" : "78593",
-        "target" : "78631",
+        "id" : "6341",
+        "source" : "5507",
+        "target" : "5527",
         "shared_name" : "SWITCHGEAR (interacts with) ISOLATOR",
         "name" : "SWITCHGEAR (interacts with) ISOLATOR",
         "interaction" : "interacts with",
-        "SUID" : 78633,
+        "SUID" : 6341,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78629",
-        "source" : "78593",
-        "target" : "78627",
+        "id" : "6339",
+        "source" : "5507",
+        "target" : "5525",
         "shared_name" : "SWITCHGEAR (interacts with) CONTACTOR",
         "name" : "SWITCHGEAR (interacts with) CONTACTOR",
         "interaction" : "interacts with",
-        "SUID" : 78629,
+        "SUID" : 6339,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78625",
-        "source" : "78593",
-        "target" : "78623",
+        "id" : "6337",
+        "source" : "5507",
+        "target" : "5523",
         "shared_name" : "SWITCHGEAR (interacts with) SURGE_FILTER",
         "name" : "SWITCHGEAR (interacts with) SURGE_FILTER",
         "interaction" : "interacts with",
-        "SUID" : 78625,
+        "SUID" : 6337,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78621",
-        "source" : "78593",
-        "target" : "78619",
+        "id" : "6335",
+        "source" : "5507",
+        "target" : "5521",
         "shared_name" : "SWITCHGEAR (interacts with) CIRCUIT_BREAKER",
         "name" : "SWITCHGEAR (interacts with) CIRCUIT_BREAKER",
         "interaction" : "interacts with",
-        "SUID" : 78621,
+        "SUID" : 6335,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78617",
-        "source" : "78593",
-        "target" : "78615",
+        "id" : "6333",
+        "source" : "5507",
+        "target" : "5519",
         "shared_name" : "SWITCHGEAR (interacts with) AUTO_TRANSFR_SWITCH",
         "name" : "SWITCHGEAR (interacts with) AUTO_TRANSFR_SWITCH",
         "interaction" : "interacts with",
-        "SUID" : 78617,
+        "SUID" : 6333,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78613",
-        "source" : "78593",
-        "target" : "78611",
+        "id" : "6331",
+        "source" : "5507",
+        "target" : "5517",
         "shared_name" : "SWITCHGEAR (interacts with) ATS",
         "name" : "SWITCHGEAR (interacts with) ATS",
         "interaction" : "interacts with",
-        "SUID" : 78613,
+        "SUID" : 6331,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78609",
-        "source" : "78593",
-        "target" : "78607",
+        "id" : "6329",
+        "source" : "5507",
+        "target" : "5515",
         "shared_name" : "SWITCHGEAR (interacts with) SWITCH",
         "name" : "SWITCHGEAR (interacts with) SWITCH",
         "interaction" : "interacts with",
-        "SUID" : 78609,
+        "SUID" : 6329,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78605",
-        "source" : "78593",
-        "target" : "78603",
+        "id" : "6327",
+        "source" : "5507",
+        "target" : "5513",
         "shared_name" : "SWITCHGEAR (interacts with) RCD",
         "name" : "SWITCHGEAR (interacts with) RCD",
         "interaction" : "interacts with",
-        "SUID" : 78605,
+        "SUID" : 6327,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78601",
-        "source" : "78593",
-        "target" : "78599",
+        "id" : "6325",
+        "source" : "5507",
+        "target" : "5511",
         "shared_name" : "SWITCHGEAR (interacts with) LIMIT_SWTCH",
         "name" : "SWITCHGEAR (interacts with) LIMIT_SWTCH",
         "interaction" : "interacts with",
-        "SUID" : 78601,
+        "SUID" : 6325,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78597",
-        "source" : "78593",
-        "target" : "78595",
+        "id" : "6323",
+        "source" : "5507",
+        "target" : "5509",
         "shared_name" : "SWITCHGEAR (interacts with) MCCB",
         "name" : "SWITCHGEAR (interacts with) MCCB",
         "interaction" : "interacts with",
-        "SUID" : 78597,
+        "SUID" : 6323,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78591",
-        "source" : "78567",
-        "target" : "78589",
+        "id" : "6321",
+        "source" : "5493",
+        "target" : "5505",
         "shared_name" : "CABLES (interacts with) PVT_ELEC_LINE",
         "name" : "CABLES (interacts with) PVT_ELEC_LINE",
         "interaction" : "interacts with",
-        "SUID" : 78591,
+        "SUID" : 6321,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78587",
-        "source" : "78567",
-        "target" : "78585",
+        "id" : "6319",
+        "source" : "5493",
+        "target" : "5503",
         "shared_name" : "CABLES (interacts with) MAINS_POWR_SUPLY",
         "name" : "CABLES (interacts with) MAINS_POWR_SUPLY",
         "interaction" : "interacts with",
-        "SUID" : 78587,
+        "SUID" : 6319,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78583",
-        "source" : "78567",
-        "target" : "78581",
+        "id" : "6317",
+        "source" : "5493",
+        "target" : "5501",
         "shared_name" : "CABLES (interacts with) DC POWER SUPPLY",
         "name" : "CABLES (interacts with) DC POWER SUPPLY",
         "interaction" : "interacts with",
-        "SUID" : 78583,
+        "SUID" : 6317,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78579",
-        "source" : "78567",
-        "target" : "78577",
+        "id" : "6315",
+        "source" : "5493",
+        "target" : "5499",
         "shared_name" : "CABLES (interacts with) LOW_VOLTAGE_POWR",
         "name" : "CABLES (interacts with) LOW_VOLTAGE_POWR",
         "interaction" : "interacts with",
-        "SUID" : 78579,
+        "SUID" : 6315,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78575",
-        "source" : "78567",
-        "target" : "78573",
+        "id" : "6313",
+        "source" : "5493",
+        "target" : "5497",
         "shared_name" : "CABLES (interacts with) ELCTRCL_CABLNG",
         "name" : "CABLES (interacts with) ELCTRCL_CABLNG",
         "interaction" : "interacts with",
-        "SUID" : 78575,
+        "SUID" : 6313,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78571",
-        "source" : "78567",
-        "target" : "78569",
+        "id" : "6311",
+        "source" : "5493",
+        "target" : "5495",
         "shared_name" : "CABLES (interacts with) CABLE_TRAY",
         "name" : "CABLES (interacts with) CABLE_TRAY",
         "interaction" : "interacts with",
-        "SUID" : 78571,
+        "SUID" : 6311,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78565",
-        "source" : "78561",
-        "target" : "78563",
+        "id" : "6309",
+        "source" : "5489",
+        "target" : "5491",
         "shared_name" : "POWER_POLES (interacts with) POWER_SUPPLY_PILLAR",
         "name" : "POWER_POLES (interacts with) POWER_SUPPLY_PILLAR",
         "interaction" : "interacts with",
-        "SUID" : 78565,
+        "SUID" : 6309,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78559",
-        "source" : "78555",
-        "target" : "78557",
+        "id" : "6307",
+        "source" : "5485",
+        "target" : "5487",
         "shared_name" : "LIGHTNG (interacts with) ELEC_POWR_LIGHTNG",
         "name" : "LIGHTNG (interacts with) ELEC_POWR_LIGHTNG",
         "interaction" : "interacts with",
-        "SUID" : 78559,
+        "SUID" : 6307,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78553",
-        "source" : "78533",
-        "target" : "78551",
+        "id" : "6305",
+        "source" : "5473",
+        "target" : "5483",
         "shared_name" : "ELECTRLYS (interacts with) TSTLEAD",
         "name" : "ELECTRLYS (interacts with) TSTLEAD",
         "interaction" : "interacts with",
-        "SUID" : 78553,
+        "SUID" : 6305,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78549",
-        "source" : "78533",
-        "target" : "78547",
+        "id" : "6303",
+        "source" : "5473",
+        "target" : "5481",
         "shared_name" : "ELECTRLYS (interacts with) CATHODE",
         "name" : "ELECTRLYS (interacts with) CATHODE",
         "interaction" : "interacts with",
-        "SUID" : 78549,
+        "SUID" : 6303,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78545",
-        "source" : "78533",
-        "target" : "78543",
+        "id" : "6301",
+        "source" : "5473",
+        "target" : "5479",
         "shared_name" : "ELECTRLYS (interacts with) CATHODIC_PROTECT",
         "name" : "ELECTRLYS (interacts with) CATHODIC_PROTECT",
         "interaction" : "interacts with",
-        "SUID" : 78545,
+        "SUID" : 6301,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78541",
-        "source" : "78533",
-        "target" : "78539",
+        "id" : "6299",
+        "source" : "5473",
+        "target" : "5477",
         "shared_name" : "ELECTRLYS (interacts with) SACANOD",
         "name" : "ELECTRLYS (interacts with) SACANOD",
         "interaction" : "interacts with",
-        "SUID" : 78541,
+        "SUID" : 6299,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78537",
-        "source" : "78533",
-        "target" : "78535",
+        "id" : "6297",
+        "source" : "5473",
+        "target" : "5475",
         "shared_name" : "ELECTRLYS (interacts with) ANODES",
         "name" : "ELECTRLYS (interacts with) ANODES",
         "interaction" : "interacts with",
-        "SUID" : 78537,
+        "SUID" : 6297,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78531",
-        "source" : "78519",
-        "target" : "78529",
+        "id" : "6295",
+        "source" : "5465",
+        "target" : "5471",
         "shared_name" : "EARTH_BONDING (interacts with) BOND",
         "name" : "EARTH_BONDING (interacts with) BOND",
         "interaction" : "interacts with",
-        "SUID" : 78531,
+        "SUID" : 6295,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78527",
-        "source" : "78519",
-        "target" : "78525",
+        "id" : "6293",
+        "source" : "5465",
+        "target" : "5469",
         "shared_name" : "EARTH_BONDING (interacts with) DRGBOND",
         "name" : "EARTH_BONDING (interacts with) DRGBOND",
         "interaction" : "interacts with",
-        "SUID" : 78527,
+        "SUID" : 6293,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78523",
-        "source" : "78519",
-        "target" : "78521",
+        "id" : "6291",
+        "source" : "5465",
+        "target" : "5467",
         "shared_name" : "EARTH_BONDING (interacts with) ERTBED",
         "name" : "EARTH_BONDING (interacts with) ERTBED",
         "interaction" : "interacts with",
-        "SUID" : 78523,
+        "SUID" : 6291,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78517",
-        "source" : "78501",
-        "target" : "78515",
+        "id" : "6289",
+        "source" : "5455",
+        "target" : "5463",
         "shared_name" : "GENERATOR (interacts with) GENRTNG_SYSTM",
         "name" : "GENERATOR (interacts with) GENRTNG_SYSTM",
         "interaction" : "interacts with",
-        "SUID" : 78517,
+        "SUID" : 6289,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78513",
-        "source" : "78501",
-        "target" : "78511",
+        "id" : "6287",
+        "source" : "5455",
+        "target" : "5461",
         "shared_name" : "GENERATOR (interacts with) DIESEL_GENRTR",
         "name" : "GENERATOR (interacts with) DIESEL_GENRTR",
         "interaction" : "interacts with",
-        "SUID" : 78513,
+        "SUID" : 6287,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78509",
-        "source" : "78501",
-        "target" : "78507",
+        "id" : "6285",
+        "source" : "5455",
+        "target" : "5459",
         "shared_name" : "GENERATOR (interacts with) GENERATOR_AC",
         "name" : "GENERATOR (interacts with) GENERATOR_AC",
         "interaction" : "interacts with",
-        "SUID" : 78509,
+        "SUID" : 6285,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78505",
-        "source" : "78501",
-        "target" : "78503",
+        "id" : "6283",
+        "source" : "5455",
+        "target" : "5457",
         "shared_name" : "GENERATOR (interacts with) FUEL_TANK",
         "name" : "GENERATOR (interacts with) FUEL_TANK",
         "interaction" : "interacts with",
-        "SUID" : 78505,
+        "SUID" : 6283,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78499",
-        "source" : "78483",
-        "target" : "78497",
+        "id" : "6281",
+        "source" : "5445",
+        "target" : "5453",
         "shared_name" : "SOLAR_SYS (interacts with) SOLAR_COMBINER",
         "name" : "SOLAR_SYS (interacts with) SOLAR_COMBINER",
         "interaction" : "interacts with",
-        "SUID" : 78499,
+        "SUID" : 6281,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78495",
-        "source" : "78483",
-        "target" : "78493",
+        "id" : "6279",
+        "source" : "5445",
+        "target" : "5451",
         "shared_name" : "SOLAR_SYS (interacts with) SOLAR_ARRAY",
         "name" : "SOLAR_SYS (interacts with) SOLAR_ARRAY",
         "interaction" : "interacts with",
-        "SUID" : 78495,
+        "SUID" : 6279,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78491",
-        "source" : "78483",
-        "target" : "78489",
+        "id" : "6277",
+        "source" : "5445",
+        "target" : "5449",
         "shared_name" : "SOLAR_SYS (interacts with) SOLAR_INVERTER",
         "name" : "SOLAR_SYS (interacts with) SOLAR_INVERTER",
         "interaction" : "interacts with",
-        "SUID" : 78491,
+        "SUID" : 6277,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78487",
-        "source" : "78483",
-        "target" : "78485",
+        "id" : "6275",
+        "source" : "5445",
+        "target" : "5447",
         "shared_name" : "SOLAR_SYS (interacts with) SOLAR_PANL",
         "name" : "SOLAR_SYS (interacts with) SOLAR_PANL",
         "interaction" : "interacts with",
-        "SUID" : 78487,
+        "SUID" : 6275,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78481",
-        "source" : "78469",
-        "target" : "78479",
+        "id" : "6273",
+        "source" : "5437",
+        "target" : "5443",
         "shared_name" : "CHEMCL_STORG (interacts with) SPILL_KIT",
         "name" : "CHEMCL_STORG (interacts with) SPILL_KIT",
         "interaction" : "interacts with",
-        "SUID" : 78481,
+        "SUID" : 6273,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78477",
-        "source" : "78469",
-        "target" : "78475",
+        "id" : "6271",
+        "source" : "5437",
+        "target" : "5441",
         "shared_name" : "CHEMCL_STORG (interacts with) BUNDING",
         "name" : "CHEMCL_STORG (interacts with) BUNDING",
         "interaction" : "interacts with",
-        "SUID" : 78477,
+        "SUID" : 6271,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78473",
-        "source" : "78469",
-        "target" : "78471",
+        "id" : "6269",
+        "source" : "5437",
+        "target" : "5439",
         "shared_name" : "CHEMCL_STORG (interacts with) CHEMCL_TANK",
         "name" : "CHEMCL_STORG (interacts with) CHEMCL_TANK",
         "interaction" : "interacts with",
-        "SUID" : 78473,
+        "SUID" : 6269,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78467",
-        "source" : "78459",
-        "target" : "78465",
+        "id" : "6267",
+        "source" : "5431",
+        "target" : "5435",
         "shared_name" : "CHEMICAL_EYE_SHOWER (interacts with) SAFTY_SHOWER",
         "name" : "CHEMICAL_EYE_SHOWER (interacts with) SAFTY_SHOWER",
         "interaction" : "interacts with",
-        "SUID" : 78467,
+        "SUID" : 6267,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78463",
-        "source" : "78459",
-        "target" : "78461",
+        "id" : "6265",
+        "source" : "5431",
+        "target" : "5433",
         "shared_name" : "CHEMICAL_EYE_SHOWER (interacts with) EYE_WASH",
         "name" : "CHEMICAL_EYE_SHOWER (interacts with) EYE_WASH",
         "interaction" : "interacts with",
-        "SUID" : 78463,
+        "SUID" : 6265,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "79797",
-        "source" : "78433",
-        "target" : "79795",
+        "id" : "6263",
+        "source" : "5417",
+        "target" : "6131",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) GUIDE_RAIL",
         "name" : "ACCESS_STRUCTURES (interacts with) GUIDE_RAIL",
         "interaction" : "interacts with",
-        "SUID" : 79797,
+        "SUID" : 6263,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78457",
-        "source" : "78433",
-        "target" : "78455",
+        "id" : "6261",
+        "source" : "5417",
+        "target" : "5429",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) LADDER",
         "name" : "ACCESS_STRUCTURES (interacts with) LADDER",
         "interaction" : "interacts with",
-        "SUID" : 78457,
+        "SUID" : 6261,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78453",
-        "source" : "78433",
-        "target" : "78451",
+        "id" : "6259",
+        "source" : "5417",
+        "target" : "5427",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) RAMP",
         "name" : "ACCESS_STRUCTURES (interacts with) RAMP",
         "interaction" : "interacts with",
-        "SUID" : 78453,
+        "SUID" : 6259,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78449",
-        "source" : "78433",
-        "target" : "78447",
+        "id" : "6257",
+        "source" : "5417",
+        "target" : "5425",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) WALKWY",
         "name" : "ACCESS_STRUCTURES (interacts with) WALKWY",
         "interaction" : "interacts with",
-        "SUID" : 78449,
+        "SUID" : 6257,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78445",
-        "source" : "78433",
-        "target" : "78443",
+        "id" : "6255",
+        "source" : "5417",
+        "target" : "5423",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) SAFTY_GUARD_RAIL",
         "name" : "ACCESS_STRUCTURES (interacts with) SAFTY_GUARD_RAIL",
         "interaction" : "interacts with",
-        "SUID" : 78445,
+        "SUID" : 6255,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78441",
-        "source" : "78433",
-        "target" : "78439",
+        "id" : "6253",
+        "source" : "5417",
+        "target" : "5421",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) STAIRS",
         "name" : "ACCESS_STRUCTURES (interacts with) STAIRS",
         "interaction" : "interacts with",
-        "SUID" : 78441,
+        "SUID" : 6253,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78437",
-        "source" : "78433",
-        "target" : "78435",
+        "id" : "6251",
+        "source" : "5417",
+        "target" : "5419",
         "shared_name" : "ACCESS_STRUCTURES (interacts with) COVER",
         "name" : "ACCESS_STRUCTURES (interacts with) COVER",
         "interaction" : "interacts with",
-        "SUID" : 78437,
+        "SUID" : 6251,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78431",
-        "source" : "78423",
-        "target" : "78429",
+        "id" : "6249",
+        "source" : "5411",
+        "target" : "5415",
         "shared_name" : "DAVIT (interacts with) DAV_ARM_BAS",
         "name" : "DAVIT (interacts with) DAV_ARM_BAS",
         "interaction" : "interacts with",
-        "SUID" : 78431,
+        "SUID" : 6249,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78427",
-        "source" : "78423",
-        "target" : "78425",
+        "id" : "6247",
+        "source" : "5411",
+        "target" : "5413",
         "shared_name" : "DAVIT (interacts with) DAVIT_ARM",
         "name" : "DAVIT (interacts with) DAVIT_ARM",
         "interaction" : "interacts with",
-        "SUID" : 78427,
+        "SUID" : 6247,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78421",
-        "source" : "78405",
-        "target" : "78419",
+        "id" : "6245",
+        "source" : "5401",
+        "target" : "5409",
         "shared_name" : "HARNESSES (interacts with) SAFTY_RIGNG",
         "name" : "HARNESSES (interacts with) SAFTY_RIGNG",
         "interaction" : "interacts with",
-        "SUID" : 78421,
+        "SUID" : 6245,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78417",
-        "source" : "78405",
-        "target" : "78415",
+        "id" : "6243",
+        "source" : "5401",
+        "target" : "5407",
         "shared_name" : "HARNESSES (interacts with) SAFTY_HARNS",
         "name" : "HARNESSES (interacts with) SAFTY_HARNS",
         "interaction" : "interacts with",
-        "SUID" : 78417,
+        "SUID" : 6243,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78413",
-        "source" : "78405",
-        "target" : "78411",
+        "id" : "6241",
+        "source" : "5401",
+        "target" : "5405",
         "shared_name" : "HARNESSES (interacts with) FALL_ARST_EQUPMNT",
         "name" : "HARNESSES (interacts with) FALL_ARST_EQUPMNT",
         "interaction" : "interacts with",
-        "SUID" : 78413,
+        "SUID" : 6241,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78409",
-        "source" : "78405",
-        "target" : "78407",
+        "id" : "6239",
+        "source" : "5401",
+        "target" : "5403",
         "shared_name" : "HARNESSES (interacts with) SAFTY_LIFEJACKET",
         "name" : "HARNESSES (interacts with) SAFTY_LIFEJACKET",
         "interaction" : "interacts with",
-        "SUID" : 78409,
+        "SUID" : 6239,
         "shared_interaction" : "interacts with",
         "selected" : false
       },
       "selected" : false
     }, {
       "data" : {
-        "id" : "78403",
-        "source" : "78399",
-        "target" : "78401",
+        "id" : "6237",
+        "source" : "5397",
+        "target" : "5399",
         "shared_name" : "RADIO (interacts with) ANTENNA",
         "name" : "RADIO (interacts with) ANTENNA",
         "interaction" : "interacts with",
-        "SUID" : 78403,
+        "SUID" : 6237,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6235",
+        "source" : "5395",
+        "target" : "6065",
+        "shared_name" : "VEHICLE_ACCESS (interacts with) BRIDGE",
+        "name" : "VEHICLE_ACCESS (interacts with) BRIDGE",
+        "interaction" : "interacts with",
+        "SUID" : 6235,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6233",
+        "source" : "5395",
+        "target" : "5971",
+        "shared_name" : "VEHICLE_ACCESS (interacts with) TRACKS_DRIVWYS",
+        "name" : "VEHICLE_ACCESS (interacts with) TRACKS_DRIVWYS",
+        "interaction" : "interacts with",
+        "SUID" : 6233,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6231",
+        "source" : "5395",
+        "target" : "5967",
+        "shared_name" : "VEHICLE_ACCESS (interacts with) ROADS",
+        "name" : "VEHICLE_ACCESS (interacts with) ROADS",
+        "interaction" : "interacts with",
+        "SUID" : 6231,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6229",
+        "source" : "5395",
+        "target" : "6067",
+        "shared_name" : "VEHICLE_ACCESS (interacts with) WEIGHBRIDGE",
+        "name" : "VEHICLE_ACCESS (interacts with) WEIGHBRIDGE",
+        "interaction" : "interacts with",
+        "SUID" : 6229,
+        "shared_interaction" : "interacts with",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "6227",
+        "source" : "5395",
+        "target" : "6071",
+        "shared_name" : "VEHICLE_ACCESS (interacts with) WHEELWASH",
+        "name" : "VEHICLE_ACCESS (interacts with) WHEELWASH",
+        "interaction" : "interacts with",
+        "SUID" : 6227,
         "shared_interaction" : "interacts with",
         "selected" : false
       },

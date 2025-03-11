@@ -226,6 +226,11 @@ document.getElementById('problematic-dropdown').addEventListener('change', filte
 
 
 
+
+
+
+
+
 document.getElementById('export-image-btn').addEventListener('click', async function () {
     if (typeof window.cy === 'undefined') {
         console.error('Cytoscape instance "cy" is not defined.');

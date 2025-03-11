@@ -398,3 +398,27 @@ margin-bottom: 40px;
 #problematic-dropdown:hover {
     background-color: #555;
 }
+
+#asset-owner-colour-dropdown {
+    background: #444;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#asset-owner-colour-dropdown option {
+    background: #444;
+    color: white;
+}
+
+#asset-owner-colour-dropdown:focus {
+    outline: none;
+}
+
+#layout-options-content button:hover,
+#asset-owner-colour-dropdown:hover {
+    background-color: #555;
+}
