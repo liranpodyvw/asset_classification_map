@@ -422,3 +422,10 @@ margin-bottom: 40px;
 #asset-owner-colour-dropdown:hover {
     background-color: #555;
 }
+
+#owner-legend li {
+    padding: 2px 5px;  /* Adjust the padding to reduce space */
+    margin: 30px 0;      /* Reduce margin between legend items */
+    display: flex;
+    align-items: center;  /* Align the circle and text vertically */
+}

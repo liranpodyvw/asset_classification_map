@@ -289,6 +289,28 @@ document.getElementById('asset-owner-colour-dropdown').addEventListener('change'
 
 
 
+function updateLegend() {
+    let cy = window.cy;  // Assuming Cytoscape instance is globally available
+    let nodes = cy.nodes();
+    let dropdownValue = document.getElementById('asset-owner-colour-dropdown').value;
+
+    let defaultLegend = document.getElementById('default-legend');
+    let ownerLegend = document.getElementById('owner-legend');
+
+    // If 'default' is selected, show the default legend and hide the asset owner legend
+    if (dropdownValue === 'default-colour') {
+        defaultLegend.style.display = 'block';
+        ownerLegend.style.display = 'none';
+    } else {
+        // Show the asset owner legend and hide the default one
+        defaultLegend.style.display = 'none';
+        ownerLegend.style.display = 'block';
+    }
+};
+
+// Event listener for dropdown
+document.getElementById('asset-owner-colour-dropdown').addEventListener('change', updateLegend);
+
 
 
 
