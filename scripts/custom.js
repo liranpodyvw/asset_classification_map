@@ -37,122 +37,126 @@ document.addEventListener('DOMContentLoaded', function(){
         legendContent.style.display = 'block';
     });
   
-    // Show Search Assets
-    searchAssetsBtn.addEventListener('click', function(){
-        sidebarMenu.style.display = 'none';
-        searchAssetsContent.style.display = 'block';
-    });
-  
-    // Back button for General Information
-    backBtn.addEventListener('click', function(){
-        generalInfoContent.style.display = 'none';
-        sidebarMenu.style.display = 'block';
-    });
-  
-    // Back button for Legend
-    backBtnLegend.addEventListener('click', function(){
-        legendContent.style.display = 'none';
-        sidebarMenu.style.display = 'block';
-    });
-  
-    // Back button for Search Assets
-    backBtnSearch.addEventListener('click', function(){
-        searchAssetsContent.style.display = 'none';
-        sidebarMenu.style.display = 'block';
-        // Optionally, clear any search highlights when exiting search view:
-        cy.elements().removeClass('highlighted');
-    });
-  
-    // --- Search Functionality ---
-    var searchInput = document.getElementById('search-input');
-    var searchButton = document.getElementById('search-button');
-    var clearButton = document.getElementById('clear-button');
-  
-    // Log all shared_names for debugging
-    function logAllSharedNames() {
-        var sharedNames = cy.nodes().map(function(ele){ return ele.data('shared_name'); });
-        console.log('All shared_names:', sharedNames);
+// Reference elements
+const searchInput = document.getElementById('search-input');
+const autocompleteList = document.getElementById('autocomplete-list');
+const searchButton = document.getElementById('search-button');
+const clearButton = document.getElementById('clear-button');
+
+// Fetch asset names and descriptions dynamically from Cytoscape
+function getAssetNames() {
+    return cy.nodes().map(ele => ({
+        name: ele.data('shared_name'),
+        description: ele.data('description')
+    }));
+}
+
+// Show autocomplete dropdown
+searchInput.addEventListener('input', function() {
+    const query = searchInput.value.trim().toLowerCase();
+    autocompleteList.innerHTML = '';
+
+    if (query === "") {
+        autocompleteList.style.display = 'none';
+        return;
     }
-    logAllSharedNames();
-  
-    // Search Button Event Listener
-    searchButton.addEventListener('click', function() {
-        var query = searchInput.value.trim().toLowerCase();
-        console.log('Search query:', query);
-  
-        if (query === "") {
-            cy.elements().removeClass('highlighted');
-            console.log('Search query is empty. Removed all highlights.');
-            return;
-        }
-  
-        // Remove previous highlights
-        cy.elements().removeClass('highlighted');
-        console.log('Removed previous highlights.');
-  
-        // Find matching node(s)
-        var targetNodes = cy.nodes().filter(function(ele){
-            var sharedName = ele.data('shared_name');
-            return sharedName && sharedName.toLowerCase() === query;
+
+    const assets = getAssetNames();
+    const matches = assets.filter(asset =>
+        (asset.name && asset.name.toLowerCase().includes(query)) ||
+        (asset.description && asset.description.toLowerCase().includes(query))
+    );
+
+    if (matches.length === 0) {
+        autocompleteList.style.display = 'none';
+        return;
+    }
+
+    matches.forEach(asset => {
+        const li = document.createElement('li');
+        li.textContent = asset.name || asset.description;
+        li.addEventListener('click', function() {
+            searchInput.value = li.textContent;
+            autocompleteList.style.display = 'none';
+            searchButton.click(); // Trigger search
         });
-
-        var targetNodesOnDescription = cy.nodes().filter(function(ele){
-            var description = ele.data('description');
-            return description && description.toLowerCase() === query;
-        });
-  
-        console.log('Number of matched nodes:', targetNodes.length);
-  
-        // Combine both sets to avoid duplicates
-        var allTargetNodes = targetNodes.union(targetNodesOnDescription);
-
-        console.log('Number of unique matched nodes:', allTargetNodes.length);
-
-        if (allTargetNodes.length > 0) {
-            allTargetNodes.addClass('highlighted');
-            console.log('Highlighted nodes:', allTargetNodes.map(function(ele){ return ele.data('shared_name') || ele.data('description'); }));
-
-            // Center view on all found nodes in one animation
-            cy.animate({
-                fit: {
-                    eles: allTargetNodes,
-                    padding: 400
-                },
-                duration: 1000,
-                zoom: 1.2
-            });
-            console.log('Animated to fit all highlighted nodes.');
-        }
-
-        if (targetNodes.length == 0 && targetNodesOnDescription.length == 0) {
-            alert('No asset found with the name or description: ' + searchInput.value);
-            console.log('No matching asset found for query:', query);
-        }
+        autocompleteList.appendChild(li);
     });
-  
-    // Allow pressing 'Enter' to trigger search
-    searchInput.addEventListener('keyup', function(event) {
-        if (event.key === 'Enter') {
-            searchButton.click();
-        }
-    });
-  
-    // Clear Button Event Listener
-    clearButton.addEventListener('click', function() {
-        searchInput.value = "";
+
+    autocompleteList.style.display = 'block';
+});
+
+// Hide dropdown when clicking outside
+document.addEventListener('click', function(event) {
+    if (!searchInput.contains(event.target) && !autocompleteList.contains(event.target)) {
+        autocompleteList.style.display = 'none';
+    }
+});
+
+// Existing search functionality
+searchButton.addEventListener('click', function() {
+    var query = searchInput.value.trim().toLowerCase();
+    console.log('Search query:', query);
+
+    if (query === "") {
         cy.elements().removeClass('highlighted');
-        console.log('Cleared search input and removed all highlights.');
-        // Reset view (adjust padding/zoom as desired)
+        console.log('Search query is empty. Removed all highlights.');
+        return;
+    }
+
+    cy.elements().removeClass('highlighted');
+    console.log('Removed previous highlights.');
+
+    var targetNodes = cy.nodes().filter(ele => {
+        var sharedName = ele.data('shared_name');
+        return sharedName && sharedName.toLowerCase() === query;
+    });
+
+    var targetNodesOnDescription = cy.nodes().filter(ele => {
+        var description = ele.data('description');
+        return description && description.toLowerCase() === query;
+    });
+
+    var allTargetNodes = targetNodes.union(targetNodesOnDescription);
+    console.log('Number of unique matched nodes:', allTargetNodes.length);
+
+    if (allTargetNodes.length > 0) {
+        allTargetNodes.addClass('highlighted');
+        console.log('Highlighted nodes:', allTargetNodes.map(ele => ele.data('shared_name') || ele.data('description')));
+
         cy.animate({
-            fit: {
-                eles: cy.elements(),
-                padding: 50
-            },
+            fit: { eles: allTargetNodes, padding: 400 },
             duration: 1000,
-            zoom: 1
+            zoom: 1.2
         });
-        console.log('Reset view after clearing.');
+        console.log('Animated to fit all highlighted nodes.');
+    } else {
+        alert('No asset found with the name or description: ' + searchInput.value);
+        console.log('No matching asset found for query:', query);
+    }
+});
+
+// Allow pressing 'Enter' to trigger search
+searchInput.addEventListener('keyup', function(event) {
+    if (event.key === 'Enter') {
+        searchButton.click();
+    }
+});
+
+// Clear Button Event Listener
+clearButton.addEventListener('click', function() {
+    searchInput.value = "";
+    cy.elements().removeClass('highlighted');
+    console.log('Cleared search input and removed all highlights.');
+    
+    cy.animate({
+        fit: { eles: cy.elements(), padding: 50 },
+        duration: 1000,
+        zoom: 1
     });
+    console.log('Reset view after clearing.');
+});
+
 
     // --- Handle clicks outside nodes (tap) ---
     cy.on('tap', function(event) {

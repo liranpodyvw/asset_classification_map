@@ -302,6 +302,34 @@ margin-bottom: 40px;
     margin: 5px;
 }
 
+/* Autocomplete Dropdown Styles */
+.autocomplete-dropdown {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 238px; /* Match input width */
+    z-index: 1000;
+    display: none;
+}
+
+#search-assets-content .autocomplete-dropdown li {
+    font-size: 12px !important;  /* Adjust as needed */
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+    color: black; /* Ensure visibility */
+}
+
+#search-assets-content .autocomplete-dropdown li:hover {
+    background: lightgray;
+}
+
+
 #export-content {
     text-align: center;
     padding-top: 7px;
