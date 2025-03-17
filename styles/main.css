@@ -178,7 +178,7 @@ background: #555;
 cursor: default;
 background: none;
 border: none;
-margin-top: -20px;
+margin-top: -50px;
 }
 
 #general-info-content ul li:hover {
@@ -188,11 +188,11 @@ border: none;
 
 /* Target the list items in the Legend section */
 #legend-content ul li {
-font-size: 19.5px;
+font-size: 17px;
 cursor: default;
 background: none;
 border: none;
-margin-top: -5px;
+margin-top: -17.5px;
 }
 
 #legend-content ul li:hover {
@@ -202,9 +202,47 @@ border: none;
 
 /* Circle Styles */
 .circle {
-width: 10px;
-height: 10px;
+width: 12px;
+height: 12px;
 border-radius: 50%;
+display: inline-block;
+margin-right: 10px;
+}
+
+.diamond {
+    width: 12px; /* Adjust size as needed */
+    height: 12px;
+    background-color: #7393B3;
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Octagon */
+.octagon {
+    width: 16px;
+    height: 16px;
+    background-color: #7393B3;
+    display: inline-block;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    margin-right: 10px;
+  }
+  
+/* Ellipse */
+.ellipse {
+width: 20px;  /* Wider than height */
+height: 12px;
+background-color: #7393B3;
+border-radius: 50%;
+display: inline-block;
+margin-right: 10px;
+}
+  
+/* Rectangle */
+.rectangle {
+width: 20px;  /* Adjust width */
+height: 10px; /* Adjust height */
+background-color: #7393B3;
 display: inline-block;
 margin-right: 10px;
 }
