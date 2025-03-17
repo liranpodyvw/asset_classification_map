@@ -236,13 +236,13 @@ function colourNodes() {
     let nodes = cy.nodes();
     let dropdownValue = document.getElementById('asset-owner-colour-dropdown').value;
 
-    // If 'default' is selected, reset node colors to original styling from styles.js
+    let ownerLegend = document.getElementById('owner-legend');
+    let defaultLegend = document.getElementById('default-legend');
+
+    // If 'default' is selected, reset node colors and show the default legend
     if (dropdownValue === 'default-colour') {
-        // Apply the original styles from styles.js
         nodes.forEach(n => {
             let correctiveWorkNeeded = n.data('corrective_work_needed');
-            
-            // Reset the background color based on 'corrective_work_needed'
             if (correctiveWorkNeeded === 'No') {
                 n.style('background-color', 'rgb(116,196,118)');  // Green
             } else if (correctiveWorkNeeded === 'To Be Assessed') {
@@ -250,10 +250,14 @@ function colourNodes() {
             } else if (correctiveWorkNeeded === 'Yes') {
                 n.style('background-color', 'rgb(239,59,44)');  // Red
             } else {
-                n.style('background-color', 'rgb(204,204,204)');  // Default gray if no value
+                n.style('background-color', 'rgb(204,204,204)');  // Gray
             }
         });
-        return;  // Exit function early if 'default' is selected
+
+        // Show the default legend and hide the owner-based legend
+        defaultLegend.style.display = 'block';
+        ownerLegend.style.display = 'none';
+        return;
     }
 
     // Collect unique asset owners
@@ -274,15 +278,30 @@ function colourNodes() {
     nodes.forEach(n => {
         let owner = n.data('asset_owner');
         if (owner && owner.trim() !== "") {
-            n.style('background-color', colorScale(owner));  // Assign color dynamically
+            n.style('background-color', colorScale(owner));
         } else {
             n.style('background-color', 'rgb(204,204,204)');  // Gray for empty owners
         }
     });
+
+    // Update the legend
+    ownerLegend.innerHTML = ""; // Clear previous entries
+
+    uniqueOwners.forEach(owner => {
+        let color = colorScale(owner);
+        let listItem = document.createElement('li');
+        listItem.innerHTML = `<span class="circle" style="background-color: ${color};"></span> ${owner}`;
+        ownerLegend.appendChild(listItem);
+    });
+
+    // Show the owner-based legend and hide the default legend
+    ownerLegend.style.display = 'block';
+    defaultLegend.style.display = 'none';
 }
 
 // Event listener for dropdown
 document.getElementById('asset-owner-colour-dropdown').addEventListener('change', colourNodes);
+
 
 
 
@@ -408,12 +427,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Track last clicked node to simulate "dblclick"
     var lastClickTime = 0;
     var lastClickedNode = null;
-
-    // Extract the last part of the hierarchy (final part after splitting)
-    function getLastPartOfHierarchy(hierarchy) {
-        var parts = hierarchy.split('/');
-        return parts.length > 0 ? parts[parts.length - 1] : null; // Last part of the hierarchy
-    }
 
     // Function to extract the parent from 'hierarchy'
     function getParentFromHierarchy(node) {
