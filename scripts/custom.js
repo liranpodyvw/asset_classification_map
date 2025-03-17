@@ -174,14 +174,14 @@ function filterNodes() {
     var cy = window.cy;
     
     // Get selected filters
-    var selectedAssetOwner = document.getElementById('asset-owner-dropdown').value.toUpperCase();
+    var selectedAssetOwner = document.getElementById('asset-owner-dropdown').value;
     var selectedProblematic = document.getElementById('problematic-dropdown').value.toUpperCase();
 
     // Map specific values
     if (selectedProblematic === 'TBA') {
-        selectedProblematic = 'N';
+        selectedProblematic = 'TO BE ASSESSED';
     } else if (selectedProblematic === 'SPECIALIST-ASSESSMENT') {
-        selectedProblematic = 'A';
+        selectedProblematic = 'UNDER ASSESSMENT';
     }
 
     // Show all nodes if both filters are at default
@@ -193,7 +193,8 @@ function filterNodes() {
 
     // Apply filters
     let filteredNodes = cy.nodes().filter(n => {
-        let matchesAssetOwner = selectedAssetOwner === 'DEFAULT' || n.data('asset_owner') === selectedAssetOwner;
+        let matchesAssetOwner = selectedAssetOwner === 'default' || 
+    n.data('asset_owner')?.toLowerCase() === selectedAssetOwner.toLowerCase();
         let matchesProblematic = selectedProblematic === 'DEFAULT' || 
                                  (n.data('corrective_work_needed') && n.data('corrective_work_needed').toUpperCase() === selectedProblematic);
         return matchesAssetOwner && matchesProblematic;
@@ -240,7 +241,7 @@ function colourNodes() {
             // Reset the background color based on 'corrective_work_needed'
             if (correctiveWorkNeeded === 'No') {
                 n.style('background-color', 'rgb(116,196,118)');  // Green
-            } else if (correctiveWorkNeeded === 'A') {
+            } else if (correctiveWorkNeeded === 'To Be Assessed') {
                 n.style('background-color', 'rgb(254,217,118)');  // Yellow
             } else if (correctiveWorkNeeded === 'Yes') {
                 n.style('background-color', 'rgb(239,59,44)');  // Red
@@ -251,35 +252,27 @@ function colourNodes() {
         return;  // Exit function early if 'default' is selected
     }
 
-    // Extract unique asset owners
+    // Collect unique asset owners
     let assetOwners = new Set();
     nodes.forEach(n => {
         let owner = n.data('asset_owner');
-        if (owner && owner.trim() !== "") {  // Ignore empty values
+        if (owner && owner.trim() !== "") {
             assetOwners.add(owner);
         }
     });
 
-    // Convert set to array and assign colors
     let uniqueOwners = Array.from(assetOwners);
-    let colorMap = {};
-
-    // Hardcoded color palette for asset owners
-    let colors = [
-        '#6495ED', '#FFDE21', '#954535', '#32CD32', '#EC5800', '#CD7F32', '#C3B1E1', '#708090'
-    ];
-
-    uniqueOwners.forEach((owner, index) => {
-        colorMap[owner] = colors[index % colors.length];  // Cycle through colors
-    });
+    
+    // Generate a dynamic color scale using D3
+    let colorScale = d3.scaleOrdinal(d3.schemeCategory10).domain(uniqueOwners);
 
     // Apply colors to nodes
     nodes.forEach(n => {
         let owner = n.data('asset_owner');
         if (owner && owner.trim() !== "") {
-            n.style('background-color', colorMap[owner]);  // Assign color from map
+            n.style('background-color', colorScale(owner));  // Assign color dynamically
         } else {
-            n.style('background-color', 'rgb(204,204,204)');  // Gray for empty asset_owner
+            n.style('background-color', 'rgb(204,204,204)');  // Gray for empty owners
         }
     });
 }
@@ -420,7 +413,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to extract the parent from 'hierarchy'
     function getParentFromHierarchy(node) {
-        var hierarchy = node.data('hierarchy'); // Example: "x/y/z"
+        var hierarchy = node.data('proposed_hierarchy'); // Example: "x/y/z"
 
         if (!hierarchy || !hierarchy.includes('/')) {
             return null; // No valid hierarchy
@@ -437,7 +430,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to find all descendants (children, children's children, etc.)
     function getAllDescendants(node) {
-        var descendants = cy.nodes().filter(n => n.data('hierarchy').startsWith(node.data('hierarchy')));
+        var hierarchy = node.data('proposed_hierarchy');
+        if (!hierarchy) return cy.collection(); // Return empty collection if no hierarchy
+    
+        var hierarchyPrefix = hierarchy + '/';
+        var descendants = cy.nodes().filter(n => {
+            var nodeHierarchy = n.data('proposed_hierarchy');
+            return nodeHierarchy && nodeHierarchy.startsWith(hierarchyPrefix);
+        });
+    
         return descendants;
     }
 

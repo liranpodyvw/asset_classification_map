@@ -135,9 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Run layout if necessary
     cy.layout({ name: 'preset' }).run();
 
-    cy.zoom({ level: 0.137 });  // Adjust the zoom level (lower value means more zoomed out)
+    cy.zoom({ level: 0.105 });  // Adjust the zoom level (lower value means more zoomed out)
 
-    cy.panBy({ x: 9, y: -10 }); // Shift the network 50px upwards
+    cy.panBy({ x: 9, y: 2 }); // Shift the network 
 
     // Add the mouseover event for node to show node info and hide the heading
     cy.nodes().on('mouseover', function(event) {
@@ -162,8 +162,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Update Sidebar with Node Information
             document.getElementById('node-description').textContent = node.data('description');
+            document.getElementById('node-proposed-classification').textContent = node.data('shared_name');
             document.getElementById('node-maximo-classification').textContent = node.data('maximo_classification');
-            document.getElementById('node-hierarchy').innerHTML = node.data('hierarchy').replace(/\//g, '<br>'); 
+            document.getElementById('node-hierarchy').innerHTML = node.data('proposed_hierarchy').replace(/\//g, '<br>'); 
+            document.getElementById('node-number-assets').textContent = node.data('number_of_assets');
             document.getElementById('node-corrective-work').textContent = node.data('corrective_work_needed');
 
             // Check for asset_owner attribute and update if it exists

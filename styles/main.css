@@ -188,7 +188,7 @@ border: none;
 
 /* Target the list items in the Legend section */
 #legend-content ul li {
-font-size: 17px;
+font-size: 15px;
 cursor: default;
 background: none;
 border: none;
@@ -333,6 +333,7 @@ margin-bottom: 40px;
 #node-info-content ul {
     flex-grow: 1; /* Allows content to take up remaining space */
     overflow-y: auto; /* Enables scrolling */
+    overflow-x: hidden; /* Hides horizontal overflow */
     max-height: calc(100vh - 250px); /* Adjust based on logo and other elements */
     padding-right: 10px; /* Space to prevent scrollbar overlap */
 }
@@ -360,8 +361,10 @@ margin-bottom: 40px;
 
 #node-description,
 #node-info-content #node-maximo-classification,
+#node-proposed-classification,
 #node-corrective-work,
 #node-asset-owner,
+#node-number-assets,
 #node-ldtext {
   font-size: 14px; /* Adjust to make the font smaller */
 }
