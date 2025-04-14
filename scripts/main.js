@@ -135,9 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Run layout if necessary
     cy.layout({ name: 'preset' }).run();
 
-    cy.zoom({ level: 0.0965 });  // Adjust the zoom level (lower value means more zoomed out)
+    cy.zoom({ level: 0.12 });  // Adjust the zoom level (lower value means more zoomed out)
 
-    cy.panBy({ x: -75, y: -2 }); // Shift the network 
+    cy.panBy({ x: -5, y: 15 }); // Shift the network 
 
     // Add the mouseover event for node to show node info and hide the heading
     cy.nodes().on('mouseover', function(event) {
