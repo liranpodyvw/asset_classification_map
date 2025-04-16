@@ -133,7 +133,7 @@ searchButton.addEventListener('click', function() {
             });
             console.log('Centered and zoomed in on the single highlighted node.');
         } else {
-            // If multiple nodes match, fit them into the viewport
+            // If multiple nodes match, fit them into the viewport -- this should never occur though
             cy.animate({
                 fit: { eles: allTargetNodes, padding: 50 }, // Lower the padding if needed
                 duration: 1000
