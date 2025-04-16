@@ -132,12 +132,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     cy.style().fromJson(defaultStyle.style).update();
 
+    
     // Run layout if necessary
     cy.layout({ name: 'preset' }).run();
 
-    cy.zoom({ level: 0.12 });  // Adjust the zoom level (lower value means more zoomed out)
+    // Automatically zoom out to fit all nodes inside the viewport
+    cy.fit(null, 50); // Optional padding (in pixels)
 
-    cy.panBy({ x: -5, y: 15 }); // Shift the network 
 
     // Add the mouseover event for node to show node info and hide the heading
     cy.nodes().on('mouseover', function(event) {

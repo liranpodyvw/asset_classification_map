@@ -123,17 +123,27 @@ searchButton.addEventListener('click', function() {
     if (allTargetNodes.length > 0) {
         allTargetNodes.addClass('highlighted');
         console.log('Highlighted nodes:', allTargetNodes.map(ele => ele.data('shared_name') || ele.data('description')));
-
-        cy.animate({
-            fit: { eles: allTargetNodes, padding: 400 },
-            duration: 1000,
-            zoom: 1.2
-        });
-        console.log('Animated to fit all highlighted nodes.');
+    
+        if (allTargetNodes.length === 1) {
+            // If exactly one node is found, center on it and zoom in
+            cy.animate({
+                center: { eles: allTargetNodes },
+                zoom: 2,           // Set an appropriate zoom level (adjust as needed)
+                duration: 1000
+            });
+            console.log('Centered and zoomed in on the single highlighted node.');
+        } else {
+            // If multiple nodes match, fit them into the viewport
+            cy.animate({
+                fit: { eles: allTargetNodes, padding: 50 }, // Lower the padding if needed
+                duration: 1000
+            });
+            console.log('Animated to fit all highlighted nodes.');
+        }
     } else {
         alert('No asset found with the name or description: ' + searchInput.value);
         console.log('No matching asset found for query:', query);
-    }
+    }    
 });
 
 // Allow pressing 'Enter' to trigger search

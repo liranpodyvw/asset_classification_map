@@ -1,341 +1,135 @@
 /* Ensure the HTML and Body take up the full height and width */
 html, body {
-width: 100%;
-height: 100%;
-margin: 0;
-padding: 0;
-background: #fff;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #555;
-font-weight: 100;
-}
-
-/* Style for the browsehappy message */
-.browsehappy {
-margin: 0.2em 0;
-background: #ccc;
-color: #000;
-padding: 0.2em 0;
-}
-
-/* Sidebar Styling */
-#sidebar {
-width: 280px;
-position: fixed;
-left: 0;
-top: 0;
-height: 100vh;
-background: #333;
-color: white;
-padding: 20px;
-padding-top: 0;
-padding-bottom: 70px;
-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
-}
-
-#sidebar-top-banner {
-position: absolute;
-z-index: 1000; /* A high value to bring them to the front */
-top: 0;
-left: 0;
-right: 0;
-display: block;      /* Remove any inline spacing */
-width: 100%;         /* Force the image to take the full container width */
-max-height: 45px;    /* Constrain the height as needed */
-}
-
-#sidebar-bottom-banner {
-position: absolute;
-z-index: 1000; /* A high value to bring them to the front */
-bottom: 0;
-left: 0;
-right: 0;
-display: block;      /* Remove any inline spacing */
-width: 100%;         /* Force the image to take the full container width */
-max-height: 45px;    /* Constrain the height as needed */
-}
-
-#sidebar h3 {
-text-align: center;
-margin: 65px 10px 30px;
-font-size: 27px;
-padding-top: 10px;
-padding-bottom: 10px;
-margin-bottom: 85px;
-}
-
-/* Sidebar Headings */
-.sidebar-heading {
-font-size: 42px;
-margin-top: 15px;
-padding-bottom: 15px;
-border-bottom: 2px solid #fff;
-cursor: pointer;
-}
-
-/* Sidebar List */
-#sidebar ul {
-padding: 0;
-margin: 0;
-list-style-type: none;
-text-align: left;
-}
-
-/* Sidebar List Items */
-#sidebar li {
-padding: 5px 0;
-font-size: 20px;
-cursor: pointer;
-margin-bottom: 80px;
-transition: background 0.3s ease, border 0.3s ease;
-}
-
-/* Hover Effect for Sidebar List Items */
-#sidebar li:hover {
-background-color: rgba(255, 255, 255, 0.1);
-border-radius: 5px;
-}
-
-/* Company Logo */
-#YVW-Icon-Full-Transparent {
-position: absolute;
-bottom: 30px;
-left: 50%;
-transform: translateX(-50%);
-width: 80%;
-max-height: 80px;
-filter: brightness(2); /* Adjust the value as needed */
-object-fit: contain;
-}
-
-/* Navigation Buttons in Sidebar Content */
-.nav-btn {
-width: 100%;
-padding: 8px;
-border: none;
-background: #444;
-color: white;
-cursor: pointer;
-text-align: left;
-}
-
-.nav-btn:hover {
-background: #555;
-}
-
-/* For the 'general information' back button */
-#back-btn {
-background: #444;
-color: white;
-padding: 8px;
-width: 100%;
-border: none;
-cursor: pointer;
-margin-bottom: 20px;
-margin-top: 40px;
-}
-
-#back-btn:hover {
-background: #555;
-}
-
-/* For the 'legend' back button */
-#back-btn-legend {
-    background: #444;
-    color: white;
-    padding: 8px;
     width: 100%;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-#back-btn-legend:hover {
-background: #555;
-}
-
-/* For the 'search assets' back button */
-#back-btn-search {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-#back-btn-search:hover {
-background: #555;
-}
-
-/* Target the list items in the General Information section */
-#general-info-content ul li {
-cursor: default;
-background: none;
-border: none;
-margin-top: -50px;
-}
-
-#general-info-content ul li:hover {
-background: none;
-border: none;
-}
-
-/* Target the list items in the Legend section */
-#legend-content ul li {
-font-size: 15px;
-cursor: default;
-background: none;
-border: none;
-margin-top: -17.5px;
-}
-
-#legend-content ul li:hover {
-background: none;
-border: none;
-}
-
-/* Circle Styles */
-.circle {
-width: 12px;
-height: 12px;
-border-radius: 50%;
-display: inline-block;
-margin-right: 10px;
-}
-
-.diamond {
-    width: 12px; /* Adjust size as needed */
-    height: 12px;
-    background-color: #7393B3;
-    transform: rotate(45deg);
-    display: inline-block;
-    margin-right: 10px;
-}
-
-/* Octagon */
-.octagon {
-    width: 16px;
-    height: 16px;
-    background-color: #7393B3;
-    display: inline-block;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    margin-right: 10px;
-  }
-  
-/* Ellipse */
-.ellipse {
-width: 20px;  /* Wider than height */
-height: 12px;
-background-color: #7393B3;
-border-radius: 50%;
-display: inline-block;
-margin-right: 10px;
-}
-  
-/* Rectangle */
-.rectangle {
-width: 20px;  /* Adjust width */
-height: 10px; /* Adjust height */
-background-color: #7393B3;
-display: inline-block;
-margin-right: 10px;
-}
-
-#owner-legend li {
-    padding: 2px 5px;  /* Adjust the padding to reduce space */
-    margin: 30px 0;      /* Reduce margin between legend items */
-    display: flex;
-    align-items: center;  /* Align the circle and text vertically */
-}
-
-/* Specific colors for each circle */
-.green {
-background-color: green;
-}
-
-.red {
-background-color: red;
-}
-
-.yellow {
-background-color: yellow;
-}
-
-.gray {
-background-color: gray;
-}
-
-/* For the Legend section */
-#legend-content ul {
-padding: 0;
-list-style-type: none;
-text-align: left;
-}
-
-#legend-content li {
-font-size: 20px;
-margin-bottom: 40px;
-}
-
-/* Search Assets Content Styles */
-#search-assets-content {
-    text-align: center;
-    padding-top: 40px;  /* Adjust as needed */
-}
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-weight: 100;
+    }
     
-#search-assets-content input[type="text"] {
-    padding: 5px;
-    font-size: 14px;
-    width: 200px;
-    margin-bottom: 10px;
-}
+    /* Style for the browsehappy message */
+    .browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+    }
     
-#search-assets-content button {
-    padding: 5px 10px;
-    font-size: 14px;
-    margin: 5px;
-}
-
-/* Autocomplete Dropdown Styles */
-.autocomplete-dropdown {
+    /* Sidebar Styling */
+    #sidebar {
+        width: 280px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: #333;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+    
+    #sidebar-inner {
+        flex: 1;
+        padding: 10px 15px 0;
+        box-sizing: border-box;
+    }
+    
+    #sidebar-top-banner {
     position: absolute;
-    background: white;
-    border: 1px solid #ccc;
-    max-height: 150px;
-    overflow-y: auto;
-    list-style: none;
+    z-index: 1000; /* A high value to bring them to the front */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;      /* Remove any inline spacing */
+    width: 100%;         /* Force the image to take the full container width */
+    max-height: 45px;    /* Constrain the height as needed */
+    }
+    
+    #sidebar-bottom-banner {
+    position: absolute;
+    z-index: 1000; /* A high value to bring them to the front */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;      /* Remove any inline spacing */
+    width: 100%;         /* Force the image to take the full container width */
+    max-height: 45px;    /* Constrain the height as needed */
+    }
+    
+    #sidebar h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 40px 0 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+      
+    .sidebar-heading {
+        font-size: 24px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #fff; /* Restores the white underline */
+        cursor: pointer;
+    }
+    
+    /* Sidebar List */
+    #sidebar ul {
     padding: 0;
     margin: 0;
-    width: 238px; /* Match input width */
-    z-index: 1000;
-    display: none;
-}
-
-#search-assets-content .autocomplete-dropdown li {
-    font-size: 12px !important;  /* Adjust as needed */
-    padding: 5px;
-    margin: 0px;
+    list-style-type: none;
+    text-align: left;
+    }
+    
+    /* Sidebar List Items */
+    #sidebar li {
+        padding: 8px 0;
+        font-size: 16px;
+        margin-bottom: 55px;
+    }
+      
+    
+    /* Hover Effect for Sidebar List Items */
+    #sidebar li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    }
+    
+    /* Company Logo */
+    #YVW-Icon-Full-Transparent {
+        position: relative;
+        width: 60%;
+        max-height: 60px;
+        filter: brightness(2);
+        object-fit: contain;
+        margin: 5px auto 15px;
+    }
+      
+      
+    
+    /* Navigation Buttons in Sidebar Content */
+    .nav-btn {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #444;
+    color: white;
     cursor: pointer;
-    color: black; /* Ensure visibility */
-}
-
-#search-assets-content .autocomplete-dropdown li:hover {
-    background: lightgray;
-}
-
-
-#export-content {
-    text-align: center;
-    padding-top: 7px;
-}
-
-#export-content button {
+    text-align: left;
+    }
+    
+    .nav-btn:hover {
+    background: #555;
+    }
+    
+    /* For the 'general information' back button */
+    #back-btn {
     background: #444;
     color: white;
     padding: 8px;
@@ -344,158 +138,368 @@ margin-bottom: 40px;
     cursor: pointer;
     margin-bottom: 20px;
     margin-top: 40px;
-}
-
-#export-content button:hover {
-    background-color: #555;
-}
-
-#node-info-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    padding-top: 20px; /* Space before the scrolling starts */
-}
-
-#node-info-content ul {
-    flex-grow: 1; /* Allows content to take up remaining space */
-    overflow-y: auto; /* Enables scrolling */
-    overflow-x: hidden; /* Hides horizontal overflow */
-    max-height: calc(100vh - 250px); /* Adjust based on logo and other elements */
-    padding-right: 10px; /* Space to prevent scrollbar overlap */
-}
-
-#node-info-content button {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
+    }
+    
+    #back-btn:hover {
+    background: #555;
+    }
+    
+    /* For the 'legend' back button */
+    #back-btn-legend {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    
+    #back-btn-legend:hover {
+    background: #555;
+    }
+    
+    /* For the 'search assets' back button */
+    #back-btn-search {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    
+    #back-btn-search:hover {
+    background: #555;
+    }
+    
+    /* Target the list items in the General Information section */
+    #general-info-content ul li {
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    #general-info-content ul li:hover {
+    background: none;
     border: none;
-    cursor: pointer;
-    margin-bottom: 25px;
-    margin-top: 40px;
-}
-
-#node-info-content button:hover {
-    background-color: #555;
-}
-
-#node-info-content li {
-    margin-bottom: 15px; /* Adjust the space between list items */
-    font-size: 16px;
-    pointer-events: none;
-}
-
-#node-description,
-#node-info-content #node-maximo-classification,
-#node-proposed-classification,
-#node-corrective-work,
-#node-asset-owner,
-#node-number-assets,
-#node-ldtext {
-  font-size: 14px; /* Adjust to make the font smaller */
-}
-
-#node-hierarchy {
-    word-wrap: break-word; /* Allows wrapping long text */
-    white-space: normal; /* Ensures it wraps instead of staying on one line */
-    word-break: break-all; /* Breaks words when necessary */
-    font-size: 14px; /* Adjust to make the font smaller */
-}
-
-#back-btn-layout {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
+    }
+    
+    /* Target the list items in the Legend section */
+    #legend-content ul li {
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    #legend-content ul li:hover {
+    background: none;
     border: none;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-#layout-options-content {
-    text-align: center;
-    padding-top: 7px;
-}
-
-#layout-options-content label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: white;
-}
-
-#asset-owner-dropdown {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-#asset-owner-dropdown option {
-    background: #444;
-    color: white;
-}
-
-#asset-owner-dropdown:focus {
-    outline: none;
-}
-
-#layout-options-content button:hover,
-#asset-owner-dropdown:hover {
-    background-color: #555;
-}
-
-#problematic-dropdown {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-#problematic-dropdown option {
-    background: #444;
-    color: white;
-}
-
-#problematic-dropdown:focus {
-    outline: none;
-}
-
-#layout-options-content button:hover,
-#problematic-dropdown:hover {
-    background-color: #555;
-}
-
-#asset-owner-colour-dropdown {
-    background: #444;
-    color: white;
-    padding: 8px;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-#asset-owner-colour-dropdown option {
-    background: #444;
-    color: white;
-}
-
-#asset-owner-colour-dropdown:focus {
-    outline: none;
-}
-
-#layout-options-content button:hover,
-#asset-owner-colour-dropdown:hover {
-    background-color: #555;
-}
-
+    }
+    
+    /* Circle Styles */
+    .circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    .diamond {
+        width: 12px; /* Adjust size as needed */
+        height: 12px;
+        background-color: #7393B3;
+        transform: rotate(45deg);
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    /* Octagon */
+    .octagon {
+        width: 16px;
+        height: 16px;
+        background-color: #7393B3;
+        display: inline-block;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        margin-right: 10px;
+      }
+      
+    /* Ellipse */
+    .ellipse {
+    width: 20px;  /* Wider than height */
+    height: 12px;
+    background-color: #7393B3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    }
+      
+    /* Rectangle */
+    .rectangle {
+    width: 20px;  /* Adjust width */
+    height: 10px; /* Adjust height */
+    background-color: #7393B3;
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    #owner-legend li {
+        padding: 2px 5px;  /* Adjust the padding to reduce space */
+        margin: 30px 0;      /* Reduce margin between legend items */
+        display: flex;
+        align-items: center;  /* Align the circle and text vertically */
+    }
+    
+    /* Specific colors for each circle */
+    .green {
+    background-color: green;
+    }
+    
+    .red {
+    background-color: red;
+    }
+    
+    .yellow {
+    background-color: yellow;
+    }
+    
+    .gray {
+    background-color: gray;
+    }
+    
+    /* For the Legend section */
+    #legend-content ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    }
+    
+    #legend-content li {
+    font-size: 20px;
+    margin-bottom: 40px;
+    }
+    
+    /* Search Assets Content Styles */
+    #search-assets-content {
+        text-align: center;
+        padding-top: 40px;  /* Adjust as needed */
+    }
+        
+    #search-assets-content input[type="text"] {
+        padding: 5px;
+        font-size: 14px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+        
+    #search-assets-content button {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin: 5px;
+    }
+    
+    /* Autocomplete Dropdown Styles */
+    .autocomplete-dropdown {
+        position: absolute;
+        background: white;
+        border: 1px solid #ccc;
+        max-height: 150px;
+        overflow-y: auto;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 238px; /* Match input width */
+        z-index: 1000;
+        display: none;
+    }
+    
+    #search-assets-content .autocomplete-dropdown li {
+        font-size: 12px !important;  /* Adjust as needed */
+        padding: 5px;
+        margin: 0px;
+        cursor: pointer;
+        color: black; /* Ensure visibility */
+    }
+    
+    #search-assets-content .autocomplete-dropdown li:hover {
+        background: lightgray;
+    }
+    
+    
+    #export-content {
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    #export-content button {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    
+    #export-content button:hover {
+        background-color: #555;
+    }
+    
+    #node-info-content ul {
+        flex-grow: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: calc(100vh - 250px);
+        padding-right: 0;
+    }
+    
+    #node-info-content ul::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    #node-info-content ul::-webkit-scrollbar-track {
+        background: #222;
+    }
+      
+    #node-info-content ul::-webkit-scrollbar-thumb {
+        background-color: #444;
+        border-radius: 4px;
+    }
+    
+    #node-info-content button {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+    
+    #node-info-content button:hover {
+        background-color: #555;
+    }
+    
+    #node-info-content li {
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    #node-description,
+    #node-info-content #node-maximo-classification,
+    #node-proposed-classification,
+    #node-corrective-work,
+    #node-asset-owner,
+    #node-number-assets,
+    #node-ldtext {
+      font-size: 14px; /* Adjust to make the font smaller */
+    }
+    
+    #node-hierarchy {
+        word-wrap: break-word; /* Allows wrapping long text */
+        white-space: normal; /* Ensures it wraps instead of staying on one line */
+        word-break: break-all; /* Breaks words when necessary */
+        font-size: 14px; /* Adjust to make the font smaller */
+    }
+    
+    #back-btn-layout {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    #layout-options-content {
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    #layout-options-content label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #asset-owner-dropdown {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    #asset-owner-dropdown option {
+        background: #444;
+        color: white;
+    }
+    
+    #asset-owner-dropdown:focus {
+        outline: none;
+    }
+    
+    #layout-options-content button:hover,
+    #asset-owner-dropdown:hover {
+        background-color: #555;
+    }
+    
+    #problematic-dropdown {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    #problematic-dropdown option {
+        background: #444;
+        color: white;
+    }
+    
+    #problematic-dropdown:focus {
+        outline: none;
+    }
+    
+    #layout-options-content button:hover,
+    #problematic-dropdown:hover {
+        background-color: #555;
+    }
+    
+    #asset-owner-colour-dropdown {
+        background: #444;
+        color: white;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    #asset-owner-colour-dropdown option {
+        background: #444;
+        color: white;
+    }
+    
+    #asset-owner-colour-dropdown:focus {
+        outline: none;
+    }
+    
+    #layout-options-content button:hover,
+    #asset-owner-colour-dropdown:hover {
+        background-color: #555;
+    }

@@ -9,12 +9,10 @@
   <link rel="icon" type="image/png" href="images/YVW Icon.png">
   <link rel="stylesheet" href="styles/main.css">
   <style>
-    /* Additional inline CSS if needed */
-    /* Cytoscape Container */
     #cy {
       position: absolute;
       top: 0;
-      left: 280px; /* Match sidebar width */
+      left: 280px;
       right: 0;
       bottom: 0;
       background-color: white;
@@ -24,115 +22,112 @@
 <body>
   <!-- Sidebar Navigation -->
   <div id="sidebar">
-    <h3>AMF L7 Asset Class Hierarchy</h3>
+    <div id="sidebar-inner">
+      <h3>AMF L7 Asset Class Hierarchy</h3>
 
-    <!-- Sidebar Menu -->
-    <ul id="sidebar-menu">
-      <li class="sidebar-heading" id="general-info-btn">General Information</li>
-      <li class="sidebar-heading" id="search-assets-btn">Search Assets</li>
-      <li class="sidebar-heading" id="legend-btn">Legend</li>
-      <li class="sidebar-heading" id="layout-options-btn">Layout Options</li>
-      <li class="sidebar-heading" id="export-btn">Export</li>
-    </ul>
-
-    <!-- Sidebar Content Sections (hidden by default) -->
-    <div id="general-info-content" class="sidebar-content" style="display: none;">
-      <button id="back-btn" class="nav-btn">← Back</button>
-      <h3>General Information</h3>
-      <ul>
-        <li style="font-size: 16px">Welcome to the AMF L7 Asset Class Hierarchy!<br> This tool visualizes asset relationships, helping you explore dependencies and classifications. <br> Use search, filters, zoom, and pan to navigate.<br> Click a node for details and double-click to reveal direct connections.</li>
-        <li style="font-size: 16px">Unique Assets: 400+</li>
-        <li style="font-size: 16px">Total Assets: 3,690,000+</li>
-        <li style="font-size: 16px">Version: 1.9.1</li>
-        <li style="font-size: 16px">Last Updated: 14-04-2025</li>
+      <!-- Sidebar Menu -->
+      <ul id="sidebar-menu">
+        <li class="sidebar-heading" id="general-info-btn">General Information</li>
+        <li class="sidebar-heading" id="search-assets-btn">Search Assets</li>
+        <li class="sidebar-heading" id="legend-btn">Legend</li>
+        <li class="sidebar-heading" id="layout-options-btn">Layout Options</li>
+        <li class="sidebar-heading" id="export-btn">Export</li>
       </ul>
-    </div>
 
-    <div id="legend-content" class="sidebar-content" style="display: none;">
-      <button id="back-btn-legend" class="nav-btn">← Back</button>
-      <h3>Legend</h3>
-      <ul id="default-legend">
-        <li><span class="circle green"></span>Correct</li>
-        <li><span class="circle red"></span>Problematic</li>
-        <li><span class="circle yellow"></span>Undergoing Confirmation</li>
-        <li><span class="circle gray"></span>To Be Confirmed</li>
-        <br>
-        <br>
-        <li><span class="diamond" style="color: blue;"></span>Tier 1 - Organisation</li>
-        <li><span class="octagon"></span>Tier 2.1 - Asset Service Stream</li>
-        <li><span class="ellipse"></span>Tier 4 - Asset Class</li>
-        <li><span class="rectangle"></span>Tier 4.1 - Asset Type</li>
-      </ul>
-      <ul id="owner-legend" style="display: none;"></ul>
-    </div>
+      <!-- Sidebar Content Sections -->
+      <div id="general-info-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn" class="nav-btn">← Back</button>
+        <h3>General Information</h3>
+        <ul>
+          <li style="font-size: 16px">Welcome to the AMF L7 Asset Class Hierarchy!<br> This tool visualizes asset relationships, helping you explore dependencies and classifications. <br> Use search, filters, zoom, and pan to navigate.<br> Click a node for details and double-click to reveal direct connections.</li>
+          <li style="font-size: 16px">Unique Assets: 400+</li>
+          <li style="font-size: 16px">Total Assets: 3,690,000+</li>
+          <li style="font-size: 16px">Version: 1.9.1</li>
+          <li style="font-size: 16px">Last Updated: 14-04-2025</li>
+        </ul>
+      </div>
 
-    <div id="search-assets-content" class="sidebar-content" style="display: none;">
-      <button id="back-btn-search" class="nav-btn">← Back</button>
-      <h3>Search Assets</h3>
-      <input type="text" id="search-input" placeholder="Search asset ..." autocomplete="off" />
-      <ul id="autocomplete-list" class="autocomplete-dropdown"></ul>
-      <button id="search-button">Search</button>
-      <button id="clear-button">Clear</button>
-    </div>
+      <div id="legend-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-legend" class="nav-btn">← Back</button>
+        <h3>Legend</h3>
+        <ul id="default-legend">
+          <li><span class="circle green"></span>Correct</li>
+          <li><span class="circle red"></span>Problematic</li>
+          <li><span class="circle yellow"></span>Undergoing Confirmation</li>
+          <li><span class="circle gray"></span>To Be Confirmed</li>
+          <br><br>
+          <li><span class="diamond" style="color: blue;"></span>Tier 1 - Organisation</li>
+          <li><span class="octagon"></span>Tier 2.1 - Asset Service Stream</li>
+          <li><span class="ellipse"></span>Tier 4 - Asset Class</li>
+          <li><span class="rectangle"></span>Tier 4.1 - Asset Type</li>
+        </ul>
+        <ul id="owner-legend" style="display: none;"></ul>
+      </div>
 
+      <div id="search-assets-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-search" class="nav-btn">← Back</button>
+        <h3>Search Assets</h3>
+        <input type="text" id="search-input" placeholder="Search asset ..." autocomplete="off" />
+        <ul id="autocomplete-list" class="autocomplete-dropdown"></ul>
+        <button id="search-button">Search</button>
+        <button id="clear-button">Clear</button>
+      </div>
 
-    <div id="layout-options-content" class="sidebar-content" style="display: none;">
-      <button id="back-btn-layout" class="nav-btn">← Back</button>
-      <h3>Filter By</h3>
-      <label for="asset-owner-dropdown">Asset Owner:</label>
-      <select id="asset-owner-dropdown">
-        <option value="default">Default</option>
-        <option value="mechanical and electrical reliability">M&ER</option>
-        <option value="treatment plant planning">TP</option>
-        <option value="water planning">Water</option>
-        <option value="sewer planning">Sewer</option>
-        <option value="operational technology">OT</option>
-        <option value="financial accounting and fleet">Fleet</option>
-        <option value="strategic major projects">SMR</option>
-      </select>
+      <div id="layout-options-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-layout" class="nav-btn">← Back</button>
+        <h3>Filter By</h3>
+        <label for="asset-owner-dropdown">Asset Owner:</label>
+        <select id="asset-owner-dropdown">
+          <option value="default">Default</option>
+          <option value="mechanical and electrical reliability">M&ER</option>
+          <option value="treatment plant planning">TP</option>
+          <option value="water planning">Water</option>
+          <option value="sewer planning">Sewer</option>
+          <option value="operational technology">OT</option>
+          <option value="financial accounting and fleet">Fleet</option>
+          <option value="strategic major projects">SMR</option>
+        </select>
 
-      <div style="height: 70px;"></div> <!-- Spacer div -->
-      
-      <label for="problematic-dropdown">Problematic:</label>
-      <select id="problematic-dropdown">
-        <option value="default">Default</option>
-        <option value="no">No</option>
-        <option value="yes">Yes</option>
-        <option value="tba">To Be Assessed</option>
-        <option value="specialist-assessment">Undergoing Specialist Assessment</option>
-      </select>
-      
-      <h3>Colour By</h3>
-      <label for="asset-owner-colour-dropdown">Asset Owner:</label>
-      <select id="asset-owner-colour-dropdown">
-        <option value="default-colour">Default</option>
-        <option value="asset-owner-colour">Asset Owner</option>
-      </select>
-    </div>
+        <div style="height: 70px;"></div>
 
-  
-    <div id="export-content" class="sidebar-content" style="display: none;">
+        <label for="problematic-dropdown">Problematic:</label>
+        <select id="problematic-dropdown">
+          <option value="default">Default</option>
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+          <option value="tba">To Be Assessed</option>
+          <option value="specialist-assessment">Undergoing Specialist Assessment</option>
+        </select>
+
+        <h3>Colour By</h3>
+        <label for="asset-owner-colour-dropdown">Asset Owner:</label>
+        <select id="asset-owner-colour-dropdown">
+          <option value="default-colour">Default</option>
+          <option value="asset-owner-colour">Asset Owner</option>
+        </select>
+      </div>
+
+      <div id="export-content" class="sidebar-content" style="display: none;">
         <button id="back-btn-export" class="nav-btn">← Back</button>
         <h3>Export</h3>
         <button id="export-image-btn">Export to Image</button>
         <button id="export-pdf-btn">Export to PDF</button>
-    </div>    
-    
-    <!-- Node Information Section in Sidebar -->
-    <div id="node-info-content" class="sidebar-content" style="display: none;">
-      <button id="back-btn-node-info" class="nav-btn">← Back</button>
-      <ul>
-        <li><strong>Maximo Classification:</strong><br><span id="node-maximo-classification"></span></li>
-        <li><strong>Asset Type:</strong><br><span id="node-proposed-classification"></span></li>
-        <li><strong>Description:</strong><br><span id="node-description"></span></li>
-        <li><strong>Hierarchy:</strong><br><span id="node-hierarchy"></span></li>
-        <li><strong>Corrective Work Needed:</strong><br><span id="node-corrective-work"></span></li>
-        <li><strong>Asset Owner:</strong><br><span id="node-asset-owner"></span></li>
-        <li><strong>Number Of Assets:</strong><br><span id="node-number-assets"></span></li>
-        <li><strong>Long Description:</strong><br><span id="node-ldtext"></span></li>
-      </ul>
-    </div>
+      </div>
 
+      <div id="node-info-content" class="sidebar-content" style="display: none;">
+        <button id="back-btn-node-info" class="nav-btn">← Back</button>
+        <ul>
+          <li><strong>Maximo Classification:</strong><br><span id="node-maximo-classification"></span></li>
+          <li><strong>Asset Type:</strong><br><span id="node-proposed-classification"></span></li>
+          <li><strong>Description:</strong><br><span id="node-description"></span></li>
+          <li><strong>Hierarchy:</strong><br><span id="node-hierarchy"></span></li>
+          <li><strong>Corrective Work Needed:</strong><br><span id="node-corrective-work"></span></li>
+          <li><strong>Asset Owner:</strong><br><span id="node-asset-owner"></span></li>
+          <li><strong>Number Of Assets:</strong><br><span id="node-number-assets"></span></li>
+          <li><strong>Long Description:</strong><br><span id="node-ldtext"></span></li>
+        </ul>
+      </div>
+    </div>
 
     <img src="images/YVW_Icon_Full-transparent.png" alt="Company Logo" id="YVW-Icon-Full-Transparent">
   </div>
